@@ -10,5 +10,5 @@ An in production forge mod made with MCreator.
   
 另：MCR的远程工作区模块非常迷惑，以至于该仓库实际上是在VSCode的辅助下才建立起来的......
 >### 工作区指路
->Github:https://github.com/Ironnoob73/EarthPulsation
+>Github:https://github.com/Ironnoob73/EarthPulsation  
 >Gitee:https://gitee.com/ironnoob73/EarthPulsation
