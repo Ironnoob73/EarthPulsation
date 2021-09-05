@@ -1803,8 +1803,12 @@
       "ids": {},
       "registry_name": "pda_tool_tip",
       "metadata": {
-        "return_type": "string",
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       },
       "path": "~/PDAfunction"
     },
@@ -2568,7 +2572,7 @@
       "item.earth_pulsation.steel_ingot": "Steel Ingot",
       "item.earth_pulsation.steel_pickaxe": "Steel Pickaxe",
       "block.earth_pulsation.wooden_block": "Wooden Block",
-      "tooltip.earth_pulsation.pda": "The most importang item",
+      "tooltip.earth_pulsation.pda": "The most important item",
       "block.earth_pulsation.place_on_water_plate": "Place On Water Plate",
       "item.earth_pulsation.tin_cube": "Tin Cube",
       "block.earth_pulsation.ruby_ore": "Ruby Ore",
@@ -2636,8 +2640,8 @@
       "block.earth_pulsation.yellow_stone": "Yellow Stone"
     },
     "zh_cn": {
-      "item.earth_pulsation.aluminum_ingot": "ÂÁ¶§",
       "block.earth_pulsation.steel_block": "¸Ö¿é",
+      "item.earth_pulsation.aluminum_ingot": "ÂÁ¶§",
       "block.earth_pulsation.ice_birch_slab": "±ùèëÄ¾Ì¨½×",
       "item.earth_pulsation.iron_powder": "Ìú·Û",
       "item.earth_pulsation.melon_gun": "Î÷¹ÏÇ¹",
@@ -2650,8 +2654,8 @@
       "item.earth_pulsation.copper_hoe_head": "Í­³úÍ·²¿¼þ",
       "item.earth_pulsation.tin_dust": "Îý·Û",
       "block.earth_pulsation.ice_birch_log": "±ùèëÄ¾Ô­Ä¾",
-      "item.earth_pulsation.silver_ingot": "Òø¶§",
       "item.earth_pulsation.ruggedized_aluminum_hoe": "¼Ó¹ÌÂÁ³ú",
+      "item.earth_pulsation.silver_ingot": "Òø¶§",
       "item.earth_pulsation.topaz": "»Æ±¦Ê¯",
       "block.earth_pulsation.aluminum_block": "ÂÁ¿é",
       "item.earth_pulsation.plastic_wood_board": "ËÜÄ¾°å",

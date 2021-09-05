@@ -1,30 +1,23 @@
 package idv.hailelectronic.earthpulsation.procedures;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.TickEvent;
-
-import net.minecraft.world.IWorld;
 import net.minecraft.util.text.TranslationTextComponent;
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.Entity;
 
 import java.util.Map;
-import java.util.HashMap;
+
+import idv.hailelectronic.earthpulsation.EarthPulsationMod;
 
 public class PDAToolTipProcedure {
-	@Mod.EventBusSubscriber
-	private static class GlobalTrigger {
-		@SubscribeEvent
-		public static void onWorldTick(TickEvent.WorldTickEvent event) {
-			if (event.phase == TickEvent.Phase.END) {
-				IWorld world = event.world;
-				Map<String, Object> dependencies = new HashMap<>();
-				dependencies.put("world", world);
-				dependencies.put("event", event);
-				executeProcedure(dependencies);
-			}
+	public static void executeProcedure(Map<String, Object> dependencies) {
+		if (dependencies.get("entity") == null) {
+			if (!dependencies.containsKey("entity"))
+				EarthPulsationMod.LOGGER.warn("Failed to load dependency entity for procedure PDAToolTip!");
+			return;
 		}
-	}
-	public static String executeProcedure(Map<String, Object> dependencies) {
-		return (new TranslationTextComponent("tooltip.earth_pulsation.pda").getString());
+		Entity entity = (Entity) dependencies.get("entity");
+		((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getOrCreateTag().putString("Lore",
+				(new TranslationTextComponent("tooltip.earth_pulsation.pda").getString()));
 	}
 }

@@ -1,6 +1,6 @@
 {
-  "item.earth_pulsation.aluminum_ingot": "铝锭",
   "block.earth_pulsation.steel_block": "钢块",
+  "item.earth_pulsation.aluminum_ingot": "铝锭",
   "block.earth_pulsation.ice_birch_slab": "冰桦木台阶",
   "item.earth_pulsation.iron_powder": "铁粉",
   "item.earth_pulsation.melon_gun": "西瓜枪",
@@ -13,8 +13,8 @@
   "item.earth_pulsation.copper_hoe_head": "铜锄头部件",
   "item.earth_pulsation.tin_dust": "锡粉",
   "block.earth_pulsation.ice_birch_log": "冰桦木原木",
-  "item.earth_pulsation.silver_ingot": "银锭",
   "item.earth_pulsation.ruggedized_aluminum_hoe": "加固铝锄",
+  "item.earth_pulsation.silver_ingot": "银锭",
   "item.earth_pulsation.topaz": "黄宝石",
   "block.earth_pulsation.aluminum_block": "铝块",
   "item.earth_pulsation.plastic_wood_board": "塑木板",

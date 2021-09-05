@@ -25,12 +25,15 @@
     "enableMeleeDamage": true,
     "damageVsEntity": 5.0,
     "specialInfo": [
-      "tooltip.earth_pulsation.pda"
+      "{\"translate\":\"tooltip.earth_pulsation.pda\"}"
     ],
     "hasGlow": false,
     "guiBoundTo": "PDAGuiHome",
     "inventorySize": 0,
     "inventoryStackSize": 64,
+    "onItemInUseTick": {
+      "name": "PDAToolTip"
+    },
     "hasDispenseBehavior": false
   }
 }

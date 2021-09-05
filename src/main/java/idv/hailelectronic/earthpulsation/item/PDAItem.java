@@ -36,6 +36,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.entity.ai.attributes.Attribute;
+import net.minecraft.entity.Entity;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.client.Minecraft;
 import net.minecraft.block.BlockState;
@@ -43,10 +44,13 @@ import net.minecraft.block.BlockState;
 import javax.annotation.Nullable;
 import javax.annotation.Nonnull;
 
+import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 
 import io.netty.buffer.Unpooled;
 
+import idv.hailelectronic.earthpulsation.procedures.PDAToolTipProcedure;
 import idv.hailelectronic.earthpulsation.itemgroup.EarthPulsationItemGroup;
 import idv.hailelectronic.earthpulsation.gui.PDAGuiHomeGuiWindow;
 import idv.hailelectronic.earthpulsation.gui.PDAGuiHomeGui;
@@ -115,7 +119,7 @@ public class PDAItem extends EarthPulsationModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("tooltip.earth_pulsation.pda"));
+			list.add(new StringTextComponent("{\"translate\":\"tooltip.earth_pulsation.pda\"}"));
 		}
 
 		@Override
@@ -145,6 +149,19 @@ public class PDAItem extends EarthPulsationModElements.ModElement {
 				});
 			}
 			return ar;
+		}
+
+		@Override
+		public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
+			super.inventoryTick(itemstack, world, entity, slot, selected);
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
+			if (selected) {
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				PDAToolTipProcedure.executeProcedure($_dependencies);
+			}
 		}
 
 		@Override
