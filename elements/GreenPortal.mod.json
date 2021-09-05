@@ -1,0 +1,21 @@
+{
+  "_fv": 24,
+  "_type": "particle",
+  "definition": {
+    "texture": "green_portal.png",
+    "animate": true,
+    "frameDuration": 5,
+    "width": 0.2,
+    "height": 0.2,
+    "scale": 1.0,
+    "speedFactor": 0.1,
+    "gravity": 0.0,
+    "maxAge": 7,
+    "maxAgeDiff": 0,
+    "angularVelocity": 0.2,
+    "angularAcceleration": 0.4,
+    "canCollide": true,
+    "alwaysShow": true,
+    "renderType": "LIT"
+  }
+}

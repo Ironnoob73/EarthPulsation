@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "earth_pulsation:blocks/icebirch_planks",
+    "particle": "earth_pulsation:blocks/icebirch_planks"
+  }
+}

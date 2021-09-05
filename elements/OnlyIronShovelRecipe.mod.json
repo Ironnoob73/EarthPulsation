@@ -1,0 +1,23 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "onlyiron_tool_make",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Items.IRON_SHOVEL"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:IronStick"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:OnlyIronShovel"
+    },
+    "name": "only_iron_shovel_recipe",
+    "namespace": "mod"
+  }
+}

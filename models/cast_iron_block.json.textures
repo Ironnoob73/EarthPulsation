@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "cast_iron_block",
+        "inner": "cast_iron_block_inner"
+      },
+      "name": "default"
+    }
+  }
+}

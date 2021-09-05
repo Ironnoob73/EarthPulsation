@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "planks_compress",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PlasticWoodBoard"
+      },
+      {
+        "value": "CUSTOM:PlasticWoodBoard"
+      },
+      {
+        "value": "CUSTOM:PlasticWoodBoard"
+      },
+      {
+        "value": "CUSTOM:PlasticWoodBoard"
+      },
+      {
+        "value": "CUSTOM:PlasticWoodBoard"
+      },
+      {
+        "value": "CUSTOM:PlasticWoodBoard"
+      },
+      {
+        "value": "CUSTOM:PlasticWoodBoard"
+      },
+      {
+        "value": "CUSTOM:PlasticWoodBoard"
+      },
+      {
+        "value": "CUSTOM:PlasticWoodBoard"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PlasticWoodPlanks"
+    },
+    "name": "plastic_wood_planks_recipe",
+    "namespace": "mod"
+  }
+}

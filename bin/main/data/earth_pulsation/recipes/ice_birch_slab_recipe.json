@@ -1,0 +1,22 @@
+{
+  "group": "earth_pulsation",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "earth_pulsation:ice_birch_planks"
+    },
+    "1": {
+      "item": "earth_pulsation:ice_birch_planks"
+    },
+    "2": {
+      "item": "earth_pulsation:ice_birch_planks"
+    }
+  },
+  "result": {
+    "item": "earth_pulsation:ice_birch_slab",
+    "count": 6
+  }
+}

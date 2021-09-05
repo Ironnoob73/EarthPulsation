@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:stick"
+  },
+  "addition": {
+    "item": "earth_pulsation:copper_sword_head"
+  },
+  "result": {
+    "item": "earth_pulsation:copper_sword"
+  }
+}

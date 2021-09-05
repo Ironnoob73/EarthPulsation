@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "earth_pulsation:block/ice_birch_slab"
+    },
+    "type=top": {
+      "model": "earth_pulsation:block/ice_birch_slab_top"
+    },
+    "type=double": {
+      "model": "earth_pulsation:block/ice_birch_slab_full"
+    }
+  }
+}

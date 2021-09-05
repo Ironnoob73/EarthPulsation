@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_axe"
+  },
+  "addition": {
+    "item": "earth_pulsation:iron_stick"
+  },
+  "result": {
+    "item": "earth_pulsation:only_iron_axe"
+  }
+}

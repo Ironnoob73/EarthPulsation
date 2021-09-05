@@ -1,0 +1,23 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "ruggedize_aluminum_tool",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:AluminumAxe"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:CarbonStick"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:RuggedizedAluminumAxe"
+    },
+    "name": "ruggedized_aluminum_axe_recipe",
+    "namespace": "mod"
+  }
+}

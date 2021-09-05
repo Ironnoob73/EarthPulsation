@@ -1,0 +1,13 @@
+{
+  "group": "metal_block_uncompress",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "earth_pulsation:chiseled_iron_block"
+    }
+  ],
+  "result": {
+    "item": "earth_pulsation:iron_cube",
+    "count": 9
+  }
+}

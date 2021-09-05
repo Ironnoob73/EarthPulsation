@@ -1,0 +1,39 @@
+{
+  "_fv": 24,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "nokia",
+    "customModelName": "Normal",
+    "name": "Nokia",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "CUSTOM:EarthPulsation"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 256.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": true,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 256.0,
+    "specialInfo": [
+      "Debug"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onEntityHitWith": {
+      "name": "NokiaKill"
+    },
+    "hasDispenseBehavior": false
+  }
+}

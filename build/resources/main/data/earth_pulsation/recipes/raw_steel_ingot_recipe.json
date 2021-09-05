@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_ingot"
+  },
+  "addition": {
+    "item": "earth_pulsation:carbon_powder"
+  },
+  "result": {
+    "item": "earth_pulsation:raw_steel_ingot"
+  }
+}

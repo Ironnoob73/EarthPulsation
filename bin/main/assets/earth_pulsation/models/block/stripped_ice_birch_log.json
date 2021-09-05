@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "earth_pulsation:blocks/stripped_icebirch_log_top",
+    "up": "earth_pulsation:blocks/stripped_icebirch_log_top",
+    "north": "earth_pulsation:blocks/stripped_icebirch_log",
+    "east": "earth_pulsation:blocks/stripped_icebirch_log",
+    "south": "earth_pulsation:blocks/stripped_icebirch_log",
+    "west": "earth_pulsation:blocks/stripped_icebirch_log",
+    "particle": "earth_pulsation:blocks/stripped_icebirch_log_top"
+  }
+}

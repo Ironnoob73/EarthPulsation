@@ -1,0 +1,10 @@
+{
+  "parent": "earth_pulsation:custom/pda",
+  "textures": {
+    "0": "earth_pulsation:blocks/pda",
+    "1": "earth_pulsation:blocks/pda_d",
+    "2": "earth_pulsation:blocks/microjang",
+    "missing": "earth_pulsation:blocks/pda",
+    "particle": "earth_pulsation:items/pda"
+  }
+}

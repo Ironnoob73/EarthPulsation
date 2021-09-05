@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "earth_pulsation:blocks/stripped_icebirch_log",
+    "particle": "earth_pulsation:blocks/stripped_icebirch_log"
+  }
+}

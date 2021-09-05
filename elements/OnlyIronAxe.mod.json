@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "only_iron_axe",
+    "customModelName": "Normal",
+    "name": "OnlyIron Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:EarthPulsation"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 2,
+    "efficiency": 6.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 10.0,
+    "usageCount": 286,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.IRON_INGOT"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

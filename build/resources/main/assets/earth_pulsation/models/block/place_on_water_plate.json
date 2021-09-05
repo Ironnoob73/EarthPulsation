@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "earth_pulsation:blocks/wooden_sieve_top",
+    "particle": "earth_pulsation:blocks/wooden_sieve_top"
+  }
+}

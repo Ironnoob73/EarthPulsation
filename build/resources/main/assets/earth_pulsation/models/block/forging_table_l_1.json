@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "earth_pulsation:blocks/chiseled_iron_box_bottom",
+    "up": "earth_pulsation:blocks/forging_table_l1_top",
+    "north": "earth_pulsation:blocks/forging_table_l1_side",
+    "east": "earth_pulsation:blocks/forging_table_l1_side",
+    "south": "earth_pulsation:blocks/forging_table_l1_side",
+    "west": "earth_pulsation:blocks/forging_table_l1_side",
+    "particle": "earth_pulsation:blocks/chiseled_iron_box_bottom"
+  }
+}

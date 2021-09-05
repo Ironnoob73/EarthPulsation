@@ -1,0 +1,23 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "aluminum_tool_make",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:CopperAxe"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:AluminumPlate"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:AluminumAxe"
+    },
+    "name": "aluminum_axe_recipe",
+    "namespace": "mod"
+  }
+}

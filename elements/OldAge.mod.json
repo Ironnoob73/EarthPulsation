@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "plains"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:YellowStone"
+    },
+    "fluidBlock": {
+      "value": "Blocks.WATER"
+    },
+    "airColor": {
+      "value": -13369396,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "DENY",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "portalFrame": {
+      "value": "Blocks.LODESTONE"
+    },
+    "portalParticles": {
+      "value": "CUSTOM:GreenPortal"
+    },
+    "portalLuminance": 5,
+    "portalSound": {
+      "value": ""
+    },
+    "igniterName": "Old Age Portal Igniter",
+    "igniterTab": {
+      "value": "CUSTOM:EarthPulsation"
+    },
+    "texture": "stone_plate",
+    "portalTexture": "stone_icer_firer",
+    "enablePortal": true
+  }
+}

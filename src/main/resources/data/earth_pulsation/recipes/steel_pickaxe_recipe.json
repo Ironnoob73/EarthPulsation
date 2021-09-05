@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_pickaxe"
+  },
+  "addition": {
+    "item": "earth_pulsation:steel_ingot"
+  },
+  "result": {
+    "item": "earth_pulsation:steel_pickaxe"
+  }
+}

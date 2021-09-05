@@ -1,0 +1,37 @@
+{
+  "group": "metal_block_compress",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "earth_pulsation:steel_ingot"
+    },
+    {
+      "item": "earth_pulsation:steel_ingot"
+    },
+    {
+      "item": "earth_pulsation:steel_ingot"
+    },
+    {
+      "item": "earth_pulsation:steel_ingot"
+    },
+    {
+      "item": "earth_pulsation:steel_ingot"
+    },
+    {
+      "item": "earth_pulsation:steel_ingot"
+    },
+    {
+      "item": "earth_pulsation:steel_ingot"
+    },
+    {
+      "item": "earth_pulsation:steel_ingot"
+    },
+    {
+      "item": "earth_pulsation:steel_ingot"
+    }
+  ],
+  "result": {
+    "item": "earth_pulsation:steel_block",
+    "count": 1
+  }
+}

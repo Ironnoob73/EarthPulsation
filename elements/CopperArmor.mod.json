@@ -1,0 +1,62 @@
+{
+  "_fv": 24,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "copper_helmet",
+    "enableBody": true,
+    "textureBody": "copper_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "copper_leggings",
+    "enableBoots": true,
+    "textureBoots": "copper_boots",
+    "creativeTab": {
+      "value": "CUSTOM:EarthPulsation"
+    },
+    "armorTextureFile": "copper_",
+    "helmetName": "Copper Helmet",
+    "bodyName": "Copper Chestplate",
+    "leggingsName": "Copper Leggings",
+    "bootsName": "Copper Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 8,
+    "damageValueHelmet": 1,
+    "damageValueBody": 3,
+    "damageValueLeggings": 3,
+    "damageValueBoots": 1,
+    "enchantability": 5,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:CopperIngot"
+      }
+    ]
+  }
+}

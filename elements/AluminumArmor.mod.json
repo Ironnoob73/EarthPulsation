@@ -1,0 +1,62 @@
+{
+  "_fv": 24,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "aluminum_helmet",
+    "enableBody": true,
+    "textureBody": "aluminum_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "aluminum_leggings",
+    "enableBoots": true,
+    "textureBoots": "aluminum_boots",
+    "creativeTab": {
+      "value": "CUSTOM:EarthPulsation"
+    },
+    "armorTextureFile": "aluminum_",
+    "helmetName": "Aluminum Helmet",
+    "bodyName": "Aluminum Chestplate",
+    "leggingsName": "Aluminum Leggings",
+    "bootsName": "Aluminum Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 12,
+    "damageValueHelmet": 2,
+    "damageValueBody": 4,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 7,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:AluminumIngot"
+      }
+    ]
+  }
+}

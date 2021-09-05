@@ -1,0 +1,26 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:IceBirchWood"
+      },
+      {
+        "value": "CUSTOM:IceBirchLog"
+      },
+      {
+        "value": "CUSTOM:StrippedIceBirchLog"
+      },
+      {
+        "value": "CUSTOM:StrippedIceBirchWood"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "icebirch_log",
+    "namespace": "forge"
+  }
+}

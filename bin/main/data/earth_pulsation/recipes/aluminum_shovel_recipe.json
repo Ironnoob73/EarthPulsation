@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "earth_pulsation:copper_shovel"
+  },
+  "addition": {
+    "item": "earth_pulsation:aluminum_plate"
+  },
+  "result": {
+    "item": "earth_pulsation:aluminum_shovel"
+  }
+}

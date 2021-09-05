@@ -1,0 +1,37 @@
+{
+  "group": "planks_compress",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "earth_pulsation:plastic_wood_board"
+    },
+    {
+      "item": "earth_pulsation:plastic_wood_board"
+    },
+    {
+      "item": "earth_pulsation:plastic_wood_board"
+    },
+    {
+      "item": "earth_pulsation:plastic_wood_board"
+    },
+    {
+      "item": "earth_pulsation:plastic_wood_board"
+    },
+    {
+      "item": "earth_pulsation:plastic_wood_board"
+    },
+    {
+      "item": "earth_pulsation:plastic_wood_board"
+    },
+    {
+      "item": "earth_pulsation:plastic_wood_board"
+    },
+    {
+      "item": "earth_pulsation:plastic_wood_board"
+    }
+  ],
+  "result": {
+    "item": "earth_pulsation:plastic_wood_planks",
+    "count": 1
+  }
+}

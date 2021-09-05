@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "ruggedized_aluminum_pickaxe",
+    "customModelName": "Normal",
+    "name": "RuggedizedAluminum Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:EarthPulsation"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 2,
+    "efficiency": 8.0,
+    "attackSpeed": 1.0,
+    "enchantability": 21,
+    "damageVsEntity": 3.0,
+    "usageCount": 441,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:AluminumIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

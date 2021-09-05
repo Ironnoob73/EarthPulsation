@@ -1,0 +1,13 @@
+{
+  "group": "earth_pulsation",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "earth_pulsation:aluminum_block"
+    }
+  ],
+  "result": {
+    "item": "earth_pulsation:aluminum_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "group": "earth_pulsation",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "earth_pulsation:silver_ingot"
+    },
+    {
+      "item": "earth_pulsation:silver_ingot"
+    },
+    {
+      "item": "earth_pulsation:silver_ingot"
+    },
+    {
+      "item": "earth_pulsation:silver_ingot"
+    },
+    {
+      "item": "earth_pulsation:silver_ingot"
+    },
+    {
+      "item": "earth_pulsation:silver_ingot"
+    },
+    {
+      "item": "earth_pulsation:silver_ingot"
+    },
+    {
+      "item": "earth_pulsation:silver_ingot"
+    },
+    {
+      "item": "earth_pulsation:silver_ingot"
+    }
+  ],
+  "result": {
+    "item": "earth_pulsation:silver_block",
+    "count": 1
+  }
+}

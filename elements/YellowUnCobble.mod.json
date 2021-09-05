@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "un_cobble",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:YellowCobblestone"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:YellowStone"
+    },
+    "name": "yellow_un_cobble",
+    "namespace": "mod"
+  }
+}
