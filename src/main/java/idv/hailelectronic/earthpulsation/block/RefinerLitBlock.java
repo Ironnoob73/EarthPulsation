@@ -99,7 +99,7 @@ public class RefinerLitBlock extends EarthPulsationModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 5).harvestLevel(1)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(4f, 4f).setLightLevel(s -> 5).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
 			setRegistryName("refiner_lit");

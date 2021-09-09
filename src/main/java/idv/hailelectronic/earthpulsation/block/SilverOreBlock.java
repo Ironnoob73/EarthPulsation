@@ -40,7 +40,6 @@ import java.util.List;
 import java.util.Collections;
 
 import idv.hailelectronic.earthpulsation.itemgroup.EarthPulsationItemGroup;
-import idv.hailelectronic.earthpulsation.item.SilverDustItem;
 import idv.hailelectronic.earthpulsation.EarthPulsationModElements;
 
 @EarthPulsationModElements.ModElement.Tag
@@ -48,7 +47,7 @@ public class SilverOreBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:silver_ore")
 	public static final Block block = null;
 	public SilverOreBlock(EarthPulsationModElements instance) {
-		super(instance, 81);
+		super(instance, 82);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -76,7 +75,7 @@ public class SilverOreBlock extends EarthPulsationModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(SilverDustItem.block, (int) (3)));
+			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
 	private static Feature<OreFeatureConfig> feature = null;

@@ -54,8 +54,8 @@
           "width": 70,
           "height": 20,
           "name": "Test page",
-          "x": 141,
-          "y": 37
+          "x": 214,
+          "y": 189
         }
       },
       {
@@ -66,6 +66,49 @@
           "name": "main_menu.png",
           "x": 133,
           "y": 8
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "main_menu_icon.png",
+          "use1Xscale": false,
+          "name": "main_menu_icon.png",
+          "x": 133,
+          "y": 8
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">",
+          "width": 30,
+          "height": 20,
+          "name": ">",
+          "x": 150,
+          "y": 72
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">",
+          "width": 30,
+          "height": 20,
+          "name": ">",
+          "x": 182,
+          "y": 72
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">",
+          "width": 30,
+          "height": 20,
+          "name": ">",
+          "x": 214,
+          "y": 72
         }
       }
     ],

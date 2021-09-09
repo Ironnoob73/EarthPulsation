@@ -1,0 +1,29 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "warped_wart_slurries",
+    "customModelName": "Normal",
+    "name": "Warped Wart Slurries Bottle",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:EarthPulsation"
+    },
+    "stackSize": 16,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatingSpeed": 40,
+    "resultItem": {
+      "value": "Items.GLASS_BOTTLE"
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "DrinkWWSBottle"
+    }
+  }
+}

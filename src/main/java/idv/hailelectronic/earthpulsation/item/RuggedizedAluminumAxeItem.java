@@ -17,7 +17,7 @@ public class RuggedizedAluminumAxeItem extends EarthPulsationModElements.ModElem
 	@ObjectHolder("earth_pulsation:ruggedized_aluminum_axe")
 	public static final Item block = null;
 	public RuggedizedAluminumAxeItem(EarthPulsationModElements instance) {
-		super(instance, 35);
+		super(instance, 36);
 	}
 
 	@Override

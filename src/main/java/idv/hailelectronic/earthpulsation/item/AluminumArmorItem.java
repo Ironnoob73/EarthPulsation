@@ -29,7 +29,7 @@ public class AluminumArmorItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:aluminum_armor_boots")
 	public static final Item boots = null;
 	public AluminumArmorItem(EarthPulsationModElements instance) {
-		super(instance, 33);
+		super(instance, 34);
 	}
 
 	@Override

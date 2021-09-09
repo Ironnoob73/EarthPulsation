@@ -16,7 +16,7 @@ public class IronStickItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:iron_stick")
 	public static final Item block = null;
 	public IronStickItem(EarthPulsationModElements instance) {
-		super(instance, 41);
+		super(instance, 42);
 	}
 
 	@Override

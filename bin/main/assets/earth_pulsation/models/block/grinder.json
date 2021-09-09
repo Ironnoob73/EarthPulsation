@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "earth_pulsation:blocks/grinder_top",
+    "up": "earth_pulsation:blocks/grinder_top",
+    "north": "earth_pulsation:blocks/grinder_front",
+    "east": "earth_pulsation:blocks/grinder_side",
+    "south": "earth_pulsation:blocks/grinder_front",
+    "west": "earth_pulsation:blocks/grinder_side",
+    "particle": "earth_pulsation:blocks/grinder_top"
+  }
+}

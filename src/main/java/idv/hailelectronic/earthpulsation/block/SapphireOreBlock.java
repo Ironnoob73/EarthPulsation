@@ -50,7 +50,7 @@ public class SapphireOreBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:sapphire_ore")
 	public static final Block block = null;
 	public SapphireOreBlock(EarthPulsationModElements instance) {
-		super(instance, 88);
+		super(instance, 89);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

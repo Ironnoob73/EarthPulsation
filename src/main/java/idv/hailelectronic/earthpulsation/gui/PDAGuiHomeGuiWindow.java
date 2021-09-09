@@ -54,6 +54,8 @@ public class PDAGuiHomeGuiWindow extends ContainerScreen<PDAGuiHomeGui.GuiContai
 		RenderSystem.defaultBlendFunc();
 		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("earth_pulsation:textures/main_menu.png"));
 		this.blit(ms, this.guiLeft + 0, this.guiTop + 0, 0, 0, 160, 224, 160, 224);
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("earth_pulsation:textures/main_menu_icon.png"));
+		this.blit(ms, this.guiLeft + 0, this.guiTop + 0, 0, 0, 256, 256, 256, 256);
 		RenderSystem.disableBlend();
 	}
 
@@ -100,10 +102,28 @@ public class PDAGuiHomeGuiWindow extends ContainerScreen<PDAGuiHomeGui.GuiContai
 		H = new CheckboxButton(this.guiLeft + 69, this.guiTop + 202, 150, 20, new StringTextComponent(""), false);
 		PDAGuiHomeGui.guistate.put("checkbox:H", H);
 		this.addButton(H);
-		this.addButton(new Button(this.guiLeft + 7, this.guiTop + 29, 70, 20, new StringTextComponent("Test page"), e -> {
+		this.addButton(new Button(this.guiLeft + 80, this.guiTop + 181, 70, 20, new StringTextComponent("Test page"), e -> {
 			if (true) {
 				EarthPulsationMod.PACKET_HANDLER.sendToServer(new PDAGuiHomeGui.ButtonPressedMessage(2, x, y, z));
 				PDAGuiHomeGui.handleButtonAction(entity, 2, x, y, z);
+			}
+		}));
+		this.addButton(new Button(this.guiLeft + 16, this.guiTop + 64, 30, 20, new StringTextComponent(">"), e -> {
+			if (true) {
+				EarthPulsationMod.PACKET_HANDLER.sendToServer(new PDAGuiHomeGui.ButtonPressedMessage(3, x, y, z));
+				PDAGuiHomeGui.handleButtonAction(entity, 3, x, y, z);
+			}
+		}));
+		this.addButton(new Button(this.guiLeft + 48, this.guiTop + 64, 30, 20, new StringTextComponent(">"), e -> {
+			if (true) {
+				EarthPulsationMod.PACKET_HANDLER.sendToServer(new PDAGuiHomeGui.ButtonPressedMessage(4, x, y, z));
+				PDAGuiHomeGui.handleButtonAction(entity, 4, x, y, z);
+			}
+		}));
+		this.addButton(new Button(this.guiLeft + 80, this.guiTop + 64, 30, 20, new StringTextComponent(">"), e -> {
+			if (true) {
+				EarthPulsationMod.PACKET_HANDLER.sendToServer(new PDAGuiHomeGui.ButtonPressedMessage(5, x, y, z));
+				PDAGuiHomeGui.handleButtonAction(entity, 5, x, y, z);
 			}
 		}));
 	}

@@ -40,7 +40,6 @@ import java.util.List;
 import java.util.Collections;
 
 import idv.hailelectronic.earthpulsation.itemgroup.EarthPulsationItemGroup;
-import idv.hailelectronic.earthpulsation.item.LeadDustItem;
 import idv.hailelectronic.earthpulsation.EarthPulsationModElements;
 
 @EarthPulsationModElements.ModElement.Tag
@@ -48,7 +47,7 @@ public class LeadOreBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:lead_ore")
 	public static final Block block = null;
 	public LeadOreBlock(EarthPulsationModElements instance) {
-		super(instance, 69);
+		super(instance, 70);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -76,7 +75,7 @@ public class LeadOreBlock extends EarthPulsationModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(LeadDustItem.block, (int) (3)));
+			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
 	private static Feature<OreFeatureConfig> feature = null;

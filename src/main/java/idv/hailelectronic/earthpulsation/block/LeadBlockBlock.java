@@ -26,7 +26,7 @@ public class LeadBlockBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:lead_block")
 	public static final Block block = null;
 	public LeadBlockBlock(EarthPulsationModElements instance) {
-		super(instance, 70);
+		super(instance, 71);
 	}
 
 	@Override

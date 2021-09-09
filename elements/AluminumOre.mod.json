@@ -43,7 +43,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:AluminumIngot"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

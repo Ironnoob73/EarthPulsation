@@ -6,6 +6,13 @@
         "inner": "cast_iron_block_inner"
       },
       "name": "default"
+    },
+    "aluminum": {
+      "map": {
+        "1": "hard_aluminum_block",
+        "inner": "hard_aluminum_block_inner"
+      },
+      "name": "aluminum"
     }
   }
 }

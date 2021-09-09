@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "earth_pulsation:blocks/ice_sandstone_bottom",
+    "up": "earth_pulsation:blocks/ice_sandstone_top",
+    "north": "earth_pulsation:blocks/ice_sandstone",
+    "east": "earth_pulsation:blocks/ice_sandstone",
+    "south": "earth_pulsation:blocks/ice_sandstone",
+    "west": "earth_pulsation:blocks/ice_sandstone",
+    "particle": "earth_pulsation:blocks/ice_sandstone_bottom"
+  }
+}

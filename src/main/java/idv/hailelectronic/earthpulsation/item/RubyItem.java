@@ -16,7 +16,7 @@ public class RubyItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:ruby")
 	public static final Item block = null;
 	public RubyItem(EarthPulsationModElements instance) {
-		super(instance, 83);
+		super(instance, 84);
 	}
 
 	@Override

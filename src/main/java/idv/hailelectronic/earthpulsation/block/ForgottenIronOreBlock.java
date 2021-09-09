@@ -44,7 +44,7 @@ public class ForgottenIronOreBlock extends EarthPulsationModElements.ModElement 
 	@ObjectHolder("earth_pulsation:forgotten_iron_ore")
 	public static final Block block = null;
 	public ForgottenIronOreBlock(EarthPulsationModElements instance) {
-		super(instance, 43);
+		super(instance, 44);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

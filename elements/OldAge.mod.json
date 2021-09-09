@@ -5,6 +5,9 @@
     "biomesInDimension": [
       {
         "value": "plains"
+      },
+      {
+        "value": "CUSTOM:IceDesert"
       }
     ],
     "worldGenType": "Normal world gen",

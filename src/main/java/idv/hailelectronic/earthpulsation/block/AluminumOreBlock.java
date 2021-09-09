@@ -40,7 +40,6 @@ import java.util.List;
 import java.util.Collections;
 
 import idv.hailelectronic.earthpulsation.itemgroup.EarthPulsationItemGroup;
-import idv.hailelectronic.earthpulsation.item.AluminumIngotItem;
 import idv.hailelectronic.earthpulsation.EarthPulsationModElements;
 
 @EarthPulsationModElements.ModElement.Tag
@@ -48,7 +47,7 @@ public class AluminumOreBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:aluminum_ore")
 	public static final Block block = null;
 	public AluminumOreBlock(EarthPulsationModElements instance) {
-		super(instance, 26);
+		super(instance, 27);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -76,7 +75,7 @@ public class AluminumOreBlock extends EarthPulsationModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(AluminumIngotItem.block));
+			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
 	private static Feature<OreFeatureConfig> feature = null;

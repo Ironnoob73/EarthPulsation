@@ -1,0 +1,21 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [
+      {
+        "value": "CUSTOM:Icesand"
+      }
+    ],
+    "blocks": [
+      {
+        "value": "CUSTOM:Icesand"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "dirt",
+    "namespace": "forge"
+  }
+}

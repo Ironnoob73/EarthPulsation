@@ -16,7 +16,7 @@ public class CopperPickaxeHeadItem extends EarthPulsationModElements.ModElement 
 	@ObjectHolder("earth_pulsation:copper_pickaxe_head")
 	public static final Item block = null;
 	public CopperPickaxeHeadItem(EarthPulsationModElements instance) {
-		super(instance, 11);
+		super(instance, 12);
 	}
 
 	@Override

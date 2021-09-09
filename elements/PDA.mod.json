@@ -20,7 +20,7 @@
     },
     "destroyAnyBlock": false,
     "immuneToFire": true,
-    "stayInGridWhenCrafting": false,
+    "stayInGridWhenCrafting": true,
     "damageOnCrafting": true,
     "enableMeleeDamage": true,
     "damageVsEntity": 5.0,
@@ -31,9 +31,6 @@
     "guiBoundTo": "PDAGuiHome",
     "inventorySize": 0,
     "inventoryStackSize": 64,
-    "onItemInUseTick": {
-      "name": "PDAToolTip"
-    },
     "hasDispenseBehavior": false
   }
 }

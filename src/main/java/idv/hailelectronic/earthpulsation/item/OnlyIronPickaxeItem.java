@@ -18,7 +18,7 @@ public class OnlyIronPickaxeItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:only_iron_pickaxe")
 	public static final Item block = null;
 	public OnlyIronPickaxeItem(EarthPulsationModElements instance) {
-		super(instance, 45);
+		super(instance, 46);
 	}
 
 	@Override
