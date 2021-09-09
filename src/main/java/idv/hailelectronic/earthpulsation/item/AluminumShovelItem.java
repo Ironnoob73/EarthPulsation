@@ -17,7 +17,7 @@ public class AluminumShovelItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:aluminum_shovel")
 	public static final Item block = null;
 	public AluminumShovelItem(EarthPulsationModElements instance) {
-		super(instance, 32);
+		super(instance, 33);
 	}
 
 	@Override

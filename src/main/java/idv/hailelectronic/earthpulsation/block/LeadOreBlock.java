@@ -47,7 +47,7 @@ public class LeadOreBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:lead_ore")
 	public static final Block block = null;
 	public LeadOreBlock(EarthPulsationModElements instance) {
-		super(instance, 70);
+		super(instance, 71);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

@@ -75,7 +75,7 @@ public class OldAgeDimension extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:old_age_portal")
 	public static final CustomPortalBlock portal = null;
 	public OldAgeDimension(EarthPulsationModElements instance) {
-		super(instance, 145);
+		super(instance, 146);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new POIRegisterHandler());
 	}
 

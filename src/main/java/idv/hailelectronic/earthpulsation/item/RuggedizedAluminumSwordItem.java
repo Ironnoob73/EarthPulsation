@@ -17,7 +17,7 @@ public class RuggedizedAluminumSwordItem extends EarthPulsationModElements.ModEl
 	@ObjectHolder("earth_pulsation:ruggedized_aluminum_sword")
 	public static final Item block = null;
 	public RuggedizedAluminumSwordItem(EarthPulsationModElements instance) {
-		super(instance, 37);
+		super(instance, 38);
 	}
 
 	@Override

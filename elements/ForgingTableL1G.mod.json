@@ -169,6 +169,20 @@
           "x": 249,
           "y": 71
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Craft",
+          "onClick": {
+            "name": "FTL1SRecipe"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Craft",
+          "x": 210,
+          "y": 88
+        }
       }
     ],
     "gridSettings": {

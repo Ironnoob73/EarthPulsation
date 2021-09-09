@@ -16,7 +16,7 @@ public class CarbonCubeItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:carbon_cube")
 	public static final Item block = null;
 	public CarbonCubeItem(EarthPulsationModElements instance) {
-		super(instance, 52);
+		super(instance, 53);
 	}
 
 	@Override

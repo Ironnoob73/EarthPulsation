@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "earth_pulsation:blocks/pulverizer_top",
+    "up": "earth_pulsation:blocks/pulverizer_top",
+    "north": "earth_pulsation:blocks/pulverizer_side",
+    "east": "earth_pulsation:blocks/pulverizer_side",
+    "south": "earth_pulsation:blocks/pulverizer_side",
+    "west": "earth_pulsation:blocks/pulverizer_side",
+    "particle": "earth_pulsation:blocks/pulverizer_top"
+  }
+}

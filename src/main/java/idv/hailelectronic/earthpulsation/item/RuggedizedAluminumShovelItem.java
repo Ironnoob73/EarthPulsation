@@ -17,7 +17,7 @@ public class RuggedizedAluminumShovelItem extends EarthPulsationModElements.ModE
 	@ObjectHolder("earth_pulsation:ruggedized_aluminum_shovel")
 	public static final Item block = null;
 	public RuggedizedAluminumShovelItem(EarthPulsationModElements instance) {
-		super(instance, 38);
+		super(instance, 39);
 	}
 
 	@Override

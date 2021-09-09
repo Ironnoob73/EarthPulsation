@@ -16,7 +16,7 @@ public class CopperWrenchItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:copper_wrench")
 	public static final Item block = null;
 	public CopperWrenchItem(EarthPulsationModElements instance) {
-		super(instance, 22);
+		super(instance, 23);
 	}
 
 	@Override

@@ -5,14 +5,18 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.gui.widget.button.Button;
 import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.Minecraft;
 
 import java.util.HashMap;
+
+import idv.hailelectronic.earthpulsation.EarthPulsationMod;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.matrix.MatrixStack;
@@ -80,5 +84,11 @@ public class ForgingTableL1GGuiWindow extends ContainerScreen<ForgingTableL1GGui
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
+		this.addButton(new Button(this.guiLeft + 84, this.guiTop + 51, 30, 20, new StringTextComponent("Craft"), e -> {
+			if (true) {
+				EarthPulsationMod.PACKET_HANDLER.sendToServer(new ForgingTableL1GGui.ButtonPressedMessage(0, x, y, z));
+				ForgingTableL1GGui.handleButtonAction(entity, 0, x, y, z);
+			}
+		}));
 	}
 }

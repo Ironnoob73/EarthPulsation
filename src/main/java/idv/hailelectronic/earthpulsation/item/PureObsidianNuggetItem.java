@@ -16,7 +16,7 @@ public class PureObsidianNuggetItem extends EarthPulsationModElements.ModElement
 	@ObjectHolder("earth_pulsation:pure_obsidian_nugget")
 	public static final Item block = null;
 	public PureObsidianNuggetItem(EarthPulsationModElements instance) {
-		super(instance, 131);
+		super(instance, 132);
 	}
 
 	@Override

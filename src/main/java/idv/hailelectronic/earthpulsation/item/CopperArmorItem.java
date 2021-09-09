@@ -29,7 +29,7 @@ public class CopperArmorItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:copper_armor_boots")
 	public static final Item boots = null;
 	public CopperArmorItem(EarthPulsationModElements instance) {
-		super(instance, 21);
+		super(instance, 22);
 	}
 
 	@Override

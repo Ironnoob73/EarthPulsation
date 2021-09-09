@@ -102,9 +102,227 @@
         "data": {
           "image": "refiner_fuel.png",
           "use1Xscale": false,
+          "displayCondition": {
+            "name": "POn"
+          },
           "name": "refiner_fuel.png",
-          "x": 180,
+          "x": 181,
           "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress0.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "P25z"
+          },
+          "name": "progress0.png",
+          "x": 209,
+          "y": 74
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress0.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "P50z"
+          },
+          "name": "progress0.png",
+          "x": 216,
+          "y": 74
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress0.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "P75z"
+          },
+          "name": "progress0.png",
+          "x": 223,
+          "y": 74
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Stop",
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "POff"
+          },
+          "name": "Stop",
+          "x": 211,
+          "y": 91
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "0/10",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "P0"
+          },
+          "name": "0/10",
+          "x": 211,
+          "y": 91
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1/10",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "P1"
+          },
+          "name": "1/10",
+          "x": 211,
+          "y": 91
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "2/10",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "P2"
+          },
+          "name": "2/10",
+          "x": 211,
+          "y": 91
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "3/10",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "P3"
+          },
+          "name": "3/10",
+          "x": 211,
+          "y": 91
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "4/10",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "P4"
+          },
+          "name": "4/10",
+          "x": 211,
+          "y": 91
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "5/10",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "P5"
+          },
+          "name": "5/10",
+          "x": 211,
+          "y": 91
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "6/10",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "P6"
+          },
+          "name": "6/10",
+          "x": 211,
+          "y": 91
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "7/10",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "P7"
+          },
+          "name": "7/10",
+          "x": 211,
+          "y": 91
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "8/10",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "P8"
+          },
+          "name": "8/10",
+          "x": 211,
+          "y": 91
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "9/10",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "P9"
+          },
+          "name": "9/10",
+          "x": 211,
+          "y": 91
         }
       }
     ],

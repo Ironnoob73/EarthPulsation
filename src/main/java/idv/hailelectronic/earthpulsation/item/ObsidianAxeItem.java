@@ -17,7 +17,7 @@ public class ObsidianAxeItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:obsidian_axe")
 	public static final Item block = null;
 	public ObsidianAxeItem(EarthPulsationModElements instance) {
-		super(instance, 137);
+		super(instance, 138);
 	}
 
 	@Override

@@ -35,17 +35,6 @@
         }
       },
       {
-        "type": "outputslot",
-        "data": {
-          "id": 1,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
-          "name": "Slot #1",
-          "x": 237,
-          "y": 68
-        }
-      },
-      {
         "type": "label",
         "data": {
           "text": "Grinder",
@@ -56,6 +45,39 @@
           "name": "Grinder",
           "x": 194,
           "y": 40
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 237,
+          "y": 50
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 237,
+          "y": 68
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
+          "x": 237,
+          "y": 86
         }
       }
     ],

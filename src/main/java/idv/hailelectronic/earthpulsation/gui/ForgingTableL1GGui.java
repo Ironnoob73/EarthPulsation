@@ -32,6 +32,7 @@ import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
+import idv.hailelectronic.earthpulsation.procedures.FTL1SRecipeProcedure;
 import idv.hailelectronic.earthpulsation.EarthPulsationModElements;
 import idv.hailelectronic.earthpulsation.EarthPulsationMod;
 
@@ -40,7 +41,7 @@ public class ForgingTableL1GGui extends EarthPulsationModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
 	public ForgingTableL1GGui(EarthPulsationModElements instance) {
-		super(instance, 158);
+		super(instance, 160);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -384,6 +385,17 @@ public class ForgingTableL1GGui extends EarthPulsationModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				FTL1SRecipeProcedure.executeProcedure($_dependencies);
+			}
+		}
 	}
 
 	private static void handleSlotAction(PlayerEntity entity, int slotID, int changeType, int meta, int x, int y, int z) {
