@@ -26,7 +26,7 @@ public class TinBlockBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:tin_block")
 	public static final Block block = null;
 	public TinBlockBlock(EarthPulsationModElements instance) {
-		super(instance, 78);
+		super(instance, 79);
 	}
 
 	@Override

@@ -29,7 +29,7 @@ public class AluminumArmorItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:aluminum_armor_boots")
 	public static final Item boots = null;
 	public AluminumArmorItem(EarthPulsationModElements instance) {
-		super(instance, 35);
+		super(instance, 36);
 	}
 
 	@Override
@@ -42,7 +42,7 @@ public class AluminumArmorItem extends EarthPulsationModElements.ModElement {
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 5, 4, 2}[slot.getIndex()];
+				return new int[]{1, 4, 5, 2}[slot.getIndex()];
 			}
 
 			@Override
@@ -68,7 +68,7 @@ public class AluminumArmorItem extends EarthPulsationModElements.ModElement {
 
 			@Override
 			public float getToughness() {
-				return 0f;
+				return 1f;
 			}
 
 			@Override

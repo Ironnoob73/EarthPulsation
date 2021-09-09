@@ -13,6 +13,13 @@
         "inner": "hard_aluminum_block_inner"
       },
       "name": "aluminum"
+    },
+    "gold": {
+      "map": {
+        "1": "pattern_gold_block",
+        "inner": "pattern_gold_block_inner"
+      },
+      "name": "gold"
     }
   }
 }

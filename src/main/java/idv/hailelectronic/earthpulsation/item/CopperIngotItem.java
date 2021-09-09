@@ -16,7 +16,7 @@ public class CopperIngotItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:copper_ingot")
 	public static final Item block = null;
 	public CopperIngotItem(EarthPulsationModElements instance) {
-		super(instance, 6);
+		super(instance, 7);
 	}
 
 	@Override

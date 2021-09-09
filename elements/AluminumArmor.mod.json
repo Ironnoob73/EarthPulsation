@@ -44,11 +44,11 @@
     "bootsImmuneToFire": false,
     "maxDamage": 12,
     "damageValueHelmet": 2,
-    "damageValueBody": 4,
-    "damageValueLeggings": 5,
-    "damageValueBoots": 2,
+    "damageValueBody": 5,
+    "damageValueLeggings": 4,
+    "damageValueBoots": 1,
     "enchantability": 7,
-    "toughness": 0.0,
+    "toughness": 1.0,
     "knockbackResistance": 0.0,
     "equipSound": {
       "value": ""

@@ -1,0 +1,62 @@
+{
+  "_fv": 24,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "stonebrick_helmet",
+    "enableBody": true,
+    "textureBody": "stonebrick_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "stonebrick_leggings",
+    "enableBoots": true,
+    "textureBoots": "stonebrick_boots",
+    "creativeTab": {
+      "value": "CUSTOM:EarthPulsation"
+    },
+    "armorTextureFile": "stonebrick_",
+    "helmetName": "Stone Brick Armmor Í·¿ø",
+    "bodyName": "Stone Brick Armmor ÐØ¼×",
+    "leggingsName": "Stone Brick Armmor »¤ÍÈ",
+    "bootsName": "Stone Brick Armmor Ñ¥×Ó",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 15,
+    "damageValueHelmet": 2,
+    "damageValueBody": 5,
+    "damageValueLeggings": 4,
+    "damageValueBoots": 2,
+    "enchantability": 12,
+    "toughness": 0.0,
+    "knockbackResistance": 0.1,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:StoneIngot"
+      }
+    ]
+  }
+}

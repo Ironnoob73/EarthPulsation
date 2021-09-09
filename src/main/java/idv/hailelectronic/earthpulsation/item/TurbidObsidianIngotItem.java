@@ -16,7 +16,7 @@ public class TurbidObsidianIngotItem extends EarthPulsationModElements.ModElemen
 	@ObjectHolder("earth_pulsation:turbid_obsidian_ingot")
 	public static final Item block = null;
 	public TurbidObsidianIngotItem(EarthPulsationModElements instance) {
-		super(instance, 133);
+		super(instance, 149);
 	}
 
 	@Override

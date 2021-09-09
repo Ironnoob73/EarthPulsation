@@ -13,7 +13,7 @@ import idv.hailelectronic.earthpulsation.EarthPulsationModElements;
 @EarthPulsationModElements.ModElement.Tag
 public class EarthPulsationItemGroup extends EarthPulsationModElements.ModElement {
 	public EarthPulsationItemGroup(EarthPulsationModElements instance) {
-		super(instance, 151);
+		super(instance, 168);
 	}
 
 	@Override

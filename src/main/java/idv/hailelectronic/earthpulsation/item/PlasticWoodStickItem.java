@@ -16,7 +16,7 @@ public class PlasticWoodStickItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:plastic_wood_stick")
 	public static final Item block = null;
 	public PlasticWoodStickItem(EarthPulsationModElements instance) {
-		super(instance, 101);
+		super(instance, 108);
 	}
 
 	@Override

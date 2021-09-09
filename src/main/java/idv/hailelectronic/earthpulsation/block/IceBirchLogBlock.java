@@ -40,7 +40,7 @@ public class IceBirchLogBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:ice_birch_log")
 	public static final Block block = null;
 	public IceBirchLogBlock(EarthPulsationModElements instance) {
-		super(instance, 112);
+		super(instance, 126);
 	}
 
 	@Override

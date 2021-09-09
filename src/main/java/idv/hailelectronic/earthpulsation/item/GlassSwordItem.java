@@ -18,7 +18,7 @@ public class GlassSwordItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:glass_sword")
 	public static final Item block = null;
 	public GlassSwordItem(EarthPulsationModElements instance) {
-		super(instance, 145);
+		super(instance, 161);
 	}
 
 	@Override

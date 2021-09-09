@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "reinforced_wooden_sieve_inside",
+        "1": "reinforced_wooden_sieve_side",
+        "2": "reinforced_wooden_sieve_top"
+      },
+      "name": "default"
+    }
+  }
+}

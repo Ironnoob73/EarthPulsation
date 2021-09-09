@@ -27,7 +27,7 @@ public class IceBirchPressurePlateBlock extends EarthPulsationModElements.ModEle
 	@ObjectHolder("earth_pulsation:ice_birch_pressure_plate")
 	public static final Block block = null;
 	public IceBirchPressurePlateBlock(EarthPulsationModElements instance) {
-		super(instance, 121);
+		super(instance, 135);
 	}
 
 	@Override

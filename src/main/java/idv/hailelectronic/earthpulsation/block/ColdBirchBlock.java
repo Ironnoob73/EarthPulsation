@@ -66,7 +66,7 @@ public class ColdBirchBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:ice_birch_sapling")
 	public static final Block block = null;
 	public ColdBirchBlock(EarthPulsationModElements instance) {
-		super(instance, 110);
+		super(instance, 124);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

@@ -29,7 +29,7 @@ public class CopperArmorItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:copper_armor_boots")
 	public static final Item boots = null;
 	public CopperArmorItem(EarthPulsationModElements instance) {
-		super(instance, 22);
+		super(instance, 23);
 	}
 
 	@Override
@@ -47,7 +47,7 @@ public class CopperArmorItem extends EarthPulsationModElements.ModElement {
 
 			@Override
 			public int getEnchantability() {
-				return 5;
+				return 7;
 			}
 
 			@Override
@@ -68,7 +68,7 @@ public class CopperArmorItem extends EarthPulsationModElements.ModElement {
 
 			@Override
 			public float getToughness() {
-				return 0f;
+				return 1f;
 			}
 
 			@Override
