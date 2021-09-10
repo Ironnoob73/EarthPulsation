@@ -1,8 +1,0 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "bottom": "earth_pulsation:blocks/icebirch_planks",
-    "top": "earth_pulsation:blocks/icebirch_planks",
-    "side": "earth_pulsation:blocks/icebirch_planks"
-  }
-}

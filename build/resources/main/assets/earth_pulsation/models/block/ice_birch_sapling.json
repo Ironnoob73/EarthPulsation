@@ -1,7 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "earth_pulsation:blocks/icebirch_sapling",
-    "particle": "earth_pulsation:blocks/icebirch_sapling"
-  }
-}
