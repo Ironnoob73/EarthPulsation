@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top",
+  "textures": {
+    "bottom": "earth_pulsation:blocks/aluminum_door_bottom",
+    "top": "earth_pulsation:blocks/aluminum_door_top"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "group": "yellow_stone",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "earth_pulsation:chiseled_yellow_stone_bricks"
+  },
+  "result": "earth_pulsation:chiseled_yellow_stone_bricks_stair"
+}

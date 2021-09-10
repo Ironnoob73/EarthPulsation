@@ -23,7 +23,7 @@ public class RustyIronPickaxeItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:rusty_iron_pickaxe")
 	public static final Item block = null;
 	public RustyIronPickaxeItem(EarthPulsationModElements instance) {
-		super(instance, 99);
+		super(instance, 102);
 	}
 
 	@Override

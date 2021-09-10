@@ -25,7 +25,7 @@ public class WarpedWartSlurriesBottleItem extends EarthPulsationModElements.ModE
 	@ObjectHolder("earth_pulsation:warped_wart_slurries_bottle")
 	public static final Item block = null;
 	public WarpedWartSlurriesBottleItem(EarthPulsationModElements instance) {
-		super(instance, 159);
+		super(instance, 170);
 	}
 
 	@Override

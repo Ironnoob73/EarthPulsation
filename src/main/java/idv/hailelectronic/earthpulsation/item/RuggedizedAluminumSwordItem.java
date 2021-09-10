@@ -17,14 +17,14 @@ public class RuggedizedAluminumSwordItem extends EarthPulsationModElements.ModEl
 	@ObjectHolder("earth_pulsation:ruggedized_aluminum_sword")
 	public static final Item block = null;
 	public RuggedizedAluminumSwordItem(EarthPulsationModElements instance) {
-		super(instance, 39);
+		super(instance, 41);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 441;
+				return 490;
 			}
 
 			public float getEfficiency() {
@@ -32,7 +32,7 @@ public class RuggedizedAluminumSwordItem extends EarthPulsationModElements.ModEl
 			}
 
 			public float getAttackDamage() {
-				return 7f;
+				return 4f;
 			}
 
 			public int getHarvestLevel() {
@@ -46,7 +46,7 @@ public class RuggedizedAluminumSwordItem extends EarthPulsationModElements.ModEl
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(AluminumIngotItem.block));
 			}
-		}, 3, -3f, new Item.Properties().group(EarthPulsationItemGroup.tab)) {
+		}, 3, -2.4f, new Item.Properties().group(EarthPulsationItemGroup.tab)) {
 		}.setRegistryName("ruggedized_aluminum_sword"));
 	}
 }

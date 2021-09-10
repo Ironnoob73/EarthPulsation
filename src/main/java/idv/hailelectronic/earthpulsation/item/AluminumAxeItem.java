@@ -17,14 +17,14 @@ public class AluminumAxeItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:aluminum_axe")
 	public static final Item block = null;
 	public AluminumAxeItem(EarthPulsationModElements instance) {
-		super(instance, 32);
+		super(instance, 34);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new AxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 183;
+				return 290;
 			}
 
 			public float getEfficiency() {
@@ -32,7 +32,7 @@ public class AluminumAxeItem extends EarthPulsationModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 5f;
+				return 7f;
 			}
 
 			public int getHarvestLevel() {
@@ -46,7 +46,7 @@ public class AluminumAxeItem extends EarthPulsationModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(AluminumIngotItem.block));
 			}
-		}, 1, -3f, new Item.Properties().group(EarthPulsationItemGroup.tab)) {
+		}, 1, -3.1f, new Item.Properties().group(EarthPulsationItemGroup.tab)) {
 		}.setRegistryName("aluminum_axe"));
 	}
 }

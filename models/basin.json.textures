@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "basin_bottom",
+        "1": "basin",
+        "2": "basin_top"
+      },
+      "name": "default"
+    }
+  }
+}

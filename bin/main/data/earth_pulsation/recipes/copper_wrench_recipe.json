@@ -1,0 +1,9 @@
+{
+  "group": "copper_tool_head_recipe",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "earth_pulsation:copper_plate"
+  },
+  "result": "earth_pulsation:copper_hoe_head"
+}

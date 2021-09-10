@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "yellow_stone",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:ChiseledYellowStoneBricks"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:ChiseledYellowStoneBricksStair"
+    },
+    "name": "chiseled_yellow_stone_bricks_stair_recipe",
+    "namespace": "mod"
+  }
+}

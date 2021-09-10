@@ -22,7 +22,7 @@ public class IceBirchLeavesBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:ice_birch_leaves")
 	public static final Block block = null;
 	public IceBirchLeavesBlock(EarthPulsationModElements instance) {
-		super(instance, 125);
+		super(instance, 136);
 	}
 
 	@Override

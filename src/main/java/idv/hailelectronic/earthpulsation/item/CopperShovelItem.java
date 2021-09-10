@@ -17,14 +17,14 @@ public class CopperShovelItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:copper_shovel")
 	public static final Item block = null;
 	public CopperShovelItem(EarthPulsationModElements instance) {
-		super(instance, 19);
+		super(instance, 20);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ShovelItem(new IItemTier() {
 			public int getMaxUses() {
-				return 95;
+				return 168;
 			}
 
 			public float getEfficiency() {
@@ -32,7 +32,7 @@ public class CopperShovelItem extends EarthPulsationModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return -1f;
+				return -0.2f;
 			}
 
 			public int getHarvestLevel() {

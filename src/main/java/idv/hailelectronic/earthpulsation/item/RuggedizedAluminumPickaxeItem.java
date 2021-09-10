@@ -17,14 +17,14 @@ public class RuggedizedAluminumPickaxeItem extends EarthPulsationModElements.Mod
 	@ObjectHolder("earth_pulsation:ruggedized_aluminum_pickaxe")
 	public static final Item block = null;
 	public RuggedizedAluminumPickaxeItem(EarthPulsationModElements instance) {
-		super(instance, 37);
+		super(instance, 39);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 441;
+				return 490;
 			}
 
 			public float getEfficiency() {
@@ -46,7 +46,7 @@ public class RuggedizedAluminumPickaxeItem extends EarthPulsationModElements.Mod
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(AluminumIngotItem.block));
 			}
-		}, 1, -3f, new Item.Properties().group(EarthPulsationItemGroup.tab)) {
+		}, 1, -2.8f, new Item.Properties().group(EarthPulsationItemGroup.tab)) {
 		}.setRegistryName("ruggedized_aluminum_pickaxe"));
 	}
 }

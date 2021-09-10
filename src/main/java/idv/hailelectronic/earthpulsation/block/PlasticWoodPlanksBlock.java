@@ -27,7 +27,7 @@ public class PlasticWoodPlanksBlock extends EarthPulsationModElements.ModElement
 	@ObjectHolder("earth_pulsation:plastic_wood_planks")
 	public static final Block block = null;
 	public PlasticWoodPlanksBlock(EarthPulsationModElements instance) {
-		super(instance, 110);
+		super(instance, 114);
 	}
 
 	@Override

@@ -26,7 +26,7 @@ public class WoodenBlockBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:wooden_block")
 	public static final Block block = null;
 	public WoodenBlockBlock(EarthPulsationModElements instance) {
-		super(instance, 107);
+		super(instance, 110);
 	}
 
 	@Override

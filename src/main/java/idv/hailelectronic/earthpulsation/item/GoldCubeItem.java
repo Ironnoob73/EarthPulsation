@@ -16,7 +16,7 @@ public class GoldCubeItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:gold_cube")
 	public static final Item block = null;
 	public GoldCubeItem(EarthPulsationModElements instance) {
-		super(instance, 66);
+		super(instance, 69);
 	}
 
 	@Override

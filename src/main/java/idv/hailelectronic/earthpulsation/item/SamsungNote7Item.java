@@ -50,7 +50,7 @@ public class SamsungNote7Item extends EarthPulsationModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
 			.size(0.5f, 0.5f)).build("entitybulletsamsung_note_7").setRegistryName("entitybulletsamsung_note_7");
 	public SamsungNote7Item(EarthPulsationModElements instance) {
-		super(instance, 163);
+		super(instance, 174);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SamsungNote7Renderer.ModelRegisterHandler());
 	}
 

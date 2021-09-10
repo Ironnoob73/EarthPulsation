@@ -13,10 +13,10 @@
     "toolType": "Hoe",
     "harvestLevel": 2,
     "efficiency": 8.0,
-    "attackSpeed": 1.0,
+    "attackSpeed": 3.0,
     "enchantability": 21,
-    "damageVsEntity": 3.0,
-    "usageCount": 441,
+    "damageVsEntity": 1.0,
+    "usageCount": 490,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [

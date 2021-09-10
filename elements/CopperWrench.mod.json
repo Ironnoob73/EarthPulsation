@@ -1,34 +1,27 @@
 {
   "_fv": 24,
-  "_type": "item",
+  "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "copper_wrench",
-    "customModelName": "Tool",
+    "customModelName": "Normal",
     "name": "Copper Wrench",
-    "rarity": "COMMON",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:EarthPulsation"
     },
-    "stackSize": 1,
-    "enchantability": 0,
-    "useDuration": 0,
-    "toolType": 1.0,
-    "damageCount": 200,
-    "recipeRemainder": {
-      "value": ""
-    },
-    "destroyAnyBlock": false,
-    "immuneToFire": false,
-    "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "enableMeleeDamage": false,
-    "damageVsEntity": 0.0,
-    "specialInfo": [],
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 2.0,
+    "usageCount": 168,
+    "blocksAffected": [],
     "hasGlow": false,
-    "guiBoundTo": "<NONE>",
-    "inventorySize": 9,
-    "inventoryStackSize": 64,
-    "hasDispenseBehavior": false
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true
   }
 }

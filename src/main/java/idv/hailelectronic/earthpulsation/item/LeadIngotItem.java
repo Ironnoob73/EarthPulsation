@@ -16,7 +16,7 @@ public class LeadIngotItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:lead_ingot")
 	public static final Item block = null;
 	public LeadIngotItem(EarthPulsationModElements instance) {
-		super(instance, 68);
+		super(instance, 71);
 	}
 
 	@Override

@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "earth_pulsation:blocks/yellow_cobblestone",
+    "top": "earth_pulsation:blocks/yellow_cobblestone",
+    "side": "earth_pulsation:blocks/yellow_cobblestone"
+  }
+}

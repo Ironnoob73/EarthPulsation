@@ -16,7 +16,7 @@ public class TinCubeItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:tin_cube")
 	public static final Item block = null;
 	public TinCubeItem(EarthPulsationModElements instance) {
-		super(instance, 75);
+		super(instance, 78);
 	}
 
 	@Override

@@ -17,14 +17,14 @@ public class CopperSwordItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:copper_sword")
 	public static final Item block = null;
 	public CopperSwordItem(EarthPulsationModElements instance) {
-		super(instance, 17);
+		super(instance, 18);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 95;
+				return 168;
 			}
 
 			public float getEfficiency() {
@@ -32,7 +32,7 @@ public class CopperSwordItem extends EarthPulsationModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return -1f;
+				return 3.5f;
 			}
 
 			public int getHarvestLevel() {
@@ -46,7 +46,7 @@ public class CopperSwordItem extends EarthPulsationModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(CopperIngotItem.block));
 			}
-		}, 3, -3f, new Item.Properties().group(EarthPulsationItemGroup.tab)) {
+		}, 3, -2.4f, new Item.Properties().group(EarthPulsationItemGroup.tab)) {
 		}.setRegistryName("copper_sword"));
 	}
 }

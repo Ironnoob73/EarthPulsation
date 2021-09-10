@@ -17,14 +17,14 @@ public class AluminumHoeItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:aluminum_hoe")
 	public static final Item block = null;
 	public AluminumHoeItem(EarthPulsationModElements instance) {
-		super(instance, 35);
+		super(instance, 37);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new HoeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 183;
+				return 290;
 			}
 
 			public float getEfficiency() {
@@ -32,7 +32,7 @@ public class AluminumHoeItem extends EarthPulsationModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 0f;
+				return -1f;
 			}
 
 			public int getHarvestLevel() {
@@ -46,7 +46,7 @@ public class AluminumHoeItem extends EarthPulsationModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(AluminumIngotItem.block));
 			}
-		}, 0, -3f, new Item.Properties().group(EarthPulsationItemGroup.tab)) {
+		}, 0, -1f, new Item.Properties().group(EarthPulsationItemGroup.tab)) {
 		}.setRegistryName("aluminum_hoe"));
 	}
 }

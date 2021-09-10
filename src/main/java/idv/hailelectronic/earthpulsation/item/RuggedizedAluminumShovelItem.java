@@ -17,14 +17,14 @@ public class RuggedizedAluminumShovelItem extends EarthPulsationModElements.ModE
 	@ObjectHolder("earth_pulsation:ruggedized_aluminum_shovel")
 	public static final Item block = null;
 	public RuggedizedAluminumShovelItem(EarthPulsationModElements instance) {
-		super(instance, 40);
+		super(instance, 42);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ShovelItem(new IItemTier() {
 			public int getMaxUses() {
-				return 441;
+				return 490;
 			}
 
 			public float getEfficiency() {
@@ -32,7 +32,7 @@ public class RuggedizedAluminumShovelItem extends EarthPulsationModElements.ModE
 			}
 
 			public float getAttackDamage() {
-				return 1f;
+				return 0.25f;
 			}
 
 			public int getHarvestLevel() {

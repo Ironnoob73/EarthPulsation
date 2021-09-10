@@ -39,15 +39,18 @@ import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
+import idv.hailelectronic.earthpulsation.procedures.RubyBiomeLocateProcedure;
 import idv.hailelectronic.earthpulsation.itemgroup.EarthPulsationItemGroup;
 import idv.hailelectronic.earthpulsation.EarthPulsationModElements;
+
+import com.google.common.collect.ImmutableMap;
 
 @EarthPulsationModElements.ModElement.Tag
 public class RubyOreBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:ruby_ore")
 	public static final Block block = null;
 	public RubyOreBlock(EarthPulsationModElements instance) {
-		super(instance, 89);
+		super(instance, 92);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -109,11 +112,16 @@ public class RubyOreBlock extends EarthPulsationModElements.ModElement {
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
+					int x = pos.getX();
+					int y = pos.getY();
+					int z = pos.getZ();
+					if (!RubyBiomeLocateProcedure.executeProcedure(ImmutableMap.of("x", x, "y", y, "z", z, "world", world)))
+						return false;
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 2)).range(30)
-					.square().func_242731_b(5);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 2)).range(32)
+					.square().func_242731_b(10);
 			event.getRegistry().register(feature.setRegistryName("ruby_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("earth_pulsation:ruby_ore"), configuredFeature);
 		}

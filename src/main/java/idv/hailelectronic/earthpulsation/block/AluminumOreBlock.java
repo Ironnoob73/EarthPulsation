@@ -47,7 +47,7 @@ public class AluminumOreBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:aluminum_ore")
 	public static final Block block = null;
 	public AluminumOreBlock(EarthPulsationModElements instance) {
-		super(instance, 29);
+		super(instance, 31);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

@@ -17,14 +17,14 @@ public class CopperHoeItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:copper_hoe")
 	public static final Item block = null;
 	public CopperHoeItem(EarthPulsationModElements instance) {
-		super(instance, 21);
+		super(instance, 22);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new HoeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 95;
+				return 168;
 			}
 
 			public float getEfficiency() {
@@ -46,7 +46,7 @@ public class CopperHoeItem extends EarthPulsationModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(CopperIngotItem.block));
 			}
-		}, 0, -3f, new Item.Properties().group(EarthPulsationItemGroup.tab)) {
+		}, 0, -2f, new Item.Properties().group(EarthPulsationItemGroup.tab)) {
 		}.setRegistryName("copper_hoe"));
 	}
 }

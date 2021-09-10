@@ -1,0 +1,9 @@
+{
+    "name": "Earth Pulsation Instruction",
+    "landing_text": "Alternative to PDA.",
+    "filler_texture":"earth_pulsation:misc/ep_book_filler",
+    "book_texture":"earth_pulsation:misc/ep_book_gui",
+    "creative_tab":"earth_pulsation.earth_pulsation",
+    "model":"earth_pulsation:item/ep_book",
+    "version": 1
+}

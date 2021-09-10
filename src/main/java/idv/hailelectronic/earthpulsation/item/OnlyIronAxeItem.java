@@ -18,7 +18,7 @@ public class OnlyIronAxeItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:only_iron_axe")
 	public static final Item block = null;
 	public OnlyIronAxeItem(EarthPulsationModElements instance) {
-		super(instance, 49);
+		super(instance, 52);
 	}
 
 	@Override

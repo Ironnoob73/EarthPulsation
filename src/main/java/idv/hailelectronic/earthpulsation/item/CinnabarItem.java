@@ -16,7 +16,7 @@ public class CinnabarItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:cinnabar")
 	public static final Item block = null;
 	public CinnabarItem(EarthPulsationModElements instance) {
-		super(instance, 96);
+		super(instance, 99);
 	}
 
 	@Override

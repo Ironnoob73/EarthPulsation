@@ -17,14 +17,14 @@ public class CopperAxeItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:copper_axe")
 	public static final Item block = null;
 	public CopperAxeItem(EarthPulsationModElements instance) {
-		super(instance, 15);
+		super(instance, 16);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new AxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 95;
+				return 168;
 			}
 
 			public float getEfficiency() {
@@ -32,7 +32,7 @@ public class CopperAxeItem extends EarthPulsationModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return -1f;
+				return 7f;
 			}
 
 			public int getHarvestLevel() {
@@ -46,7 +46,7 @@ public class CopperAxeItem extends EarthPulsationModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(CopperIngotItem.block));
 			}
-		}, 1, -3f, new Item.Properties().group(EarthPulsationItemGroup.tab)) {
+		}, 1, -3.2f, new Item.Properties().group(EarthPulsationItemGroup.tab)) {
 		}.setRegistryName("copper_axe"));
 	}
 }

@@ -17,14 +17,14 @@ public class AluminumSwordItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:aluminum_sword")
 	public static final Item block = null;
 	public AluminumSwordItem(EarthPulsationModElements instance) {
-		super(instance, 33);
+		super(instance, 35);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 183;
+				return 290;
 			}
 
 			public float getEfficiency() {
@@ -32,7 +32,7 @@ public class AluminumSwordItem extends EarthPulsationModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 3f;
+				return 4f;
 			}
 
 			public int getHarvestLevel() {
@@ -46,7 +46,7 @@ public class AluminumSwordItem extends EarthPulsationModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(AluminumIngotItem.block));
 			}
-		}, 3, -3f, new Item.Properties().group(EarthPulsationItemGroup.tab)) {
+		}, 3, -2.4f, new Item.Properties().group(EarthPulsationItemGroup.tab)) {
 		}.setRegistryName("aluminum_sword"));
 	}
 }

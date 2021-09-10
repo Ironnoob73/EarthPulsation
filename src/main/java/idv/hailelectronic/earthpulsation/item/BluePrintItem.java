@@ -16,7 +16,7 @@ public class BluePrintItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:blue_print")
 	public static final Item block = null;
 	public BluePrintItem(EarthPulsationModElements instance) {
-		super(instance, 119);
+		super(instance, 123);
 	}
 
 	@Override

@@ -16,7 +16,7 @@ public class EmptyBluePrintItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:empty_blue_print")
 	public static final Item block = null;
 	public EmptyBluePrintItem(EarthPulsationModElements instance) {
-		super(instance, 118);
+		super(instance, 122);
 	}
 
 	@Override
