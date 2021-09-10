@@ -47,7 +47,7 @@ public class CopperOreBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:copper_ore")
 	public static final Block block = null;
 	public CopperOreBlock(EarthPulsationModElements instance) {
-		super(instance, 12);
+		super(instance, 13);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

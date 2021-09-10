@@ -17,7 +17,7 @@ public class CopperShovelItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:copper_shovel")
 	public static final Item block = null;
 	public CopperShovelItem(EarthPulsationModElements instance) {
-		super(instance, 20);
+		super(instance, 21);
 	}
 
 	@Override

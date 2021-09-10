@@ -16,7 +16,7 @@ public class PureObsidianIngotItem extends EarthPulsationModElements.ModElement 
 	@ObjectHolder("earth_pulsation:pure_obsidian_ingot")
 	public static final Item block = null;
 	public PureObsidianIngotItem(EarthPulsationModElements instance) {
-		super(instance, 161);
+		super(instance, 162);
 	}
 
 	@Override

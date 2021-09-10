@@ -1,0 +1,23 @@
+{
+    "name": "2.About Star Industry",
+    "icon": "minecraft:nether_star",
+    "category": "story",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Star Industry is a technology company with many monopoly patents. As its name suggests, it is the main force in space exploration. $(br)As many stars with rare resources have been discovered during space exploration, Star Industry has hundreds of millions of billions of resources, and has the world’s fastest spacecraft, strongest materials, and most powerful military."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Strength, it is rumored that no country can surpass it in strength. $(br) Star Industry has always kept all its discoveries secret and strictly protected their discoveries, which is why it is abnormal to announce the news about the Earth Pulsation. $(br) However, such a legendary company suddenly began to withdraw its scientific research groups and military forces from all over the world a few years ago. A large number of related buildings, personnel,"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "and facilities disappeared from people’s vision. Just like many mysteries it produced. So far, people don't even know who the actual person in charge of this company is, and all the existing staff have said that they have long been unable to contact the headquarters or any branches. $(br) According to the bank, the company has now declared bankruptcy and cancelled the related trademarks and patents. None of its performance is like a super company with large resources."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "However, for many companies of the same type, the disappearance of the star industry means the disappearance of various technical oppressions, which is a good thing from an objective point of view."
+        }
+    ]
+}

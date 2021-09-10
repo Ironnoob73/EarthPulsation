@@ -36,7 +36,7 @@ public class ForgingTableL1Block extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:forging_table_l_1")
 	public static final Block block = null;
 	public ForgingTableL1Block(EarthPulsationModElements instance) {
-		super(instance, 2);
+		super(instance, 3);
 	}
 
 	@Override

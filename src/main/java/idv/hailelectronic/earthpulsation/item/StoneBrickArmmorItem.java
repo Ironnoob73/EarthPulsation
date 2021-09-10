@@ -29,7 +29,7 @@ public class StoneBrickArmmorItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:stone_brick_armmor_boots")
 	public static final Item boots = null;
 	public StoneBrickArmmorItem(EarthPulsationModElements instance) {
-		super(instance, 121);
+		super(instance, 122);
 	}
 
 	@Override

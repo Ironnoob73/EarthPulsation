@@ -17,7 +17,7 @@ public class RuggedizedAluminumPickaxeItem extends EarthPulsationModElements.Mod
 	@ObjectHolder("earth_pulsation:ruggedized_aluminum_pickaxe")
 	public static final Item block = null;
 	public RuggedizedAluminumPickaxeItem(EarthPulsationModElements instance) {
-		super(instance, 39);
+		super(instance, 40);
 	}
 
 	@Override

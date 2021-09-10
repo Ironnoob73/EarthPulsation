@@ -1,9 +1,12 @@
 {
-    "name": "Earth Pulsation Instruction",
-    "landing_text": "Alternative to PDA.",
-    "filler_texture":"earth_pulsation:misc/ep_book_filler",
-    "book_texture":"earth_pulsation:misc/ep_book_gui",
-    "creative_tab":"earth_pulsation.earth_pulsation",
+    "name": "§b地蕴指导手册",
+    "landing_text": "终端的官方指定替代品！$(br)The official alternative to the PDA!",
+    "filler_texture":"earth_pulsation:textures/misc/ep_book_filler.png",
+    "book_texture":"earth_pulsation:textures/misc/ep_book_gui.png",
     "model":"earth_pulsation:item/ep_book",
-    "version": 1
+    "progress_bar_color":"007FFF", 
+    "progress_bar_background":"404040", 
+    "index_icon":"earth_pulsation:textures/misc/ep_book_contents.png",
+    "subtitle": "§3Earth Pulsation Instruction",
+    "creative_tab":"NONE"
 }

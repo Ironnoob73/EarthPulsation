@@ -23,7 +23,7 @@ public class RustyIronSwordItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:rusty_iron_sword")
 	public static final Item block = null;
 	public RustyIronSwordItem(EarthPulsationModElements instance) {
-		super(instance, 104);
+		super(instance, 105);
 	}
 
 	@Override

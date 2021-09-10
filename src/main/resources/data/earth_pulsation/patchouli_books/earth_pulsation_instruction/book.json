@@ -1,12 +1,12 @@
 {
-    "name": "地蕴指导手册",
+    "name": "§b地蕴指导手册",
     "landing_text": "终端的官方指定替代品！$(br)The official alternative to the PDA!",
     "filler_texture":"earth_pulsation:textures/misc/ep_book_filler.png",
     "book_texture":"earth_pulsation:textures/misc/ep_book_gui.png",
-    "creative_tab":"earth_pulsation:EarthPulsation",
-    "model":"earth_pulsation:ep_book",
+    "model":"earth_pulsation:item/ep_book",
     "progress_bar_color":"007FFF", 
     "progress_bar_background":"404040", 
     "index_icon":"earth_pulsation:textures/misc/ep_book_contents.png",
-    "subtitle": "Earth Pulsation Instruction"
+    "subtitle": "§3Earth Pulsation Instruction",
+    "creative_tab":"NONE"
 }

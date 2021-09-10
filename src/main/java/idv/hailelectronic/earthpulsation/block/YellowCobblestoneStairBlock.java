@@ -30,7 +30,7 @@ public class YellowCobblestoneStairBlock extends EarthPulsationModElements.ModEl
 	@ObjectHolder("earth_pulsation:yellow_cobblestone_stair")
 	public static final Block block = null;
 	public YellowCobblestoneStairBlock(EarthPulsationModElements instance) {
-		super(instance, 128);
+		super(instance, 129);
 	}
 
 	@Override

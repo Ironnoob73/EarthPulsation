@@ -18,7 +18,7 @@ public class OnlyIronHoeItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:only_iron_hoe")
 	public static final Item block = null;
 	public OnlyIronHoeItem(EarthPulsationModElements instance) {
-		super(instance, 55);
+		super(instance, 56);
 	}
 
 	@Override

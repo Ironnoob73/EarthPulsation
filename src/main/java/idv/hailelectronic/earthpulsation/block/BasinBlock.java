@@ -73,7 +73,7 @@ public class BasinBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:basin")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public BasinBlock(EarthPulsationModElements instance) {
-		super(instance, 7);
+		super(instance, 8);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

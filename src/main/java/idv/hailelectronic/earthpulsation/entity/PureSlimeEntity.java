@@ -56,7 +56,7 @@ public class PureSlimeEntity extends EarthPulsationModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(1f, 1f))
 					.build("pure_slime").setRegistryName("pure_slime");
 	public PureSlimeEntity(EarthPulsationModElements instance) {
-		super(instance, 177);
+		super(instance, 178);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PureSlimeRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

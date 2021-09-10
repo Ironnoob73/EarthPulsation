@@ -16,7 +16,7 @@ public class StoneIngotItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:stone_ingot")
 	public static final Item block = null;
 	public StoneIngotItem(EarthPulsationModElements instance) {
-		super(instance, 115);
+		super(instance, 116);
 	}
 
 	@Override

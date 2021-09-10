@@ -18,7 +18,7 @@ public class OnlyIronShovelItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:only_iron_shovel")
 	public static final Item block = null;
 	public OnlyIronShovelItem(EarthPulsationModElements instance) {
-		super(instance, 54);
+		super(instance, 55);
 	}
 
 	@Override

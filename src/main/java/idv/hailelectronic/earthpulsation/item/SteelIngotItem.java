@@ -16,7 +16,7 @@ public class SteelIngotItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:steel_ingot")
 	public static final Item block = null;
 	public SteelIngotItem(EarthPulsationModElements instance) {
-		super(instance, 62);
+		super(instance, 63);
 	}
 
 	@Override

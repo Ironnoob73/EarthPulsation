@@ -1,0 +1,16 @@
+{
+  "group": "earth_pulsation",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "earth_pulsation:empty_blue_print"
+    }
+  ],
+  "result": {
+    "item": "earth_pulsation:ep_book",
+    "count": 1
+  }
+}

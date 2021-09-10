@@ -16,7 +16,7 @@ public class TurbidObsidianNuggetItem extends EarthPulsationModElements.ModEleme
 	@ObjectHolder("earth_pulsation:turbid_obsidian_nugget")
 	public static final Item block = null;
 	public TurbidObsidianNuggetItem(EarthPulsationModElements instance) {
-		super(instance, 158);
+		super(instance, 159);
 	}
 
 	@Override

@@ -26,7 +26,7 @@ public class SilverBlockBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:silver_block")
 	public static final Block block = null;
 	public SilverBlockBlock(EarthPulsationModElements instance) {
-		super(instance, 88);
+		super(instance, 89);
 	}
 
 	@Override

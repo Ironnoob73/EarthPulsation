@@ -16,7 +16,7 @@ public class SilverDustItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:silver_dust")
 	public static final Item block = null;
 	public SilverDustItem(EarthPulsationModElements instance) {
-		super(instance, 86);
+		super(instance, 87);
 	}
 
 	@Override

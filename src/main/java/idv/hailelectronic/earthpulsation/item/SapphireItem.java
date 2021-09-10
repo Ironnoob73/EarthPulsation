@@ -16,7 +16,7 @@ public class SapphireItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:sapphire")
 	public static final Item block = null;
 	public SapphireItem(EarthPulsationModElements instance) {
-		super(instance, 93);
+		super(instance, 94);
 	}
 
 	@Override

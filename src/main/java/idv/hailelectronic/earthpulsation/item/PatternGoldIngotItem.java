@@ -16,7 +16,7 @@ public class PatternGoldIngotItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:pattern_gold_ingot")
 	public static final Item block = null;
 	public PatternGoldIngotItem(EarthPulsationModElements instance) {
-		super(instance, 156);
+		super(instance, 157);
 	}
 
 	@Override
