@@ -71,7 +71,7 @@ public class PureSlimeEntity extends EarthPulsationModElements.ModElement {
 
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(EntityClassification.CREATURE).add(new MobSpawnInfo.Spawners(entity, 20, 4, 4));
+		event.getSpawns().getSpawner(EntityClassification.CREATURE).add(new MobSpawnInfo.Spawners(entity, 20, 1, 4));
 	}
 
 	@Override
@@ -144,9 +144,9 @@ public class PureSlimeEntity extends EarthPulsationModElements.ModElement {
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
-			this.goalSelector.addGoal(1, new RandomWalkingGoal(this, 0.6));
-			this.goalSelector.addGoal(2, new LeapAtTargetGoal(this, (float) 0.6));
-			this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 0.6, false));
+			this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1, true));
+			this.goalSelector.addGoal(2, new RandomWalkingGoal(this, 1));
+			this.goalSelector.addGoal(3, new LeapAtTargetGoal(this, (float) 0.6));
 			this.targetSelector.addGoal(4, new HurtByTargetGoal(this).setCallsForHelp(this.getClass()));
 			this.goalSelector.addGoal(5, new LookRandomlyGoal(this));
 			this.goalSelector.addGoal(6, new SwimGoal(this));

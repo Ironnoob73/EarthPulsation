@@ -1,0 +1,23 @@
+{
+    "name": "1.About Earth Pulsation",
+    "icon": "minecraft:writable_book",
+    "category": "story",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "What is Earth Pulsation? People have had different opinions about it since the day it was discovered. As there was no previous documentary record, all exploration seemed purposeless at first. $(br) Initially, the concept of Earth Pulsation was discovered and named by Star Industry. During a field exploration, they accidentally discovered a strange kind of obelisk. "
+        },
+        {
+            "type": "patchouli:text",
+            "text": "The obelisk is carved from a certain kind of stone, and this kind of stone is seen in appearance. It is not any type of natural stone currently known, and the sampling work also failed, because they found that no tool could carve any traces on it.After studying the inscription carefully, the researcher of Star Industry believes that the obelisk comes from an ancient civilization, but apart from the obelisk, there are no traces of valuable human activities around,"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "which caused the traceability work to be forced to stop. Later, Star Industry announced abnormally all the information about the obelisk, and hoped that other scientific research organizations from the society would conduct research on it. $(br) Since the discovery of this obelisk, many similar obelisks have been discovered around the world. There is also no indication of how these obelisks were produced or what kind of civilization they are products."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Some people even guess that these obelisks are It came from another world because of the cracks in time and space. At first no one believed this view, but subsequent discoveries proved that this conjecture was correct."
+        }
+    ]
+}

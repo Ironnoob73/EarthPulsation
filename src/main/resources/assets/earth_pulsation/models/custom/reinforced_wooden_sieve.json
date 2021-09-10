@@ -1,6 +1,6 @@
 {
   "credit": "Made with Blockbench",
-  "parent": "tfw:block/machine_display",
+  "parent": "minecraft:block/block",
   "ambientocclusion": false,
   "elements": [
     {

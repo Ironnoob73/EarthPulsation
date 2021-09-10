@@ -4,11 +4,15 @@ license="MIT License"
 
 [[mods]]
 modId="earth_pulsation"
-version="1.0.0"
+version="0.0.5"
 displayName="Earth pulsation"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
+displayURL="Github:https://github.com/Ironnoob73/"
+logoFile="logo.png"
 authors="Iron_noob_73, MCreator"
+description='''
+An in production forge mod made with MCreator.
+'''
 
 [[dependencies.earth_pulsation]]
     modId="minecraft"
