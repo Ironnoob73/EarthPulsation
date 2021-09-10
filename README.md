@@ -9,6 +9,7 @@ An in production forge mod made with MCreator.
 如果可能（前提是fabric工作区搭建变得稳定而不是一直报null），我会把这个mod转移到fabric进行开发。  
   
 另：MCR的远程工作区模块非常迷惑，以至于该仓库实际上是在VSCode的辅助下才建立起来的......
+*很显然，正因vscode没法识别mcr的工作区，我在向仓库提交代码时把很多不该提交的东西比如测试时生成的调试文件推过来了，尽管进行了一些调整，但肯定还残存着一些，如果你看到了这些根本没必要推过来的冗余文件，告诉我一声（通过issue），我会把它们给清理掉。*
 >### 工作区指路
 >Github:https://github.com/Ironnoob73/EarthPulsation  
 >Gitee:https://gitee.com/ironnoob73/EarthPulsation
