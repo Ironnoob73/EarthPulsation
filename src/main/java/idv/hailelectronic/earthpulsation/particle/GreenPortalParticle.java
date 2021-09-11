@@ -34,40 +34,28 @@ public class GreenPortalParticle {
 	@OnlyIn(Dist.CLIENT)
 	private static class CustomParticle extends SpriteTexturedParticle {
 		private final IAnimatedSprite spriteSet;
-		private float angularVelocity;
-		private float angularAcceleration;
 		protected CustomParticle(ClientWorld world, double x, double y, double z, double vx, double vy, double vz, IAnimatedSprite spriteSet) {
 			super(world, x, y, z);
 			this.spriteSet = spriteSet;
 			this.setSize((float) 0.2, (float) 0.2);
 			this.particleScale *= (float) 1;
-			this.maxAge = 7;
+			this.maxAge = (int) Math.max(1, 30 + (this.rand.nextInt(20) - 10));
 			this.particleGravity = (float) 0;
 			this.canCollide = true;
-			this.motionX = vx * 0.1;
-			this.motionY = vy * 0.1;
-			this.motionZ = vz * 0.1;
-			this.angularVelocity = (float) 0.2;
-			this.angularAcceleration = (float) 0.4;
+			this.motionX = vx * 0.5;
+			this.motionY = vy * 0.5;
+			this.motionZ = vz * 0.5;
 			this.selectSpriteWithAge(spriteSet);
 		}
 
 		@Override
-		public int getBrightnessForRender(float partialTick) {
-			return 15728880;
-		}
-
-		@Override
 		public IParticleRenderType getRenderType() {
-			return IParticleRenderType.PARTICLE_SHEET_LIT;
+			return IParticleRenderType.PARTICLE_SHEET_TRANSLUCENT;
 		}
 
 		@Override
 		public void tick() {
 			super.tick();
-			this.prevParticleAngle = this.particleAngle;
-			this.particleAngle += this.angularVelocity;
-			this.angularVelocity += this.angularAcceleration;
 			if (!this.isExpired) {
 				this.setSprite(this.spriteSet.get((this.age / 5) % 7 + 1, 7));
 			}

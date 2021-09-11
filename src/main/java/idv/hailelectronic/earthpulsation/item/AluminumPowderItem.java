@@ -16,7 +16,7 @@ public class AluminumPowderItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:aluminum_powder")
 	public static final Item block = null;
 	public AluminumPowderItem(EarthPulsationModElements instance) {
-		super(instance, 31);
+		super(instance, 32);
 	}
 
 	@Override

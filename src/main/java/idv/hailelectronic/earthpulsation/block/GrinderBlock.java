@@ -66,7 +66,7 @@ public class GrinderBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:grinder")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public GrinderBlock(EarthPulsationModElements instance) {
-		super(instance, 5);
+		super(instance, 6);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

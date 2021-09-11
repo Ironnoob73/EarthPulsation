@@ -168,15 +168,15 @@
       {
         "type": "label",
         "data": {
-          "text": "0/10",
+          "text": "<BNBT:text:Progress>",
           "color": {
             "value": -10066330,
             "falpha": 0.0
           },
           "displayCondition": {
-            "name": "P0"
+            "name": "POn"
           },
-          "name": "0/10",
+          "name": "<BNBT:text:Progress>",
           "x": 211,
           "y": 91
         }
@@ -184,145 +184,27 @@
       {
         "type": "label",
         "data": {
-          "text": "1/10",
+          "text": "<BNBT:number:craftingProgress>",
           "color": {
-            "value": -10066330,
+            "value": -3355444,
             "falpha": 0.0
           },
-          "displayCondition": {
-            "name": "P1"
-          },
-          "name": "1/10",
-          "x": 211,
-          "y": 91
+          "name": "<BNBT:number:craftingProgress>",
+          "x": 129,
+          "y": 98
         }
       },
       {
         "type": "label",
         "data": {
-          "text": "2/10",
+          "text": "<BNBT:number:craftingTime>",
           "color": {
-            "value": -10066330,
+            "value": -3355444,
             "falpha": 0.0
           },
-          "displayCondition": {
-            "name": "P2"
-          },
-          "name": "2/10",
-          "x": 211,
-          "y": 91
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "3/10",
-          "color": {
-            "value": -10066330,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "P3"
-          },
-          "name": "3/10",
-          "x": 211,
-          "y": 91
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "4/10",
-          "color": {
-            "value": -10066330,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "P4"
-          },
-          "name": "4/10",
-          "x": 211,
-          "y": 91
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "5/10",
-          "color": {
-            "value": -10066330,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "P5"
-          },
-          "name": "5/10",
-          "x": 211,
-          "y": 91
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "6/10",
-          "color": {
-            "value": -10066330,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "P6"
-          },
-          "name": "6/10",
-          "x": 211,
-          "y": 91
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "7/10",
-          "color": {
-            "value": -10066330,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "P7"
-          },
-          "name": "7/10",
-          "x": 211,
-          "y": 91
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "8/10",
-          "color": {
-            "value": -10066330,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "P8"
-          },
-          "name": "8/10",
-          "x": 211,
-          "y": 91
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "9/10",
-          "color": {
-            "value": -10066330,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "P9"
-          },
-          "name": "9/10",
-          "x": 211,
-          "y": 91
+          "name": "<BNBT:number:craftingTime>",
+          "x": 129,
+          "y": 90
         }
       }
     ],

@@ -16,7 +16,7 @@ public class LeadPlateItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:lead_plate")
 	public static final Item block = null;
 	public LeadPlateItem(EarthPulsationModElements instance) {
-		super(instance, 74);
+		super(instance, 75);
 	}
 
 	@Override

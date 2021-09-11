@@ -16,7 +16,7 @@ public class TinIngotItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:tin_ingot")
 	public static final Item block = null;
 	public TinIngotItem(EarthPulsationModElements instance) {
-		super(instance, 78);
+		super(instance, 79);
 	}
 
 	@Override

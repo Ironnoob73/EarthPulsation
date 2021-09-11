@@ -47,7 +47,7 @@ public class TinOreBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:tin_ore")
 	public static final Block block = null;
 	public TinOreBlock(EarthPulsationModElements instance) {
-		super(instance, 82);
+		super(instance, 83);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

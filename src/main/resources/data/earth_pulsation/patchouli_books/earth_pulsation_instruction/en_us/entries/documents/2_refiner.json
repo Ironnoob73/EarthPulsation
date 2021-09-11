@@ -1,0 +1,21 @@
+{
+    "name": "B2.Refiner",
+    "icon": "earth_pulsation:refiner_lit",
+    "category": "documents",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title":"2.Refiner",
+            "item":"earth_pulsation:refiner_lit",
+            "text": "Refiner is a fuel-driven block. You can think of it as a furnace with two input slots and two output slots, but it cannot use furnace recipes. Unlike the furnace, it only consumes one fuel each time, and the time required for each recipe is different. In addition, it requires unique fuel, such as honeycomb."
+        },
+        {
+            "type": "refiner",
+            "input0":"minecraft:rotten_flesh",
+            "input1":"minecraft:air",
+            "output3":"minecraft:leather",
+            "output4":"minecraft:air",
+            "text":"This is an example of a recipe! Of course, you can indeed obtain leather by refining rotten flesh. By the way, who first thought of the idea of using rotten flesh to make leather?"
+        }
+    ]
+}

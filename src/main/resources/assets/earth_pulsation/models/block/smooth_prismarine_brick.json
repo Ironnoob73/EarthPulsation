@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "earth_pulsation:blocks/prismarine_bricks_smooth",
+    "particle": "earth_pulsation:blocks/prismarine_bricks_smooth"
+  }
+}

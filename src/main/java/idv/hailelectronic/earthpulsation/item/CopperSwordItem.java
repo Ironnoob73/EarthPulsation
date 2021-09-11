@@ -17,7 +17,7 @@ public class CopperSwordItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:copper_sword")
 	public static final Item block = null;
 	public CopperSwordItem(EarthPulsationModElements instance) {
-		super(instance, 19);
+		super(instance, 20);
 	}
 
 	@Override

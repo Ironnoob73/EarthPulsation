@@ -17,7 +17,7 @@ public class AluminumAxeItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:aluminum_axe")
 	public static final Item block = null;
 	public AluminumAxeItem(EarthPulsationModElements instance) {
-		super(instance, 35);
+		super(instance, 36);
 	}
 
 	@Override

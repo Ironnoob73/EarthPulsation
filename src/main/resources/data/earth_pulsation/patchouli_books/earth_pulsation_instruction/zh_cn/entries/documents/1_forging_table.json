@@ -1,0 +1,13 @@
+{
+    "name": "B1.锻造台",
+    "icon": "earth_pulsation:forging_table_l_1",
+    "category": "documents",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title":"1.锻造台",
+            "item":"earth_pulsation:forging_table_l_1",
+            "text": "锻造台是一组类似于工作台的方块，它被用于制作比较复杂的物品。锻造台有多个等级，等级越高其格子越多，越能制造更复杂的物品。"
+        }
+    ]
+}

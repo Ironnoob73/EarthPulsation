@@ -17,7 +17,7 @@ public class ObsidianShovelItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:obsidian_shovel")
 	public static final Item block = null;
 	public ObsidianShovelItem(EarthPulsationModElements instance) {
-		super(instance, 168);
+		super(instance, 171);
 	}
 
 	@Override

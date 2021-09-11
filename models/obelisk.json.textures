@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "yellow_cobblestone",
+        "2": "yellow_stone",
+        "3": "yellow_stonebrick"
+      },
+      "name": "default"
+    }
+  }
+}

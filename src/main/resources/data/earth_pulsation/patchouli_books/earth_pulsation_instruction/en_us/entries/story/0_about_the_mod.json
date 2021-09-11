@@ -1,0 +1,17 @@
+{
+    "name": "A0.About the mod",
+    "icon": "earth_pulsation:ep_book",
+    "category": "story",
+    "pages": [
+        {
+            "type": "logo",
+            "title":"About the mod",
+            "logo":"earth_pulsation:textures/logo.png",
+            "text": "Thank you for playing this mod! This is a mod about Earth Pulsation-a brand new world view and its related settings, adding a large number of items, tools, and a whole new dimension. $(br) This mod is made using MCR, so there may be many shortcomings. If you have any comments or suggestions, please submit them on github or gitee!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "This mod now supports Chinese (basic language), English (Google Translate), and Classical Chinese (Baidu Translate) (to support the zh_meme version). Due to the large reliance on machine translation, there are translation problems. If you find any problems, please feel free to provide feedback in time! $(br) This mod is open source and released in accordance with the MIT agreement.$(br)$(l:https://github.com/Ironnoob73/EarthPulsation)GitHub:https://github.com/Ironnoob73/EarthPulsation$(/l)$(br)$(l:https://gitee.com/ironnoob73/EarthPulsation)Gitee:https://gitee.com/ironnoob73/EarthPulsation$(/l)$(br2)By Iron_noob_73"
+        }
+    ]
+}

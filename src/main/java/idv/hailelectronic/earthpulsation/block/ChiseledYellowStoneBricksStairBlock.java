@@ -30,7 +30,7 @@ public class ChiseledYellowStoneBricksStairBlock extends EarthPulsationModElemen
 	@ObjectHolder("earth_pulsation:chiseled_yellow_stone_bricks_stair")
 	public static final Block block = null;
 	public ChiseledYellowStoneBricksStairBlock(EarthPulsationModElements instance) {
-		super(instance, 133);
+		super(instance, 135);
 	}
 
 	@Override

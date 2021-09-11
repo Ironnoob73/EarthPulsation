@@ -6,7 +6,9 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
 import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.tileentity.TileEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.gui.screen.inventory.ContainerScreen;
@@ -16,19 +18,9 @@ import java.util.HashMap;
 
 import idv.hailelectronic.earthpulsation.procedures.POnProcedure;
 import idv.hailelectronic.earthpulsation.procedures.POffProcedure;
-import idv.hailelectronic.earthpulsation.procedures.P9Procedure;
-import idv.hailelectronic.earthpulsation.procedures.P8Procedure;
-import idv.hailelectronic.earthpulsation.procedures.P7Procedure;
 import idv.hailelectronic.earthpulsation.procedures.P75zProcedure;
-import idv.hailelectronic.earthpulsation.procedures.P6Procedure;
-import idv.hailelectronic.earthpulsation.procedures.P5Procedure;
 import idv.hailelectronic.earthpulsation.procedures.P50zProcedure;
-import idv.hailelectronic.earthpulsation.procedures.P4Procedure;
-import idv.hailelectronic.earthpulsation.procedures.P3Procedure;
-import idv.hailelectronic.earthpulsation.procedures.P2Procedure;
 import idv.hailelectronic.earthpulsation.procedures.P25zProcedure;
-import idv.hailelectronic.earthpulsation.procedures.P1Procedure;
-import idv.hailelectronic.earthpulsation.procedures.P0Procedure;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.matrix.MatrixStack;
@@ -104,26 +96,31 @@ public class RefinerGuiGuiWindow extends ContainerScreen<RefinerGuiGui.GuiContai
 		this.font.drawString(ms, "Refiner", 70, 7, -6737152);
 		if (POffProcedure.executeProcedure(ImmutableMap.of("x", x, "y", y, "z", z, "world", world)))
 			this.font.drawString(ms, "Stop", 85, 54, -6710887);
-		if (P0Procedure.executeProcedure(ImmutableMap.of("x", x, "y", y, "z", z, "world", world)))
-			this.font.drawString(ms, "0/10", 85, 54, -10066330);
-		if (P1Procedure.executeProcedure(ImmutableMap.of("x", x, "y", y, "z", z, "world", world)))
-			this.font.drawString(ms, "1/10", 85, 54, -10066330);
-		if (P2Procedure.executeProcedure(ImmutableMap.of("x", x, "y", y, "z", z, "world", world)))
-			this.font.drawString(ms, "2/10", 85, 54, -10066330);
-		if (P3Procedure.executeProcedure(ImmutableMap.of("x", x, "y", y, "z", z, "world", world)))
-			this.font.drawString(ms, "3/10", 85, 54, -10066330);
-		if (P4Procedure.executeProcedure(ImmutableMap.of("x", x, "y", y, "z", z, "world", world)))
-			this.font.drawString(ms, "4/10", 85, 54, -10066330);
-		if (P5Procedure.executeProcedure(ImmutableMap.of("x", x, "y", y, "z", z, "world", world)))
-			this.font.drawString(ms, "5/10", 85, 54, -10066330);
-		if (P6Procedure.executeProcedure(ImmutableMap.of("x", x, "y", y, "z", z, "world", world)))
-			this.font.drawString(ms, "6/10", 85, 54, -10066330);
-		if (P7Procedure.executeProcedure(ImmutableMap.of("x", x, "y", y, "z", z, "world", world)))
-			this.font.drawString(ms, "7/10", 85, 54, -10066330);
-		if (P8Procedure.executeProcedure(ImmutableMap.of("x", x, "y", y, "z", z, "world", world)))
-			this.font.drawString(ms, "8/10", 85, 54, -10066330);
-		if (P9Procedure.executeProcedure(ImmutableMap.of("x", x, "y", y, "z", z, "world", world)))
-			this.font.drawString(ms, "9/10", 85, 54, -10066330);
+		if (POnProcedure.executeProcedure(ImmutableMap.of("x", x, "y", y, "z", z, "world", world)))
+			this.font.drawString(ms, "" + (new Object() {
+				public String getValue(BlockPos pos, String tag) {
+					TileEntity tileEntity = world.getTileEntity(pos);
+					if (tileEntity != null)
+						return tileEntity.getTileData().getString(tag);
+					return "";
+				}
+			}.getValue(new BlockPos((int) x, (int) y, (int) z), "Progress")) + "", 85, 54, -10066330);
+		this.font.drawString(ms, "" + (new Object() {
+			public double getValue(BlockPos pos, String tag) {
+				TileEntity tileEntity = world.getTileEntity(pos);
+				if (tileEntity != null)
+					return tileEntity.getTileData().getDouble(tag);
+				return 0;
+			}
+		}.getValue(new BlockPos((int) x, (int) y, (int) z), "craftingProgress")) + "", 3, 61, -3355444);
+		this.font.drawString(ms, "" + (new Object() {
+			public double getValue(BlockPos pos, String tag) {
+				TileEntity tileEntity = world.getTileEntity(pos);
+				if (tileEntity != null)
+					return tileEntity.getTileData().getDouble(tag);
+				return 0;
+			}
+		}.getValue(new BlockPos((int) x, (int) y, (int) z), "craftingTime")) + "", 3, 53, -3355444);
 	}
 
 	@Override

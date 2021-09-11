@@ -38,7 +38,7 @@ public class CastIronBlockBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:cast_iron_block")
 	public static final Block block = null;
 	public CastIronBlockBlock(EarthPulsationModElements instance) {
-		super(instance, 154);
+		super(instance, 157);
 	}
 
 	@Override

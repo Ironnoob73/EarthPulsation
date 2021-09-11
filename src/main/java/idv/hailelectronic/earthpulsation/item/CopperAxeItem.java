@@ -17,7 +17,7 @@ public class CopperAxeItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:copper_axe")
 	public static final Item block = null;
 	public CopperAxeItem(EarthPulsationModElements instance) {
-		super(instance, 17);
+		super(instance, 18);
 	}
 
 	@Override

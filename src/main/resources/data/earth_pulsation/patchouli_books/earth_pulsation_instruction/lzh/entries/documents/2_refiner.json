@@ -1,0 +1,21 @@
+{
+    "name": "B2.约机(?)",
+    "icon": "earth_pulsation:refiner_lit",
+    "category": "documents",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title":"2.约机",
+            "item":"earth_pulsation:refiner_lit",
+            "text": "约机，一须火料驱之方块，汝可将其视为一万两入栏与二出栏之炉，然其不用炉之方。与炉不同，每作仅耗一个火料，每一大造所需之时所异也。别，其须别之火料，譬如蜜脾。"
+        },
+        {
+            "type": "refiner",
+            "input0":"minecraft:rotten_flesh",
+            "input1":"minecraft:air",
+            "output3":"minecraft:leather",
+            "output4":"minecraft:air",
+            "text":"此一方之示例！然汝诚可以炼以成皮？。话说谁初念之以为革之谋？？"
+        }
+    ]
+}

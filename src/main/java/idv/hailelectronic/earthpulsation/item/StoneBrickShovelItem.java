@@ -17,7 +17,7 @@ public class StoneBrickShovelItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:stone_brick_shovel")
 	public static final Item block = null;
 	public StoneBrickShovelItem(EarthPulsationModElements instance) {
-		super(instance, 120);
+		super(instance, 121);
 	}
 
 	@Override

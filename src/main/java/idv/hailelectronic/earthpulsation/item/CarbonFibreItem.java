@@ -16,7 +16,7 @@ public class CarbonFibreItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:carbon_fibre")
 	public static final Item block = null;
 	public CarbonFibreItem(EarthPulsationModElements instance) {
-		super(instance, 57);
+		super(instance, 58);
 	}
 
 	@Override

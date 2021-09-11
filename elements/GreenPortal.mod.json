@@ -8,14 +8,14 @@
     "width": 0.2,
     "height": 0.2,
     "scale": 1.0,
-    "speedFactor": 0.1,
+    "speedFactor": 0.5,
     "gravity": 0.0,
-    "maxAge": 7,
-    "maxAgeDiff": 0,
-    "angularVelocity": 0.2,
-    "angularAcceleration": 0.4,
+    "maxAge": 30,
+    "maxAgeDiff": 10,
+    "angularVelocity": 0.0,
+    "angularAcceleration": 0.0,
     "canCollide": true,
     "alwaysShow": true,
-    "renderType": "LIT"
+    "renderType": "TRANSLUCENT"
   }
 }

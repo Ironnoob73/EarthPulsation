@@ -1,0 +1,58 @@
+{
+    "components": [
+      {
+        "type": "item",
+        "x": 10,
+        "y": 10,
+        "item": "#input0",
+        "framed": true
+      },
+      {
+        "type": "item",
+        "x": 35,
+        "y": 10,
+        "item": "#input1",
+        "framed": true
+      },
+      {
+        "type": "item",
+        "x": 90,
+        "y": 10,
+        "item": "#output3",
+        "framed": true
+      },
+      {
+        "type": "item",
+        "x": 90,
+        "y": 35,
+        "item": "#output4",
+        "framed": true
+      },
+      {
+        "type": "image",
+        "image": "earth_pulsation:textures/misc/fuel.png",
+        "x": 20,
+        "y": 30,
+        "width": 20,
+        "height": 20,
+        "texture_width": "20",
+        "texture_height": "20"
+      },
+      {
+        "type": "image",
+        "image": "earth_pulsation:textures/misc/arrow.png",
+        "x": 60,
+        "y": 20,
+        "width": 20,
+        "height": 20,
+        "texture_width": "20",
+        "texture_height": "20"
+      },
+      {
+        "type": "text",
+        "x": 0,
+        "y": 55,
+        "text": "#text"
+      }
+    ]
+  }

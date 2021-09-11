@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "chiseled_iron_box_bottom",
+    "texture": "forging_table_l1_bottom",
     "textureTop": "forging_table_l1_top",
     "textureLeft": "forging_table_l1_side",
     "textureFront": "forging_table_l1_side",

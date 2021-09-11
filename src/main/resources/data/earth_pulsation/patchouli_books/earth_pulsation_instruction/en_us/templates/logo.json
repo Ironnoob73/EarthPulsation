@@ -1,0 +1,26 @@
+{
+    "components": [
+        {
+            "type": "header",
+            "x": -1,
+            "y": -1,
+            "text": "#title"
+        },
+        {
+            "type": "image",
+            "image": "#logo",
+            "x": 0,
+            "y": 10,
+            "width": 120,
+            "height": 60,
+            "texture_width": "120",
+            "texture_height": "60"
+        },
+        {
+            "type": "text",
+            "x": 0,
+            "y": 70,
+            "text": "#text"
+        }
+    ]
+}

@@ -16,7 +16,7 @@ public class CarbonStickItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:carbon_stick")
 	public static final Item block = null;
 	public CarbonStickItem(EarthPulsationModElements instance) {
-		super(instance, 60);
+		super(instance, 61);
 	}
 
 	@Override

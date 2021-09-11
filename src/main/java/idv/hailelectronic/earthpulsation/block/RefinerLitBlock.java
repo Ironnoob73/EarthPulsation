@@ -79,7 +79,7 @@ public class RefinerLitBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:refiner_lit")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public RefinerLitBlock(EarthPulsationModElements instance) {
-		super(instance, 4);
+		super(instance, 5);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

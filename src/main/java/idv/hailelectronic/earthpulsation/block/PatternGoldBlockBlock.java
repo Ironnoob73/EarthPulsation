@@ -38,7 +38,7 @@ public class PatternGoldBlockBlock extends EarthPulsationModElements.ModElement 
 	@ObjectHolder("earth_pulsation:pattern_gold_block")
 	public static final Block block = null;
 	public PatternGoldBlockBlock(EarthPulsationModElements instance) {
-		super(instance, 158);
+		super(instance, 161);
 	}
 
 	@Override
