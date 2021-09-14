@@ -27,7 +27,7 @@ public class IceBirchButtonBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:ice_birch_button")
 	public static final Block block = null;
 	public IceBirchButtonBlock(EarthPulsationModElements instance) {
-		super(instance, 151);
+		super(instance, 163);
 	}
 
 	@Override

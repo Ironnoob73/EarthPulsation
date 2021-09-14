@@ -20,6 +20,20 @@
         "inner": "pattern_gold_block_inner"
       },
       "name": "gold"
+    },
+    "silver": {
+      "map": {
+        "1": "alchemical_silver_block",
+        "inner": "alchemical_silver_block_inner"
+      },
+      "name": "silver"
+    },
+    "copper": {
+      "map": {
+        "1": "tough_copper_block",
+        "inner": "tough_copper_block_inner"
+      },
+      "name": "copper"
     }
   }
 }

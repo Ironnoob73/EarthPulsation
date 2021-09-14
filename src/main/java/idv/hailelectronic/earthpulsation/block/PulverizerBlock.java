@@ -30,7 +30,7 @@ public class PulverizerBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:pulverizer")
 	public static final Block block = null;
 	public PulverizerBlock(EarthPulsationModElements instance) {
-		super(instance, 7);
+		super(instance, 8);
 	}
 
 	@Override

@@ -11,6 +11,9 @@
     "blocks": [
       {
         "value": "CUSTOM:Icesand"
+      },
+      {
+        "value": "CUSTOM:BlazingDirt"
       }
     ],
     "functions": [],

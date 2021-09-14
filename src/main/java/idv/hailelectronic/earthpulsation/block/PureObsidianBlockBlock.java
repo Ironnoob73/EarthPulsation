@@ -33,7 +33,7 @@ public class PureObsidianBlockBlock extends EarthPulsationModElements.ModElement
 	@ObjectHolder("earth_pulsation:pure_obsidian_block")
 	public static final Block block = null;
 	public PureObsidianBlockBlock(EarthPulsationModElements instance) {
-		super(instance, 167);
+		super(instance, 196);
 	}
 
 	@Override

@@ -26,7 +26,7 @@ public class CopperBlockBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:copper_block")
 	public static final Block block = null;
 	public CopperBlockBlock(EarthPulsationModElements instance) {
-		super(instance, 15);
+		super(instance, 16);
 	}
 
 	@Override

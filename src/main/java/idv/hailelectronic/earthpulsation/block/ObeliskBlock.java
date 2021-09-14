@@ -95,7 +95,7 @@ public class ObeliskBlock extends EarthPulsationModElements.ModElement {
 		@Override
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
 			Vector3d offset = state.getOffset(world, pos);
-			return VoxelShapes.or(makeCuboidShape(0, 0, 0, 16, 16, 16), makeCuboidShape(2, 16, 2, 14, 32, 14)).withOffset(offset.x, offset.y,
+			return VoxelShapes.or(makeCuboidShape(0, 0, 0, 16, 14, 16), makeCuboidShape(2, 14, 2, 14, 32, 14)).withOffset(offset.x, offset.y,
 					offset.z);
 		}
 

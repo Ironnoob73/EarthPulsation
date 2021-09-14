@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "earth_pulsation:copper_cube",
+    "earth_pulsation:ruby",
+    "earth_pulsation:sapphire",
+    "earth_pulsation:topaz",
+    "earth_pulsation:aluminum_cube",
+    "earth_pulsation:iron_cube",
+    "earth_pulsation:steel_ingot",
+    "earth_pulsation:gold_cube",
+    "earth_pulsation:lead_ingot",
+    "earth_pulsation:lead_cube",
+    "earth_pulsation:tin_cube",
+    "earth_pulsation:silver_ingot",
+    "earth_pulsation:silver_cube",
+    "earth_pulsation:cast_iron_ingot",
+    "earth_pulsation:pattern_gold_ingot",
+    "earth_pulsation:hard_aluminum_ingot",
+    "earth_pulsation:zinc_ingot",
+    "earth_pulsation:alchemical_silver_ingot",
+    "earth_pulsation:tough_copper_ingot"
+  ]
+}

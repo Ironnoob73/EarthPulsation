@@ -1,0 +1,38 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:CopperPowder"
+      },
+      {
+        "value": "CUSTOM:AluminumPowder"
+      },
+      {
+        "value": "CUSTOM:CarbonPowder"
+      },
+      {
+        "value": "CUSTOM:IronPowder"
+      },
+      {
+        "value": "CUSTOM:GoldPowder"
+      },
+      {
+        "value": "CUSTOM:TinPowder"
+      },
+      {
+        "value": "CUSTOM:SilverPowder"
+      },
+      {
+        "value": "CUSTOM:LeadPowder"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "dusts",
+    "namespace": "forge"
+  }
+}

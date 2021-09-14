@@ -17,7 +17,7 @@ public class BigApplePieceItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:big_apple_piece")
 	public static final Item block = null;
 	public BigApplePieceItem(EarthPulsationModElements instance) {
-		super(instance, 127);
+		super(instance, 138);
 	}
 
 	@Override

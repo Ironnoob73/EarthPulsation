@@ -44,7 +44,7 @@
           },
           "name": "Grinder",
           "x": 194,
-          "y": 40
+          "y": 41
         }
       },
       {
@@ -79,14 +79,423 @@
           "x": 237,
           "y": 86
         }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "POn"
+          },
+          "name": "progress1.png",
+          "x": 188,
+          "y": 66
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "POn"
+          },
+          "name": "progress1.png",
+          "x": 189,
+          "y": 67
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "POn"
+          },
+          "name": "progress1.png",
+          "x": 190,
+          "y": 68
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "POn"
+          },
+          "name": "progress1.png",
+          "x": 191,
+          "y": 69
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "POn"
+          },
+          "name": "progress1.png",
+          "x": 192,
+          "y": 70
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "POn"
+          },
+          "name": "progress1.png",
+          "x": 193,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Stop",
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "POff"
+          },
+          "name": "Stop",
+          "x": 194,
+          "y": 88
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "P20z"
+          },
+          "name": "progress1.png",
+          "x": 194,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "P20z"
+          },
+          "name": "progress1.png",
+          "x": 196,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "P20z"
+          },
+          "name": "progress1.png",
+          "x": 198,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "P20z"
+          },
+          "name": "progress1.png",
+          "x": 200,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "P20z"
+          },
+          "name": "progress1.png",
+          "x": 202,
+          "y": 72
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:text:Progress>",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "POn"
+          },
+          "name": "<BNBT:text:Progress>",
+          "x": 194,
+          "y": 88
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "P40z"
+          },
+          "name": "progress1.png",
+          "x": 203,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "P40z"
+          },
+          "name": "progress1.png",
+          "x": 204,
+          "y": 70
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "P40z"
+          },
+          "name": "progress1.png",
+          "x": 205,
+          "y": 69
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "P40z"
+          },
+          "name": "progress1.png",
+          "x": 206,
+          "y": 68
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "P40z"
+          },
+          "name": "progress1.png",
+          "x": 207,
+          "y": 67
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:number:craftingTime>",
+          "color": {
+            "value": -5066062,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:number:craftingTime>",
+          "x": 128,
+          "y": 94
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "P60z"
+          },
+          "name": "progress1.png",
+          "x": 208,
+          "y": 66
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "P60z"
+          },
+          "name": "progress1.png",
+          "x": 210,
+          "y": 66
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "P60z"
+          },
+          "name": "progress1.png",
+          "x": 212,
+          "y": 66
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "P60z"
+          },
+          "name": "progress1.png",
+          "x": 214,
+          "y": 66
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "P60z"
+          },
+          "name": "progress1.png",
+          "x": 216,
+          "y": 66
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:number:craftingProgress>",
+          "color": {
+            "value": -5066062,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:number:craftingProgress>",
+          "x": 128,
+          "y": 102
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "P80z"
+          },
+          "name": "progress1.png",
+          "x": 217,
+          "y": 67
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "P80z"
+          },
+          "name": "progress1.png",
+          "x": 218,
+          "y": 68
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "P80z"
+          },
+          "name": "progress1.png",
+          "x": 219,
+          "y": 69
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "P80z"
+          },
+          "name": "progress1.png",
+          "x": 220,
+          "y": 70
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "P80z"
+          },
+          "name": "progress1.png",
+          "x": 221,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "P80z"
+          },
+          "name": "progress1.png",
+          "x": 222,
+          "y": 72
+        }
       }
     ],
     "gridSettings": {
-      "sx": 18,
-      "sy": 18,
-      "ox": 11,
-      "oy": 15,
-      "snapOnGrid": false
+      "sx": 16,
+      "sy": 16,
+      "ox": 30,
+      "oy": 11,
+      "snapOnGrid": true
     }
   }
 }

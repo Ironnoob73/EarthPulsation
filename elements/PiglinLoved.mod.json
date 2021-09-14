@@ -1,0 +1,26 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:GoldCube"
+      },
+      {
+        "value": "CUSTOM:GoldPowder"
+      },
+      {
+        "value": "CUSTOM:PatternGoldIngot"
+      },
+      {
+        "value": "CUSTOM:PatternGoldBlock"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "piglin_loved",
+    "namespace": "minecraft"
+  }
+}

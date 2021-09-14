@@ -35,7 +35,7 @@ public class WoodPlanksDoorBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:wood_planks_door")
 	public static final Block block = null;
 	public WoodPlanksDoorBlock(EarthPulsationModElements instance) {
-		super(instance, 113);
+		super(instance, 115);
 	}
 
 	@Override

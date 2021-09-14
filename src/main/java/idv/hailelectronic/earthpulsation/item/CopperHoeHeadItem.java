@@ -16,7 +16,7 @@ public class CopperHoeHeadItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:copper_hoe_head")
 	public static final Item block = null;
 	public CopperHoeHeadItem(EarthPulsationModElements instance) {
-		super(instance, 25);
+		super(instance, 26);
 	}
 
 	@Override

@@ -50,7 +50,7 @@ public class RubyOreBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:ruby_ore")
 	public static final Block block = null;
 	public RubyOreBlock(EarthPulsationModElements instance) {
-		super(instance, 94);
+		super(instance, 96);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

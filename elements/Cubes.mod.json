@@ -1,0 +1,38 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:CopperCube"
+      },
+      {
+        "value": "CUSTOM:AluminumCube"
+      },
+      {
+        "value": "CUSTOM:CarbonCube"
+      },
+      {
+        "value": "CUSTOM:IronCube"
+      },
+      {
+        "value": "CUSTOM:GoldCube"
+      },
+      {
+        "value": "CUSTOM:LeadCube"
+      },
+      {
+        "value": "CUSTOM:TinCube"
+      },
+      {
+        "value": "CUSTOM:SilverCube"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "cubes",
+    "namespace": "forge"
+  }
+}

@@ -186,12 +186,12 @@
         "data": {
           "text": "<BNBT:number:craftingProgress>",
           "color": {
-            "value": -3355444,
+            "value": -5066062,
             "falpha": 0.0
           },
           "name": "<BNBT:number:craftingProgress>",
-          "x": 129,
-          "y": 98
+          "x": 128,
+          "y": 102
         }
       },
       {
@@ -199,21 +199,21 @@
         "data": {
           "text": "<BNBT:number:craftingTime>",
           "color": {
-            "value": -3355444,
+            "value": -5066062,
             "falpha": 0.0
           },
           "name": "<BNBT:number:craftingTime>",
-          "x": 129,
-          "y": 90
+          "x": 128,
+          "y": 94
         }
       }
     ],
     "gridSettings": {
-      "sx": 18,
-      "sy": 18,
-      "ox": 11,
-      "oy": 15,
-      "snapOnGrid": false
+      "sx": 16,
+      "sy": 16,
+      "ox": 30,
+      "oy": 11,
+      "snapOnGrid": true
     }
   }
 }

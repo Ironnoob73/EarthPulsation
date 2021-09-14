@@ -84,7 +84,7 @@ public class ForgingTableL1GGuiWindow extends ContainerScreen<ForgingTableL1GGui
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 84, this.guiTop + 51, 30, 20, new StringTextComponent("Craft"), e -> {
+		this.addButton(new Button(this.guiLeft + 84, this.guiTop + 52, 30, 20, new StringTextComponent("Craft"), e -> {
 			if (true) {
 				EarthPulsationMod.PACKET_HANDLER.sendToServer(new ForgingTableL1GGui.ButtonPressedMessage(0, x, y, z));
 				ForgingTableL1GGui.handleButtonAction(entity, 0, x, y, z);

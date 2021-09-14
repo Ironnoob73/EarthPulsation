@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "earth_pulsation:ruby",
+    "earth_pulsation:sapphire",
+    "earth_pulsation:topaz",
+    "earth_pulsation:cinnabar"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:CopperPlate"
+      },
+      {
+        "value": "CUSTOM:AluminumPlate"
+      },
+      {
+        "value": "CUSTOM:CarbonPlate"
+      },
+      {
+        "value": "CUSTOM:IronPlate"
+      },
+      {
+        "value": "CUSTOM:LeadPlate"
+      },
+      {
+        "value": "CUSTOM:TinPlate"
+      },
+      {
+        "value": "CUSTOM:SilverPlate"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "plates",
+    "namespace": "forge"
+  }
+}

@@ -17,7 +17,7 @@ public class RuggedizedAluminumHoeItem extends EarthPulsationModElements.ModElem
 	@ObjectHolder("earth_pulsation:ruggedized_aluminum_hoe")
 	public static final Item block = null;
 	public RuggedizedAluminumHoeItem(EarthPulsationModElements instance) {
-		super(instance, 45);
+		super(instance, 46);
 	}
 
 	@Override

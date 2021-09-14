@@ -72,7 +72,7 @@ public class ReinforcedSieveBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:reinforced_sieve")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public ReinforcedSieveBlock(EarthPulsationModElements instance) {
-		super(instance, 8);
+		super(instance, 9);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

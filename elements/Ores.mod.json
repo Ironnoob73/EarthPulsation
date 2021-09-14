@@ -1,0 +1,44 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:CopperOre"
+      },
+      {
+        "value": "CUSTOM:AluminumOre"
+      },
+      {
+        "value": "CUSTOM:RubyOre"
+      },
+      {
+        "value": "CUSTOM:SapphireOre"
+      },
+      {
+        "value": "CUSTOM:TopazOre"
+      },
+      {
+        "value": "CUSTOM:LeadOre"
+      },
+      {
+        "value": "CUSTOM:TinOre"
+      },
+      {
+        "value": "CUSTOM:SilverOre"
+      },
+      {
+        "value": "CUSTOM:ForgottenIronOre"
+      },
+      {
+        "value": "CUSTOM:BlackGoldOre"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "ores",
+    "namespace": "forge"
+  }
+}

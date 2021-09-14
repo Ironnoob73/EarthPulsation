@@ -16,7 +16,7 @@ public class AluminumIngotItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:aluminum_ingot")
 	public static final Item block = null;
 	public AluminumIngotItem(EarthPulsationModElements instance) {
-		super(instance, 29);
+		super(instance, 30);
 	}
 
 	@Override

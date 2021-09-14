@@ -43,12 +43,14 @@ import net.minecraft.entity.EntitySpawnPlacementRegistry;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.CreatureEntity;
 import net.minecraft.entity.CreatureAttribute;
-import net.minecraft.block.material.Material;
 import net.minecraft.block.BlockState;
 
+import idv.hailelectronic.earthpulsation.procedures.PureSlimeSpawnProcedure;
 import idv.hailelectronic.earthpulsation.itemgroup.EarthPulsationItemGroup;
 import idv.hailelectronic.earthpulsation.entity.renderer.PureSlimeRenderer;
 import idv.hailelectronic.earthpulsation.EarthPulsationModElements;
+
+import com.google.common.collect.ImmutableMap;
 
 @EarthPulsationModElements.ModElement.Tag
 public class PureSlimeEntity extends EarthPulsationModElements.ModElement {
@@ -56,7 +58,7 @@ public class PureSlimeEntity extends EarthPulsationModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(1f, 1f))
 					.build("pure_slime").setRegistryName("pure_slime");
 	public PureSlimeEntity(EarthPulsationModElements instance) {
-		super(instance, 181);
+		super(instance, 204);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PureSlimeRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);
@@ -77,8 +79,12 @@ public class PureSlimeEntity extends EarthPulsationModElements.ModElement {
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos,
-						random) -> (world.getBlockState(pos.down()).getMaterial() == Material.ORGANIC && world.getLightSubtracted(pos, 0) > 8));
+				(entityType, world, reason, pos, random) -> {
+					int x = pos.getX();
+					int y = pos.getY();
+					int z = pos.getZ();
+					return PureSlimeSpawnProcedure.executeProcedure(ImmutableMap.of("world", world));
+				});
 	}
 	private static class EntityAttributesRegisterHandler {
 		@SubscribeEvent

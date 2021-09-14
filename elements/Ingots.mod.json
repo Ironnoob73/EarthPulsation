@@ -1,0 +1,71 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:CopperIngot"
+      },
+      {
+        "value": "CUSTOM:AluminumIngot"
+      },
+      {
+        "value": "CUSTOM:RawSteelIngot"
+      },
+      {
+        "value": "CUSTOM:SteelIngot"
+      },
+      {
+        "value": "CUSTOM:LeadIngot"
+      },
+      {
+        "value": "CUSTOM:TinIngot"
+      },
+      {
+        "value": "CUSTOM:RustIronIngot"
+      },
+      {
+        "value": "CUSTOM:SilverIngot"
+      },
+      {
+        "value": "CUSTOM:CastIronIngot"
+      },
+      {
+        "value": "CUSTOM:TurbidObsidianIngot"
+      },
+      {
+        "value": "CUSTOM:PureObsidianIngot"
+      },
+      {
+        "value": "CUSTOM:PatternGoldIngot"
+      },
+      {
+        "value": "CUSTOM:HardAluminumIngot"
+      },
+      {
+        "value": "CUSTOM:StoneIngot"
+      },
+      {
+        "value": "CUSTOM:ZincIngot"
+      },
+      {
+        "value": "CUSTOM:JadeIngot"
+      },
+      {
+        "value": "CUSTOM:BlackGoldIngot"
+      },
+      {
+        "value": "CUSTOM:AlchemicalSilverIngot"
+      },
+      {
+        "value": "CUSTOM:ToughCopperIngot"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "ingots",
+    "namespace": "forge"
+  }
+}

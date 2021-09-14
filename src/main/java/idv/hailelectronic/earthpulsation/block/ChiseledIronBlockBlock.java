@@ -27,7 +27,7 @@ public class ChiseledIronBlockBlock extends EarthPulsationModElements.ModElement
 	@ObjectHolder("earth_pulsation:chiseled_iron_block")
 	public static final Block block = null;
 	public ChiseledIronBlockBlock(EarthPulsationModElements instance) {
-		super(instance, 52);
+		super(instance, 53);
 	}
 
 	@Override

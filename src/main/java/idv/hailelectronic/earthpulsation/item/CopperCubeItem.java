@@ -16,7 +16,7 @@ public class CopperCubeItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:copper_cube")
 	public static final Item block = null;
 	public CopperCubeItem(EarthPulsationModElements instance) {
-		super(instance, 11);
+		super(instance, 12);
 	}
 
 	@Override

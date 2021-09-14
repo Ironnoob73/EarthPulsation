@@ -1,0 +1,9 @@
+{
+  "group": "earth_pulsation",
+  "type": "minecraft:stonecutting",
+  "count": 16,
+  "ingredient": {
+    "item": "minecraft:tnt"
+  },
+  "result": "earth_pulsation:tiny_tnt"
+}

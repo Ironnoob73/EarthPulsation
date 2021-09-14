@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "earth_pulsation:block/wooden_holder"
+    },
+    "facing=east": {
+      "model": "earth_pulsation:block/wooden_holder",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "earth_pulsation:block/wooden_holder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "earth_pulsation:block/wooden_holder",
+      "y": 270
+    }
+  }
+}

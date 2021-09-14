@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "earth_pulsation:icesand"
+    "earth_pulsation:icesand",
+    "earth_pulsation:blazing_dirt"
   ]
 }

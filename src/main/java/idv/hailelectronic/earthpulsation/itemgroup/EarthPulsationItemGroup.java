@@ -7,13 +7,13 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import idv.hailelectronic.earthpulsation.item.PDAItem;
+import idv.hailelectronic.earthpulsation.item.EmptyYellowStoneRuneItem;
 import idv.hailelectronic.earthpulsation.EarthPulsationModElements;
 
 @EarthPulsationModElements.ModElement.Tag
 public class EarthPulsationItemGroup extends EarthPulsationModElements.ModElement {
 	public EarthPulsationItemGroup(EarthPulsationModElements instance) {
-		super(instance, 183);
+		super(instance, 214);
 	}
 
 	@Override
@@ -22,7 +22,7 @@ public class EarthPulsationItemGroup extends EarthPulsationModElements.ModElemen
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(PDAItem.block);
+				return new ItemStack(EmptyYellowStoneRuneItem.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)

@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "tnt_little",
+    "customModelName": "Normal",
+    "name": "Tiny TNT",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:EarthPulsation"
+    },
+    "stackSize": 32,
+    "ammoItem": {
+      "value": "CUSTOM:TinyTNT"
+    },
+    "shootConstantly": true,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "entity.snowman.shoot"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 1.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 1.0,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "CUSTOM:TinyTNT"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "TinyTNTBoom"
+    },
+    "onBulletHitsEntity": {
+      "name": "TinyTNTBoom"
+    },
+    "onBulletFlyingTick": {
+      "name": "TinyTNTParticle"
+    }
+  }
+}

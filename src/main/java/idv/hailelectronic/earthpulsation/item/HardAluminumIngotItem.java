@@ -16,7 +16,7 @@ public class HardAluminumIngotItem extends EarthPulsationModElements.ModElement 
 	@ObjectHolder("earth_pulsation:hard_aluminum_ingot")
 	public static final Item block = null;
 	public HardAluminumIngotItem(EarthPulsationModElements instance) {
-		super(instance, 158);
+		super(instance, 185);
 	}
 
 	@Override

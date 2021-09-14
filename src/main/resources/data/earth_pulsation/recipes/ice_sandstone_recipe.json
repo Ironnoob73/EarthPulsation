@@ -1,0 +1,22 @@
+{
+  "group": "earth_pulsation",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "earth_pulsation:icesand"
+    },
+    {
+      "item": "earth_pulsation:icesand"
+    },
+    {
+      "item": "earth_pulsation:icesand"
+    },
+    {
+      "item": "earth_pulsation:icesand"
+    }
+  ],
+  "result": {
+    "item": "earth_pulsation:icesandstone",
+    "count": 1
+  }
+}

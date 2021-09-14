@@ -112,7 +112,7 @@ public class RefinerGuiGuiWindow extends ContainerScreen<RefinerGuiGui.GuiContai
 					return tileEntity.getTileData().getDouble(tag);
 				return 0;
 			}
-		}.getValue(new BlockPos((int) x, (int) y, (int) z), "craftingProgress")) + "", 3, 61, -3355444);
+		}.getValue(new BlockPos((int) x, (int) y, (int) z), "craftingProgress")) + "", 2, 65, -5066062);
 		this.font.drawString(ms, "" + (new Object() {
 			public double getValue(BlockPos pos, String tag) {
 				TileEntity tileEntity = world.getTileEntity(pos);
@@ -120,7 +120,7 @@ public class RefinerGuiGuiWindow extends ContainerScreen<RefinerGuiGui.GuiContai
 					return tileEntity.getTileData().getDouble(tag);
 				return 0;
 			}
-		}.getValue(new BlockPos((int) x, (int) y, (int) z), "craftingTime")) + "", 3, 53, -3355444);
+		}.getValue(new BlockPos((int) x, (int) y, (int) z), "craftingTime")) + "", 2, 57, -5066062);
 	}
 
 	@Override

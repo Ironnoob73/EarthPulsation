@@ -10,7 +10,7 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "Items.BOOK"
+        "value": "TAG:forge:book"
       },
       {
         "value": "CUSTOM:EmptyBluePrint"

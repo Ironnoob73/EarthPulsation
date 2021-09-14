@@ -10,6 +10,24 @@
       },
       {
         "value": "CUSTOM:IceBirchWood"
+      },
+      {
+        "value": "CUSTOM:StrippedIceBirchLog"
+      },
+      {
+        "value": "CUSTOM:StrippedIceBirchWood"
+      },
+      {
+        "value": "CUSTOM:MapleWood"
+      },
+      {
+        "value": "CUSTOM:MapleLog"
+      },
+      {
+        "value": "CUSTOM:StrippedMapleLog"
+      },
+      {
+        "value": "CUSTOM:StrippedMapleWood"
       }
     ],
     "functions": [],

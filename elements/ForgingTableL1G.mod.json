@@ -181,7 +181,21 @@
           "height": 20,
           "name": "Craft",
           "x": 210,
-          "y": 88
+          "y": 89
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 10,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #10",
+          "x": 219,
+          "y": 71
         }
       }
     ],

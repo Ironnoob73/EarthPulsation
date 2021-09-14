@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "earth_pulsation:copper_ingot",
+    "earth_pulsation:aluminum_ingot",
+    "earth_pulsation:raw_steel_ingot",
+    "earth_pulsation:steel_ingot",
+    "earth_pulsation:lead_ingot",
+    "earth_pulsation:tin_ingot",
+    "earth_pulsation:rust_iron_ingot",
+    "earth_pulsation:silver_ingot",
+    "earth_pulsation:cast_iron_ingot",
+    "earth_pulsation:turbid_obsidian_ingot",
+    "earth_pulsation:pure_obsidian_ingot",
+    "earth_pulsation:pattern_gold_ingot",
+    "earth_pulsation:hard_aluminum_ingot",
+    "earth_pulsation:stone_ingot",
+    "earth_pulsation:zinc_ingot",
+    "earth_pulsation:jade_ingot",
+    "earth_pulsation:black_gold_ingot",
+    "earth_pulsation:alchemical_silver_ingot",
+    "earth_pulsation:tough_copper_ingot"
+  ]
+}

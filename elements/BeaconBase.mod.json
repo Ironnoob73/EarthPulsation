@@ -1,0 +1,53 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:SilverBlock"
+      },
+      {
+        "value": "CUSTOM:CastIronBlock"
+      },
+      {
+        "value": "CUSTOM:SteelBlock"
+      },
+      {
+        "value": "CUSTOM:ChiseledIronBlock"
+      },
+      {
+        "value": "CUSTOM:HardAluminumBlock"
+      },
+      {
+        "value": "CUSTOM:PureObsidianBlock"
+      },
+      {
+        "value": "CUSTOM:PatternGoldBlock"
+      },
+      {
+        "value": "CUSTOM:BlackGoldBlock"
+      },
+      {
+        "value": "CUSTOM:RubyBlock"
+      },
+      {
+        "value": "CUSTOM:SapphireBlock"
+      },
+      {
+        "value": "CUSTOM:TopazBlock"
+      },
+      {
+        "value": "CUSTOM:AlchemicalSilverBlock"
+      },
+      {
+        "value": "CUSTOM:ToughCopperBlock"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "beacon_base_blocks",
+    "namespace": "minecraft"
+  }
+}

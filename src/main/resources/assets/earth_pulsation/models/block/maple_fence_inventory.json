@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "earth_pulsation:blocks/maple_planks",
+    "particle": "earth_pulsation:blocks/maple_planks"
+  }
+}

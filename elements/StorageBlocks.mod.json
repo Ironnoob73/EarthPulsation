@@ -1,0 +1,68 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:CopperBlock"
+      },
+      {
+        "value": "CUSTOM:AluminumBlock"
+      },
+      {
+        "value": "CUSTOM:RubyBlock"
+      },
+      {
+        "value": "CUSTOM:SapphireBlock"
+      },
+      {
+        "value": "CUSTOM:TopazBlock"
+      },
+      {
+        "value": "CUSTOM:LeadBlock"
+      },
+      {
+        "value": "CUSTOM:TinBlock"
+      },
+      {
+        "value": "CUSTOM:SilverBlock"
+      },
+      {
+        "value": "CUSTOM:CastIronBlock"
+      },
+      {
+        "value": "CUSTOM:SteelBlock"
+      },
+      {
+        "value": "CUSTOM:ChiseledIronBlock"
+      },
+      {
+        "value": "CUSTOM:HardAluminumBlock"
+      },
+      {
+        "value": "CUSTOM:TurbidObsidianBlock"
+      },
+      {
+        "value": "CUSTOM:PureObsidianBlock"
+      },
+      {
+        "value": "CUSTOM:PatternGoldBlock"
+      },
+      {
+        "value": "CUSTOM:BlackGoldBlock"
+      },
+      {
+        "value": "CUSTOM:AlchemicalSilverBlock"
+      },
+      {
+        "value": "CUSTOM:ToughCopperBlock"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "storage_blocks",
+    "namespace": "forge"
+  }
+}

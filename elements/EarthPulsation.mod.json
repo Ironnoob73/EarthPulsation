@@ -4,7 +4,7 @@
   "definition": {
     "name": "Earth Pulsation",
     "icon": {
-      "value": "CUSTOM:PDA"
+      "value": "CUSTOM:EmptyYellowStoneRune"
     },
     "showSearch": false
   }

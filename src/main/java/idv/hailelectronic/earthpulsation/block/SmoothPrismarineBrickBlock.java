@@ -27,7 +27,7 @@ public class SmoothPrismarineBrickBlock extends EarthPulsationModElements.ModEle
 	@ObjectHolder("earth_pulsation:smooth_prismarine_brick")
 	public static final Block block = null;
 	public SmoothPrismarineBrickBlock(EarthPulsationModElements instance) {
-		super(instance, 138);
+		super(instance, 150);
 	}
 
 	@Override

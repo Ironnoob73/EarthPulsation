@@ -1,0 +1,19 @@
+{
+  "group": "earth_pulsation",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "earth_pulsation:maple_planks"
+    },
+    "1": {
+      "item": "earth_pulsation:maple_planks"
+    }
+  },
+  "result": {
+    "item": "earth_pulsation:maple_pressure_plate",
+    "count": 1
+  }
+}

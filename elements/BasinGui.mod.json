@@ -1,0 +1,209 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "basin.png",
+          "use1Xscale": false,
+          "name": "basin.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Basin",
+          "color": {
+            "value": -13395712,
+            "falpha": 0.0
+          },
+          "name": "Basin",
+          "x": 203,
+          "y": 42
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 178,
+          "y": 57
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 163,
+          "y": 72
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 193,
+          "y": 72
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
+          "x": 178,
+          "y": 87
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #4",
+          "x": 250,
+          "y": 72
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "stop",
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "POff"
+          },
+          "name": "stop",
+          "x": 217,
+          "y": 90
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:text:Progress>",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "POn"
+          },
+          "name": "<BNBT:text:Progress>",
+          "x": 217,
+          "y": 90
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:number:craftingTime>",
+          "color": {
+            "value": -5066062,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:number:craftingTime>",
+          "x": 128,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:number:craftingProgress>",
+          "color": {
+            "value": -5066062,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:number:craftingProgress>",
+          "x": 128,
+          "y": 102
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress0.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "P25z"
+          },
+          "name": "progress0.png",
+          "x": 215,
+          "y": 73
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress0.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "P50z"
+          },
+          "name": "progress0.png",
+          "x": 223,
+          "y": 73
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress0.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "P75z"
+          },
+          "name": "progress0.png",
+          "x": 231,
+          "y": 73
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 16,
+      "sy": 16,
+      "ox": 30,
+      "oy": 11,
+      "snapOnGrid": false
+    }
+  }
+}

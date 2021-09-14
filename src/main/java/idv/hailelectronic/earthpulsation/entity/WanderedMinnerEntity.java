@@ -56,7 +56,7 @@ public class WanderedMinnerEntity extends EarthPulsationModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
 			.size(0.6f, 1.8f)).build("wandered_minner").setRegistryName("wandered_minner");
 	public WanderedMinnerEntity(EarthPulsationModElements instance) {
-		super(instance, 182);
+		super(instance, 205);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new WanderedMinnerRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

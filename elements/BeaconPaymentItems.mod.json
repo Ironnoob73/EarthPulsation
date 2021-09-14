@@ -1,0 +1,71 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:CopperCube"
+      },
+      {
+        "value": "CUSTOM:Ruby"
+      },
+      {
+        "value": "CUSTOM:Sapphire"
+      },
+      {
+        "value": "CUSTOM:Topaz"
+      },
+      {
+        "value": "CUSTOM:AluminumCube"
+      },
+      {
+        "value": "CUSTOM:IronCube"
+      },
+      {
+        "value": "CUSTOM:SteelIngot"
+      },
+      {
+        "value": "CUSTOM:GoldCube"
+      },
+      {
+        "value": "CUSTOM:LeadIngot"
+      },
+      {
+        "value": "CUSTOM:LeadCube"
+      },
+      {
+        "value": "CUSTOM:TinCube"
+      },
+      {
+        "value": "CUSTOM:SilverIngot"
+      },
+      {
+        "value": "CUSTOM:SilverCube"
+      },
+      {
+        "value": "CUSTOM:CastIronIngot"
+      },
+      {
+        "value": "CUSTOM:PatternGoldIngot"
+      },
+      {
+        "value": "CUSTOM:HardAluminumIngot"
+      },
+      {
+        "value": "CUSTOM:ZincIngot"
+      },
+      {
+        "value": "CUSTOM:AlchemicalSilverIngot"
+      },
+      {
+        "value": "CUSTOM:ToughCopperIngot"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "beacon_payment_items",
+    "namespace": "minecraft"
+  }
+}
