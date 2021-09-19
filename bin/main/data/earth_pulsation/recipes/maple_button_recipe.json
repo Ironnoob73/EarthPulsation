@@ -1,0 +1,13 @@
+{
+  "group": "earth_pulsation",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "earth_pulsation:maple_planks"
+    }
+  ],
+  "result": {
+    "item": "earth_pulsation:maple_button",
+    "count": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "group": "blue_print",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:paper"
+    },
+    {
+      "tag": "forge:paper"
+    },
+    {
+      "tag": "forge:paper"
+    },
+    {
+      "tag": "forge:paper"
+    },
+    {
+      "item": "minecraft:blue_dye"
+    },
+    {
+      "tag": "forge:paper"
+    },
+    {
+      "tag": "forge:paper"
+    },
+    {
+      "tag": "forge:paper"
+    },
+    {
+      "tag": "forge:paper"
+    }
+  ],
+  "result": {
+    "item": "earth_pulsation:empty_blue_print",
+    "count": 8
+  }
+}

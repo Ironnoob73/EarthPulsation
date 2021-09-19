@@ -1,0 +1,16 @@
+{
+  "group": "board",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "earth_pulsation:iron_saw"
+    },
+    {
+      "tag": "minecraft:planks"
+    }
+  ],
+  "result": {
+    "item": "earth_pulsation:wooden_board",
+    "count": 2
+  }
+}

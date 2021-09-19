@@ -1,0 +1,21 @@
+{
+    "name": "B2.精炼机",
+    "icon": "earth_pulsation:refiner_lit",
+    "category": "documents",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title":"2.精炼机",
+            "item":"earth_pulsation:refiner_lit",
+            "text": "精炼机是一个需要燃料驱动的方块，你可以将它看作一个拥有两个输入栏和两个输出栏的熔炉，不过它无法使用熔炉的配方。和熔炉不同，每次制作仅消耗一个燃料，每种配方制作所需要的时间是不同的。另外，它需要独特的燃料，比如蜜脾。"
+        },
+        {
+            "type": "refiner",
+            "input0":"minecraft:rotten_flesh",
+            "input1":"minecraft:air",
+            "output3":"minecraft:leather",
+            "output4":"minecraft:air",
+            "text":"这是一个配方的示例！当然你的确可以通过炼制腐肉来获得皮革。话说是谁最初想到的拿腐肉制作皮革的这个主意？"
+        }
+    ]
+}

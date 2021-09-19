@@ -1,0 +1,22 @@
+{
+  "group": "wtfw",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "earth_pulsation:wooden_trough"
+    }
+  ],
+  "result": {
+    "item": "earth_pulsation:wooden_trough_filled_with_chocolate",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "earth_pulsation:gold_cube",
+    "earth_pulsation:gold_powder",
+    "earth_pulsation:pattern_gold_ingot",
+    "earth_pulsation:pattern_gold_block"
+  ]
+}

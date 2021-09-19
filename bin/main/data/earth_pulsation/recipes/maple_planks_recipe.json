@@ -1,0 +1,13 @@
+{
+  "group": "earth_pulsation",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:maple_log"
+    }
+  ],
+  "result": {
+    "item": "earth_pulsation:maple_planks",
+    "count": 4
+  }
+}

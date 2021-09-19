@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "earth_pulsation:ice_birch_planks",
+    "earth_pulsation:wooden_planks",
+    "earth_pulsation:stick_planks"
+  ]
+}

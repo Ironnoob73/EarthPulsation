@@ -3,7 +3,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:book"
+      "tag": "forge:book"
     },
     {
       "item": "earth_pulsation:empty_blue_print"

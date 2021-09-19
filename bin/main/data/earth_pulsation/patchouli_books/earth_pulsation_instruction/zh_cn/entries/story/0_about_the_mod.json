@@ -1,0 +1,17 @@
+{
+    "name": "A0.关于该模组",
+    "icon": "earth_pulsation:ep_book",
+    "category": "story",
+    "pages": [
+        {
+            "type": "logo",
+            "title":"关于该模组",
+            "logo":"earth_pulsation:textures/logo.png",
+            "text": "感谢你游玩该模组！这是一个关于“地蕴”——一个全新的世界观，以及其相关设定的模组，添加了大量的物品、工具，以及一个全新的维度。$(br)该模组使用MCR制作，因此可能会存在许多的不足。如果你有什么意见或建议，欢迎在github或者gitee上提出！"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "模组现支持中文（基础语言）、英文（谷歌翻译）及文言文（百度翻译）（拟支持梗体中文），由于大量依靠机翻的缘故存在翻译问题，如果发现问题也欢迎及时进行反馈！$(br)该模组已开源，并按照MIT协议进行发布。$(br)$(l:https://github.com/Ironnoob73/EarthPulsation)GitHub:https://github.com/Ironnoob73/EarthPulsation$(/l)$(br)$(l:https://gitee.com/ironnoob73/EarthPulsation)Gitee:https://gitee.com/ironnoob73/EarthPulsation$(/l)$(br2)低耐久的铁砧 制作"
+        }
+    ]
+}

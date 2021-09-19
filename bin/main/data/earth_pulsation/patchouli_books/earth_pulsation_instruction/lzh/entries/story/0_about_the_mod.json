@@ -1,0 +1,17 @@
+{
+    "name": "A0.于该模组",
+    "icon": "earth_pulsation:ep_book",
+    "category": "story",
+    "pages": [
+        {
+            "type": "logo",
+            "title":"于该模组",
+            "logo":"earth_pulsation:textures/logo.png",
+            "text": "感君游其模组！此一作“地蕴”——一全新之世观，及其所定之模组，添了大之物、具，及一全新之维度。$(br)当模组用MCR作，故得存多者不足。若有异议或议，迎于github或gitee上言！"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "模组现支文（基语）、英文（谷歌译）及育文（度译）（拟支梗体文）。以大任机翻也存译也，若见事不迎时以反馈！貙（br）当模组已开源，因MIT契以发。$(br)$(l:https://github.com/Ironnoob73/EarthPulsation)GitHub:https://github.com/Ironnoob73/EarthPulsation$(/l)$(br)$(l:https://gitee.com/ironnoob73/EarthPulsation)Gitee:https://gitee.com/ironnoob73/EarthPulsation$(/l)$(br2)低耐久的铁砧 作"
+        }
+    ]
+}

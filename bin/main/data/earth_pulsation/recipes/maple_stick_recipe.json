@@ -1,0 +1,20 @@
+{
+  "group": "earth_pulsation",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "earth_pulsation:maple_planks"
+    },
+    "1": {
+      "item": "earth_pulsation:maple_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:stick",
+    "count": 4
+  }
+}

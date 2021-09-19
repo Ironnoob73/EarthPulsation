@@ -1,0 +1,37 @@
+{
+  "group": "earth_pulsation",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "earth_pulsation:pattern_gold_ingot"
+    },
+    {
+      "item": "earth_pulsation:pattern_gold_ingot"
+    },
+    {
+      "item": "earth_pulsation:pattern_gold_ingot"
+    },
+    {
+      "item": "earth_pulsation:pattern_gold_ingot"
+    },
+    {
+      "item": "earth_pulsation:pattern_gold_ingot"
+    },
+    {
+      "item": "earth_pulsation:pattern_gold_ingot"
+    },
+    {
+      "item": "earth_pulsation:pattern_gold_ingot"
+    },
+    {
+      "item": "earth_pulsation:pattern_gold_ingot"
+    },
+    {
+      "item": "earth_pulsation:pattern_gold_ingot"
+    }
+  ],
+  "result": {
+    "item": "earth_pulsation:pattern_gold_block",
+    "count": 1
+  }
+}

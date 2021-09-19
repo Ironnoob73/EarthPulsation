@@ -1,0 +1,9 @@
+{
+  "group": "rune",
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "earth_pulsation:jade_ingot"
+  },
+  "result": "earth_pulsation:empty_jade_rune"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "B1.Forging Table",
+    "icon": "earth_pulsation:forging_table_l_1",
+    "category": "documents",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title":"1.Forging Table",
+            "item":"earth_pulsation:forging_table_l_1",
+            "text": "The forging table is a group of blocks similar to Crafting Table, it used to make more complex items. The forging table has multiple levels. The higher the level, the more slots there are, and the more complex items can be made."
+        }
+    ]
+}

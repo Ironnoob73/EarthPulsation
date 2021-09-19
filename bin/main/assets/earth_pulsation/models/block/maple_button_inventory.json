@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "earth_pulsation:blocks/maple_planks"
+  }
+}

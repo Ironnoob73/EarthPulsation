@@ -1,0 +1,10 @@
+{
+  "parent": "earth_pulsation:custom/obelisk",
+  "textures": {
+    "all": "earth_pulsation:blocks/yellow_stonebrick",
+    "particle": "earth_pulsation:blocks/yellow_stonebrick",
+    "1": "earth_pulsation:blocks/yellow_cobblestone",
+    "2": "earth_pulsation:blocks/yellow_stone",
+    "3": "earth_pulsation:blocks/yellow_stonebrick"
+  }
+}

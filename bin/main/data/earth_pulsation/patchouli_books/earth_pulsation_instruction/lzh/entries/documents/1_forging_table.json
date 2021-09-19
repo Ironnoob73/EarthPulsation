@@ -1,0 +1,13 @@
+{
+    "name": "B1.造台",
+    "icon": "earth_pulsation:forging_table_l_1",
+    "category": "documents",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title":"1.造台",
+            "item":"earth_pulsation:forging_table_l_1",
+            "text": "此台是一组类於作台之方块，其所以为较繁之物。造台有余等，差愈高其格愈多，愈造愈复杂之物。"
+        }
+    ]
+}
