@@ -32,7 +32,7 @@ public class IcesandstoneBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:icesandstone")
 	public static final Block block = null;
 	public IcesandstoneBlock(EarthPulsationModElements instance) {
-		super(instance, 165);
+		super(instance, 164);
 	}
 
 	@Override

@@ -27,7 +27,7 @@ public class MaplePlanksBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:maple_planks")
 	public static final Block block = null;
 	public MaplePlanksBlock(EarthPulsationModElements instance) {
-		super(instance, 173);
+		super(instance, 188);
 	}
 
 	@Override

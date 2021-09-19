@@ -27,7 +27,7 @@ public class MapleButtonBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:maple_button")
 	public static final Block block = null;
 	public MapleButtonBlock(EarthPulsationModElements instance) {
-		super(instance, 179);
+		super(instance, 194);
 	}
 
 	@Override

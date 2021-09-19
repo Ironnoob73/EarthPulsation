@@ -16,7 +16,7 @@ public class EmptyJadeRuneItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:empty_jade_rune")
 	public static final Item block = null;
 	public EmptyJadeRuneItem(EarthPulsationModElements instance) {
-		super(instance, 131);
+		super(instance, 198);
 	}
 
 	@Override

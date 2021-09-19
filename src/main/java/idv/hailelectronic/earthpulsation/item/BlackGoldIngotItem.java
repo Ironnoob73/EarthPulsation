@@ -16,7 +16,7 @@ public class BlackGoldIngotItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:black_gold_ingot")
 	public static final Item block = null;
 	public BlackGoldIngotItem(EarthPulsationModElements instance) {
-		super(instance, 133);
+		super(instance, 130);
 	}
 
 	@Override

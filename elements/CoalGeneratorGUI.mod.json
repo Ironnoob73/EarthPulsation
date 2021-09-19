@@ -1,0 +1,545 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "coal_generator.png",
+          "use1Xscale": false,
+          "name": "coal_generator.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 205,
+          "y": 81
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "refiner_fuel.png",
+          "use1Xscale": false,
+          "name": "refiner_fuel.png",
+          "x": 206,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 200,
+          "y": 69
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 199,
+          "y": 68
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 198,
+          "y": 67
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 197,
+          "y": 66
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 197,
+          "y": 65
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 197,
+          "y": 64
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 196,
+          "y": 63
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 196,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 196,
+          "y": 61
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 196,
+          "y": 60
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 196,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 197,
+          "y": 58
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 197,
+          "y": 57
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 197,
+          "y": 56
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 198,
+          "y": 55
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 199,
+          "y": 54
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 200,
+          "y": 53
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 201,
+          "y": 52
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 202,
+          "y": 52
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 203,
+          "y": 52
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 204,
+          "y": 51
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 205,
+          "y": 51
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 206,
+          "y": 51
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 207,
+          "y": 51
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 208,
+          "y": 51
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 209,
+          "y": 52
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 210,
+          "y": 52
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 211,
+          "y": 52
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 212,
+          "y": 53
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 213,
+          "y": 54
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 214,
+          "y": 55
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 215,
+          "y": 56
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 215,
+          "y": 57
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 215,
+          "y": 58
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 216,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 216,
+          "y": 60
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 216,
+          "y": 61
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 216,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 216,
+          "y": 63
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 215,
+          "y": 64
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 215,
+          "y": 65
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 215,
+          "y": 66
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 214,
+          "y": 67
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 213,
+          "y": 68
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progress1.png",
+          "use1Xscale": false,
+          "name": "progress1.png",
+          "x": 212,
+          "y": 69
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Coal Generator",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Coal Generator",
+          "x": 180,
+          "y": 39
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<energy>",
+          "color": {
+            "value": -16724890,
+            "falpha": 0.0
+          },
+          "name": "<energy>",
+          "x": 226,
+          "y": 64
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:number:fuel>",
+          "color": {
+            "value": -5066062,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:number:fuel>",
+          "x": 128,
+          "y": 102
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 16,
+      "sy": 16,
+      "ox": 30,
+      "oy": 11,
+      "snapOnGrid": true
+    }
+  }
+}

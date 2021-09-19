@@ -16,7 +16,7 @@ public class AlchemicalSilverIngotItem extends EarthPulsationModElements.ModElem
 	@ObjectHolder("earth_pulsation:alchemical_silver_ingot")
 	public static final Item block = null;
 	public AlchemicalSilverIngotItem(EarthPulsationModElements instance) {
-		super(instance, 189);
+		super(instance, 141);
 	}
 
 	@Override

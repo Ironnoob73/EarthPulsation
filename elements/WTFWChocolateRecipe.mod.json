@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "wtfw",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.MILK_BUCKET"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#3"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#3"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WoodenTrough"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WoodenTroughFilledWithChocolate"
+    },
+    "name": "wtfw_chocolate_recipe",
+    "namespace": "mod"
+  }
+}

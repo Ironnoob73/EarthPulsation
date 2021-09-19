@@ -29,7 +29,7 @@ public class YellowStoneBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:yellow_stone")
 	public static final Block block = null;
 	public YellowStoneBlock(EarthPulsationModElements instance) {
-		super(instance, 140);
+		super(instance, 154);
 	}
 
 	@Override

@@ -1,0 +1,23 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:CarbonPowder"
+      },
+      {
+        "value": "Items.COAL#0"
+      },
+      {
+        "value": "Items.COAL#1"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "as_coal_tag",
+    "namespace": "mod"
+  }
+}

@@ -38,7 +38,7 @@ public class ToughCopperBlockBlock extends EarthPulsationModElements.ModElement 
 	@ObjectHolder("earth_pulsation:tough_copper_block")
 	public static final Block block = null;
 	public ToughCopperBlockBlock(EarthPulsationModElements instance) {
-		super(instance, 184);
+		super(instance, 136);
 	}
 
 	@Override

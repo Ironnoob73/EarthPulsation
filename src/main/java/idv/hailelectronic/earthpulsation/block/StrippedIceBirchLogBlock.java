@@ -37,7 +37,7 @@ public class StrippedIceBirchLogBlock extends EarthPulsationModElements.ModEleme
 	@ObjectHolder("earth_pulsation:stripped_ice_birch_log")
 	public static final Block block = null;
 	public StrippedIceBirchLogBlock(EarthPulsationModElements instance) {
-		super(instance, 155);
+		super(instance, 172);
 	}
 
 	@Override

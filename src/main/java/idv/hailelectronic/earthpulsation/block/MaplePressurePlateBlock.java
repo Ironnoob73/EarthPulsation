@@ -27,7 +27,7 @@ public class MaplePressurePlateBlock extends EarthPulsationModElements.ModElemen
 	@ObjectHolder("earth_pulsation:maple_pressure_plate")
 	public static final Block block = null;
 	public MaplePressurePlateBlock(EarthPulsationModElements instance) {
-		super(instance, 178);
+		super(instance, 193);
 	}
 
 	@Override

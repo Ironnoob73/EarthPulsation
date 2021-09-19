@@ -33,7 +33,7 @@ public class NokiaItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:nokia")
 	public static final Item block = null;
 	public NokiaItem(EarthPulsationModElements instance) {
-		super(instance, 210);
+		super(instance, 223);
 	}
 
 	@Override

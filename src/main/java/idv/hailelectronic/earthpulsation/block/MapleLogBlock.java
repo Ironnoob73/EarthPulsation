@@ -32,7 +32,7 @@ public class MapleLogBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:maple_log")
 	public static final Block block = null;
 	public MapleLogBlock(EarthPulsationModElements instance) {
-		super(instance, 169);
+		super(instance, 184);
 	}
 
 	@Override

@@ -1,0 +1,26 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "wooden_trough_filled_with_dough",
+    "customModelName": "Normal",
+    "name": "Wooden Trough Filled With Dough",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:EarthPulsation"
+    },
+    "stackSize": 8,
+    "nutritionalValue": 2,
+    "saturation": 0.5,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": "CUSTOM:WoodenTrough"
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "drink",
+    "hasGlow": false
+  }
+}
