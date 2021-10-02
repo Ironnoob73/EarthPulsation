@@ -16,7 +16,7 @@ public class TopazItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:topaz")
 	public static final Item block = null;
 	public TopazItem(EarthPulsationModElements instance) {
-		super(instance, 100);
+		super(instance, 106);
 	}
 
 	@Override

@@ -7,12 +7,12 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.BiomeDictionary;
 
-import net.minecraft.world.gen.trunkplacer.GiantTrunkPlacer;
+import net.minecraft.world.gen.trunkplacer.StraightTrunkPlacer;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilderConfig;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
 import net.minecraft.world.gen.placement.Placement;
 import net.minecraft.world.gen.placement.AtSurfaceWithExtraConfig;
-import net.minecraft.world.gen.foliageplacer.MegaPineFoliagePlacer;
+import net.minecraft.world.gen.foliageplacer.BlobFoliagePlacer;
 import net.minecraft.world.gen.feature.structure.StructureFeatures;
 import net.minecraft.world.gen.feature.TwoLayerFeature;
 import net.minecraft.world.gen.feature.Features;
@@ -31,9 +31,8 @@ import net.minecraft.util.registry.WorldGenRegistries;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.particles.ParticleTypes;
+import net.minecraft.block.Blocks;
 
-import idv.hailelectronic.earthpulsation.block.MapleLogBlock;
-import idv.hailelectronic.earthpulsation.block.MapleLeavesBlock;
 import idv.hailelectronic.earthpulsation.block.BlazingDirtBlock;
 import idv.hailelectronic.earthpulsation.EarthPulsationModElements;
 
@@ -41,7 +40,7 @@ import idv.hailelectronic.earthpulsation.EarthPulsationModElements;
 public class BlazingWastelandBiome extends EarthPulsationModElements.ModElement {
 	public static Biome biome;
 	public BlazingWastelandBiome(EarthPulsationModElements instance) {
-		super(instance, 468);
+		super(instance, 480);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 	private static class BiomeRegisterHandler {
@@ -55,14 +54,14 @@ public class BlazingWastelandBiome extends EarthPulsationModElements.ModElement 
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(BlazingDirtBlock.block.getDefaultState(),
 								BlazingDirtBlock.block.getDefaultState(), BlazingDirtBlock.block.getDefaultState())));
 				biomeGenerationSettings.withStructure(StructureFeatures.VILLAGE_SAVANNA);
-				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.TREE
-						.withConfiguration((new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(MapleLogBlock.block.getDefaultState()),
-								new SimpleBlockStateProvider(MapleLeavesBlock.block.getDefaultState()),
-								new MegaPineFoliagePlacer(FeatureSpread.func_242252_a(0), FeatureSpread.func_242252_a(0),
-										FeatureSpread.func_242253_a(13, 4)),
-								new GiantTrunkPlacer(7, 2, 14), new TwoLayerFeature(1, 1, 2))).setMaxWaterDepth(0).build())
-						.withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT)
-						.withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(1, 0.1F, 1))));
+				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
+						Feature.TREE
+								.withConfiguration((new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(Blocks.AIR.getDefaultState()),
+										new SimpleBlockStateProvider(Blocks.AIR.getDefaultState()),
+										new BlobFoliagePlacer(FeatureSpread.func_242252_a(2), FeatureSpread.func_242252_a(0), 3),
+										new StraightTrunkPlacer(7, 2, 0), new TwoLayerFeature(1, 0, 1))).setIgnoreVines().setMaxWaterDepth(0).build())
+								.withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT)
+								.withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(1, 0.1F, 1))));
 				DefaultBiomeFeatures.withCavesAndCanyons(biomeGenerationSettings);
 				DefaultBiomeFeatures.withOverworldOres(biomeGenerationSettings);
 				DefaultBiomeFeatures.withFrozenTopLayer(biomeGenerationSettings);

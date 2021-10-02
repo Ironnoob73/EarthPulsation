@@ -47,7 +47,7 @@ public class WarpedWartSlurriesBlock extends EarthPulsationModElements.ModElemen
 	public static FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public WarpedWartSlurriesBlock(EarthPulsationModElements instance) {
-		super(instance, 215);
+		super(instance, 226);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FluidRegisterHandler());
 	}
 	private static class FluidRegisterHandler {
@@ -68,8 +68,8 @@ public class WarpedWartSlurriesBlock extends EarthPulsationModElements.ModElemen
 	public void initElements() {
 		fluidproperties = new ForgeFlowingFluid.Properties(() -> still, () -> flowing,
 				FluidAttributes
-						.builder(new ResourceLocation("earth_pulsation:blocks/water_sick_still"),
-								new ResourceLocation("earth_pulsation:blocks/water_sick_flow"))
+						.builder(new ResourceLocation("earth_pulsation:blocks/warped_wart_slurries_still"),
+								new ResourceLocation("earth_pulsation:blocks/warped_wart_slurries_flow"))
 						.luminosity(0).density(1000).viscosity(4000).temperature(350).rarity(Rarity.COMMON)).explosionResistance(100f).tickRate(10)
 								.levelDecreasePerBlock(2).slopeFindDistance(1).bucket(() -> bucket).block(() -> block);
 		still = (FlowingFluid) new ForgeFlowingFluid.Source(fluidproperties).setRegistryName("warped_wart_slurries");

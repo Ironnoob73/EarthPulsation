@@ -16,7 +16,7 @@ public class ResinItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:resin")
 	public static final Item block = null;
 	public ResinItem(EarthPulsationModElements instance) {
-		super(instance, 201);
+		super(instance, 212);
 	}
 
 	@Override

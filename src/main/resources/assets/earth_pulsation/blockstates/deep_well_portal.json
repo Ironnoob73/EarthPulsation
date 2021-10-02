@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "earth_pulsation:block/deep_well_portal_ew"
+    },
+    "axis=x": {
+      "model": "earth_pulsation:block/deep_well_portal_ns"
+    }
+  }
+}

@@ -50,7 +50,7 @@ public class TopazOreBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:topaz_ore")
 	public static final Block block = null;
 	public TopazOreBlock(EarthPulsationModElements instance) {
-		super(instance, 102);
+		super(instance, 108);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

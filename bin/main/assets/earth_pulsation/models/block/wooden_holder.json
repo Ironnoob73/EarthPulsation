@@ -1,8 +1,0 @@
-{
-  "parent": "earth_pulsation:custom/wooden_holder",
-  "textures": {
-    "all": "earth_pulsation:blocks/wooden_box",
-    "particle": "earth_pulsation:blocks/wooden_box",
-    "3": "earth_pulsation:blocks/wooden_box"
-  }
-}

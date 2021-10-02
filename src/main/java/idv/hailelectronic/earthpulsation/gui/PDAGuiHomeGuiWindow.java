@@ -87,40 +87,40 @@ public class PDAGuiHomeGuiWindow extends ContainerScreen<PDAGuiHomeGui.GuiContai
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 162, this.guiTop + 0, 30, 20, new StringTextComponent("Close"), e -> {
+		this.addButton(new Button(this.guiLeft + 167, this.guiTop + 0, 30, 20, new StringTextComponent("Close"), e -> {
 			if (true) {
 				EarthPulsationMod.PACKET_HANDLER.sendToServer(new PDAGuiHomeGui.ButtonPressedMessage(0, x, y, z));
 				PDAGuiHomeGui.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));
-		this.addButton(new Button(this.guiLeft + -33, this.guiTop + 204, 30, 20, new StringTextComponent("Back"), e -> {
+		this.addButton(new Button(this.guiLeft + -40, this.guiTop + 200, 30, 20, new StringTextComponent("Back"), e -> {
 			if (true) {
 				EarthPulsationMod.PACKET_HANDLER.sendToServer(new PDAGuiHomeGui.ButtonPressedMessage(1, x, y, z));
 				PDAGuiHomeGui.handleButtonAction(entity, 1, x, y, z);
 			}
 		}));
-		H = new CheckboxButton(this.guiLeft + 69, this.guiTop + 202, 150, 20, new StringTextComponent(""), false);
+		H = new CheckboxButton(this.guiLeft + 69, this.guiTop + 203, 150, 20, new StringTextComponent(""), false);
 		PDAGuiHomeGui.guistate.put("checkbox:H", H);
 		this.addButton(H);
-		this.addButton(new Button(this.guiLeft + 80, this.guiTop + 181, 70, 20, new StringTextComponent("Test page"), e -> {
+		this.addButton(new Button(this.guiLeft + 79, this.guiTop + 176, 70, 20, new StringTextComponent("Test page"), e -> {
 			if (true) {
 				EarthPulsationMod.PACKET_HANDLER.sendToServer(new PDAGuiHomeGui.ButtonPressedMessage(2, x, y, z));
 				PDAGuiHomeGui.handleButtonAction(entity, 2, x, y, z);
 			}
 		}));
-		this.addButton(new Button(this.guiLeft + 16, this.guiTop + 64, 30, 20, new StringTextComponent(">"), e -> {
+		this.addButton(new Button(this.guiLeft + 15, this.guiTop + 64, 30, 20, new StringTextComponent(">"), e -> {
 			if (true) {
 				EarthPulsationMod.PACKET_HANDLER.sendToServer(new PDAGuiHomeGui.ButtonPressedMessage(3, x, y, z));
 				PDAGuiHomeGui.handleButtonAction(entity, 3, x, y, z);
 			}
 		}));
-		this.addButton(new Button(this.guiLeft + 48, this.guiTop + 64, 30, 20, new StringTextComponent(">"), e -> {
+		this.addButton(new Button(this.guiLeft + 47, this.guiTop + 64, 30, 20, new StringTextComponent(">"), e -> {
 			if (true) {
 				EarthPulsationMod.PACKET_HANDLER.sendToServer(new PDAGuiHomeGui.ButtonPressedMessage(4, x, y, z));
 				PDAGuiHomeGui.handleButtonAction(entity, 4, x, y, z);
 			}
 		}));
-		this.addButton(new Button(this.guiLeft + 80, this.guiTop + 64, 30, 20, new StringTextComponent(">"), e -> {
+		this.addButton(new Button(this.guiLeft + 79, this.guiTop + 64, 30, 20, new StringTextComponent(">"), e -> {
 			if (true) {
 				EarthPulsationMod.PACKET_HANDLER.sendToServer(new PDAGuiHomeGui.ButtonPressedMessage(5, x, y, z));
 				PDAGuiHomeGui.handleButtonAction(entity, 5, x, y, z);

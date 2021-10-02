@@ -17,7 +17,7 @@ public class ObsidianSwordItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:obsidian_sword")
 	public static final Item block = null;
 	public ObsidianSwordItem(EarthPulsationModElements instance) {
-		super(instance, 151);
+		super(instance, 158);
 	}
 
 	@Override

@@ -27,7 +27,7 @@ public class TurbidObsidianBlockBlock extends EarthPulsationModElements.ModEleme
 	@ObjectHolder("earth_pulsation:turbid_obsidian_block")
 	public static final Block block = null;
 	public TurbidObsidianBlockBlock(EarthPulsationModElements instance) {
-		super(instance, 147);
+		super(instance, 154);
 	}
 
 	@Override

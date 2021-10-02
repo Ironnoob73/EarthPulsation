@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "rusty_iron_sword",
     "customModelName": "Normal",
-    "name": "Rusty Iron Axe",
+    "name": "Rusty Iron Sword",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:EarthPulsation"

@@ -38,7 +38,7 @@ public class HardAluminumBlockBlock extends EarthPulsationModElements.ModElement
 	@ObjectHolder("earth_pulsation:hard_aluminum_block")
 	public static final Block block = null;
 	public HardAluminumBlockBlock(EarthPulsationModElements instance) {
-		super(instance, 138);
+		super(instance, 145);
 	}
 
 	@Override
@@ -59,6 +59,11 @@ public class HardAluminumBlockBlock extends EarthPulsationModElements.ModElement
 					.harvestLevel(3).harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setNeedsPostProcessing((bs, br, bp) -> true)
 					.setEmmisiveRendering((bs, br, bp) -> true).setOpaque((bs, br, bp) -> false));
 			setRegistryName("hard_aluminum_block");
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		public boolean isSideInvisible(BlockState state, BlockState adjacentBlockState, Direction side) {
+			return adjacentBlockState.getBlock() == this ? true : super.isSideInvisible(state, adjacentBlockState, side);
 		}
 
 		@Override

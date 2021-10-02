@@ -46,7 +46,7 @@ import com.google.common.collect.ImmutableList;
 public class IceDesertBiome extends EarthPulsationModElements.ModElement {
 	public static Biome biome;
 	public IceDesertBiome(EarthPulsationModElements instance) {
-		super(instance, 328);
+		super(instance, 340);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 	private static class BiomeRegisterHandler {

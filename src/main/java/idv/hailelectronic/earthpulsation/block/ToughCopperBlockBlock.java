@@ -38,7 +38,7 @@ public class ToughCopperBlockBlock extends EarthPulsationModElements.ModElement 
 	@ObjectHolder("earth_pulsation:tough_copper_block")
 	public static final Block block = null;
 	public ToughCopperBlockBlock(EarthPulsationModElements instance) {
-		super(instance, 136);
+		super(instance, 143);
 	}
 
 	@Override
@@ -59,6 +59,11 @@ public class ToughCopperBlockBlock extends EarthPulsationModElements.ModElement 
 					.harvestLevel(3).harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setNeedsPostProcessing((bs, br, bp) -> true)
 					.setEmmisiveRendering((bs, br, bp) -> true).setOpaque((bs, br, bp) -> false));
 			setRegistryName("tough_copper_block");
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		public boolean isSideInvisible(BlockState state, BlockState adjacentBlockState, Direction side) {
+			return adjacentBlockState.getBlock() == this ? true : super.isSideInvisible(state, adjacentBlockState, side);
 		}
 
 		@Override

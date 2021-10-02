@@ -41,7 +41,7 @@ public class YellowStoneBricksWallBlock extends EarthPulsationModElements.ModEle
 	@ObjectHolder("earth_pulsation:yellow_stone_bricks_wall")
 	public static final Block block = null;
 	public YellowStoneBricksWallBlock(EarthPulsationModElements instance) {
-		super(instance, 162);
+		super(instance, 171);
 	}
 
 	@Override
@@ -196,11 +196,6 @@ public class YellowStoneBricksWallBlock extends EarthPulsationModElements.ModEle
 
 		private static boolean compareShapes(VoxelShape shape1, VoxelShape shape2) {
 			return !VoxelShapes.compare(shape2, shape1, IBooleanFunction.ONLY_FIRST);
-		}
-
-		@Override
-		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
-			return 15;
 		}
 
 		@Override

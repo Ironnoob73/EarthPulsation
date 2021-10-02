@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "bottom": "earth_pulsation:blocks/maple_planks",
-    "top": "earth_pulsation:blocks/maple_planks",
-    "side": "earth_pulsation:blocks/maple_planks"
-  }
-}

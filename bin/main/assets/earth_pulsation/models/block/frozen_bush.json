@@ -1,7 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "earth_pulsation:blocks/frozen_bush",
-    "particle": "earth_pulsation:blocks/frozen_bush"
-  }
-}

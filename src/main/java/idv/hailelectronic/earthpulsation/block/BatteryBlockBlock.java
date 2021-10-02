@@ -68,7 +68,7 @@ public class BatteryBlockBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:battery_block")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public BatteryBlockBlock(EarthPulsationModElements instance) {
-		super(instance, 206);
+		super(instance, 218);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

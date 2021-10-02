@@ -35,7 +35,7 @@ public class WoodPlanksDoorBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:wood_planks_door")
 	public static final Block block = null;
 	public WoodPlanksDoorBlock(EarthPulsationModElements instance) {
-		super(instance, 115);
+		super(instance, 121);
 	}
 
 	@Override
@@ -55,11 +55,6 @@ public class WoodPlanksDoorBlock extends EarthPulsationModElements.ModElement {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 3f).setLightLevel(s -> 0).harvestLevel(1)
 					.harvestTool(ToolType.AXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
 			setRegistryName("wood_planks_door");
-		}
-
-		@Override
-		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
-			return 15;
 		}
 
 		@Override

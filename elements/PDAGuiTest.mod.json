@@ -30,8 +30,17 @@
           "width": 30,
           "height": 20,
           "name": "Close",
-          "x": 295,
-          "y": 7
+          "x": 301,
+          "y": 8
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "text": "",
+          "name": "H",
+          "x": 203,
+          "y": 211
         }
       },
       {
@@ -41,17 +50,8 @@
           "width": 30,
           "height": 20,
           "name": "Back",
-          "x": 101,
-          "y": 213
-        }
-      },
-      {
-        "type": "checkbox",
-        "data": {
-          "text": "",
-          "name": "H",
-          "x": 203,
-          "y": 210
+          "x": 93,
+          "y": 208
         }
       },
       {
@@ -64,7 +64,7 @@
           },
           "name": "Test",
           "x": 141,
-          "y": 25
+          "y": 24
         }
       }
     ],
@@ -74,7 +74,7 @@
     "gridSettings": {
       "sx": 18,
       "sy": 18,
-      "ox": 9,
+      "ox": 12,
       "oy": 15,
       "snapOnGrid": false
     }

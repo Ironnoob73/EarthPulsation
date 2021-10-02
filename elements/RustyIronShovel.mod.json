@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "rusty_iron_shovel",
     "customModelName": "Normal",
-    "name": "Rusty Iron Axe",
+    "name": "Rusty Iron Shovel",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:EarthPulsation"

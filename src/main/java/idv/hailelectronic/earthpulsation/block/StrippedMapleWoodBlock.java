@@ -32,7 +32,7 @@ public class StrippedMapleWoodBlock extends EarthPulsationModElements.ModElement
 	@ObjectHolder("earth_pulsation:stripped_maple_wood")
 	public static final Block block = null;
 	public StrippedMapleWoodBlock(EarthPulsationModElements instance) {
-		super(instance, 187);
+		super(instance, 196);
 	}
 
 	@Override

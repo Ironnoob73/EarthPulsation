@@ -27,7 +27,7 @@ public class StickPlanksBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:stick_planks")
 	public static final Block block = null;
 	public StickPlanksBlock(EarthPulsationModElements instance) {
-		super(instance, 112);
+		super(instance, 118);
 	}
 
 	@Override

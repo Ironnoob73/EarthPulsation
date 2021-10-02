@@ -510,19 +510,6 @@
       {
         "type": "label",
         "data": {
-          "text": "<energy>",
-          "color": {
-            "value": -16724890,
-            "falpha": 0.0
-          },
-          "name": "<energy>",
-          "x": 226,
-          "y": 64
-        }
-      },
-      {
-        "type": "label",
-        "data": {
           "text": "<BNBT:number:fuel>",
           "color": {
             "value": -5066062,

@@ -48,7 +48,7 @@ public class TinyTNTItem extends EarthPulsationModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
 			.size(0.5f, 0.5f)).build("entitybullettiny_tnt").setRegistryName("entitybullettiny_tnt");
 	public TinyTNTItem(EarthPulsationModElements instance) {
-		super(instance, 224);
+		super(instance, 236);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TinyTNTRenderer.ModelRegisterHandler());
 	}
 

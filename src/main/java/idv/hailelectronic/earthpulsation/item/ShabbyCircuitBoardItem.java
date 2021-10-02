@@ -16,7 +16,7 @@ public class ShabbyCircuitBoardItem extends EarthPulsationModElements.ModElement
 	@ObjectHolder("earth_pulsation:shabby_circuit_board")
 	public static final Item block = null;
 	public ShabbyCircuitBoardItem(EarthPulsationModElements instance) {
-		super(instance, 202);
+		super(instance, 213);
 	}
 
 	@Override

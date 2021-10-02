@@ -20,7 +20,7 @@ public class WoodenTroughFilledWithChocolateItem extends EarthPulsationModElemen
 	@ObjectHolder("earth_pulsation:wooden_trough_filled_with_chocolate")
 	public static final Item block = null;
 	public WoodenTroughFilledWithChocolateItem(EarthPulsationModElements instance) {
-		super(instance, 213);
+		super(instance, 224);
 	}
 
 	@Override

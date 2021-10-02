@@ -17,7 +17,7 @@ public class ChocolateItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:chocolate")
 	public static final Item block = null;
 	public ChocolateItem(EarthPulsationModElements instance) {
-		super(instance, 214);
+		super(instance, 225);
 	}
 
 	@Override

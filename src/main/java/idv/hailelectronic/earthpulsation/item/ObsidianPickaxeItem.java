@@ -17,7 +17,7 @@ public class ObsidianPickaxeItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:obsidian_pickaxe")
 	public static final Item block = null;
 	public ObsidianPickaxeItem(EarthPulsationModElements instance) {
-		super(instance, 149);
+		super(instance, 156);
 	}
 
 	@Override

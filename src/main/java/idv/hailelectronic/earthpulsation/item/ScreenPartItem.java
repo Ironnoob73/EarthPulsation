@@ -16,7 +16,7 @@ public class ScreenPartItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:screen_part")
 	public static final Item block = null;
 	public ScreenPartItem(EarthPulsationModElements instance) {
-		super(instance, 207);
+		super(instance, 216);
 	}
 
 	@Override

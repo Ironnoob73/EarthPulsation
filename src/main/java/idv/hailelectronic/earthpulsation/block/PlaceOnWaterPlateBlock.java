@@ -56,7 +56,7 @@ public class PlaceOnWaterPlateBlock extends EarthPulsationModElements.ModElement
 	@ObjectHolder("earth_pulsation:place_on_water_plate")
 	public static final Block block = null;
 	public PlaceOnWaterPlateBlock(EarthPulsationModElements instance) {
-		super(instance, 225);
+		super(instance, 237);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

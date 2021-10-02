@@ -18,7 +18,7 @@
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
-    "connectedSides": false,
+    "connectedSides": true,
     "transparencyType": "SOLID",
     "disableOffset": true,
     "boundingBoxes": [
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Alchemical Silver Block",
+    "name": "Tough Copper Block",
     "specialInfo": [],
     "hardness": 20.0,
     "resistance": 15.0,

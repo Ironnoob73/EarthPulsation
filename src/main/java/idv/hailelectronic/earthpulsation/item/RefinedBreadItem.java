@@ -17,7 +17,7 @@ public class RefinedBreadItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:refined_bread")
 	public static final Item block = null;
 	public RefinedBreadItem(EarthPulsationModElements instance) {
-		super(instance, 212);
+		super(instance, 223);
 	}
 
 	@Override

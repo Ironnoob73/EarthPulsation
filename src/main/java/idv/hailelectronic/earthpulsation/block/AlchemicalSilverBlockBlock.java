@@ -38,7 +38,7 @@ public class AlchemicalSilverBlockBlock extends EarthPulsationModElements.ModEle
 	@ObjectHolder("earth_pulsation:alchemical_silver_block")
 	public static final Block block = null;
 	public AlchemicalSilverBlockBlock(EarthPulsationModElements instance) {
-		super(instance, 142);
+		super(instance, 149);
 	}
 
 	@Override
@@ -59,6 +59,11 @@ public class AlchemicalSilverBlockBlock extends EarthPulsationModElements.ModEle
 					.harvestLevel(3).harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setNeedsPostProcessing((bs, br, bp) -> true)
 					.setEmmisiveRendering((bs, br, bp) -> true).setOpaque((bs, br, bp) -> false));
 			setRegistryName("alchemical_silver_block");
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		public boolean isSideInvisible(BlockState state, BlockState adjacentBlockState, Direction side) {
+			return adjacentBlockState.getBlock() == this ? true : super.isSideInvisible(state, adjacentBlockState, side);
 		}
 
 		@Override

@@ -38,7 +38,7 @@ public class PatternGoldBlockBlock extends EarthPulsationModElements.ModElement 
 	@ObjectHolder("earth_pulsation:pattern_gold_block")
 	public static final Block block = null;
 	public PatternGoldBlockBlock(EarthPulsationModElements instance) {
-		super(instance, 140);
+		super(instance, 147);
 	}
 
 	@Override
@@ -59,6 +59,11 @@ public class PatternGoldBlockBlock extends EarthPulsationModElements.ModElement 
 					.harvestLevel(3).harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setNeedsPostProcessing((bs, br, bp) -> true)
 					.setEmmisiveRendering((bs, br, bp) -> true).setOpaque((bs, br, bp) -> false));
 			setRegistryName("pattern_gold_block");
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		public boolean isSideInvisible(BlockState state, BlockState adjacentBlockState, Direction side) {
+			return adjacentBlockState.getBlock() == this ? true : super.isSideInvisible(state, adjacentBlockState, side);
 		}
 
 		@Override

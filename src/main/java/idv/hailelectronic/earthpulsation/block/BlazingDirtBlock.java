@@ -29,7 +29,7 @@ public class BlazingDirtBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:blazing_dirt")
 	public static final Block block = null;
 	public BlazingDirtBlock(EarthPulsationModElements instance) {
-		super(instance, 182);
+		super(instance, 191);
 	}
 
 	@Override

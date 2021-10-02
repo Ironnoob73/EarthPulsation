@@ -4,8 +4,8 @@
   "definition": {
     "name": "Warped Wart Slurries",
     "bucketName": "Warped Wart Slurries Bucket",
-    "textureStill": "water_sick_still",
-    "textureFlowing": "water_sick_flow",
+    "textureStill": "warped_wart_slurries_still",
+    "textureFlowing": "warped_wart_slurries_flow",
     "tintType": "No tint",
     "canMultiply": false,
     "flowRate": 10,

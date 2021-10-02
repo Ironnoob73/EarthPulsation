@@ -8,11 +8,13 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.IBlockReader;
+import net.minecraft.world.IBlockDisplayReader;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
+import net.minecraft.fluid.FluidState;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.MaterialColor;
@@ -32,7 +34,7 @@ public class IcesandstoneBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:icesandstone")
 	public static final Block block = null;
 	public IcesandstoneBlock(EarthPulsationModElements instance) {
-		super(instance, 164);
+		super(instance, 173);
 	}
 
 	@Override
@@ -52,6 +54,11 @@ public class IcesandstoneBlock extends EarthPulsationModElements.ModElement {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 1f).setLightLevel(s -> 0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool().slipperiness(0.5f).notSolid().setOpaque((bs, br, bp) -> false));
 			setRegistryName("icesandstone");
+		}
+
+		@Override
+		public boolean shouldDisplayFluidOverlay(BlockState state, IBlockDisplayReader world, BlockPos pos, FluidState fluidstate) {
+			return true;
 		}
 
 		@Override

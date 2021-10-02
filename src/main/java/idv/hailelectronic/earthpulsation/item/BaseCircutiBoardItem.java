@@ -16,7 +16,7 @@ public class BaseCircutiBoardItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:base_circuti_board")
 	public static final Item block = null;
 	public BaseCircutiBoardItem(EarthPulsationModElements instance) {
-		super(instance, 204);
+		super(instance, 215);
 	}
 
 	@Override

@@ -48,7 +48,7 @@ public class BlackGoldOreBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:black_gold_ore")
 	public static final Block block = null;
 	public BlackGoldOreBlock(EarthPulsationModElements instance) {
-		super(instance, 131);
+		super(instance, 138);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

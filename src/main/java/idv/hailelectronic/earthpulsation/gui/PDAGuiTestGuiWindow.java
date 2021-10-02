@@ -73,7 +73,7 @@ public class PDAGuiTestGuiWindow extends ContainerScreen<PDAGuiTestGui.GuiContai
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "Test", 7, 17, -1);
+		this.font.drawString(ms, "Test", 7, 16, -1);
 	}
 
 	@Override
@@ -86,20 +86,20 @@ public class PDAGuiTestGuiWindow extends ContainerScreen<PDAGuiTestGui.GuiContai
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 161, this.guiTop + -1, 30, 20, new StringTextComponent("Close"), e -> {
+		this.addButton(new Button(this.guiLeft + 167, this.guiTop + 0, 30, 20, new StringTextComponent("Close"), e -> {
 			if (true) {
 				EarthPulsationMod.PACKET_HANDLER.sendToServer(new PDAGuiTestGui.ButtonPressedMessage(0, x, y, z));
 				PDAGuiTestGui.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));
-		this.addButton(new Button(this.guiLeft + -32, this.guiTop + 205, 30, 20, new StringTextComponent("Back"), e -> {
+		H = new CheckboxButton(this.guiLeft + 69, this.guiTop + 203, 150, 20, new StringTextComponent(""), false);
+		PDAGuiTestGui.guistate.put("checkbox:H", H);
+		this.addButton(H);
+		this.addButton(new Button(this.guiLeft + -40, this.guiTop + 200, 30, 20, new StringTextComponent("Back"), e -> {
 			if (true) {
 				EarthPulsationMod.PACKET_HANDLER.sendToServer(new PDAGuiTestGui.ButtonPressedMessage(1, x, y, z));
 				PDAGuiTestGui.handleButtonAction(entity, 1, x, y, z);
 			}
 		}));
-		H = new CheckboxButton(this.guiLeft + 69, this.guiTop + 202, 150, 20, new StringTextComponent(""), false);
-		PDAGuiTestGui.guistate.put("checkbox:H", H);
-		this.addButton(H);
 	}
 }

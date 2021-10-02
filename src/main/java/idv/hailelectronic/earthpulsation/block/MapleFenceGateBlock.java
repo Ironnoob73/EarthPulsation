@@ -27,7 +27,7 @@ public class MapleFenceGateBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:maple_fence_gate")
 	public static final Block block = null;
 	public MapleFenceGateBlock(EarthPulsationModElements instance) {
-		super(instance, 192);
+		super(instance, 201);
 	}
 
 	@Override

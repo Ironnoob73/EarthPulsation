@@ -1,0 +1,8 @@
+{
+  "parent": "earth_pulsation:custom/lumen_crystal_stem",
+  "textures": {
+    "all": "earth_pulsation:blocks/lumen_crystal",
+    "particle": "earth_pulsation:blocks/lumen_crystal",
+    "0": "earth_pulsation:blocks/lumen_crystal"
+  }
+}

@@ -27,7 +27,7 @@ public class BlackGoldBlockBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:black_gold_block")
 	public static final Block block = null;
 	public BlackGoldBlockBlock(EarthPulsationModElements instance) {
-		super(instance, 132);
+		super(instance, 139);
 	}
 
 	@Override

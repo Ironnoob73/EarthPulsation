@@ -16,7 +16,7 @@ public class SawDustItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:saw_dust")
 	public static final Item block = null;
 	public SawDustItem(EarthPulsationModElements instance) {
-		super(instance, 110);
+		super(instance, 116);
 	}
 
 	@Override

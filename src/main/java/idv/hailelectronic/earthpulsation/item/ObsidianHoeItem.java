@@ -17,7 +17,7 @@ public class ObsidianHoeItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:obsidian_hoe")
 	public static final Item block = null;
 	public ObsidianHoeItem(EarthPulsationModElements instance) {
-		super(instance, 153);
+		super(instance, 160);
 	}
 
 	@Override

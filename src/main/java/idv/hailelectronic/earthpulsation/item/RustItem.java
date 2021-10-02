@@ -16,7 +16,7 @@ public class RustItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:rust")
 	public static final Item block = null;
 	public RustItem(EarthPulsationModElements instance) {
-		super(instance, 104);
+		super(instance, 110);
 	}
 
 	@Override

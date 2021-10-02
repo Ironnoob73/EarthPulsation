@@ -32,7 +32,7 @@ public class StrippedIceBirchWoodBlock extends EarthPulsationModElements.ModElem
 	@ObjectHolder("earth_pulsation:stripped_ice_birch_wood")
 	public static final Block block = null;
 	public StrippedIceBirchWoodBlock(EarthPulsationModElements instance) {
-		super(instance, 173);
+		super(instance, 182);
 	}
 
 	@Override
