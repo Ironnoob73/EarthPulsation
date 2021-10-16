@@ -78,7 +78,7 @@ public class CoalGeneratorBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:coal_generator")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public CoalGeneratorBlock(EarthPulsationModElements instance) {
-		super(instance, 217);
+		super(instance, 211);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

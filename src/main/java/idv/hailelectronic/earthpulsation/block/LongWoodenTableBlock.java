@@ -51,7 +51,7 @@ public class LongWoodenTableBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:long_wooden_table")
 	public static final Block block = null;
 	public LongWoodenTableBlock(EarthPulsationModElements instance) {
-		super(instance, 123);
+		super(instance, 229);
 	}
 
 	@Override

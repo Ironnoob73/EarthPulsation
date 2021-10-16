@@ -7,8 +7,6 @@ import net.minecraftforge.common.ToolType;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.IBlockReader;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.state.properties.DoubleBlockHalf;
 import net.minecraft.state.properties.BlockStateProperties;
 import net.minecraft.loot.LootContext;
@@ -34,7 +32,7 @@ public class CopperDoorBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:copper_door")
 	public static final Block block = null;
 	public CopperDoorBlock(EarthPulsationModElements instance) {
-		super(instance, 29);
+		super(instance, 222);
 	}
 
 	@Override
@@ -54,11 +52,6 @@ public class CopperDoorBlock extends EarthPulsationModElements.ModElement {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(5f, 10f).setLightLevel(s -> 0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
 			setRegistryName("copper_door");
-		}
-
-		@Override
-		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
-			return 15;
 		}
 
 		@Override

@@ -76,7 +76,7 @@ public class DeepWellDimension extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:deep_well_portal")
 	public static final CustomPortalBlock portal = null;
 	public DeepWellDimension(EarthPulsationModElements instance) {
-		super(instance, 233);
+		super(instance, 236);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new POIRegisterHandler());
 	}
 

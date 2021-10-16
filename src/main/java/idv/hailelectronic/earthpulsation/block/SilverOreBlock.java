@@ -47,7 +47,7 @@ public class SilverOreBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:silver_ore")
 	public static final Block block = null;
 	public SilverOreBlock(EarthPulsationModElements instance) {
-		super(instance, 91);
+		super(instance, 89);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

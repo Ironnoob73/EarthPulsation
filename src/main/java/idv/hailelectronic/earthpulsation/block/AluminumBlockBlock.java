@@ -26,7 +26,7 @@ public class AluminumBlockBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:aluminum_block")
 	public static final Block block = null;
 	public AluminumBlockBlock(EarthPulsationModElements instance) {
-		super(instance, 35);
+		super(instance, 34);
 	}
 
 	@Override

@@ -28,7 +28,7 @@ public class IcesandBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:icesand")
 	public static final Block block = null;
 	public IcesandBlock(EarthPulsationModElements instance) {
-		super(instance, 172);
+		super(instance, 166);
 	}
 
 	@Override

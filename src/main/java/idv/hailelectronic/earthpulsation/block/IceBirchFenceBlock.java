@@ -28,7 +28,7 @@ public class IceBirchFenceBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:ice_birch_fence")
 	public static final Block block = null;
 	public IceBirchFenceBlock(EarthPulsationModElements instance) {
-		super(instance, 186);
+		super(instance, 180);
 	}
 
 	@Override

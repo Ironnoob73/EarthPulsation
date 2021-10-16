@@ -16,7 +16,7 @@ public class JadeIngotItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:jade_ingot")
 	public static final Item block = null;
 	public JadeIngotItem(EarthPulsationModElements instance) {
-		super(instance, 135);
+		super(instance, 129);
 	}
 
 	@Override

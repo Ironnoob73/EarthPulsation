@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "container_side"
+      },
+      "name": "default"
+    }
+  }
+}

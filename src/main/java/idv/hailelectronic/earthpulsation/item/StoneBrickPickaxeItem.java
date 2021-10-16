@@ -17,7 +17,7 @@ public class StoneBrickPickaxeItem extends EarthPulsationModElements.ModElement 
 	@ObjectHolder("earth_pulsation:stone_brick_pickaxe")
 	public static final Item block = null;
 	public StoneBrickPickaxeItem(EarthPulsationModElements instance) {
-		super(instance, 129);
+		super(instance, 123);
 	}
 
 	@Override

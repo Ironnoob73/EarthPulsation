@@ -16,7 +16,7 @@ public class EmptyYellowStoneRuneItem extends EarthPulsationModElements.ModEleme
 	@ObjectHolder("earth_pulsation:empty_yellow_stone_rune")
 	public static final Item block = null;
 	public EmptyYellowStoneRuneItem(EarthPulsationModElements instance) {
-		super(instance, 210);
+		super(instance, 204);
 	}
 
 	@Override

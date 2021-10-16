@@ -16,7 +16,7 @@ public class MagnetIngotItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:magnet_ingot")
 	public static final Item block = null;
 	public MagnetIngotItem(EarthPulsationModElements instance) {
-		super(instance, 162);
+		super(instance, 156);
 	}
 
 	@Override

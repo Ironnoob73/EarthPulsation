@@ -17,7 +17,7 @@ public class AluminumPickaxeItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:aluminum_pickaxe")
 	public static final Item block = null;
 	public AluminumPickaxeItem(EarthPulsationModElements instance) {
-		super(instance, 36);
+		super(instance, 35);
 	}
 
 	@Override

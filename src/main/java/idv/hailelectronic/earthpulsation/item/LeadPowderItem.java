@@ -16,7 +16,7 @@ public class LeadPowderItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:lead_powder")
 	public static final Item block = null;
 	public LeadPowderItem(EarthPulsationModElements instance) {
-		super(instance, 78);
+		super(instance, 76);
 	}
 
 	@Override

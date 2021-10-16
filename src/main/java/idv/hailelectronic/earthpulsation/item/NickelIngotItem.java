@@ -16,7 +16,7 @@ public class NickelIngotItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:nickel_ingot")
 	public static final Item block = null;
 	public NickelIngotItem(EarthPulsationModElements instance) {
-		super(instance, 96);
+		super(instance, 94);
 	}
 
 	@Override

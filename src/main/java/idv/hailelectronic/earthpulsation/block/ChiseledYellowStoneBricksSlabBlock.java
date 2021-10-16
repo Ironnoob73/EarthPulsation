@@ -31,7 +31,7 @@ public class ChiseledYellowStoneBricksSlabBlock extends EarthPulsationModElement
 	@ObjectHolder("earth_pulsation:chiseled_yellow_stone_bricks_slab")
 	public static final Block block = null;
 	public ChiseledYellowStoneBricksSlabBlock(EarthPulsationModElements instance) {
-		super(instance, 170);
+		super(instance, 164);
 	}
 
 	@Override

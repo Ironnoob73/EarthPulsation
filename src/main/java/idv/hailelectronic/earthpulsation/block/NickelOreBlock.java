@@ -47,7 +47,7 @@ public class NickelOreBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:nickel_ore")
 	public static final Block block = null;
 	public NickelOreBlock(EarthPulsationModElements instance) {
-		super(instance, 97);
+		super(instance, 95);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

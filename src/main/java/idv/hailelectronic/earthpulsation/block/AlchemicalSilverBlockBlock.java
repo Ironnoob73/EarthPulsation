@@ -38,7 +38,7 @@ public class AlchemicalSilverBlockBlock extends EarthPulsationModElements.ModEle
 	@ObjectHolder("earth_pulsation:alchemical_silver_block")
 	public static final Block block = null;
 	public AlchemicalSilverBlockBlock(EarthPulsationModElements instance) {
-		super(instance, 149);
+		super(instance, 143);
 	}
 
 	@Override

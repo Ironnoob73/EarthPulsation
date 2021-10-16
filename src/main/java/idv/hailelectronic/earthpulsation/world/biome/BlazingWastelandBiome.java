@@ -40,7 +40,7 @@ import idv.hailelectronic.earthpulsation.EarthPulsationModElements;
 public class BlazingWastelandBiome extends EarthPulsationModElements.ModElement {
 	public static Biome biome;
 	public BlazingWastelandBiome(EarthPulsationModElements instance) {
-		super(instance, 480);
+		super(instance, 483);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 	private static class BiomeRegisterHandler {

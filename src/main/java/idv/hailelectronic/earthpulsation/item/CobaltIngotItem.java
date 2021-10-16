@@ -16,7 +16,7 @@ public class CobaltIngotItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:cobalt_ingot")
 	public static final Item block = null;
 	public CobaltIngotItem(EarthPulsationModElements instance) {
-		super(instance, 93);
+		super(instance, 91);
 	}
 
 	@Override

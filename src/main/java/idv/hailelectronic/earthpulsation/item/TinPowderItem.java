@@ -16,7 +16,7 @@ public class TinPowderItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:tin_powder")
 	public static final Item block = null;
 	public TinPowderItem(EarthPulsationModElements instance) {
-		super(instance, 84);
+		super(instance, 82);
 	}
 
 	@Override

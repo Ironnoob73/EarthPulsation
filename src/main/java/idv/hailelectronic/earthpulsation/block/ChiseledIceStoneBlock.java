@@ -32,7 +32,7 @@ public class ChiseledIceStoneBlock extends EarthPulsationModElements.ModElement 
 	@ObjectHolder("earth_pulsation:chiseled_ice_stone")
 	public static final Block block = null;
 	public ChiseledIceStoneBlock(EarthPulsationModElements instance) {
-		super(instance, 175);
+		super(instance, 169);
 	}
 
 	@Override

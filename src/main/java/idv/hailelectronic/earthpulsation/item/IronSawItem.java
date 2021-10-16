@@ -18,7 +18,7 @@ public class IronSawItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:iron_saw")
 	public static final Item block = null;
 	public IronSawItem(EarthPulsationModElements instance) {
-		super(instance, 59);
+		super(instance, 57);
 	}
 
 	@Override

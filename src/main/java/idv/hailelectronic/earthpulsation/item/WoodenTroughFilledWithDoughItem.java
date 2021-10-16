@@ -20,7 +20,7 @@ public class WoodenTroughFilledWithDoughItem extends EarthPulsationModElements.M
 	@ObjectHolder("earth_pulsation:wooden_trough_filled_with_dough")
 	public static final Item block = null;
 	public WoodenTroughFilledWithDoughItem(EarthPulsationModElements instance) {
-		super(instance, 222);
+		super(instance, 216);
 	}
 
 	@Override

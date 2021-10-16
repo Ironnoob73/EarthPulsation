@@ -16,7 +16,7 @@ public class RustIronIngotItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:rust_iron_ingot")
 	public static final Item block = null;
 	public RustIronIngotItem(EarthPulsationModElements instance) {
-		super(instance, 111);
+		super(instance, 109);
 	}
 
 	@Override

@@ -28,7 +28,7 @@ public class LarvikiteBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:larvikite")
 	public static final Block block = null;
 	public LarvikiteBlock(EarthPulsationModElements instance) {
-		super(instance, 204);
+		super(instance, 198);
 	}
 
 	@Override

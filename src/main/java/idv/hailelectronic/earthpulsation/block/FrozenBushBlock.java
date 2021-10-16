@@ -56,7 +56,7 @@ public class FrozenBushBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:frozen_bush")
 	public static final Block block = null;
 	public FrozenBushBlock(EarthPulsationModElements instance) {
-		super(instance, 190);
+		super(instance, 184);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

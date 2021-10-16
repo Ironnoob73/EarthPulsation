@@ -27,7 +27,7 @@ public class NickelBlockBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:nickel_block")
 	public static final Block block = null;
 	public NickelBlockBlock(EarthPulsationModElements instance) {
-		super(instance, 98);
+		super(instance, 96);
 	}
 
 	@Override

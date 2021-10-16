@@ -69,7 +69,7 @@ public class LumenCrystalStemBlock extends EarthPulsationModElements.ModElement 
 	@ObjectHolder("earth_pulsation:lumen_crystal_stem")
 	public static final Block block = null;
 	public LumenCrystalStemBlock(EarthPulsationModElements instance) {
-		super(instance, 205);
+		super(instance, 199);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

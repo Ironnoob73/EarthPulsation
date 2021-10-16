@@ -16,7 +16,7 @@ public class BlueShadowIngotItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:blue_shadow_ingot")
 	public static final Item block = null;
 	public BlueShadowIngotItem(EarthPulsationModElements instance) {
-		super(instance, 136);
+		super(instance, 130);
 	}
 
 	@Override

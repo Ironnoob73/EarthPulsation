@@ -1,0 +1,8 @@
+{
+  "parent": "earth_pulsation:custom/container_wall",
+  "textures": {
+    "all": "earth_pulsation:blocks/container_side",
+    "particle": "earth_pulsation:blocks/container_side",
+    "0": "earth_pulsation:blocks/container_side"
+  }
+}

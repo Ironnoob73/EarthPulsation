@@ -16,7 +16,7 @@ public class WoodenTroughItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:wooden_trough")
 	public static final Item block = null;
 	public WoodenTroughItem(EarthPulsationModElements instance) {
-		super(instance, 219);
+		super(instance, 213);
 	}
 
 	@Override

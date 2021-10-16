@@ -16,7 +16,7 @@ public class MagnetizedIronIngotItem extends EarthPulsationModElements.ModElemen
 	@ObjectHolder("earth_pulsation:magnetized_iron_ingot")
 	public static final Item block = null;
 	public MagnetizedIronIngotItem(EarthPulsationModElements instance) {
-		super(instance, 161);
+		super(instance, 155);
 	}
 
 	@Override

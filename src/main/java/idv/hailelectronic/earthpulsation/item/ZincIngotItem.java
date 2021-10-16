@@ -16,7 +16,7 @@ public class ZincIngotItem extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:zinc_ingot")
 	public static final Item block = null;
 	public ZincIngotItem(EarthPulsationModElements instance) {
-		super(instance, 99);
+		super(instance, 97);
 	}
 
 	@Override

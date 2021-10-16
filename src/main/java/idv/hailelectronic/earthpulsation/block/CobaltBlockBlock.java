@@ -27,7 +27,7 @@ public class CobaltBlockBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:cobalt_block")
 	public static final Block block = null;
 	public CobaltBlockBlock(EarthPulsationModElements instance) {
-		super(instance, 95);
+		super(instance, 93);
 	}
 
 	@Override

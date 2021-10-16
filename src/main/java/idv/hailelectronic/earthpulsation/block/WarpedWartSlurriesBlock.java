@@ -47,7 +47,7 @@ public class WarpedWartSlurriesBlock extends EarthPulsationModElements.ModElemen
 	public static FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public WarpedWartSlurriesBlock(EarthPulsationModElements instance) {
-		super(instance, 226);
+		super(instance, 220);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FluidRegisterHandler());
 	}
 	private static class FluidRegisterHandler {

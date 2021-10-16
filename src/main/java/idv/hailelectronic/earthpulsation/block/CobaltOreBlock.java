@@ -48,7 +48,7 @@ public class CobaltOreBlock extends EarthPulsationModElements.ModElement {
 	@ObjectHolder("earth_pulsation:cobalt_ore")
 	public static final Block block = null;
 	public CobaltOreBlock(EarthPulsationModElements instance) {
-		super(instance, 94);
+		super(instance, 92);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
