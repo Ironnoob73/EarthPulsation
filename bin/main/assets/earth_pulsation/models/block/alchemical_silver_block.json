@@ -1,0 +1,9 @@
+{
+  "parent": "earth_pulsation:custom/cast_iron_block",
+  "textures": {
+    "all": "earth_pulsation:blocks/alchemical_silver_block",
+    "particle": "earth_pulsation:blocks/alchemical_silver_block",
+    "1": "earth_pulsation:blocks/alchemical_silver_block",
+    "inner": "earth_pulsation:blocks/alchemical_silver_block_inner"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "earth_pulsation:blocks/electronic_block_top",
+    "up": "earth_pulsation:blocks/electronic_block_top",
+    "north": "earth_pulsation:blocks/coal_generator_front",
+    "east": "earth_pulsation:blocks/coal_generator_side",
+    "south": "earth_pulsation:blocks/coal_generator_side",
+    "west": "earth_pulsation:blocks/coal_generator_side",
+    "particle": "earth_pulsation:blocks/electronic_block_top"
+  }
+}
