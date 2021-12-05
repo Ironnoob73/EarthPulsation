@@ -40,7 +40,7 @@ public class CoalGeneratorGUIGui extends EarthPulsationModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
 	public CoalGeneratorGUIGui(EarthPulsationModElements instance) {
-		super(instance, 486);
+		super(instance, 492);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,

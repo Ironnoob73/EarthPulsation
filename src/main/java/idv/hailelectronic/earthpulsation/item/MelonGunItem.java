@@ -45,7 +45,7 @@ public class MelonGunItem extends EarthPulsationModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
 			.size(0.5f, 0.5f)).build("entitybulletmelon_gun").setRegistryName("entitybulletmelon_gun");
 	public MelonGunItem(EarthPulsationModElements instance) {
-		super(instance, 233);
+		super(instance, 239);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new MelonGunRenderer.ModelRegisterHandler());
 	}
 
