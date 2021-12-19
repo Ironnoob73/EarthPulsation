@@ -1,39 +1,18 @@
 
 package idv.hailelectronic.earthpulsation.item;
 
-import net.minecraftforge.registries.ObjectHolder;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.food.FoodProperties;
 
-import net.minecraft.item.UseAction;
-import net.minecraft.item.Rarity;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.Food;
+import idv.hailelectronic.earthpulsation.init.EarthPulsationModTabs;
 
-import idv.hailelectronic.earthpulsation.itemgroup.EarthPulsationItemGroup;
-import idv.hailelectronic.earthpulsation.EarthPulsationModElements;
+public class BigApplePieceItem extends Item {
+	public BigApplePieceItem() {
+		super(new Item.Properties().tab(EarthPulsationModTabs.TAB_EARTH_PULSATION).stacksTo(64).rarity(Rarity.COMMON)
+				.food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.3f)
 
-@EarthPulsationModElements.ModElement.Tag
-public class BigApplePieceItem extends EarthPulsationModElements.ModElement {
-	@ObjectHolder("earth_pulsation:big_apple_piece")
-	public static final Item block = null;
-	public BigApplePieceItem(EarthPulsationModElements instance) {
-		super(instance, 214);
-	}
-
-	@Override
-	public void initElements() {
-		elements.items.add(() -> new FoodItemCustom());
-	}
-	public static class FoodItemCustom extends Item {
-		public FoodItemCustom() {
-			super(new Item.Properties().group(EarthPulsationItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(4).saturation(0.3f).build()));
-			setRegistryName("big_apple_piece");
-		}
-
-		@Override
-		public UseAction getUseAction(ItemStack itemstack) {
-			return UseAction.EAT;
-		}
+						.build()));
+		setRegistryName("big_apple_piece");
 	}
 }

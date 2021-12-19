@@ -518,7 +518,7 @@
       "type": "item",
       "sortid": 1,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "pda",
       "path": "~/PDAfunction"
@@ -3779,7 +3779,7 @@
       "type": "gui",
       "sortid": 390,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "research_station_gui",
       "path": "~/Table/research"
@@ -6441,10 +6441,10 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.16.5",
+    "currentGenerator": "forge-1.17.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "idv.hailelectronic.earthpulsation",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100236710
+  "mcreatorVersion": 202100351610
 }

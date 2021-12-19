@@ -1,63 +1,44 @@
 
 package idv.hailelectronic.earthpulsation.item;
 
-import net.minecraftforge.registries.ObjectHolder;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.UseAnim;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.LivingEntity;
 
-import net.minecraft.world.World;
-import net.minecraft.item.UseAction;
-import net.minecraft.item.Rarity;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.Food;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.LivingEntity;
+import idv.hailelectronic.earthpulsation.init.EarthPulsationModTabs;
+import idv.hailelectronic.earthpulsation.init.EarthPulsationModItems;
 
-import idv.hailelectronic.earthpulsation.itemgroup.EarthPulsationItemGroup;
-import idv.hailelectronic.earthpulsation.EarthPulsationModElements;
+public class WoodenTroughFilledWithDoughItem extends Item {
+	public WoodenTroughFilledWithDoughItem() {
+		super(new Item.Properties().tab(EarthPulsationModTabs.TAB_EARTH_PULSATION).stacksTo(8).rarity(Rarity.COMMON)
+				.food((new FoodProperties.Builder()).nutrition(2).saturationMod(0.5f)
 
-@EarthPulsationModElements.ModElement.Tag
-public class WoodenTroughFilledWithDoughItem extends EarthPulsationModElements.ModElement {
-	@ObjectHolder("earth_pulsation:wooden_trough_filled_with_dough")
-	public static final Item block = null;
-	public WoodenTroughFilledWithDoughItem(EarthPulsationModElements instance) {
-		super(instance, 216);
+						.build()));
+		setRegistryName("wooden_trough_filled_with_dough");
 	}
 
 	@Override
-	public void initElements() {
-		elements.items.add(() -> new FoodItemCustom());
+	public UseAnim getUseAnimation(ItemStack itemstack) {
+		return UseAnim.DRINK;
 	}
-	public static class FoodItemCustom extends Item {
-		public FoodItemCustom() {
-			super(new Item.Properties().group(EarthPulsationItemGroup.tab).maxStackSize(8).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(2).saturation(0.5f).build()));
-			setRegistryName("wooden_trough_filled_with_dough");
-		}
 
-		@Override
-		public UseAction getUseAction(ItemStack itemstack) {
-			return UseAction.DRINK;
-		}
-
-		@Override
-		public net.minecraft.util.SoundEvent getEatSound() {
-			return net.minecraft.util.SoundEvents.ENTITY_GENERIC_DRINK;
-		}
-
-		@Override
-		public ItemStack onItemUseFinish(ItemStack itemstack, World world, LivingEntity entity) {
-			ItemStack retval = new ItemStack(WoodenTroughItem.block);
-			super.onItemUseFinish(itemstack, world, entity);
-			if (itemstack.isEmpty()) {
-				return retval;
-			} else {
-				if (entity instanceof PlayerEntity) {
-					PlayerEntity player = (PlayerEntity) entity;
-					if (!player.isCreative() && !player.inventory.addItemStackToInventory(retval))
-						player.dropItem(retval, false);
-				}
-				return itemstack;
+	@Override
+	public ItemStack finishUsingItem(ItemStack itemstack, Level world, LivingEntity entity) {
+		ItemStack retval = new ItemStack(EarthPulsationModItems.WOODEN_TROUGH);
+		super.finishUsingItem(itemstack, world, entity);
+		if (itemstack.isEmpty()) {
+			return retval;
+		} else {
+			if (entity instanceof Player player && !player.getAbilities().instabuild) {
+				if (!player.getInventory().add(retval))
+					player.drop(retval, false);
 			}
+			return itemstack;
 		}
 	}
 }

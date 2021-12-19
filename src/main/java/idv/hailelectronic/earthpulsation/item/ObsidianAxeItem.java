@@ -1,52 +1,43 @@
 
 package idv.hailelectronic.earthpulsation.item;
 
-import net.minecraftforge.registries.ObjectHolder;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.AxeItem;
 
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
-import net.minecraft.item.AxeItem;
+import idv.hailelectronic.earthpulsation.init.EarthPulsationModTabs;
+import idv.hailelectronic.earthpulsation.init.EarthPulsationModItems;
 
-import idv.hailelectronic.earthpulsation.itemgroup.EarthPulsationItemGroup;
-import idv.hailelectronic.earthpulsation.EarthPulsationModElements;
-
-@EarthPulsationModElements.ModElement.Tag
-public class ObsidianAxeItem extends EarthPulsationModElements.ModElement {
-	@ObjectHolder("earth_pulsation:obsidian_axe")
-	public static final Item block = null;
-	public ObsidianAxeItem(EarthPulsationModElements instance) {
-		super(instance, 151);
-	}
-
-	@Override
-	public void initElements() {
-		elements.items.add(() -> new AxeItem(new IItemTier() {
-			public int getMaxUses() {
+public class ObsidianAxeItem extends AxeItem {
+	public ObsidianAxeItem() {
+		super(new Tier() {
+			public int getUses() {
 				return 2048;
 			}
 
-			public float getEfficiency() {
+			public float getSpeed() {
 				return 4f;
 			}
 
-			public float getAttackDamage() {
+			public float getAttackDamageBonus() {
 				return 8f;
 			}
 
-			public int getHarvestLevel() {
+			public int getLevel() {
 				return 3;
 			}
 
-			public int getEnchantability() {
+			public int getEnchantmentValue() {
 				return 25;
 			}
 
-			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(PureObsidianIngotItem.block), new ItemStack(TurbidObsidianIngotItem.block));
+			public Ingredient getRepairIngredient() {
+				return Ingredient.of(new ItemStack(EarthPulsationModItems.PURE_OBSIDIAN_INGOT),
+						new ItemStack(EarthPulsationModItems.TURBID_OBSIDIAN_INGOT));
 			}
-		}, 1, -3.1f, new Item.Properties().group(EarthPulsationItemGroup.tab).isImmuneToFire()) {
-		}.setRegistryName("obsidian_axe"));
+		}, 1, -3.1f, new Item.Properties().tab(EarthPulsationModTabs.TAB_EARTH_PULSATION).fireResistant());
+		setRegistryName("obsidian_axe");
 	}
 }

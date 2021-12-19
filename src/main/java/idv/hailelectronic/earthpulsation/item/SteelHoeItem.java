@@ -1,52 +1,42 @@
 
 package idv.hailelectronic.earthpulsation.item;
 
-import net.minecraftforge.registries.ObjectHolder;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.HoeItem;
 
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
-import net.minecraft.item.HoeItem;
+import idv.hailelectronic.earthpulsation.init.EarthPulsationModTabs;
+import idv.hailelectronic.earthpulsation.init.EarthPulsationModItems;
 
-import idv.hailelectronic.earthpulsation.itemgroup.EarthPulsationItemGroup;
-import idv.hailelectronic.earthpulsation.EarthPulsationModElements;
-
-@EarthPulsationModElements.ModElement.Tag
-public class SteelHoeItem extends EarthPulsationModElements.ModElement {
-	@ObjectHolder("earth_pulsation:steel_hoe")
-	public static final Item block = null;
-	public SteelHoeItem(EarthPulsationModElements instance) {
-		super(instance, 69);
-	}
-
-	@Override
-	public void initElements() {
-		elements.items.add(() -> new HoeItem(new IItemTier() {
-			public int getMaxUses() {
+public class SteelHoeItem extends HoeItem {
+	public SteelHoeItem() {
+		super(new Tier() {
+			public int getUses() {
 				return 441;
 			}
 
-			public float getEfficiency() {
+			public float getSpeed() {
 				return 8f;
 			}
 
-			public float getAttackDamage() {
+			public float getAttackDamageBonus() {
 				return 1f;
 			}
 
-			public int getHarvestLevel() {
+			public int getLevel() {
 				return 3;
 			}
 
-			public int getEnchantability() {
+			public int getEnchantmentValue() {
 				return 21;
 			}
 
-			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(SteelIngotItem.block));
+			public Ingredient getRepairIngredient() {
+				return Ingredient.of(new ItemStack(EarthPulsationModItems.STEEL_INGOT));
 			}
-		}, 0, -3f, new Item.Properties().group(EarthPulsationItemGroup.tab)) {
-		}.setRegistryName("steel_hoe"));
+		}, 0, -3f, new Item.Properties().tab(EarthPulsationModTabs.TAB_EARTH_PULSATION));
+		setRegistryName("steel_hoe");
 	}
 }

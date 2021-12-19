@@ -1,89 +1,51 @@
 
 package idv.hailelectronic.earthpulsation.item;
 
-import net.minecraftforge.registries.ObjectHolder;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.network.chat.TextComponent;
+import net.minecraft.network.chat.Component;
 
-import net.minecraft.world.World;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
-import net.minecraft.item.Rarity;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.entity.Entity;
-import net.minecraft.client.util.ITooltipFlag;
-import net.minecraft.block.BlockState;
-
-import java.util.Map;
 import java.util.List;
-import java.util.HashMap;
 
 import idv.hailelectronic.earthpulsation.procedures.EPBookToUseProcedure;
-import idv.hailelectronic.earthpulsation.itemgroup.EarthPulsationItemGroup;
-import idv.hailelectronic.earthpulsation.EarthPulsationModElements;
+import idv.hailelectronic.earthpulsation.init.EarthPulsationModTabs;
 
-@EarthPulsationModElements.ModElement.Tag
-public class EPBookItem extends EarthPulsationModElements.ModElement {
-	@ObjectHolder("earth_pulsation:ep_book")
-	public static final Item block = null;
-	public EPBookItem(EarthPulsationModElements instance) {
-		super(instance, 2);
+public class EPBookItem extends Item {
+	public EPBookItem() {
+		super(new Item.Properties().tab(EarthPulsationModTabs.TAB_EARTH_PULSATION).stacksTo(1).rarity(Rarity.RARE));
+		setRegistryName("ep_book");
 	}
 
 	@Override
-	public void initElements() {
-		elements.items.add(() -> new ItemCustom());
+	public boolean hasCraftingRemainingItem() {
+		return true;
 	}
-	public static class ItemCustom extends Item {
-		public ItemCustom() {
-			super(new Item.Properties().group(EarthPulsationItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
-			setRegistryName("ep_book");
-		}
 
-		@Override
-		public boolean hasContainerItem() {
-			return true;
-		}
+	@Override
+	public ItemStack getContainerItem(ItemStack itemstack) {
+		return new ItemStack(this);
+	}
 
-		@Override
-		public ItemStack getContainerItem(ItemStack itemstack) {
-			return new ItemStack(this);
-		}
+	@Override
+	public int getUseDuration(ItemStack itemstack) {
+		return 0;
+	}
 
-		@Override
-		public int getItemEnchantability() {
-			return 0;
-		}
+	@Override
+	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, world, list, flag);
+		list.add(new TextComponent("Please install Patchouli to use!"));
+	}
 
-		@Override
-		public int getUseDuration(ItemStack itemstack) {
-			return 0;
-		}
-
-		@Override
-		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
-			return 1F;
-		}
-
-		@Override
-		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Please install Patchouli to use!"));
-		}
-
-		@Override
-		public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
-			super.inventoryTick(itemstack, world, entity, slot, selected);
-			double x = entity.getPosX();
-			double y = entity.getPosY();
-			double z = entity.getPosZ();
-			if (selected) {
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				EPBookToUseProcedure.executeProcedure($_dependencies);
-			}
-		}
+	@Override
+	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
+		super.inventoryTick(itemstack, world, entity, slot, selected);
+		if (selected)
+			EPBookToUseProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ());
 	}
 }

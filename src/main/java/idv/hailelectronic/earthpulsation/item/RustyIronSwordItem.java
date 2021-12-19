@@ -1,72 +1,56 @@
 
 package idv.hailelectronic.earthpulsation.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.world.World;
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.SwordItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
-import net.minecraft.entity.LivingEntity;
-
-import java.util.Map;
-import java.util.HashMap;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.LivingEntity;
 
 import idv.hailelectronic.earthpulsation.procedures.TetanusProcedure;
-import idv.hailelectronic.earthpulsation.itemgroup.EarthPulsationItemGroup;
-import idv.hailelectronic.earthpulsation.EarthPulsationModElements;
+import idv.hailelectronic.earthpulsation.init.EarthPulsationModTabs;
 
-@EarthPulsationModElements.ModElement.Tag
-public class RustyIronSwordItem extends EarthPulsationModElements.ModElement {
-	@ObjectHolder("earth_pulsation:rusty_iron_sword")
-	public static final Item block = null;
-	public RustyIronSwordItem(EarthPulsationModElements instance) {
-		super(instance, 112);
-	}
-
-	@Override
-	public void initElements() {
-		elements.items.add(() -> new SwordItem(new IItemTier() {
-			public int getMaxUses() {
+public class RustyIronSwordItem extends SwordItem {
+	public RustyIronSwordItem() {
+		super(new Tier() {
+			public int getUses() {
 				return 225;
 			}
 
-			public float getEfficiency() {
+			public float getSpeed() {
 				return 5f;
 			}
 
-			public float getAttackDamage() {
+			public float getAttackDamageBonus() {
 				return 4f;
 			}
 
-			public int getHarvestLevel() {
+			public int getLevel() {
 				return 2;
 			}
 
-			public int getEnchantability() {
+			public int getEnchantmentValue() {
 				return 14;
 			}
 
-			public Ingredient getRepairMaterial() {
+			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -2.4f, new Item.Properties().group(EarthPulsationItemGroup.tab)) {
-			@Override
-			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
-				boolean retval = super.hitEntity(itemstack, entity, sourceentity);
-				double x = entity.getPosX();
-				double y = entity.getPosY();
-				double z = entity.getPosZ();
-				World world = entity.world;
-				{
-					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("entity", entity);
-					TetanusProcedure.executeProcedure($_dependencies);
-				}
-				return retval;
-			}
-		}.setRegistryName("rusty_iron_sword"));
+		}, 3, -2.4f, new Item.Properties().tab(EarthPulsationModTabs.TAB_EARTH_PULSATION));
+		setRegistryName("rusty_iron_sword");
+	}
+
+	@Override
+	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
+		double x = entity.getX();
+		double y = entity.getY();
+		double z = entity.getZ();
+		Level world = entity.level;
+
+		TetanusProcedure.execute(entity);
+		return retval;
 	}
 }

@@ -1,39 +1,18 @@
 
 package idv.hailelectronic.earthpulsation.item;
 
-import net.minecraftforge.registries.ObjectHolder;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.food.FoodProperties;
 
-import net.minecraft.item.UseAction;
-import net.minecraft.item.Rarity;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.Food;
+import idv.hailelectronic.earthpulsation.init.EarthPulsationModTabs;
 
-import idv.hailelectronic.earthpulsation.itemgroup.EarthPulsationItemGroup;
-import idv.hailelectronic.earthpulsation.EarthPulsationModElements;
+public class ChocolateItem extends Item {
+	public ChocolateItem() {
+		super(new Item.Properties().tab(EarthPulsationModTabs.TAB_EARTH_PULSATION).stacksTo(64).rarity(Rarity.COMMON)
+				.food((new FoodProperties.Builder()).nutrition(10).saturationMod(10f)
 
-@EarthPulsationModElements.ModElement.Tag
-public class ChocolateItem extends EarthPulsationModElements.ModElement {
-	@ObjectHolder("earth_pulsation:chocolate")
-	public static final Item block = null;
-	public ChocolateItem(EarthPulsationModElements instance) {
-		super(instance, 219);
-	}
-
-	@Override
-	public void initElements() {
-		elements.items.add(() -> new FoodItemCustom());
-	}
-	public static class FoodItemCustom extends Item {
-		public FoodItemCustom() {
-			super(new Item.Properties().group(EarthPulsationItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(10).saturation(10f).build()));
-			setRegistryName("chocolate");
-		}
-
-		@Override
-		public UseAction getUseAction(ItemStack itemstack) {
-			return UseAction.EAT;
-		}
+						.build()));
+		setRegistryName("chocolate");
 	}
 }

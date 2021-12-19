@@ -1,52 +1,42 @@
 
 package idv.hailelectronic.earthpulsation.item;
 
-import net.minecraftforge.registries.ObjectHolder;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.AxeItem;
 
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
-import net.minecraft.item.AxeItem;
+import idv.hailelectronic.earthpulsation.init.EarthPulsationModTabs;
+import idv.hailelectronic.earthpulsation.init.EarthPulsationModItems;
 
-import idv.hailelectronic.earthpulsation.itemgroup.EarthPulsationItemGroup;
-import idv.hailelectronic.earthpulsation.EarthPulsationModElements;
-
-@EarthPulsationModElements.ModElement.Tag
-public class CopperAxeItem extends EarthPulsationModElements.ModElement {
-	@ObjectHolder("earth_pulsation:copper_axe")
-	public static final Item block = null;
-	public CopperAxeItem(EarthPulsationModElements instance) {
-		super(instance, 19);
-	}
-
-	@Override
-	public void initElements() {
-		elements.items.add(() -> new AxeItem(new IItemTier() {
-			public int getMaxUses() {
+public class CopperAxeItem extends AxeItem {
+	public CopperAxeItem() {
+		super(new Tier() {
+			public int getUses() {
 				return 168;
 			}
 
-			public float getEfficiency() {
+			public float getSpeed() {
 				return 4f;
 			}
 
-			public float getAttackDamage() {
+			public float getAttackDamageBonus() {
 				return 7f;
 			}
 
-			public int getHarvestLevel() {
+			public int getLevel() {
 				return 1;
 			}
 
-			public int getEnchantability() {
+			public int getEnchantmentValue() {
 				return 7;
 			}
 
-			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(CopperIngotItem.block));
+			public Ingredient getRepairIngredient() {
+				return Ingredient.of(new ItemStack(EarthPulsationModItems.COPPER_INGOT));
 			}
-		}, 1, -3.2f, new Item.Properties().group(EarthPulsationItemGroup.tab)) {
-		}.setRegistryName("copper_axe"));
+		}, 1, -3.2f, new Item.Properties().tab(EarthPulsationModTabs.TAB_EARTH_PULSATION));
+		setRegistryName("copper_axe");
 	}
 }

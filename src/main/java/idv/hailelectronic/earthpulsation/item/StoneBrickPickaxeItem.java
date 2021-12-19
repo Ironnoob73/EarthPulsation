@@ -1,52 +1,42 @@
 
 package idv.hailelectronic.earthpulsation.item;
 
-import net.minecraftforge.registries.ObjectHolder;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
 
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.PickaxeItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
+import idv.hailelectronic.earthpulsation.init.EarthPulsationModTabs;
+import idv.hailelectronic.earthpulsation.init.EarthPulsationModItems;
 
-import idv.hailelectronic.earthpulsation.itemgroup.EarthPulsationItemGroup;
-import idv.hailelectronic.earthpulsation.EarthPulsationModElements;
-
-@EarthPulsationModElements.ModElement.Tag
-public class StoneBrickPickaxeItem extends EarthPulsationModElements.ModElement {
-	@ObjectHolder("earth_pulsation:stone_brick_pickaxe")
-	public static final Item block = null;
-	public StoneBrickPickaxeItem(EarthPulsationModElements instance) {
-		super(instance, 123);
-	}
-
-	@Override
-	public void initElements() {
-		elements.items.add(() -> new PickaxeItem(new IItemTier() {
-			public int getMaxUses() {
+public class StoneBrickPickaxeItem extends PickaxeItem {
+	public StoneBrickPickaxeItem() {
+		super(new Tier() {
+			public int getUses() {
 				return 200;
 			}
 
-			public float getEfficiency() {
+			public float getSpeed() {
 				return 5f;
 			}
 
-			public float getAttackDamage() {
+			public float getAttackDamageBonus() {
 				return 2f;
 			}
 
-			public int getHarvestLevel() {
+			public int getLevel() {
 				return 1;
 			}
 
-			public int getEnchantability() {
+			public int getEnchantmentValue() {
 				return 6;
 			}
 
-			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(StoneIngotItem.block));
+			public Ingredient getRepairIngredient() {
+				return Ingredient.of(new ItemStack(EarthPulsationModItems.STONE_INGOT));
 			}
-		}, 1, -2.8f, new Item.Properties().group(EarthPulsationItemGroup.tab)) {
-		}.setRegistryName("stone_brick_pickaxe"));
+		}, 1, -2.8f, new Item.Properties().tab(EarthPulsationModTabs.TAB_EARTH_PULSATION));
+		setRegistryName("stone_brick_pickaxe");
 	}
 }

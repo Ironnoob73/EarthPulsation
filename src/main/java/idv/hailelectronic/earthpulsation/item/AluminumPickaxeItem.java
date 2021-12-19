@@ -1,52 +1,42 @@
 
 package idv.hailelectronic.earthpulsation.item;
 
-import net.minecraftforge.registries.ObjectHolder;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
 
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.PickaxeItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
+import idv.hailelectronic.earthpulsation.init.EarthPulsationModTabs;
+import idv.hailelectronic.earthpulsation.init.EarthPulsationModItems;
 
-import idv.hailelectronic.earthpulsation.itemgroup.EarthPulsationItemGroup;
-import idv.hailelectronic.earthpulsation.EarthPulsationModElements;
-
-@EarthPulsationModElements.ModElement.Tag
-public class AluminumPickaxeItem extends EarthPulsationModElements.ModElement {
-	@ObjectHolder("earth_pulsation:aluminum_pickaxe")
-	public static final Item block = null;
-	public AluminumPickaxeItem(EarthPulsationModElements instance) {
-		super(instance, 35);
-	}
-
-	@Override
-	public void initElements() {
-		elements.items.add(() -> new PickaxeItem(new IItemTier() {
-			public int getMaxUses() {
+public class AluminumPickaxeItem extends PickaxeItem {
+	public AluminumPickaxeItem() {
+		super(new Tier() {
+			public int getUses() {
 				return 290;
 			}
 
-			public float getEfficiency() {
+			public float getSpeed() {
 				return 5f;
 			}
 
-			public float getAttackDamage() {
+			public float getAttackDamageBonus() {
 				return 1f;
 			}
 
-			public int getHarvestLevel() {
+			public int getLevel() {
 				return 2;
 			}
 
-			public int getEnchantability() {
+			public int getEnchantmentValue() {
 				return 11;
 			}
 
-			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(AluminumIngotItem.block));
+			public Ingredient getRepairIngredient() {
+				return Ingredient.of(new ItemStack(EarthPulsationModItems.ALUMINUM_INGOT));
 			}
-		}, 1, -2.8f, new Item.Properties().group(EarthPulsationItemGroup.tab)) {
-		}.setRegistryName("aluminum_pickaxe"));
+		}, 1, -2.8f, new Item.Properties().tab(EarthPulsationModTabs.TAB_EARTH_PULSATION));
+		setRegistryName("aluminum_pickaxe");
 	}
 }
