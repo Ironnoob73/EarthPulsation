@@ -1,12 +1,12 @@
 {
   "replace": false,
   "values": [
-    "earth_pulsation:ice_birch_log",
-    "earth_pulsation:ice_birch_wood",
-    "earth_pulsation:stripped_ice_birch_log",
-    "earth_pulsation:stripped_ice_birch_wood",
-    "earth_pulsation:maple_wood",
     "earth_pulsation:maple_log",
+    "earth_pulsation:ice_birch_wood",
+    "earth_pulsation:stripped_ice_birch_wood",
+    "earth_pulsation:stripped_ice_birch_log",
+    "earth_pulsation:ice_birch_log",
+    "earth_pulsation:maple_wood",
     "earth_pulsation:stripped_maple_log",
     "earth_pulsation:stripped_maple_wood"
   ]

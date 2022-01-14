@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top_rh",
+  "textures": {
+    "bottom": "earth_pulsation:blocks/red_container_door_bottom",
+    "top": "earth_pulsation:blocks/red_container_door_top"
+  }
+}

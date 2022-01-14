@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "earth_pulsation:blocks/chiseled_mixed_light_lab_block_a",
+    "top": "earth_pulsation:blocks/chiseled_mixed_light_lab_block_a",
+    "side": "earth_pulsation:blocks/chiseled_mixed_light_lab_block_a"
+  }
+}

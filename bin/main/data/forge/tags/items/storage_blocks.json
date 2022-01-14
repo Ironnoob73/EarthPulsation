@@ -1,23 +1,22 @@
 {
   "replace": false,
   "values": [
-    "earth_pulsation:copper_block",
-    "earth_pulsation:aluminum_block",
-    "earth_pulsation:ruby_block",
-    "earth_pulsation:sapphire_block",
-    "earth_pulsation:topaz_block",
-    "earth_pulsation:lead_block",
-    "earth_pulsation:tin_block",
-    "earth_pulsation:silver_block",
     "earth_pulsation:cast_iron_block",
-    "earth_pulsation:steel_block",
-    "earth_pulsation:chiseled_iron_block",
-    "earth_pulsation:hard_aluminum_block",
     "earth_pulsation:turbid_obsidian_block",
-    "earth_pulsation:pure_obsidian_block",
+    "earth_pulsation:tin_block",
+    "earth_pulsation:lead_block",
+    "earth_pulsation:topaz_block",
+    "earth_pulsation:silver_block",
+    "earth_pulsation:chiseled_iron_block",
+    "earth_pulsation:sapphire_block",
+    "earth_pulsation:steel_block",
+    "earth_pulsation:hard_aluminum_block",
     "earth_pulsation:pattern_gold_block",
     "earth_pulsation:black_gold_block",
+    "earth_pulsation:pure_obsidian_block",
     "earth_pulsation:alchemical_silver_block",
-    "earth_pulsation:tough_copper_block"
+    "earth_pulsation:tough_copper_block",
+    "earth_pulsation:ruby_block",
+    "earth_pulsation:aluminum_block"
   ]
 }

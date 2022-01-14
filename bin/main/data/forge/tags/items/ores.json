@@ -1,15 +1,14 @@
 {
   "replace": false,
   "values": [
-    "earth_pulsation:copper_ore",
-    "earth_pulsation:aluminum_ore",
-    "earth_pulsation:ruby_ore",
-    "earth_pulsation:sapphire_ore",
-    "earth_pulsation:topaz_ore",
     "earth_pulsation:lead_ore",
-    "earth_pulsation:tin_ore",
     "earth_pulsation:silver_ore",
-    "earth_pulsation:forgotten_iron_ore",
-    "earth_pulsation:black_gold_ore"
+    "earth_pulsation:sapphire_ore",
+    "earth_pulsation:ruby_ore",
+    "earth_pulsation:aluminum_ore",
+    "earth_pulsation:topaz_ore",
+    "earth_pulsation:tin_ore",
+    "earth_pulsation:black_gold_ore",
+    "earth_pulsation:forgotten_iron_ore"
   ]
 }

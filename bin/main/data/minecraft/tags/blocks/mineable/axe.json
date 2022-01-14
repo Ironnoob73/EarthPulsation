@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "earth_pulsation:reinforced_sieve",
+    "earth_pulsation:stick_planks",
+    "earth_pulsation:wooden_planks",
+    "earth_pulsation:wooden_block",
+    "earth_pulsation:plastic_wood_planks",
+    "earth_pulsation:ice_birch_log",
+    "earth_pulsation:ice_birch_wood",
+    "earth_pulsation:stripped_ice_birch_log",
+    "earth_pulsation:stripped_ice_birch_wood",
+    "earth_pulsation:ice_birch_planks",
+    "earth_pulsation:maple_log",
+    "earth_pulsation:maple_wood",
+    "earth_pulsation:stripped_maple_log",
+    "earth_pulsation:stripped_maple_wood",
+    "earth_pulsation:maple_planks",
+    "earth_pulsation:wood_planks_door",
+    "earth_pulsation:wooden_table",
+    "earth_pulsation:long_wooden_table",
+    "earth_pulsation:wooden_holder"
+  ]
+}

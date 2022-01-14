@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "earth_pulsation:blocks/blue_container_top",
+    "up": "earth_pulsation:blocks/blue_container_top",
+    "north": "earth_pulsation:blocks/blue_container_column",
+    "east": "earth_pulsation:blocks/blue_container_column",
+    "south": "earth_pulsation:blocks/blue_container_column",
+    "west": "earth_pulsation:blocks/blue_container_column",
+    "particle": "earth_pulsation:blocks/blue_container_top"
+  }
+}

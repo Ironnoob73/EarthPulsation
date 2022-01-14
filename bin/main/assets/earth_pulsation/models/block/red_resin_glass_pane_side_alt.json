@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_side_alt",
+  "textures": {
+    "edge": "earth_pulsation:blocks/red_resin_glass",
+    "pane": "earth_pulsation:blocks/red_resin_glass"
+  }
+}

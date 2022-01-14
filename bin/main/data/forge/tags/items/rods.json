@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "earth_pulsation:carbon_stick",
+    "earth_pulsation:plastic_wood_stick",
     "earth_pulsation:iron_stick",
-    "earth_pulsation:plastic_wood_stick"
+    "earth_pulsation:carbon_stick"
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "earth_pulsation:block/blue_container_wall"
+    },
+    "facing=east": {
+      "model": "earth_pulsation:block/blue_container_wall",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "earth_pulsation:block/blue_container_wall",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "earth_pulsation:block/blue_container_wall",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "earth_pulsation:block/blue_container_wall",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "earth_pulsation:block/blue_container_wall",
+      "x": 90
+    }
+  }
+}

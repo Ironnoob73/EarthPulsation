@@ -53,6 +53,12 @@
       "bedrock_floor_position": 0,
       "sea_level": 32,
       "disable_mob_generation": false,
+      "noodle_caves_enabled": true,
+      "noise_caves_enabled": true,
+      "aquifers_enabled": true,
+      "deepslate_enabled": true,
+      "ore_veins_enabled": true,
+      "min_surface_level": 0,
       "default_block": {
         "Name": "earth_pulsation:larvikite"
       },
@@ -63,6 +69,7 @@
         }
       },
       "noise": {
+        "min_y": 0,
         "density_factor": 0,
         "density_offset": 0.019921875,
         "simplex_surface_noise": false,
