@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "earth_pulsation:block/red_container_column",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "earth_pulsation:block/red_container_column"
+    },
+    "axis=z": {
+      "model": "earth_pulsation:block/red_container_column",
+      "x": 90
+    }
+  }
+}

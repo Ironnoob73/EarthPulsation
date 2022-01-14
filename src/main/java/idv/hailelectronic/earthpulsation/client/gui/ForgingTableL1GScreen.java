@@ -69,7 +69,7 @@ public class ForgingTableL1GScreen extends AbstractContainerScreen<ForgingTableL
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		drawString(poseStack, this.font, "Forging (Level1)", 51, 4, -16751002);
+		this.font.draw(poseStack, "Forging (Level1)", 51, 4, -16751002);
 	}
 
 	@Override

@@ -21,7 +21,7 @@
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:CopperIngot"
+        "value": "Items.COPPER_INGOT"
       }
     ],
     "immuneToFire": false,

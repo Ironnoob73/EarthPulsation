@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Pure Slime",
     "mobLabel": "",
-    "mobModelName": "Slime",
+    "mobModelName": "Modelslime",
     "mobModelTexture": "slime.png",
     "mobModelGlowTexture": "",
     "modelWidth": 1.0,

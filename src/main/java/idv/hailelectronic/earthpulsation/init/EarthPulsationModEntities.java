@@ -32,14 +32,14 @@ public class EarthPulsationModEntities {
 	public static final EntityType<WanderedMinnerEntity> WANDERED_MINNER = register("wandered_minner",
 			EntityType.Builder.<WanderedMinnerEntity>of(WanderedMinnerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(WanderedMinnerEntity::new).sized(0.6f, 1.8f));
+	public static final EntityType<TinyTNTEntity> TINY_TNT = register("entitybullettiny_tnt",
+			EntityType.Builder.<TinyTNTEntity>of(TinyTNTEntity::new, MobCategory.MISC).setCustomClientFactory(TinyTNTEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final EntityType<MelonGunEntity> MELON_GUN = register("entitybulletmelon_gun",
 			EntityType.Builder.<MelonGunEntity>of(MelonGunEntity::new, MobCategory.MISC).setCustomClientFactory(MelonGunEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final EntityType<SamsungNote7Entity> SAMSUNG_NOTE_7 = register("entitybulletsamsung_note_7",
 			EntityType.Builder.<SamsungNote7Entity>of(SamsungNote7Entity::new, MobCategory.MISC).setCustomClientFactory(SamsungNote7Entity::new)
-					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final EntityType<TinyTNTEntity> TINY_TNT = register("entitybullettiny_tnt",
-			EntityType.Builder.<TinyTNTEntity>of(TinyTNTEntity::new, MobCategory.MISC).setCustomClientFactory(TinyTNTEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {

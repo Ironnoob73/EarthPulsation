@@ -28,7 +28,7 @@
     "hasFog": false,
     "isDark": true,
     "doesWaterVaporize": false,
-    "sleepResult": "DENY",
+    "sleepResult": "ALLOW",
     "hasSkyLight": true,
     "imitateOverworldBehaviour": true,
     "portalFrame": {
@@ -41,7 +41,7 @@
     "portalSound": {
       "value": ""
     },
-    "igniterName": "Old Age Portal Igniter",
+    "igniterName": "¡ìdOld Age Portal Igniter",
     "igniterTab": {
       "value": "CUSTOM:EarthPulsation"
     },

@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "earth_pulsation:blocks/chiseled_white_light_lab_block",
+    "top": "earth_pulsation:blocks/chiseled_white_light_lab_block",
+    "side": "earth_pulsation:blocks/chiseled_white_light_lab_block"
+  }
+}

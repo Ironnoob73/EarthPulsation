@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_post",
+  "textures": {
+    "edge": "earth_pulsation:blocks/lightblue_resin_glass",
+    "pane": "earth_pulsation:blocks/lightblue_resin_glass"
+  }
+}

@@ -67,7 +67,7 @@ public class ResearchStationGUIScreen extends AbstractContainerScreen<ResearchSt
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		drawString(poseStack, this.font, "Research Station", 50, 3, -16764007);
+		this.font.draw(poseStack, "Research Station", 50, 3, -16764007);
 	}
 
 	@Override

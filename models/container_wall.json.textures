@@ -5,6 +5,18 @@
         "0": "container_side"
       },
       "name": "default"
+    },
+    "red": {
+      "map": {
+        "0": "red_container_side"
+      },
+      "name": "red"
+    },
+    "blue": {
+      "map": {
+        "0": "blue_container_side"
+      },
+      "name": "blue"
     }
   }
 }

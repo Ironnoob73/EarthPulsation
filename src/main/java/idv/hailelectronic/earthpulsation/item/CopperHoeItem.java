@@ -3,12 +3,12 @@ package idv.hailelectronic.earthpulsation.item;
 
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HoeItem;
 
 import idv.hailelectronic.earthpulsation.init.EarthPulsationModTabs;
-import idv.hailelectronic.earthpulsation.init.EarthPulsationModItems;
 
 public class CopperHoeItem extends HoeItem {
 	public CopperHoeItem() {
@@ -34,7 +34,7 @@ public class CopperHoeItem extends HoeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(EarthPulsationModItems.COPPER_INGOT));
+				return Ingredient.of(new ItemStack(Items.COPPER_INGOT));
 			}
 		}, 0, -2f, new Item.Properties().tab(EarthPulsationModTabs.TAB_EARTH_PULSATION));
 		setRegistryName("copper_hoe");

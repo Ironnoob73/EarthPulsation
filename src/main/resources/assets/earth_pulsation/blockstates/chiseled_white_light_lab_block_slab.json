@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "earth_pulsation:block/chiseled_white_light_lab_block_slab"
+    },
+    "type=top": {
+      "model": "earth_pulsation:block/chiseled_white_light_lab_block_slab_top"
+    },
+    "type=double": {
+      "model": "earth_pulsation:block/chiseled_white_light_lab_block_slab_full"
+    }
+  }
+}

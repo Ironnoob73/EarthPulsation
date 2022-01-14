@@ -63,6 +63,10 @@ public class PDAInventoryCapability implements ICapabilitySerializable<CompoundT
 			public boolean isItemValid(int slot, @Nonnull ItemStack stack) {
 				return stack.getItem() != EarthPulsationModItems.PDA;
 			}
+
+			@Override
+			public void setSize(int size) {
+			}
 		};
 	}
 

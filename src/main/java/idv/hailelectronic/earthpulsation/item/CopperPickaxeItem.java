@@ -4,11 +4,11 @@ package idv.hailelectronic.earthpulsation.item;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
 import idv.hailelectronic.earthpulsation.init.EarthPulsationModTabs;
-import idv.hailelectronic.earthpulsation.init.EarthPulsationModItems;
 
 public class CopperPickaxeItem extends PickaxeItem {
 	public CopperPickaxeItem() {
@@ -34,7 +34,7 @@ public class CopperPickaxeItem extends PickaxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(EarthPulsationModItems.COPPER_INGOT));
+				return Ingredient.of(new ItemStack(Items.COPPER_INGOT));
 			}
 		}, 1, -2.8f, new Item.Properties().tab(EarthPulsationModTabs.TAB_EARTH_PULSATION));
 		setRegistryName("copper_pickaxe");

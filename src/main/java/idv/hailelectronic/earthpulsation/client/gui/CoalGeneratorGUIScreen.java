@@ -205,8 +205,8 @@ public class CoalGeneratorGUIScreen extends AbstractContainerScreen<CoalGenerato
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		drawString(poseStack, this.font, "Coal Generator", 54, 2, -13421773);
-		drawString(poseStack, this.font, "" + (new Object() {
+		this.font.draw(poseStack, "Coal Generator", 54, 2, -13421773);
+		this.font.draw(poseStack, "" + (new Object() {
 			public double getValue(BlockPos pos, String tag) {
 				BlockEntity BlockEntity = world.getBlockEntity(pos);
 				if (BlockEntity != null)

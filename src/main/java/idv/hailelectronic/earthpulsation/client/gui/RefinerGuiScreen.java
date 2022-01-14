@@ -88,11 +88,11 @@ public class RefinerGuiScreen extends AbstractContainerScreen<RefinerGuiMenu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		drawString(poseStack, this.font, "Refiner", 70, 7, -6737152);
+		this.font.draw(poseStack, "Refiner", 70, 7, -6737152);
 		if (POffProcedure.execute(world, x, y, z))
-			drawString(poseStack, this.font, "Stop", 85, 54, -6710887);
+			this.font.draw(poseStack, "Stop", 85, 54, -6710887);
 		if (POnProcedure.execute(world, x, y, z))
-			drawString(poseStack, this.font, "" + (new Object() {
+			this.font.draw(poseStack, "" + (new Object() {
 				public String getValue(BlockPos pos, String tag) {
 					BlockEntity BlockEntity = world.getBlockEntity(pos);
 					if (BlockEntity != null)
@@ -100,7 +100,7 @@ public class RefinerGuiScreen extends AbstractContainerScreen<RefinerGuiMenu> {
 					return "";
 				}
 			}.getValue(new BlockPos((int) x, (int) y, (int) z), "Progress")) + "", 85, 54, -10066330);
-		drawString(poseStack, this.font, "" + (new Object() {
+		this.font.draw(poseStack, "" + (new Object() {
 			public double getValue(BlockPos pos, String tag) {
 				BlockEntity BlockEntity = world.getBlockEntity(pos);
 				if (BlockEntity != null)
@@ -108,7 +108,7 @@ public class RefinerGuiScreen extends AbstractContainerScreen<RefinerGuiMenu> {
 				return 0;
 			}
 		}.getValue(new BlockPos((int) x, (int) y, (int) z), "craftingProgress")) + "", 2, 65, -5066062);
-		drawString(poseStack, this.font, "" + (new Object() {
+		this.font.draw(poseStack, "" + (new Object() {
 			public double getValue(BlockPos pos, String tag) {
 				BlockEntity BlockEntity = world.getBlockEntity(pos);
 				if (BlockEntity != null)

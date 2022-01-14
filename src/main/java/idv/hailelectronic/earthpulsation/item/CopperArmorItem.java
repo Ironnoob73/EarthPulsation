@@ -4,6 +4,7 @@ package idv.hailelectronic.earthpulsation.item;
 import net.minecraftforge.registries.ForgeRegistries;
 
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ArmorMaterial;
@@ -14,7 +15,6 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 
 import idv.hailelectronic.earthpulsation.init.EarthPulsationModTabs;
-import idv.hailelectronic.earthpulsation.init.EarthPulsationModItems;
 
 public abstract class CopperArmorItem extends ArmorItem {
 	public CopperArmorItem(EquipmentSlot slot, Item.Properties properties) {
@@ -41,7 +41,7 @@ public abstract class CopperArmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(EarthPulsationModItems.COPPER_INGOT));
+				return Ingredient.of(new ItemStack(Items.COPPER_INGOT));
 			}
 
 			@Override

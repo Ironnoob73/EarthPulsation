@@ -71,7 +71,7 @@ public class PDAGuiTestScreen extends AbstractContainerScreen<PDAGuiTestMenu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		drawString(poseStack, this.font, "Test", 7, 16, -1);
+		this.font.draw(poseStack, "Test", 7, 16, -1);
 	}
 
 	@Override

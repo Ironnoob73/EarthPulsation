@@ -71,8 +71,8 @@ public class BatteryGuiScreen extends AbstractContainerScreen<BatteryGuiMenu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		drawString(poseStack, this.font, "Battery", 71, 3, -13395712);
-		drawString(poseStack, this.font, "" + (new Object() {
+		this.font.draw(poseStack, "Battery", 71, 3, -13395712);
+		this.font.draw(poseStack, "" + (new Object() {
 			public int getEnergyStored(BlockPos pos) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				BlockEntity _ent = world.getBlockEntity(pos);

@@ -32,7 +32,6 @@ import idv.hailelectronic.earthpulsation.world.features.ores.NickelOreFeature;
 import idv.hailelectronic.earthpulsation.world.features.ores.LumenCrystalStemFeature;
 import idv.hailelectronic.earthpulsation.world.features.ores.LeadOreFeature;
 import idv.hailelectronic.earthpulsation.world.features.ores.ForgottenIronOreFeature;
-import idv.hailelectronic.earthpulsation.world.features.ores.CopperOreFeature;
 import idv.hailelectronic.earthpulsation.world.features.ores.CobaltOreFeature;
 import idv.hailelectronic.earthpulsation.world.features.ores.BlackGoldOreFeature;
 import idv.hailelectronic.earthpulsation.world.features.ores.BigAppleBlockFeature;
@@ -44,8 +43,6 @@ import idv.hailelectronic.earthpulsation.world.features.MapleTreeFeature;
 public class EarthPulsationModFeatures {
 	private static final Map<Feature<?>, FeatureRegistration> REGISTRY = new HashMap<>();
 	static {
-		REGISTRY.put(CopperOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, CopperOreFeature.GENERATE_BIOMES,
-				CopperOreFeature.CONFIGURED_FEATURE));
 		REGISTRY.put(AluminumOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
 				AluminumOreFeature.GENERATE_BIOMES, AluminumOreFeature.CONFIGURED_FEATURE));
 		REGISTRY.put(ForgottenIronOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,

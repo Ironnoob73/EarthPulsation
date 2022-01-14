@@ -34,6 +34,7 @@ import idv.hailelectronic.earthpulsation.item.TinPowderItem;
 import idv.hailelectronic.earthpulsation.item.TinPlateItem;
 import idv.hailelectronic.earthpulsation.item.TinIngotItem;
 import idv.hailelectronic.earthpulsation.item.TinCubeItem;
+import idv.hailelectronic.earthpulsation.item.SuperBatteryItem;
 import idv.hailelectronic.earthpulsation.item.StoneIngotItem;
 import idv.hailelectronic.earthpulsation.item.StoneBrickSwordItem;
 import idv.hailelectronic.earthpulsation.item.StoneBrickShovelItem;
@@ -88,6 +89,7 @@ import idv.hailelectronic.earthpulsation.item.ObsidianShovelItem;
 import idv.hailelectronic.earthpulsation.item.ObsidianPickaxeItem;
 import idv.hailelectronic.earthpulsation.item.ObsidianHoeItem;
 import idv.hailelectronic.earthpulsation.item.ObsidianAxeItem;
+import idv.hailelectronic.earthpulsation.item.NormalBatteryItem;
 import idv.hailelectronic.earthpulsation.item.NokiaItem;
 import idv.hailelectronic.earthpulsation.item.NickelIngotItem;
 import idv.hailelectronic.earthpulsation.item.MelonGunItem;
@@ -103,6 +105,7 @@ import idv.hailelectronic.earthpulsation.item.IronSawItem;
 import idv.hailelectronic.earthpulsation.item.IronPowderItem;
 import idv.hailelectronic.earthpulsation.item.IronPlateItem;
 import idv.hailelectronic.earthpulsation.item.IronCubeItem;
+import idv.hailelectronic.earthpulsation.item.HighLevelBatteryItem;
 import idv.hailelectronic.earthpulsation.item.HardAluminumIngotItem;
 import idv.hailelectronic.earthpulsation.item.GoldPowderItem;
 import idv.hailelectronic.earthpulsation.item.GoldCubeItem;
@@ -122,14 +125,15 @@ import idv.hailelectronic.earthpulsation.item.CopperPowderItem;
 import idv.hailelectronic.earthpulsation.item.CopperPlateItem;
 import idv.hailelectronic.earthpulsation.item.CopperPickaxeItem;
 import idv.hailelectronic.earthpulsation.item.CopperPickaxeHeadItem;
-import idv.hailelectronic.earthpulsation.item.CopperIngotItem;
 import idv.hailelectronic.earthpulsation.item.CopperHoeItem;
 import idv.hailelectronic.earthpulsation.item.CopperHoeHeadItem;
 import idv.hailelectronic.earthpulsation.item.CopperCubeItem;
 import idv.hailelectronic.earthpulsation.item.CopperAxeItem;
 import idv.hailelectronic.earthpulsation.item.CopperAxeHeadItem;
 import idv.hailelectronic.earthpulsation.item.CopperArmorItem;
+import idv.hailelectronic.earthpulsation.item.ConciseBatteryItem;
 import idv.hailelectronic.earthpulsation.item.CobaltIngotItem;
+import idv.hailelectronic.earthpulsation.item.ClassicBatteryItem;
 import idv.hailelectronic.earthpulsation.item.CinnabarItem;
 import idv.hailelectronic.earthpulsation.item.ChocolateItem;
 import idv.hailelectronic.earthpulsation.item.CastIronIngotItem;
@@ -143,6 +147,7 @@ import idv.hailelectronic.earthpulsation.item.BluePrintItem;
 import idv.hailelectronic.earthpulsation.item.BlankCircutiBoardItem;
 import idv.hailelectronic.earthpulsation.item.BlackGoldIngotItem;
 import idv.hailelectronic.earthpulsation.item.BigApplePieceItem;
+import idv.hailelectronic.earthpulsation.item.BasicBatteryItem;
 import idv.hailelectronic.earthpulsation.item.BaseCircutiBoardItem;
 import idv.hailelectronic.earthpulsation.item.AluminumSwordItem;
 import idv.hailelectronic.earthpulsation.item.AluminumShovelItem;
@@ -169,12 +174,9 @@ public class EarthPulsationModItems {
 	public static final Item PULVERIZER = register(EarthPulsationModBlocks.PULVERIZER, EarthPulsationModTabs.TAB_EARTH_PULSATION);
 	public static final Item REINFORCED_SIEVE = register(EarthPulsationModBlocks.REINFORCED_SIEVE, EarthPulsationModTabs.TAB_EARTH_PULSATION);
 	public static final Item BASIN = register(EarthPulsationModBlocks.BASIN, EarthPulsationModTabs.TAB_EARTH_PULSATION);
-	public static final Item COPPER_INGOT = register(new CopperIngotItem());
 	public static final Item COPPER_CUBE = register(new CopperCubeItem());
 	public static final Item COPPER_PLATE = register(new CopperPlateItem());
 	public static final Item COPPER_POWDER = register(new CopperPowderItem());
-	public static final Item COPPER_ORE = register(EarthPulsationModBlocks.COPPER_ORE, EarthPulsationModTabs.TAB_EARTH_PULSATION);
-	public static final Item COPPER_BLOCK = register(EarthPulsationModBlocks.COPPER_BLOCK, EarthPulsationModTabs.TAB_EARTH_PULSATION);
 	public static final Item COPPER_PICKAXE = register(new CopperPickaxeItem());
 	public static final Item COPPER_PICKAXE_HEAD = register(new CopperPickaxeHeadItem());
 	public static final Item COPPER_AXE = register(new CopperAxeItem());
@@ -390,6 +392,12 @@ public class EarthPulsationModItems {
 	public static final Item BLANK_CIRCUTI_BOARD = register(new BlankCircutiBoardItem());
 	public static final Item BASE_CIRCUTI_BOARD = register(new BaseCircutiBoardItem());
 	public static final Item SCREEN_PART = register(new ScreenPartItem());
+	public static final Item BASIC_BATTERY = register(new BasicBatteryItem());
+	public static final Item CLASSIC_BATTERY = register(new ClassicBatteryItem());
+	public static final Item CONCISE_BATTERY = register(new ConciseBatteryItem());
+	public static final Item NORMAL_BATTERY = register(new NormalBatteryItem());
+	public static final Item HIGH_LEVEL_BATTERY = register(new HighLevelBatteryItem());
+	public static final Item SUPER_BATTERY = register(new SuperBatteryItem());
 	public static final Item COAL_GENERATOR = register(EarthPulsationModBlocks.COAL_GENERATOR, EarthPulsationModTabs.TAB_EARTH_PULSATION);
 	public static final Item BATTERY_BLOCK = register(EarthPulsationModBlocks.BATTERY_BLOCK, EarthPulsationModTabs.TAB_EARTH_PULSATION);
 	public static final Item WOODEN_TROUGH = register(new WoodenTroughItem());
@@ -406,6 +414,13 @@ public class EarthPulsationModItems {
 	public static final Item CONTAINER_COLUMN = register(EarthPulsationModBlocks.CONTAINER_COLUMN, EarthPulsationModTabs.TAB_EARTH_PULSATION);
 	public static final Item CONTAINER_WALL = register(EarthPulsationModBlocks.CONTAINER_WALL, EarthPulsationModTabs.TAB_EARTH_PULSATION);
 	public static final Item CONTAINER_DOOR = register(EarthPulsationModBlocks.CONTAINER_DOOR, EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item BLUE_CONTAINER_COLUMN = register(EarthPulsationModBlocks.BLUE_CONTAINER_COLUMN,
+			EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item BLUE_CONTAINER_WALL = register(EarthPulsationModBlocks.BLUE_CONTAINER_WALL, EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item BLUE_CONTAINER_DOOR = register(EarthPulsationModBlocks.BLUE_CONTAINER_DOOR, EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item RED_CONTAINER_COLUMN = register(EarthPulsationModBlocks.RED_CONTAINER_COLUMN, EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item RED_CONTAINER_WALL = register(EarthPulsationModBlocks.RED_CONTAINER_WALL, EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item RED_CONTAINER_DOOR = register(EarthPulsationModBlocks.RED_CONTAINER_DOOR, EarthPulsationModTabs.TAB_EARTH_PULSATION);
 	public static final Item WOOD_PLANKS_DOOR = register(EarthPulsationModBlocks.WOOD_PLANKS_DOOR, EarthPulsationModTabs.TAB_EARTH_PULSATION);
 	public static final Item WOODEN_TABLE = register(EarthPulsationModBlocks.WOODEN_TABLE, EarthPulsationModTabs.TAB_EARTH_PULSATION);
 	public static final Item LONG_WOODEN_TABLE = register(EarthPulsationModBlocks.LONG_WOODEN_TABLE, EarthPulsationModTabs.TAB_EARTH_PULSATION);
@@ -415,23 +430,88 @@ public class EarthPulsationModItems {
 	public static final Item BLUE_LIGHT_LAB_BLOCK = register(EarthPulsationModBlocks.BLUE_LIGHT_LAB_BLOCK, EarthPulsationModTabs.TAB_EARTH_PULSATION);
 	public static final Item CHISELED_WHITE_LIGHT_LAB_BLOCK = register(EarthPulsationModBlocks.CHISELED_WHITE_LIGHT_LAB_BLOCK,
 			EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item CHISELED_WHITE_LIGHT_LAB_BLOCK_STAIR = register(EarthPulsationModBlocks.CHISELED_WHITE_LIGHT_LAB_BLOCK_STAIR,
+			EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item CHISELED_WHITE_LIGHT_LAB_BLOCK_SLAB = register(EarthPulsationModBlocks.CHISELED_WHITE_LIGHT_LAB_BLOCK_SLAB,
+			EarthPulsationModTabs.TAB_EARTH_PULSATION);
 	public static final Item CHISELED_BLUE_LIGHT_LAB_BLOCK = register(EarthPulsationModBlocks.CHISELED_BLUE_LIGHT_LAB_BLOCK,
+			EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item CHISELED_BLUE_LIGHT_LAB_BLOCK_STAIR = register(EarthPulsationModBlocks.CHISELED_BLUE_LIGHT_LAB_BLOCK_STAIR,
+			EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item CHISELED_BLUE_LIGHT_LAB_BLOCK_SLAB = register(EarthPulsationModBlocks.CHISELED_BLUE_LIGHT_LAB_BLOCK_SLAB,
 			EarthPulsationModTabs.TAB_EARTH_PULSATION);
 	public static final Item CHISELED_MIXED_LIGHT_LAB_BLOCK_A = register(EarthPulsationModBlocks.CHISELED_MIXED_LIGHT_LAB_BLOCK_A,
 			EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item CHISELED_MIXED_LIGHT_LAB_BLOCK_A_STAIR = register(EarthPulsationModBlocks.CHISELED_MIXED_LIGHT_LAB_BLOCK_A_STAIR,
+			EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item CHISELED_MIXED_LIGHT_LAB_BLOCK_A_SLAB = register(EarthPulsationModBlocks.CHISELED_MIXED_LIGHT_LAB_BLOCK_A_SLAB,
+			EarthPulsationModTabs.TAB_EARTH_PULSATION);
 	public static final Item CHISELED_MIXED_LIGHT_LAB_BLOCK_B = register(EarthPulsationModBlocks.CHISELED_MIXED_LIGHT_LAB_BLOCK_B,
+			EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item CHISELED_MIXED_LIGHT_LAB_BLOCK_B_STAIR = register(EarthPulsationModBlocks.CHISELED_MIXED_LIGHT_LAB_BLOCK_B_STAIR,
+			EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item CHISELED_MIXED_LIGHT_LAB_BLOCK_B_SLAB = register(EarthPulsationModBlocks.CHISELED_MIXED_LIGHT_LAB_BLOCK_B_SLAB,
+			EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item WHITE_RESIN_GLASS = register(EarthPulsationModBlocks.WHITE_RESIN_GLASS, EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item ORANGE_RESIN_GLASS = register(EarthPulsationModBlocks.ORANGE_RESIN_GLASS, EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item MAGENTA_RESIN_GLASS = register(EarthPulsationModBlocks.MAGENTA_RESIN_GLASS, EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item LIGHT_BLUE_RESIN_GLASS = register(EarthPulsationModBlocks.LIGHT_BLUE_RESIN_GLASS,
+			EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item YELLOW_RESIN_GLASS = register(EarthPulsationModBlocks.YELLOW_RESIN_GLASS, EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item LIME_RESIN_GLASS = register(EarthPulsationModBlocks.LIME_RESIN_GLASS, EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item PINK_RESIN_GLASS = register(EarthPulsationModBlocks.PINK_RESIN_GLASS, EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item GRAY_RESIN_GLASS = register(EarthPulsationModBlocks.GRAY_RESIN_GLASS, EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item LIGHT_GRAY_RESIN_GLASS = register(EarthPulsationModBlocks.LIGHT_GRAY_RESIN_GLASS,
+			EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item CYAN_RESIN_GLASS = register(EarthPulsationModBlocks.CYAN_RESIN_GLASS, EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item PURPLE_RESIN_GLASS = register(EarthPulsationModBlocks.PURPLE_RESIN_GLASS, EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item BLUE_RESIN_GLASS = register(EarthPulsationModBlocks.BLUE_RESIN_GLASS, EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item BROWN_RESIN_GLASS = register(EarthPulsationModBlocks.BROWN_RESIN_GLASS, EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item GREEN_RESIN_GLASS = register(EarthPulsationModBlocks.GREEN_RESIN_GLASS, EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item RED_RESIN_GLASS = register(EarthPulsationModBlocks.RED_RESIN_GLASS, EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item BLACK_RESIN_GLASS = register(EarthPulsationModBlocks.BLACK_RESIN_GLASS, EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item WHITE_RESIN_GLASS_PANE = register(EarthPulsationModBlocks.WHITE_RESIN_GLASS_PANE,
+			EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item ORANGE_RESIN_GLASS_PANE = register(EarthPulsationModBlocks.ORANGE_RESIN_GLASS_PANE,
+			EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item MAGENTA_RESIN_GLASS_PANE = register(EarthPulsationModBlocks.MAGENTA_RESIN_GLASS_PANE,
+			EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item LIGHT_BLUE_RESIN_GLASS_PANE = register(EarthPulsationModBlocks.LIGHT_BLUE_RESIN_GLASS_PANE,
+			EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item YELLOW_RESIN_GLASS_PANE = register(EarthPulsationModBlocks.YELLOW_RESIN_GLASS_PANE,
+			EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item LIME_RESIN_GLASS_PANE = register(EarthPulsationModBlocks.LIME_RESIN_GLASS_PANE,
+			EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item PINK_RESIN_GLASS_PANE = register(EarthPulsationModBlocks.PINK_RESIN_GLASS_PANE,
+			EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item GRAY_RESIN_GLASS_PANE = register(EarthPulsationModBlocks.GRAY_RESIN_GLASS_PANE,
+			EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item LIGHT_GRAY_RESIN_GLASS_PANE = register(EarthPulsationModBlocks.LIGHT_GRAY_RESIN_GLASS_PANE,
+			EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item CYAN_RESIN_GLASS_PANE = register(EarthPulsationModBlocks.CYAN_RESIN_GLASS_PANE,
+			EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item PURPLE_RESIN_GLASS_PANE = register(EarthPulsationModBlocks.PURPLE_RESIN_GLASS_PANE,
+			EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item BLUE_RESIN_GLASS_PANE = register(EarthPulsationModBlocks.BLUE_RESIN_GLASS_PANE,
+			EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item BROWN_RESIN_GLASS_PANE = register(EarthPulsationModBlocks.BROWN_RESIN_GLASS_PANE,
+			EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item GREEN_RESIN_GLASS_PANE = register(EarthPulsationModBlocks.GREEN_RESIN_GLASS_PANE,
+			EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item RED_RESIN_GLASS_PANE = register(EarthPulsationModBlocks.RED_RESIN_GLASS_PANE, EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item BLACK_RESIN_GLASS_PANE = register(EarthPulsationModBlocks.BLACK_RESIN_GLASS_PANE,
 			EarthPulsationModTabs.TAB_EARTH_PULSATION);
 	public static final Item PURE_SLIME = register(new SpawnEggItem(EarthPulsationModEntities.PURE_SLIME, -13382401, -13395457,
 			new Item.Properties().tab(EarthPulsationModTabs.TAB_EARTH_PULSATION)).setRegistryName("pure_slime_spawn_egg"));
 	public static final Item WANDERED_MINNER = register(new SpawnEggItem(EarthPulsationModEntities.WANDERED_MINNER, -16751053, -256,
 			new Item.Properties().tab(EarthPulsationModTabs.TAB_EARTH_PULSATION)).setRegistryName("wandered_minner_spawn_egg"));
+	public static final Item TINY_TNT = register(new TinyTNTItem());
 	public static final Item MELON_GUN = register(new MelonGunItem());
 	public static final Item GLASS_SWORD = register(new GlassSwordItem());
 	public static final Item OLD_AGE = register(new OldAgeItem());
 	public static final Item DEEP_WELL = register(new DeepWellItem());
 	public static final Item SAMSUNG_NOTE_7 = register(new SamsungNote7Item());
 	public static final Item NOKIA = register(new NokiaItem());
-	public static final Item TINY_TNT = register(new TinyTNTItem());
 	public static final Item PLACE_ON_WATER_PLATE = register(EarthPulsationModBlocks.PLACE_ON_WATER_PLATE, EarthPulsationModTabs.TAB_EARTH_PULSATION);
 
 	private static Item register(Item item) {

@@ -84,11 +84,11 @@ public class BasinGuiScreen extends AbstractContainerScreen<BasinGuiMenu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		drawString(poseStack, this.font, "Basin", 77, 5, -13395712);
+		this.font.draw(poseStack, "Basin", 77, 5, -13395712);
 		if (POffProcedure.execute(world, x, y, z))
-			drawString(poseStack, this.font, "stop", 91, 53, -6710887);
+			this.font.draw(poseStack, "stop", 91, 53, -6710887);
 		if (POnProcedure.execute(world, x, y, z))
-			drawString(poseStack, this.font, "" + (new Object() {
+			this.font.draw(poseStack, "" + (new Object() {
 				public String getValue(BlockPos pos, String tag) {
 					BlockEntity BlockEntity = world.getBlockEntity(pos);
 					if (BlockEntity != null)
@@ -96,7 +96,7 @@ public class BasinGuiScreen extends AbstractContainerScreen<BasinGuiMenu> {
 					return "";
 				}
 			}.getValue(new BlockPos((int) x, (int) y, (int) z), "Progress")) + "", 91, 53, -10066330);
-		drawString(poseStack, this.font, "" + (new Object() {
+		this.font.draw(poseStack, "" + (new Object() {
 			public double getValue(BlockPos pos, String tag) {
 				BlockEntity BlockEntity = world.getBlockEntity(pos);
 				if (BlockEntity != null)
@@ -104,7 +104,7 @@ public class BasinGuiScreen extends AbstractContainerScreen<BasinGuiMenu> {
 				return 0;
 			}
 		}.getValue(new BlockPos((int) x, (int) y, (int) z), "craftingTime")) + "", 2, 57, -5066062);
-		drawString(poseStack, this.font, "" + (new Object() {
+		this.font.draw(poseStack, "" + (new Object() {
 			public double getValue(BlockPos pos, String tag) {
 				BlockEntity BlockEntity = world.getBlockEntity(pos);
 				if (BlockEntity != null)

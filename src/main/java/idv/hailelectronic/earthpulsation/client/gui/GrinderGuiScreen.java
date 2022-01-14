@@ -181,11 +181,11 @@ public class GrinderGuiScreen extends AbstractContainerScreen<GrinderGuiMenu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		drawString(poseStack, this.font, "Grinder", 68, 4, -13421773);
+		this.font.draw(poseStack, "Grinder", 68, 4, -13421773);
 		if (POffProcedure.execute(world, x, y, z))
-			drawString(poseStack, this.font, "Stop", 68, 51, -6710887);
+			this.font.draw(poseStack, "Stop", 68, 51, -6710887);
 		if (POnProcedure.execute(world, x, y, z))
-			drawString(poseStack, this.font, "" + (new Object() {
+			this.font.draw(poseStack, "" + (new Object() {
 				public String getValue(BlockPos pos, String tag) {
 					BlockEntity BlockEntity = world.getBlockEntity(pos);
 					if (BlockEntity != null)
@@ -193,7 +193,7 @@ public class GrinderGuiScreen extends AbstractContainerScreen<GrinderGuiMenu> {
 					return "";
 				}
 			}.getValue(new BlockPos((int) x, (int) y, (int) z), "Progress")) + "", 68, 51, -10066330);
-		drawString(poseStack, this.font, "" + (new Object() {
+		this.font.draw(poseStack, "" + (new Object() {
 			public double getValue(BlockPos pos, String tag) {
 				BlockEntity BlockEntity = world.getBlockEntity(pos);
 				if (BlockEntity != null)
@@ -201,7 +201,7 @@ public class GrinderGuiScreen extends AbstractContainerScreen<GrinderGuiMenu> {
 				return 0;
 			}
 		}.getValue(new BlockPos((int) x, (int) y, (int) z), "craftingTime")) + "", 2, 57, -5066062);
-		drawString(poseStack, this.font, "" + (new Object() {
+		this.font.draw(poseStack, "" + (new Object() {
 			public double getValue(BlockPos pos, String tag) {
 				BlockEntity BlockEntity = world.getBlockEntity(pos);
 				if (BlockEntity != null)
