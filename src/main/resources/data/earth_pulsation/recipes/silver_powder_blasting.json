@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 0,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "earth_pulsation:tin_powder"
+  },
+  "result": {
+    "item": "earth_pulsation:silver_ingot"
+  }
+}

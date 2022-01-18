@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 0.35,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "earth_pulsation:silver_ore"
+  },
+  "result": {
+    "item": "earth_pulsation:silver_ingot"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "earth_pulsation:raw_aluminum"
+    },
+    {
+      "item": "earth_pulsation:raw_aluminum"
+    },
+    {
+      "item": "earth_pulsation:raw_aluminum"
+    },
+    {
+      "item": "earth_pulsation:raw_aluminum"
+    },
+    {
+      "item": "earth_pulsation:raw_aluminum"
+    },
+    {
+      "item": "earth_pulsation:raw_aluminum"
+    },
+    {
+      "item": "earth_pulsation:raw_aluminum"
+    },
+    {
+      "item": "earth_pulsation:raw_aluminum"
+    },
+    {
+      "item": "earth_pulsation:raw_aluminum"
+    }
+  ],
+  "result": {
+    "item": "earth_pulsation:raw_aluminum_block",
+    "count": 1
+  }
+}

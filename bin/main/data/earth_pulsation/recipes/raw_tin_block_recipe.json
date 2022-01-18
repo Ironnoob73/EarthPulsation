@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "earth_pulsation:raw_tin"
+    },
+    {
+      "item": "earth_pulsation:raw_tin"
+    },
+    {
+      "item": "earth_pulsation:raw_tin"
+    },
+    {
+      "item": "earth_pulsation:raw_tin"
+    },
+    {
+      "item": "earth_pulsation:raw_tin"
+    },
+    {
+      "item": "earth_pulsation:raw_tin"
+    },
+    {
+      "item": "earth_pulsation:raw_tin"
+    },
+    {
+      "item": "earth_pulsation:raw_tin"
+    },
+    {
+      "item": "earth_pulsation:raw_tin"
+    }
+  ],
+  "result": {
+    "item": "earth_pulsation:raw_tin_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.35,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "earth_pulsation:raw_tin"
+  },
+  "result": {
+    "item": "earth_pulsation:tin_ingot"
+  }
+}

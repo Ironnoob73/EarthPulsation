@@ -1,6 +1,6 @@
 {
   "type": "minecraft:blasting",
-  "experience": 5,
+  "experience": 2.5,
   "cookingtime": 200,
   "ingredient": {
     "item": "earth_pulsation:black_gold_ore"

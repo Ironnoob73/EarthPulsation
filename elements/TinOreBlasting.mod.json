@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 0.175,
+    "cookingTime": 100,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:TinOre"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:TinIngot"
+    },
+    "name": "tin_ore_blasting",
+    "namespace": "mod"
+  }
+}

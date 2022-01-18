@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 2.5,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:RawBlackGold"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:BlackGoldIngot"
+    },
+    "name": "raw_black_gold_blasting",
+    "namespace": "mod"
+  }
+}

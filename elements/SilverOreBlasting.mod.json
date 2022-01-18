@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 0.35,
+    "cookingTime": 100,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:SilverOre"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:SilverIngot"
+    },
+    "name": "silver_ore_blasting",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "earth_pulsation:raw_aluminum_block"
+    }
+  ],
+  "result": {
+    "item": "earth_pulsation:raw_aluminum",
+    "count": 9
+  }
+}

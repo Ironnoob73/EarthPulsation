@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 0.28,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "earth_pulsation:raw_aluminum"
+  },
+  "result": {
+    "item": "earth_pulsation:aluminum_ingot"
+  }
+}

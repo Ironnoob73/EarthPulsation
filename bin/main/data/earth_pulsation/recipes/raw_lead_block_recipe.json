@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "earth_pulsation:raw_lead"
+    },
+    {
+      "item": "earth_pulsation:raw_lead"
+    },
+    {
+      "item": "earth_pulsation:raw_lead"
+    },
+    {
+      "item": "earth_pulsation:raw_lead"
+    },
+    {
+      "item": "earth_pulsation:raw_lead"
+    },
+    {
+      "item": "earth_pulsation:raw_lead"
+    },
+    {
+      "item": "earth_pulsation:raw_lead"
+    },
+    {
+      "item": "earth_pulsation:raw_lead"
+    },
+    {
+      "item": "earth_pulsation:raw_lead"
+    }
+  ],
+  "result": {
+    "item": "earth_pulsation:raw_lead_block",
+    "count": 1
+  }
+}

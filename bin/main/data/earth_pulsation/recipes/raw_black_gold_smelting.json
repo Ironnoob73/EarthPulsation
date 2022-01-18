@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 5,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "earth_pulsation:raw_black_gold"
+  },
+  "result": {
+    "item": "earth_pulsation:black_gold_ingot"
+  }
+}
