@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 0.28,
+    "cookingTime": 100,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:DeepslateAluminumOre"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:AluminumIngot"
+    },
+    "name": "deepslate_aluminum_ore_blasting",
+    "namespace": "mod"
+  }
+}

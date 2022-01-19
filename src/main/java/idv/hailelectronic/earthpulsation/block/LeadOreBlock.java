@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class LeadOreBlock extends Block {
 	public LeadOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(3f, 5f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(3f).requiresCorrectToolForDrops());
 		setRegistryName("lead_ore");
 	}
 

@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class TinOreBlock extends Block {
 	public TinOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1.5f, 2.871745887492587f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(3f).requiresCorrectToolForDrops());
 		setRegistryName("tin_ore");
 	}
 

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "earth_pulsation:deepslate_lead_ore"
+  },
+  "result": {
+    "item": "earth_pulsation:lead_ingot"
+  }
+}

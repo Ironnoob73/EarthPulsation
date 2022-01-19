@@ -93,6 +93,7 @@ import idv.hailelectronic.earthpulsation.item.ObsidianShovelItem;
 import idv.hailelectronic.earthpulsation.item.ObsidianPickaxeItem;
 import idv.hailelectronic.earthpulsation.item.ObsidianHoeItem;
 import idv.hailelectronic.earthpulsation.item.ObsidianAxeItem;
+import idv.hailelectronic.earthpulsation.item.NormalGunItem;
 import idv.hailelectronic.earthpulsation.item.NormalBatteryItem;
 import idv.hailelectronic.earthpulsation.item.NokiaItem;
 import idv.hailelectronic.earthpulsation.item.NickelIngotItem;
@@ -201,6 +202,8 @@ public class EarthPulsationModItems {
 	public static final Item ALUMINUM_PLATE = register(new AluminumPlateItem());
 	public static final Item ALUMINUM_POWDER = register(new AluminumPowderItem());
 	public static final Item ALUMINUM_ORE = register(EarthPulsationModBlocks.ALUMINUM_ORE, EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item DEEPSLATE_ALUMINUM_ORE = register(EarthPulsationModBlocks.DEEPSLATE_ALUMINUM_ORE,
+			EarthPulsationModTabs.TAB_EARTH_PULSATION);
 	public static final Item RAW_ALUMINUM = register(new RawAluminumItem());
 	public static final Item RAW_ALUMINUM_BLOCK = register(EarthPulsationModBlocks.RAW_ALUMINUM_BLOCK, EarthPulsationModTabs.TAB_EARTH_PULSATION);
 	public static final Item ALUMINUM_BLOCK = register(EarthPulsationModBlocks.ALUMINUM_BLOCK, EarthPulsationModTabs.TAB_EARTH_PULSATION);
@@ -250,6 +253,7 @@ public class EarthPulsationModItems {
 	public static final Item LEAD_PLATE = register(new LeadPlateItem());
 	public static final Item LEAD_POWDER = register(new LeadPowderItem());
 	public static final Item LEAD_ORE = register(EarthPulsationModBlocks.LEAD_ORE, EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item DEEPSLATE_LEAD_ORE = register(EarthPulsationModBlocks.DEEPSLATE_LEAD_ORE, EarthPulsationModTabs.TAB_EARTH_PULSATION);
 	public static final Item RAW_LEAD = register(new RawLeadItem());
 	public static final Item RAW_LEAD_BLOCK = register(EarthPulsationModBlocks.RAW_LEAD_BLOCK, EarthPulsationModTabs.TAB_EARTH_PULSATION);
 	public static final Item LEAD_BLOCK = register(EarthPulsationModBlocks.LEAD_BLOCK, EarthPulsationModTabs.TAB_EARTH_PULSATION);
@@ -258,6 +262,7 @@ public class EarthPulsationModItems {
 	public static final Item TIN_PLATE = register(new TinPlateItem());
 	public static final Item TIN_POWDER = register(new TinPowderItem());
 	public static final Item TIN_ORE = register(EarthPulsationModBlocks.TIN_ORE, EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item DEEPSLATE_TIN_ORE = register(EarthPulsationModBlocks.DEEPSLATE_TIN_ORE, EarthPulsationModTabs.TAB_EARTH_PULSATION);
 	public static final Item RAW_TIN = register(new RawTinItem());
 	public static final Item RAW_TIN_BLOCK = register(EarthPulsationModBlocks.RAW_TIN_BLOCK, EarthPulsationModTabs.TAB_EARTH_PULSATION);
 	public static final Item TIN_BLOCK = register(EarthPulsationModBlocks.TIN_BLOCK, EarthPulsationModTabs.TAB_EARTH_PULSATION);
@@ -266,6 +271,7 @@ public class EarthPulsationModItems {
 	public static final Item SILVER_PLATE = register(new SilverPlateItem());
 	public static final Item SILVER_POWDER = register(new SilverPowderItem());
 	public static final Item SILVER_ORE = register(EarthPulsationModBlocks.SILVER_ORE, EarthPulsationModTabs.TAB_EARTH_PULSATION);
+	public static final Item DEEPSLATE_SILVER_ORE = register(EarthPulsationModBlocks.DEEPSLATE_SILVER_ORE, EarthPulsationModTabs.TAB_EARTH_PULSATION);
 	public static final Item SILVER_BLOCK = register(EarthPulsationModBlocks.SILVER_BLOCK, EarthPulsationModTabs.TAB_EARTH_PULSATION);
 	public static final Item COBALT_INGOT = register(new CobaltIngotItem());
 	public static final Item COBALT_ORE = register(EarthPulsationModBlocks.COBALT_ORE, EarthPulsationModTabs.TAB_EARTH_PULSATION);
@@ -523,6 +529,7 @@ public class EarthPulsationModItems {
 			new Item.Properties().tab(EarthPulsationModTabs.TAB_EARTH_PULSATION)).setRegistryName("wandered_minner_spawn_egg"));
 	public static final Item TINY_TNT = register(new TinyTNTItem());
 	public static final Item MELON_GUN = register(new MelonGunItem());
+	public static final Item NORMAL_GUN = register(new NormalGunItem());
 	public static final Item GLASS_SWORD = register(new GlassSwordItem());
 	public static final Item OLD_AGE = register(new OldAgeItem());
 	public static final Item DEEP_WELL = register(new DeepWellItem());

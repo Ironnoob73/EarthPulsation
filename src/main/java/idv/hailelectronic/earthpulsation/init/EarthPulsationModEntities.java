@@ -21,6 +21,7 @@ import idv.hailelectronic.earthpulsation.entity.WanderedMinnerEntity;
 import idv.hailelectronic.earthpulsation.entity.TinyTNTEntity;
 import idv.hailelectronic.earthpulsation.entity.SamsungNote7Entity;
 import idv.hailelectronic.earthpulsation.entity.PureSlimeEntity;
+import idv.hailelectronic.earthpulsation.entity.NormalGunEntity;
 import idv.hailelectronic.earthpulsation.entity.MelonGunEntity;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -37,6 +38,9 @@ public class EarthPulsationModEntities {
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final EntityType<MelonGunEntity> MELON_GUN = register("entitybulletmelon_gun",
 			EntityType.Builder.<MelonGunEntity>of(MelonGunEntity::new, MobCategory.MISC).setCustomClientFactory(MelonGunEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final EntityType<NormalGunEntity> NORMAL_GUN = register("entitybulletnormal_gun",
+			EntityType.Builder.<NormalGunEntity>of(NormalGunEntity::new, MobCategory.MISC).setCustomClientFactory(NormalGunEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final EntityType<SamsungNote7Entity> SAMSUNG_NOTE_7 = register("entitybulletsamsung_note_7",
 			EntityType.Builder.<SamsungNote7Entity>of(SamsungNote7Entity::new, MobCategory.MISC).setCustomClientFactory(SamsungNote7Entity::new)

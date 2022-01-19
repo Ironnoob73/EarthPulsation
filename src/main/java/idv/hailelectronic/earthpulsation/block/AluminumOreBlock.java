@@ -13,8 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class AluminumOreBlock extends Block {
 	public AluminumOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(2.4000000000000004f, 4.182558210365094f)
-				.requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(3f).requiresCorrectToolForDrops());
 		setRegistryName("aluminum_ore");
 	}
 
