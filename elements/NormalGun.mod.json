@@ -3,7 +3,7 @@
   "_type": "rangeditem",
   "definition": {
     "renderType": 0,
-    "texture": "melon_gun",
+    "texture": "normal_gun",
     "customModelName": "Normal",
     "name": "Normal Gun",
     "specialInfo": [],
@@ -23,9 +23,9 @@
     "animation": "bow",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "bulletPower": 1.0,
-    "bulletDamage": 5.0,
-    "bulletKnockback": 5,
+    "bulletPower": 2.0,
+    "bulletDamage": 2.0,
+    "bulletKnockback": 1,
     "bulletParticles": true,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {

@@ -59,7 +59,7 @@ public class NormalGunItem extends Item {
 					}
 				}
 				if (entity.getAbilities().instabuild || stack != ItemStack.EMPTY) {
-					NormalGunEntity entityarrow = NormalGunEntity.shoot(world, entity, world.getRandom(), 1f, 5, 5);
+					NormalGunEntity entityarrow = NormalGunEntity.shoot(world, entity, world.getRandom(), 2f, 2, 1);
 					itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 					if (entity.getAbilities().instabuild) {
 						entityarrow.pickup = AbstractArrow.Pickup.CREATIVE_ONLY;

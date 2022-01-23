@@ -17,16 +17,16 @@ import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
-import idv.hailelectronic.earthpulsation.procedures.NokiaKillProcedure;
+import idv.hailelectronic.earthpulsation.procedures.NokikaKillProcedure;
 import idv.hailelectronic.earthpulsation.init.EarthPulsationModTabs;
 
 import com.google.common.collect.Multimap;
 import com.google.common.collect.ImmutableMultimap;
 
-public class NokiaItem extends Item {
-	public NokiaItem() {
+public class NokikaItem extends Item {
+	public NokikaItem() {
 		super(new Item.Properties().tab(EarthPulsationModTabs.TAB_EARTH_PULSATION).stacksTo(1).rarity(Rarity.EPIC));
-		setRegistryName("nokia");
+		setRegistryName("nokika");
 	}
 
 	@Override
@@ -66,7 +66,7 @@ public class NokiaItem extends Item {
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
-		NokiaKillProcedure.execute(entity);
+		NokikaKillProcedure.execute(entity);
 		return retval;
 	}
 }

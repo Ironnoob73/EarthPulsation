@@ -58,7 +58,7 @@ public class MelonGunItem extends Item {
 					}
 				}
 				if (entity.getAbilities().instabuild || stack != ItemStack.EMPTY) {
-					MelonGunEntity entityarrow = MelonGunEntity.shoot(world, entity, world.getRandom(), 2f, 5, 5);
+					MelonGunEntity entityarrow = MelonGunEntity.shoot(world, entity, world.getRandom(), 2f, 3, 2);
 					itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 					if (entity.getAbilities().instabuild) {
 						entityarrow.pickup = AbstractArrow.Pickup.CREATIVE_ONLY;

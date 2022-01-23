@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "samsungnote7",
     "customModelName": "Normal",
-    "name": "Samsung Note 7",
+    "name": "Samjung Note 7",
     "specialInfo": [
       "Explosive",
       "use with caution",
@@ -34,15 +34,21 @@
     "bulletParticles": false,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {
-      "value": "CUSTOM:SamsungNote7"
+      "value": "CUSTOM:SamjungNote7"
     },
     "bulletModel": "Default",
     "customBulletModelTexture": "",
     "onBulletHitsBlock": {
-      "name": "SamsungNote7Explotion"
+      "name": "SamjungNote7Explotion"
+    },
+    "onBulletHitsPlayer": {
+      "name": "SamjungNote7ToPlayer"
     },
     "onBulletHitsEntity": {
-      "name": "SamsungNote7Explotion"
+      "name": "SamjungNote7Explotion"
+    },
+    "onBulletFlyingTick": {
+      "name": "SamjungNote7Timmer"
     }
   }
 }

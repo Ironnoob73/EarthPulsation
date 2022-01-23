@@ -23,6 +23,6 @@ public class EarthPulsationModEntityRenderers {
 		event.registerEntityRenderer(EarthPulsationModEntities.TINY_TNT, ThrownItemRenderer::new);
 		event.registerEntityRenderer(EarthPulsationModEntities.MELON_GUN, ThrownItemRenderer::new);
 		event.registerEntityRenderer(EarthPulsationModEntities.NORMAL_GUN, ThrownItemRenderer::new);
-		event.registerEntityRenderer(EarthPulsationModEntities.SAMSUNG_NOTE_7, ThrownItemRenderer::new);
+		event.registerEntityRenderer(EarthPulsationModEntities.SAMJUNG_NOTE_7, ThrownItemRenderer::new);
 	}
 }

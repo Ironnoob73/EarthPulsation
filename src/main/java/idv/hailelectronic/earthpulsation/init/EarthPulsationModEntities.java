@@ -19,7 +19,7 @@ import java.util.ArrayList;
 
 import idv.hailelectronic.earthpulsation.entity.WanderedMinnerEntity;
 import idv.hailelectronic.earthpulsation.entity.TinyTNTEntity;
-import idv.hailelectronic.earthpulsation.entity.SamsungNote7Entity;
+import idv.hailelectronic.earthpulsation.entity.SamjungNote7Entity;
 import idv.hailelectronic.earthpulsation.entity.PureSlimeEntity;
 import idv.hailelectronic.earthpulsation.entity.NormalGunEntity;
 import idv.hailelectronic.earthpulsation.entity.MelonGunEntity;
@@ -42,8 +42,8 @@ public class EarthPulsationModEntities {
 	public static final EntityType<NormalGunEntity> NORMAL_GUN = register("entitybulletnormal_gun",
 			EntityType.Builder.<NormalGunEntity>of(NormalGunEntity::new, MobCategory.MISC).setCustomClientFactory(NormalGunEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final EntityType<SamsungNote7Entity> SAMSUNG_NOTE_7 = register("entitybulletsamsung_note_7",
-			EntityType.Builder.<SamsungNote7Entity>of(SamsungNote7Entity::new, MobCategory.MISC).setCustomClientFactory(SamsungNote7Entity::new)
+	public static final EntityType<SamjungNote7Entity> SAMJUNG_NOTE_7 = register("entitybulletsamjung_note_7",
+			EntityType.Builder.<SamjungNote7Entity>of(SamjungNote7Entity::new, MobCategory.MISC).setCustomClientFactory(SamjungNote7Entity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {

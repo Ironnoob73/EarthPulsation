@@ -97,10 +97,10 @@ public class NormalGunEntity extends AbstractArrow implements ItemSupplier {
 		double d0 = target.getY() + (double) target.getEyeHeight() - 1.1;
 		double d1 = target.getX() - entity.getX();
 		double d3 = target.getZ() - entity.getZ();
-		entityarrow.shoot(d1, d0 - entityarrow.getY() + Math.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1f * 2, 12.0F);
+		entityarrow.shoot(d1, d0 - entityarrow.getY() + Math.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 2f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setBaseDamage(5);
-		entityarrow.setKnockback(5);
+		entityarrow.setBaseDamage(2);
+		entityarrow.setKnockback(1);
 		entityarrow.setCritArrow(true);
 		entity.level.addFreshEntity(entityarrow);
 		double x = entity.getX();

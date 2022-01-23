@@ -365,7 +365,7 @@
     {
       "name": "OldAge",
       "type": "dimension",
-      "sortid": 308,
+      "sortid": 310,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_age",
@@ -1490,44 +1490,6 @@
       "path": "~/item/technology"
     },
     {
-      "name": "SamsungNote7",
-      "type": "rangeditem",
-      "sortid": 310,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "samsung_note_7",
-      "path": "~/item/joke"
-    },
-    {
-      "name": "SamsungNote7Explotion",
-      "type": "procedure",
-      "sortid": 379,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "samsung_note_7_explotion",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/item/joke"
-    },
-    {
       "name": "MelonGun",
       "type": "rangeditem",
       "sortid": 305,
@@ -1548,7 +1510,7 @@
     {
       "name": "StrippeIceBirchWood",
       "type": "procedure",
-      "sortid": 380,
+      "sortid": 379,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strippe_ice_birch_wood",
@@ -1590,7 +1552,7 @@
     {
       "name": "StrippeIceBirchLog",
       "type": "procedure",
-      "sortid": 381,
+      "sortid": 380,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strippe_ice_birch_log",
@@ -1650,7 +1612,7 @@
     {
       "name": "TinOreBlockRecipe",
       "type": "recipe",
-      "sortid": 382,
+      "sortid": 381,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tin_ore_block_recipe",
@@ -1659,7 +1621,7 @@
     {
       "name": "TinBlockOreRecipe",
       "type": "recipe",
-      "sortid": 383,
+      "sortid": 382,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tin_block_ore_recipe",
@@ -1668,7 +1630,7 @@
     {
       "name": "TinOreSmelting",
       "type": "recipe",
-      "sortid": 384,
+      "sortid": 383,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tin_ore_smelting",
@@ -1776,7 +1738,7 @@
     {
       "name": "StickPlanksRecipe",
       "type": "recipe",
-      "sortid": 385,
+      "sortid": 384,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stick_planks_recipe",
@@ -1785,7 +1747,7 @@
     {
       "name": "StickPlanksUncompress",
       "type": "recipe",
-      "sortid": 386,
+      "sortid": 385,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stick_planks_uncompress",
@@ -1794,7 +1756,7 @@
     {
       "name": "WoodenPlanksRecipe",
       "type": "recipe",
-      "sortid": 387,
+      "sortid": 386,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_planks_recipe",
@@ -1803,7 +1765,7 @@
     {
       "name": "WoodenPlanksUncompress",
       "type": "recipe",
-      "sortid": 388,
+      "sortid": 387,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_planks_uncompress",
@@ -1812,7 +1774,7 @@
     {
       "name": "PlasticWoodPlanksRecipe",
       "type": "recipe",
-      "sortid": 389,
+      "sortid": 388,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_wood_planks_recipe",
@@ -1821,7 +1783,7 @@
     {
       "name": "PlasticWoodPlanksUncompress",
       "type": "recipe",
-      "sortid": 390,
+      "sortid": 389,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plastic_wood_planks_uncompress",
@@ -1866,7 +1828,7 @@
     {
       "name": "SilverOreBlockRecipe",
       "type": "recipe",
-      "sortid": 391,
+      "sortid": 390,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ore_block_recipe",
@@ -1875,7 +1837,7 @@
     {
       "name": "SilverBlockOreRecipe",
       "type": "recipe",
-      "sortid": 392,
+      "sortid": 391,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_block_ore_recipe",
@@ -1884,7 +1846,7 @@
     {
       "name": "SilverOreSmelting",
       "type": "recipe",
-      "sortid": 393,
+      "sortid": 392,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ore_smelting",
@@ -1907,32 +1869,6 @@
       "locked_code": false,
       "registry_name": "silver_plate",
       "path": "~/material/silver"
-    },
-    {
-      "name": "Nokia",
-      "type": "item",
-      "sortid": 311,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "nokia",
-      "path": "~/item/joke"
-    },
-    {
-      "name": "NokiaKill",
-      "type": "procedure",
-      "sortid": 394,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "nokia_kill",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/item/joke"
     },
     {
       "name": "CastIronIngot",
@@ -1964,7 +1900,7 @@
     {
       "name": "IronCubeRecipe",
       "type": "recipe",
-      "sortid": 395,
+      "sortid": 393,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_cube_recipe",
@@ -1973,7 +1909,7 @@
     {
       "name": "IronCubeUncompress",
       "type": "recipe",
-      "sortid": 396,
+      "sortid": 394,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_cube_uncompress",
@@ -1991,7 +1927,7 @@
     {
       "name": "ChiseledIronBlockRecipe",
       "type": "recipe",
-      "sortid": 397,
+      "sortid": 395,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chiseled_iron_block_recipe",
@@ -2000,7 +1936,7 @@
     {
       "name": "SteelBlockRecipe",
       "type": "recipe",
-      "sortid": 398,
+      "sortid": 396,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_block_recipe",
@@ -2009,7 +1945,7 @@
     {
       "name": "ChiseledIronBlockUncompress",
       "type": "recipe",
-      "sortid": 399,
+      "sortid": 397,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chiseled_iron_block_uncompress",
@@ -2018,7 +1954,7 @@
     {
       "name": "SteelBlockUncompress",
       "type": "recipe",
-      "sortid": 400,
+      "sortid": 398,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_block_uncompress",
@@ -2081,7 +2017,7 @@
     {
       "name": "RuggedizedAluminumPickaxeRecipe",
       "type": "recipe",
-      "sortid": 401,
+      "sortid": 399,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruggedized_aluminum_pickaxe_recipe",
@@ -2090,7 +2026,7 @@
     {
       "name": "RuggedizedAluminumAxeRecipe",
       "type": "recipe",
-      "sortid": 402,
+      "sortid": 400,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruggedized_aluminum_axe_recipe",
@@ -2099,7 +2035,7 @@
     {
       "name": "RuggedizedAluminumSwordRecipe",
       "type": "recipe",
-      "sortid": 403,
+      "sortid": 401,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruggedized_aluminum_sword_recipe",
@@ -2108,7 +2044,7 @@
     {
       "name": "RuggedizedAluminumShovelRecipe",
       "type": "recipe",
-      "sortid": 404,
+      "sortid": 402,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruggedized_aluminum_shovel_recipe",
@@ -2117,7 +2053,7 @@
     {
       "name": "RuggedizedAluminumHoeRecipe",
       "type": "recipe",
-      "sortid": 405,
+      "sortid": 403,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruggedized_aluminum_hoe_recipe",
@@ -2126,7 +2062,7 @@
     {
       "name": "ForgottenIronOreDrop",
       "type": "loottable",
-      "sortid": 406,
+      "sortid": 404,
       "compiles": true,
       "locked_code": false,
       "registry_name": "forgotten_iron_ore_drop",
@@ -2153,7 +2089,7 @@
     {
       "name": "GrinderGui",
       "type": "gui",
-      "sortid": 407,
+      "sortid": 405,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grinder_gui",
@@ -2162,7 +2098,7 @@
     {
       "name": "PDAGUIT",
       "type": "gui",
-      "sortid": 408,
+      "sortid": 406,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pdaguit",
@@ -2183,7 +2119,7 @@
     {
       "name": "InWWS",
       "type": "procedure",
-      "sortid": 409,
+      "sortid": 407,
       "compiles": true,
       "locked_code": false,
       "registry_name": "in_wws",
@@ -2209,7 +2145,7 @@
     {
       "name": "DrinkWWSBottle",
       "type": "procedure",
-      "sortid": 410,
+      "sortid": 408,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drink_wws_bottle",
@@ -2262,7 +2198,7 @@
     {
       "name": "IceDesert",
       "type": "biome",
-      "sortid": 411,
+      "sortid": 409,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ice_desert",
@@ -2271,7 +2207,7 @@
     {
       "name": "Logs",
       "type": "tag",
-      "sortid": 412,
+      "sortid": 410,
       "compiles": true,
       "locked_code": false,
       "registry_name": "logs",
@@ -2280,7 +2216,7 @@
     {
       "name": "IceBirchLeavesDrop",
       "type": "loottable",
-      "sortid": 413,
+      "sortid": 411,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ice_birch_leaves_drop",
@@ -2289,7 +2225,7 @@
     {
       "name": "Dirt",
       "type": "tag",
-      "sortid": 414,
+      "sortid": 412,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dirt",
@@ -2298,7 +2234,7 @@
     {
       "name": "IceBirchTree",
       "type": "procedure",
-      "sortid": 415,
+      "sortid": 413,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ice_birch_tree",
@@ -2327,7 +2263,7 @@
     {
       "name": "IceBirchBone",
       "type": "procedure",
-      "sortid": 416,
+      "sortid": 414,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ice_birch_bone",
@@ -2477,7 +2413,7 @@
     {
       "name": "Glasspane",
       "type": "tag",
-      "sortid": 417,
+      "sortid": 415,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glasspane",
@@ -2486,7 +2422,7 @@
     {
       "name": "GlassSwordRecipe",
       "type": "recipe",
-      "sortid": 418,
+      "sortid": 416,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glass_sword_recipe",
@@ -2504,7 +2440,7 @@
     {
       "name": "PureSlimeSpawn",
       "type": "procedure",
-      "sortid": 419,
+      "sortid": 417,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_slime_spawn",
@@ -2522,7 +2458,7 @@
     {
       "name": "POn",
       "type": "procedure",
-      "sortid": 420,
+      "sortid": 418,
       "compiles": true,
       "locked_code": false,
       "registry_name": "p_on",
@@ -2552,7 +2488,7 @@
     {
       "name": "POff",
       "type": "procedure",
-      "sortid": 421,
+      "sortid": 419,
       "compiles": true,
       "locked_code": false,
       "registry_name": "p_off",
@@ -2582,7 +2518,7 @@
     {
       "name": "P25z",
       "type": "procedure",
-      "sortid": 422,
+      "sortid": 420,
       "compiles": true,
       "locked_code": false,
       "registry_name": "p_25z",
@@ -2612,7 +2548,7 @@
     {
       "name": "P50z",
       "type": "procedure",
-      "sortid": 423,
+      "sortid": 421,
       "compiles": true,
       "locked_code": false,
       "registry_name": "p_50z",
@@ -2642,7 +2578,7 @@
     {
       "name": "P75z",
       "type": "procedure",
-      "sortid": 424,
+      "sortid": 422,
       "compiles": true,
       "locked_code": false,
       "registry_name": "p_75z",
@@ -2672,7 +2608,7 @@
     {
       "name": "FTL1SRecipe",
       "type": "procedure",
-      "sortid": 425,
+      "sortid": 423,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ftl_1_s_recipe",
@@ -2741,7 +2677,7 @@
     {
       "name": "SawDustFuel",
       "type": "fuel",
-      "sortid": 426,
+      "sortid": 424,
       "compiles": true,
       "locked_code": false,
       "registry_name": "saw_dust_fuel",
@@ -2750,7 +2686,7 @@
     {
       "name": "WoodenPlanksFuel",
       "type": "fuel",
-      "sortid": 427,
+      "sortid": 425,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_planks_fuel",
@@ -2759,7 +2695,7 @@
     {
       "name": "WoodenBoardFuel",
       "type": "fuel",
-      "sortid": 428,
+      "sortid": 426,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_board_fuel",
@@ -2768,7 +2704,7 @@
     {
       "name": "StickPlanksFuel",
       "type": "fuel",
-      "sortid": 429,
+      "sortid": 427,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stick_planks_fuel",
@@ -2777,7 +2713,7 @@
     {
       "name": "WoodenBlockFuel",
       "type": "fuel",
-      "sortid": 430,
+      "sortid": 428,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_block_fuel",
@@ -2891,7 +2827,7 @@
     {
       "name": "Tetanus",
       "type": "procedure",
-      "sortid": 431,
+      "sortid": 429,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tetanus",
@@ -2944,7 +2880,7 @@
     {
       "name": "TetanusTR",
       "type": "procedure",
-      "sortid": 432,
+      "sortid": 430,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tetanus_tr",
@@ -3036,7 +2972,7 @@
     {
       "name": "YellowStoneBricksRecipe",
       "type": "recipe",
-      "sortid": 433,
+      "sortid": 431,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_stone_bricks_recipe",
@@ -3045,7 +2981,7 @@
     {
       "name": "ChiseledYellowStoneBricksRecipe",
       "type": "recipe",
-      "sortid": 434,
+      "sortid": 432,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chiseled_yellow_stone_bricks_recipe",
@@ -3054,7 +2990,7 @@
     {
       "name": "YellowCobblestoneStairsRecipe",
       "type": "recipe",
-      "sortid": 435,
+      "sortid": 433,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_cobblestone_stairs_recipe",
@@ -3063,7 +2999,7 @@
     {
       "name": "YellowCobblestoneSlabRecipe",
       "type": "recipe",
-      "sortid": 436,
+      "sortid": 434,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_cobblestone_slab_recipe",
@@ -3072,7 +3008,7 @@
     {
       "name": "ChiseledYellowStoneBricksStairRecipe",
       "type": "recipe",
-      "sortid": 437,
+      "sortid": 435,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chiseled_yellow_stone_bricks_stair_recipe",
@@ -3081,7 +3017,7 @@
     {
       "name": "ChiseledYellowStoneBricksSlabRecipe",
       "type": "recipe",
-      "sortid": 438,
+      "sortid": 436,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chiseled_yellow_stone_bricks_slab_recipe",
@@ -3090,7 +3026,7 @@
     {
       "name": "YellowStoneBricksWallRecipe",
       "type": "recipe",
-      "sortid": 439,
+      "sortid": 437,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_stone_bricks_wall_recipe",
@@ -3099,7 +3035,7 @@
     {
       "name": "CopperWrenchRecipe",
       "type": "recipe",
-      "sortid": 440,
+      "sortid": 438,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_wrench_recipe",
@@ -3117,7 +3053,7 @@
     {
       "name": "RubyBiomeLocate",
       "type": "procedure",
-      "sortid": 441,
+      "sortid": 439,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_biome_locate",
@@ -3147,7 +3083,7 @@
     {
       "name": "TopazBiomeLocate",
       "type": "procedure",
-      "sortid": 442,
+      "sortid": 440,
       "compiles": true,
       "locked_code": false,
       "registry_name": "topaz_biome_locate",
@@ -3222,7 +3158,7 @@
     {
       "name": "EPBookRecipe",
       "type": "recipe",
-      "sortid": 443,
+      "sortid": 441,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ep_book_recipe",
@@ -3231,7 +3167,7 @@
     {
       "name": "EPBookToUse",
       "type": "procedure",
-      "sortid": 444,
+      "sortid": 442,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ep_book_to_use",
@@ -3287,7 +3223,7 @@
     {
       "name": "ObeliskPoint",
       "type": "structure",
-      "sortid": 445,
+      "sortid": 443,
       "compiles": true,
       "locked_code": false,
       "registry_name": "obelisk_point",
@@ -3296,7 +3232,7 @@
     {
       "name": "ObeliskIgnoreBiome",
       "type": "procedure",
-      "sortid": 446,
+      "sortid": 444,
       "compiles": true,
       "locked_code": false,
       "registry_name": "obelisk_ignore_biome",
@@ -3326,7 +3262,7 @@
     {
       "name": "EmptyBluePrintRecipe",
       "type": "recipe",
-      "sortid": 447,
+      "sortid": 445,
       "compiles": true,
       "locked_code": false,
       "registry_name": "empty_blue_print_recipe",
@@ -3335,7 +3271,7 @@
     {
       "name": "Paper",
       "type": "tag",
-      "sortid": 448,
+      "sortid": 446,
       "compiles": true,
       "locked_code": false,
       "registry_name": "paper",
@@ -3344,7 +3280,7 @@
     {
       "name": "Book",
       "type": "tag",
-      "sortid": 449,
+      "sortid": 447,
       "compiles": true,
       "locked_code": false,
       "registry_name": "book",
@@ -3362,7 +3298,7 @@
     {
       "name": "EmptyStoneRuneRecipe",
       "type": "recipe",
-      "sortid": 450,
+      "sortid": 448,
       "compiles": true,
       "locked_code": false,
       "registry_name": "empty_stone_rune_recipe",
@@ -3371,7 +3307,7 @@
     {
       "name": "BasinGui",
       "type": "gui",
-      "sortid": 451,
+      "sortid": 449,
       "compiles": true,
       "locked_code": false,
       "registry_name": "basin_gui",
@@ -3389,7 +3325,7 @@
     {
       "name": "ResearchStationGUI",
       "type": "gui",
-      "sortid": 452,
+      "sortid": 450,
       "compiles": true,
       "locked_code": false,
       "registry_name": "research_station_gui",
@@ -3416,7 +3352,7 @@
     {
       "name": "EmptyJadeRuneRecipe",
       "type": "recipe",
-      "sortid": 453,
+      "sortid": 451,
       "compiles": true,
       "locked_code": false,
       "registry_name": "empty_jade_rune_recipe",
@@ -3461,7 +3397,7 @@
     {
       "name": "TinyTNTBoom",
       "type": "procedure",
-      "sortid": 454,
+      "sortid": 452,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tiny_tnt_boom",
@@ -3490,7 +3426,7 @@
     {
       "name": "TinyTNTParticle",
       "type": "procedure",
-      "sortid": 455,
+      "sortid": 453,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tiny_tnt_particle",
@@ -3519,7 +3455,7 @@
     {
       "name": "WoodenBoardRecipe",
       "type": "recipe",
-      "sortid": 456,
+      "sortid": 454,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_board_recipe",
@@ -3528,7 +3464,7 @@
     {
       "name": "Planks",
       "type": "tag",
-      "sortid": 457,
+      "sortid": 455,
       "compiles": true,
       "locked_code": false,
       "registry_name": "planks",
@@ -3537,7 +3473,7 @@
     {
       "name": "CopperPlateTag",
       "type": "tag",
-      "sortid": 458,
+      "sortid": 456,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_plate_tag",
@@ -3546,7 +3482,7 @@
     {
       "name": "CopperPowderTag",
       "type": "tag",
-      "sortid": 459,
+      "sortid": 457,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_powder_tag",
@@ -3555,7 +3491,7 @@
     {
       "name": "AluminumIngotTag",
       "type": "tag",
-      "sortid": 460,
+      "sortid": 458,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_ingot_tag",
@@ -3564,7 +3500,7 @@
     {
       "name": "AluminumPlateTag",
       "type": "tag",
-      "sortid": 461,
+      "sortid": 459,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_plate_tag",
@@ -3573,7 +3509,7 @@
     {
       "name": "AluminumPowderTag",
       "type": "tag",
-      "sortid": 462,
+      "sortid": 460,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_powder_tag",
@@ -3582,7 +3518,7 @@
     {
       "name": "AluminumBlockTag",
       "type": "tag",
-      "sortid": 463,
+      "sortid": 461,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_block_tag",
@@ -3591,7 +3527,7 @@
     {
       "name": "AluminumOreTag",
       "type": "tag",
-      "sortid": 464,
+      "sortid": 462,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_ore_tag",
@@ -3600,7 +3536,7 @@
     {
       "name": "CarbonPowderTag",
       "type": "tag",
-      "sortid": 465,
+      "sortid": 463,
       "compiles": true,
       "locked_code": false,
       "registry_name": "carbon_powder_tag",
@@ -3609,7 +3545,7 @@
     {
       "name": "CarbonPlateTag",
       "type": "tag",
-      "sortid": 466,
+      "sortid": 464,
       "compiles": true,
       "locked_code": false,
       "registry_name": "carbon_plate_tag",
@@ -3618,7 +3554,7 @@
     {
       "name": "CarbonStickTag",
       "type": "tag",
-      "sortid": 467,
+      "sortid": 465,
       "compiles": true,
       "locked_code": false,
       "registry_name": "carbon_stick_tag",
@@ -3627,7 +3563,7 @@
     {
       "name": "IronPlateTag",
       "type": "tag",
-      "sortid": 468,
+      "sortid": 466,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_plate_tag",
@@ -3636,7 +3572,7 @@
     {
       "name": "IronStickTag",
       "type": "tag",
-      "sortid": 469,
+      "sortid": 467,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_stick_tag",
@@ -3645,7 +3581,7 @@
     {
       "name": "IronPowderTag",
       "type": "tag",
-      "sortid": 470,
+      "sortid": 468,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_powder_tag",
@@ -3654,7 +3590,7 @@
     {
       "name": "SteelIngotTag",
       "type": "tag",
-      "sortid": 471,
+      "sortid": 469,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_ingot_tag",
@@ -3663,7 +3599,7 @@
     {
       "name": "SteelBlockTag",
       "type": "tag",
-      "sortid": 472,
+      "sortid": 470,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_block_tag",
@@ -3681,7 +3617,7 @@
     {
       "name": "GoldPowderTag",
       "type": "tag",
-      "sortid": 473,
+      "sortid": 471,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_powder_tag",
@@ -3690,7 +3626,7 @@
     {
       "name": "LeadIngotTag",
       "type": "tag",
-      "sortid": 474,
+      "sortid": 472,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_ingot_tag",
@@ -3699,7 +3635,7 @@
     {
       "name": "LeadOreTag",
       "type": "tag",
-      "sortid": 475,
+      "sortid": 473,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_ore_tag",
@@ -3708,7 +3644,7 @@
     {
       "name": "LeadBlockTag",
       "type": "tag",
-      "sortid": 476,
+      "sortid": 474,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_block_tag",
@@ -3717,7 +3653,7 @@
     {
       "name": "LeadPlateTag",
       "type": "tag",
-      "sortid": 477,
+      "sortid": 475,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_plate_tag",
@@ -3726,7 +3662,7 @@
     {
       "name": "TinIngotTag",
       "type": "tag",
-      "sortid": 478,
+      "sortid": 476,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tin_ingot_tag",
@@ -3735,7 +3671,7 @@
     {
       "name": "TinDustTag",
       "type": "tag",
-      "sortid": 479,
+      "sortid": 477,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tin_dust_tag",
@@ -3753,7 +3689,7 @@
     {
       "name": "TinOreTag",
       "type": "tag",
-      "sortid": 480,
+      "sortid": 478,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tin_ore_tag",
@@ -3762,7 +3698,7 @@
     {
       "name": "TinPlateTag",
       "type": "tag",
-      "sortid": 481,
+      "sortid": 479,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tin_plate_tag",
@@ -3771,7 +3707,7 @@
     {
       "name": "SawDustTag",
       "type": "tag",
-      "sortid": 482,
+      "sortid": 480,
       "compiles": true,
       "locked_code": false,
       "registry_name": "saw_dust_tag",
@@ -3780,7 +3716,7 @@
     {
       "name": "SilverIngotTag",
       "type": "tag",
-      "sortid": 483,
+      "sortid": 481,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ingot_tag",
@@ -3798,7 +3734,7 @@
     {
       "name": "SilverPowderTag",
       "type": "tag",
-      "sortid": 484,
+      "sortid": 482,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_powder_tag",
@@ -3816,7 +3752,7 @@
     {
       "name": "LeadPowderTag",
       "type": "tag",
-      "sortid": 485,
+      "sortid": 483,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_powder_tag",
@@ -3825,7 +3761,7 @@
     {
       "name": "CinnabarTag",
       "type": "tag",
-      "sortid": 486,
+      "sortid": 484,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cinnabar_tag",
@@ -3834,7 +3770,7 @@
     {
       "name": "ZincIngotTag",
       "type": "tag",
-      "sortid": 487,
+      "sortid": 485,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zinc_ingot_tag",
@@ -3843,7 +3779,7 @@
     {
       "name": "CopperCubeTag",
       "type": "tag",
-      "sortid": 488,
+      "sortid": 486,
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_cube_tag",
@@ -3852,7 +3788,7 @@
     {
       "name": "AluminumCubeTag",
       "type": "tag",
-      "sortid": 489,
+      "sortid": 487,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_cube_tag",
@@ -3861,7 +3797,7 @@
     {
       "name": "CarbonCubeTag",
       "type": "tag",
-      "sortid": 490,
+      "sortid": 488,
       "compiles": true,
       "locked_code": false,
       "registry_name": "carbon_cube_tag",
@@ -3870,7 +3806,7 @@
     {
       "name": "CarbonFibreTag",
       "type": "tag",
-      "sortid": 491,
+      "sortid": 489,
       "compiles": true,
       "locked_code": false,
       "registry_name": "carbon_fibre_tag",
@@ -3879,7 +3815,7 @@
     {
       "name": "IronCubeTag",
       "type": "tag",
-      "sortid": 492,
+      "sortid": 490,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_cube_tag",
@@ -3888,7 +3824,7 @@
     {
       "name": "GoldCubeTag",
       "type": "tag",
-      "sortid": 493,
+      "sortid": 491,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_cube_tag",
@@ -3897,7 +3833,7 @@
     {
       "name": "BlackGoldIngotTag",
       "type": "tag",
-      "sortid": 494,
+      "sortid": 492,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_gold_ingot_tag",
@@ -3906,7 +3842,7 @@
     {
       "name": "BlackGoldBlockTag",
       "type": "tag",
-      "sortid": 495,
+      "sortid": 493,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_gold_block_tag",
@@ -3915,7 +3851,7 @@
     {
       "name": "LeadCubeTag",
       "type": "tag",
-      "sortid": 496,
+      "sortid": 494,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_cube_tag",
@@ -3924,7 +3860,7 @@
     {
       "name": "TinCubeTag",
       "type": "tag",
-      "sortid": 497,
+      "sortid": 495,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tin_cube_tag",
@@ -3933,7 +3869,7 @@
     {
       "name": "SilverCubeTag",
       "type": "tag",
-      "sortid": 498,
+      "sortid": 496,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_cube_tag",
@@ -3942,7 +3878,7 @@
     {
       "name": "BeaconBase",
       "type": "tag",
-      "sortid": 499,
+      "sortid": 497,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beacon_base",
@@ -3951,7 +3887,7 @@
     {
       "name": "BeaconPaymentItems",
       "type": "tag",
-      "sortid": 500,
+      "sortid": 498,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beacon_payment_items",
@@ -3960,7 +3896,7 @@
     {
       "name": "PiglinLoved",
       "type": "tag",
-      "sortid": 501,
+      "sortid": 499,
       "compiles": true,
       "locked_code": false,
       "registry_name": "piglin_loved",
@@ -3969,7 +3905,7 @@
     {
       "name": "RubyTag",
       "type": "tag",
-      "sortid": 502,
+      "sortid": 500,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby_tag",
@@ -3978,7 +3914,7 @@
     {
       "name": "SapphireTag",
       "type": "tag",
-      "sortid": 503,
+      "sortid": 501,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphire_tag",
@@ -3987,7 +3923,7 @@
     {
       "name": "TopazTag",
       "type": "tag",
-      "sortid": 504,
+      "sortid": 502,
       "compiles": true,
       "locked_code": false,
       "registry_name": "topaz_tag",
@@ -3996,7 +3932,7 @@
     {
       "name": "TinyTNTRecipe",
       "type": "recipe",
-      "sortid": 505,
+      "sortid": 503,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tiny_tnt_recipe",
@@ -4014,7 +3950,7 @@
     {
       "name": "BlackGoldOreTag",
       "type": "tag",
-      "sortid": 506,
+      "sortid": 504,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_gold_ore_tag",
@@ -4023,7 +3959,7 @@
     {
       "name": "BlackGoldOreSmelting",
       "type": "recipe",
-      "sortid": 507,
+      "sortid": 505,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_gold_ore_smelting",
@@ -4032,7 +3968,7 @@
     {
       "name": "BlackGoldOreBlasting",
       "type": "recipe",
-      "sortid": 508,
+      "sortid": 506,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_gold_ore_blasting",
@@ -4041,7 +3977,7 @@
     {
       "name": "BlackGoldBlockRecipe",
       "type": "recipe",
-      "sortid": 509,
+      "sortid": 507,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_gold_block_recipe",
@@ -4050,7 +3986,7 @@
     {
       "name": "BlackGoldBlockRecipeOut",
       "type": "recipe",
-      "sortid": 510,
+      "sortid": 508,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_gold_block_recipe_out",
@@ -4059,7 +3995,7 @@
     {
       "name": "GrinderTick",
       "type": "procedure",
-      "sortid": 511,
+      "sortid": 509,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grinder_tick",
@@ -4088,7 +4024,7 @@
     {
       "name": "P20z",
       "type": "procedure",
-      "sortid": 512,
+      "sortid": 510,
       "compiles": true,
       "locked_code": false,
       "registry_name": "p_20z",
@@ -4118,7 +4054,7 @@
     {
       "name": "P40z",
       "type": "procedure",
-      "sortid": 513,
+      "sortid": 511,
       "compiles": true,
       "locked_code": false,
       "registry_name": "p_40z",
@@ -4148,7 +4084,7 @@
     {
       "name": "P60z",
       "type": "procedure",
-      "sortid": 514,
+      "sortid": 512,
       "compiles": true,
       "locked_code": false,
       "registry_name": "p_60z",
@@ -4178,7 +4114,7 @@
     {
       "name": "P80z",
       "type": "procedure",
-      "sortid": 515,
+      "sortid": 513,
       "compiles": true,
       "locked_code": false,
       "registry_name": "p_80z",
@@ -4208,7 +4144,7 @@
     {
       "name": "WarpedPlants",
       "type": "tag",
-      "sortid": 516,
+      "sortid": 514,
       "compiles": true,
       "locked_code": false,
       "registry_name": "warped_plants",
@@ -4217,7 +4153,7 @@
     {
       "name": "BasinTick",
       "type": "procedure",
-      "sortid": 517,
+      "sortid": 515,
       "compiles": true,
       "locked_code": false,
       "registry_name": "basin_tick",
@@ -4246,7 +4182,7 @@
     {
       "name": "Dusts",
       "type": "tag",
-      "sortid": 518,
+      "sortid": 516,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dusts",
@@ -4255,7 +4191,7 @@
     {
       "name": "Cubes",
       "type": "tag",
-      "sortid": 519,
+      "sortid": 517,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cubes",
@@ -4264,7 +4200,7 @@
     {
       "name": "Ingots",
       "type": "tag",
-      "sortid": 520,
+      "sortid": 518,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ingots",
@@ -4273,7 +4209,7 @@
     {
       "name": "Gems",
       "type": "tag",
-      "sortid": 521,
+      "sortid": 519,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gems",
@@ -4282,7 +4218,7 @@
     {
       "name": "Ores",
       "type": "tag",
-      "sortid": 522,
+      "sortid": 520,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ores",
@@ -4291,7 +4227,7 @@
     {
       "name": "Plates",
       "type": "tag",
-      "sortid": 523,
+      "sortid": 521,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plates",
@@ -4300,7 +4236,7 @@
     {
       "name": "Rods",
       "type": "tag",
-      "sortid": 524,
+      "sortid": 522,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rods",
@@ -4309,7 +4245,7 @@
     {
       "name": "StorageBlocks",
       "type": "tag",
-      "sortid": 525,
+      "sortid": 523,
       "compiles": true,
       "locked_code": false,
       "registry_name": "storage_blocks",
@@ -4318,7 +4254,7 @@
     {
       "name": "CastIronBlockRecipe",
       "type": "recipe",
-      "sortid": 526,
+      "sortid": 524,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cast_iron_block_recipe",
@@ -4327,7 +4263,7 @@
     {
       "name": "CastIronBlockRecipeOut",
       "type": "recipe",
-      "sortid": 527,
+      "sortid": 525,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cast_iron_block_recipe_out",
@@ -4336,7 +4272,7 @@
     {
       "name": "HardAluminumBlockRecipe",
       "type": "recipe",
-      "sortid": 528,
+      "sortid": 526,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hard_aluminum_block_recipe",
@@ -4345,7 +4281,7 @@
     {
       "name": "HardAluminumBlockRecipeOut",
       "type": "recipe",
-      "sortid": 529,
+      "sortid": 527,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hard_aluminum_block_recipe_out",
@@ -4354,7 +4290,7 @@
     {
       "name": "PatternGoldBlockRecipe",
       "type": "recipe",
-      "sortid": 530,
+      "sortid": 528,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pattern_gold_block_recipe",
@@ -4363,7 +4299,7 @@
     {
       "name": "PatternGoldBlockRecipeOut",
       "type": "recipe",
-      "sortid": 531,
+      "sortid": 529,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pattern_gold_block_recipe_out",
@@ -4399,7 +4335,7 @@
     {
       "name": "AlchemicalSilverBlockRecipe",
       "type": "recipe",
-      "sortid": 532,
+      "sortid": 530,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alchemical_silver_block_recipe",
@@ -4408,7 +4344,7 @@
     {
       "name": "AlchemicalSilverBlockRecipeOut",
       "type": "recipe",
-      "sortid": 533,
+      "sortid": 531,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alchemical_silver_block_recipe_out",
@@ -4426,7 +4362,7 @@
     {
       "name": "ToughCopperBlockRecipe",
       "type": "recipe",
-      "sortid": 534,
+      "sortid": 532,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tough_copper_block_recipe",
@@ -4435,7 +4371,7 @@
     {
       "name": "ToughCopperBlockRecipeOut",
       "type": "recipe",
-      "sortid": 535,
+      "sortid": 533,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tough_copper_block_recipe_out",
@@ -4444,7 +4380,7 @@
     {
       "name": "IceSandstoneRecipe",
       "type": "recipe",
-      "sortid": 536,
+      "sortid": 534,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ice_sandstone_recipe",
@@ -4453,7 +4389,7 @@
     {
       "name": "SmoothIceSandstoneRecipe",
       "type": "recipe",
-      "sortid": 537,
+      "sortid": 535,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_ice_sandstone_recipe",
@@ -4552,7 +4488,7 @@
     {
       "name": "MapleItemsTag",
       "type": "tag",
-      "sortid": 538,
+      "sortid": 536,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_items_tag",
@@ -4561,7 +4497,7 @@
     {
       "name": "MapleWoodRecipe",
       "type": "recipe",
-      "sortid": 539,
+      "sortid": 537,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_wood_recipe",
@@ -4570,7 +4506,7 @@
     {
       "name": "MaplePlanksRecipe",
       "type": "recipe",
-      "sortid": 540,
+      "sortid": 538,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_planks_recipe",
@@ -4579,7 +4515,7 @@
     {
       "name": "MapleStairsRecipe",
       "type": "recipe",
-      "sortid": 541,
+      "sortid": 539,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_stairs_recipe",
@@ -4588,7 +4524,7 @@
     {
       "name": "MapleSlabRecipe",
       "type": "recipe",
-      "sortid": 542,
+      "sortid": 540,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_slab_recipe",
@@ -4597,7 +4533,7 @@
     {
       "name": "MapleFenceRecipe",
       "type": "recipe",
-      "sortid": 543,
+      "sortid": 541,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_fence_recipe",
@@ -4606,7 +4542,7 @@
     {
       "name": "MapleFenceGateRecipe",
       "type": "recipe",
-      "sortid": 544,
+      "sortid": 542,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_fence_gate_recipe",
@@ -4615,7 +4551,7 @@
     {
       "name": "MaplePressurePlateRecipe",
       "type": "recipe",
-      "sortid": 545,
+      "sortid": 543,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_pressure_plate_recipe",
@@ -4624,7 +4560,7 @@
     {
       "name": "MapleButtonRecipe",
       "type": "recipe",
-      "sortid": 546,
+      "sortid": 544,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_button_recipe",
@@ -4633,7 +4569,7 @@
     {
       "name": "MapleStickRecipe",
       "type": "recipe",
-      "sortid": 547,
+      "sortid": 545,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_stick_recipe",
@@ -4669,7 +4605,7 @@
     {
       "name": "BlazingWasteland",
       "type": "biome",
-      "sortid": 548,
+      "sortid": 546,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blazing_wasteland",
@@ -4804,7 +4740,7 @@
     {
       "name": "WTFWDouthRecipe",
       "type": "recipe",
-      "sortid": 549,
+      "sortid": 547,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wtfw_douth_recipe",
@@ -4813,7 +4749,7 @@
     {
       "name": "WTFWChocolateRecipe",
       "type": "recipe",
-      "sortid": 550,
+      "sortid": 548,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wtfw_chocolate_recipe",
@@ -4831,7 +4767,7 @@
     {
       "name": "CoalGeneratorGUI",
       "type": "gui",
-      "sortid": 551,
+      "sortid": 549,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coal_generator_gui",
@@ -4840,7 +4776,7 @@
     {
       "name": "AsCoalTag",
       "type": "tag",
-      "sortid": 552,
+      "sortid": 550,
       "compiles": true,
       "locked_code": false,
       "registry_name": "as_coal_tag",
@@ -4849,7 +4785,7 @@
     {
       "name": "AsCoalBlockTag",
       "type": "tag",
-      "sortid": 553,
+      "sortid": 551,
       "compiles": true,
       "locked_code": false,
       "registry_name": "as_coal_block_tag",
@@ -4858,7 +4794,7 @@
     {
       "name": "CoalGeneratorFuel",
       "type": "procedure",
-      "sortid": 554,
+      "sortid": 552,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coal_generator_fuel",
@@ -4896,7 +4832,7 @@
     {
       "name": "BatteryGui",
       "type": "gui",
-      "sortid": 555,
+      "sortid": 553,
       "compiles": true,
       "locked_code": false,
       "registry_name": "battery_gui",
@@ -4905,7 +4841,7 @@
     {
       "name": "DeepWell",
       "type": "dimension",
-      "sortid": 309,
+      "sortid": 311,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deep_well",
@@ -4917,7 +4853,7 @@
     {
       "name": "MapleTree",
       "type": "structure",
-      "sortid": 556,
+      "sortid": 554,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_tree",
@@ -4989,7 +4925,7 @@
     {
       "name": "PDARegister",
       "type": "gui",
-      "sortid": 557,
+      "sortid": 555,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pda_register",
@@ -5592,7 +5528,7 @@
     {
       "name": "BlackGoldOreLoot",
       "type": "loottable",
-      "sortid": 558,
+      "sortid": 556,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_gold_ore_loot",
@@ -5601,7 +5537,7 @@
     {
       "name": "RawBlackGoldSmelting",
       "type": "recipe",
-      "sortid": 559,
+      "sortid": 557,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_black_gold_smelting",
@@ -5610,7 +5546,7 @@
     {
       "name": "RawBlackGoldBlasting",
       "type": "recipe",
-      "sortid": 560,
+      "sortid": 558,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_black_gold_blasting",
@@ -5628,7 +5564,7 @@
     {
       "name": "AluminumOreLoot",
       "type": "loottable",
-      "sortid": 561,
+      "sortid": 559,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_ore_loot",
@@ -5637,7 +5573,7 @@
     {
       "name": "AluminumOreBlasting",
       "type": "recipe",
-      "sortid": 562,
+      "sortid": 560,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aluminum_ore_blasting",
@@ -5646,7 +5582,7 @@
     {
       "name": "RawAluminumSmelting",
       "type": "recipe",
-      "sortid": 563,
+      "sortid": 561,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_aluminum_smelting",
@@ -5655,7 +5591,7 @@
     {
       "name": "RawAluminumBlasting",
       "type": "recipe",
-      "sortid": 564,
+      "sortid": 562,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_aluminum_blasting",
@@ -5664,7 +5600,7 @@
     {
       "name": "LeadOreBlasting",
       "type": "recipe",
-      "sortid": 565,
+      "sortid": 563,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_ore_blasting",
@@ -5673,7 +5609,7 @@
     {
       "name": "TinOreBlasting",
       "type": "recipe",
-      "sortid": 566,
+      "sortid": 564,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tin_ore_blasting",
@@ -5682,7 +5618,7 @@
     {
       "name": "SilverOreBlasting",
       "type": "recipe",
-      "sortid": 567,
+      "sortid": 565,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ore_blasting",
@@ -5691,7 +5627,7 @@
     {
       "name": "SilverPowderSmelting",
       "type": "recipe",
-      "sortid": 568,
+      "sortid": 566,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_powder_smelting",
@@ -5700,7 +5636,7 @@
     {
       "name": "SilverPowderBlasting",
       "type": "recipe",
-      "sortid": 569,
+      "sortid": 567,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_powder_blasting",
@@ -5718,7 +5654,7 @@
     {
       "name": "RawAluminumBlockRecipe",
       "type": "recipe",
-      "sortid": 570,
+      "sortid": 568,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_aluminum_block_recipe",
@@ -5727,7 +5663,7 @@
     {
       "name": "RawAluminumBlockUnpackRecipe",
       "type": "recipe",
-      "sortid": 571,
+      "sortid": 569,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_aluminum_block_unpack_recipe",
@@ -5745,7 +5681,7 @@
     {
       "name": "RawBlackGoldBlockRecipe",
       "type": "recipe",
-      "sortid": 572,
+      "sortid": 570,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_black_gold_block_recipe",
@@ -5754,7 +5690,7 @@
     {
       "name": "RawBlackGoldBlockUnpackRecipe",
       "type": "recipe",
-      "sortid": 573,
+      "sortid": 571,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_black_gold_block_unpack_recipe",
@@ -5772,7 +5708,7 @@
     {
       "name": "LeadOreLoot",
       "type": "loottable",
-      "sortid": 574,
+      "sortid": 572,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_ore_loot",
@@ -5790,7 +5726,7 @@
     {
       "name": "RawLeadBlockRecipe",
       "type": "recipe",
-      "sortid": 575,
+      "sortid": 573,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_lead_block_recipe",
@@ -5799,7 +5735,7 @@
     {
       "name": "RawLeadBlockUnpackRecipe",
       "type": "recipe",
-      "sortid": 576,
+      "sortid": 574,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_lead_block_unpack_recipe",
@@ -5808,7 +5744,7 @@
     {
       "name": "RawLeadSmelting",
       "type": "recipe",
-      "sortid": 577,
+      "sortid": 575,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_lead_smelting",
@@ -5817,7 +5753,7 @@
     {
       "name": "RawLeadBlasting",
       "type": "recipe",
-      "sortid": 578,
+      "sortid": 576,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_lead_blasting",
@@ -5844,7 +5780,7 @@
     {
       "name": "RawTinBlockRecipe",
       "type": "recipe",
-      "sortid": 579,
+      "sortid": 577,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_tin_block_recipe",
@@ -5853,7 +5789,7 @@
     {
       "name": "RawTinSmelting",
       "type": "recipe",
-      "sortid": 580,
+      "sortid": 578,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_tin_smelting",
@@ -5862,7 +5798,7 @@
     {
       "name": "RawTinBlasting",
       "type": "recipe",
-      "sortid": 581,
+      "sortid": 579,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_tin_blasting",
@@ -5871,7 +5807,7 @@
     {
       "name": "RawTinBlockUnpackRecipe",
       "type": "recipe",
-      "sortid": 582,
+      "sortid": 580,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_tin_block_unpack_recipe",
@@ -5880,7 +5816,7 @@
     {
       "name": "TinOreLoot",
       "type": "loottable",
-      "sortid": 583,
+      "sortid": 581,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tin_ore_loot",
@@ -5889,7 +5825,7 @@
     {
       "name": "SilverOreLoot",
       "type": "loottable",
-      "sortid": 584,
+      "sortid": 582,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ore_loot",
@@ -5934,7 +5870,7 @@
     {
       "name": "IcelandSparSmelting",
       "type": "recipe",
-      "sortid": 585,
+      "sortid": 583,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iceland_spar_smelting",
@@ -5961,7 +5897,7 @@
     {
       "name": "DeepslateAluminumOreLoot",
       "type": "loottable",
-      "sortid": 586,
+      "sortid": 584,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deepslate_aluminum_ore_loot",
@@ -5970,7 +5906,7 @@
     {
       "name": "DeepslateAluminumOreSmelting",
       "type": "recipe",
-      "sortid": 587,
+      "sortid": 585,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deepslate_aluminum_ore_smelting",
@@ -5979,7 +5915,7 @@
     {
       "name": "DeepslateAluminumOreBlasting",
       "type": "recipe",
-      "sortid": 588,
+      "sortid": 586,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deepslate_aluminum_ore_blasting",
@@ -5997,7 +5933,7 @@
     {
       "name": "DeepslateLeadOreLoot",
       "type": "loottable",
-      "sortid": 589,
+      "sortid": 587,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deepslate_lead_ore_loot",
@@ -6006,7 +5942,7 @@
     {
       "name": "DeepslateLeadOreSmelting",
       "type": "recipe",
-      "sortid": 590,
+      "sortid": 588,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deepslate_lead_ore_smelting",
@@ -6015,7 +5951,7 @@
     {
       "name": "DeepslateLeadOreBlasting",
       "type": "recipe",
-      "sortid": 591,
+      "sortid": 589,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deepslate_lead_ore_blasting",
@@ -6033,7 +5969,7 @@
     {
       "name": "DeepslateTinOreLoot",
       "type": "loottable",
-      "sortid": 592,
+      "sortid": 590,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deepslate_tin_ore_loot",
@@ -6042,7 +5978,7 @@
     {
       "name": "DeepslateTinOreSmelting",
       "type": "recipe",
-      "sortid": 593,
+      "sortid": 591,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deepslate_tin_ore_smelting",
@@ -6051,7 +5987,7 @@
     {
       "name": "DeepslateTinOreBlasting",
       "type": "recipe",
-      "sortid": 594,
+      "sortid": 592,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deepslate_tin_ore_blasting",
@@ -6069,7 +6005,7 @@
     {
       "name": "DeepslateSilverOreLoot",
       "type": "loottable",
-      "sortid": 595,
+      "sortid": 593,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deepslate_silver_ore_loot",
@@ -6078,7 +6014,7 @@
     {
       "name": "DeepslateSilverOreSmelting",
       "type": "recipe",
-      "sortid": 596,
+      "sortid": 594,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deepslate_silver_ore_smelting",
@@ -6087,11 +6023,141 @@
     {
       "name": "DeepslateSilverOreBlasting",
       "type": "recipe",
-      "sortid": 597,
+      "sortid": 595,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deepslate_silver_ore_blasting",
       "path": "~/material/silver"
+    },
+    {
+      "name": "Nokika",
+      "type": "item",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nokika",
+      "path": "~/item/joke"
+    },
+    {
+      "name": "SamjungNote7",
+      "type": "rangeditem",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "samjung_note_7",
+      "path": "~/item/joke"
+    },
+    {
+      "name": "SamjungNote7Explotion",
+      "type": "procedure",
+      "sortid": 596,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "samjung_note_7_explotion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/item/joke"
+    },
+    {
+      "name": "NokikaKill",
+      "type": "procedure",
+      "sortid": 597,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nokika_kill",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/item/joke"
+    },
+    {
+      "name": "SamjungNote7Timmer",
+      "type": "procedure",
+      "sortid": 598,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "samjung_note_7_timmer",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/item/joke"
+    },
+    {
+      "name": "SamjungNote7ToPlayer",
+      "type": "procedure",
+      "sortid": 599,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "samjung_note_7_to_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/item/joke"
     }
   ],
   "variable_elements": [],
@@ -6106,14 +6172,14 @@
       "block.earth_pulsation.ice_birch_slab": "IceBirch Slab",
       "block.earth_pulsation.alchemical_silver_block": "¡ìeAlchemical Silver Block",
       "block.earth_pulsation.maple_pressure_plate": "Maple Pressure Plate",
-      "item.earth_pulsation.empty_yellow_stone_rune": "Empty Yellow Stone Rune",
       "item.earth_pulsation.copper_armor_helmet": "Copper Helmet",
+      "item.earth_pulsation.empty_yellow_stone_rune": "Empty Yellow Stone Rune",
       "itemGroup.tabearth_pulsation": "Earth Pulsation",
       "block.earth_pulsation.reinforced_sieve": "Reinforced Sieve",
       "item.earth_pulsation.raw_black_gold": "Raw Black Gold",
       "item.earth_pulsation.raw_lead": "Raw Lead",
-      "block.earth_pulsation.battery_block": "Battery Block",
       "item.earth_pulsation.copper_armor_chestplate": "Copper Chestplate",
+      "block.earth_pulsation.battery_block": "Battery Block",
       "block.earth_pulsation.raw_tin_block": "Raw Tin Block",
       "block.earth_pulsation.ice_birch_log": "IceBirch Log",
       "item.earth_pulsation.pattern_gold_ingot": "Pattern Gold Ingot",
@@ -6175,7 +6241,6 @@
       "block.earth_pulsation.icesandstone": "Icesandstone",
       "block.earth_pulsation.aluminum_ore": "Aluminum Ore",
       "block.earth_pulsation.ice_birch_button": "IceBirch Button",
-      "item.earth_pulsation.samsung_note_7": "Samsung Note 7",
       "block.earth_pulsation.ice_birch_stairs": "IceBirch Stairs",
       "block.earth_pulsation.stick_planks": "Stick Planks",
       "block.earth_pulsation.plastic_wood_planks": "Plastic Wood Planks",
@@ -6327,6 +6392,7 @@
       "item.earth_pulsation.tin_plate": "Tin Plate",
       "item.earth_pulsation.copper_armor_leggings": "Copper Leggings",
       "block.earth_pulsation.orange_resin_glass_pane": "Orange Resin Glass Pane",
+      "item.earth_pulsation.samjung_note_7": "Samjung Note 7",
       "block.earth_pulsation.research_station": "Research Station",
       "block.earth_pulsation.chiseled_mixed_light_lab_block_b": "Chiseled Mixed Light Lab Block B",
       "item.earth_pulsation.aluminum_axe": "Aluminum Axe",
@@ -6338,6 +6404,7 @@
       "block.earth_pulsation.red_container_wall": "Red Container Wall",
       "item.earth_pulsation.steel_hoe": "Steel Hoe",
       "item.earth_pulsation.obsidian_axe": "Obsidian Axe",
+      "item.earth_pulsation.nokika": "Nokika",
       "block.earth_pulsation.brown_resin_glass_pane": "Brown Resin Glass Pane",
       "block.earth_pulsation.red_resin_glass_pane": "Red Resin Glass Pane",
       "block.earth_pulsation.pink_resin_glass_pane": "Pink Resin Glass Pane",
@@ -6369,7 +6436,6 @@
       "item.earth_pulsation.cast_iron_ingot": "Cast Iron Ingot",
       "block.earth_pulsation.white_light_lab_block": "White Light Lab Block",
       "item.earth_pulsation.stone_brick_pickaxe": "Stone Brick Pickaxe",
-      "item.earth_pulsation.nokia": "Nokia",
       "block.earth_pulsation.chiseled_yellow_stone_bricks_stair": "Chiseled Yellow Stone Bricks Stairs",
       "block.earth_pulsation.resin_block": "Resin Block",
       "block.earth_pulsation.topaz_ore": "Topaz Ore",
@@ -6431,18 +6497,18 @@
       "block.earth_pulsation.yellow_stone": "Yellow Stone"
     },
     "zh_cn": {
-      "item.earth_pulsation.aluminum_ingot": "ÂÁ¶§",
-      "block.earth_pulsation.steel_block": "¸Ö¿é",
       "block.earth_pulsation.resin_glass_pane": "Ê÷Ö¬²£Á§°å",
-      "block.earth_pulsation.cobalt_block": "îÜ¿é",
+      "block.earth_pulsation.steel_block": "¸Ö¿é",
+      "item.earth_pulsation.aluminum_ingot": "ÂÁ¶§",
       "item.earth_pulsation.pure_slime_spawn_egg": "Éú³É ´¿¾»Ê·À³Ä·",
+      "block.earth_pulsation.cobalt_block": "îÜ¿é",
       "block.earth_pulsation.ice_birch_slab": "±ùèëÄ¾Ì¨½×",
       "block.earth_pulsation.maple_pressure_plate": "·ãÄ¾Ñ¹Á¦°å",
       "block.earth_pulsation.alchemical_silver_block": "¡ìeÁ¶Òø¿é",
       "item.earth_pulsation.empty_yellow_stone_rune": "¿Õ°×»ÆÊ¯·ûÎÄ",
       "item.earth_pulsation.copper_armor_helmet": "Í­Í·¿ø",
-      "block.earth_pulsation.reinforced_sieve": "¼Ó¹ÌÉ¸×Ó",
       "itemGroup.tabearth_pulsation": "µØÔÌ",
+      "block.earth_pulsation.reinforced_sieve": "¼Ó¹ÌÉ¸×Ó",
       "item.earth_pulsation.raw_black_gold": "´ÖºÚ½ð",
       "item.earth_pulsation.raw_lead": "´ÖÇ¦",
       "item.earth_pulsation.copper_armor_chestplate": "Í­ÐØ¼×",
@@ -6508,7 +6574,6 @@
       "block.earth_pulsation.icesandstone": "±ùÉ³Ê¯",
       "block.earth_pulsation.aluminum_ore": "ÂÁ¿ó",
       "block.earth_pulsation.ice_birch_button": "±ùèëÄ¾°´Å¥",
-      "item.earth_pulsation.samsung_note_7": "ÈýÐÇNote7",
       "block.earth_pulsation.ice_birch_stairs": "±ùèëÄ¾Â¥ÌÝ",
       "block.earth_pulsation.plastic_wood_planks": "ËÜÄ¾°å¿é",
       "block.earth_pulsation.stick_planks": "Ä¾¹÷°å¿é",
@@ -6660,6 +6725,7 @@
       "item.earth_pulsation.tin_plate": "Îý°å",
       "item.earth_pulsation.copper_armor_leggings": "Í­»¤ÍÈ",
       "block.earth_pulsation.orange_resin_glass_pane": "³ÈÉ«Ê÷Ö¬²£Á§°å",
+      "item.earth_pulsation.samjung_note_7": "Èý¾§Note 7",
       "block.earth_pulsation.research_station": "ÑÐ¾¿Õ¾",
       "block.earth_pulsation.chiseled_mixed_light_lab_block_b": "öÉÖÆ»ìÉ«ÇáÐÍÊµÑéÊÒ¿éÒÒ",
       "item.earth_pulsation.aluminum_axe": "ÂÁ¸«",
@@ -6671,6 +6737,7 @@
       "block.earth_pulsation.red_container_wall": "ºìÉ«¼¯×°Ïä±Ú",
       "item.earth_pulsation.steel_hoe": "¸Ö³ú",
       "item.earth_pulsation.obsidian_axe": "ºÚê×Ê¯¸«",
+      "item.earth_pulsation.nokika": "Åµ»ù¼Ü",
       "block.earth_pulsation.brown_resin_glass_pane": "×ØÉ«Ê÷Ö¬²£Á§°å",
       "block.earth_pulsation.red_resin_glass_pane": "ºìÉ«Ê÷Ö¬²£Á§°å",
       "block.earth_pulsation.pink_resin_glass_pane": "·ÛÉ«Ê÷Ö¬²£Á§°å",
@@ -6702,7 +6769,6 @@
       "item.earth_pulsation.cast_iron_ingot": "ÖýÌú¶§",
       "block.earth_pulsation.white_light_lab_block": "°×É«ÇáÐÍÊµÑéÊÒ¿é",
       "item.earth_pulsation.stone_brick_pickaxe": "×©Ê¯¸ä",
-      "item.earth_pulsation.nokia": "Åµ»ùÑÇ",
       "block.earth_pulsation.chiseled_yellow_stone_bricks_stair": "öÉÖÆ»ÆÊ¯×©Â¥ÌÝ",
       "block.earth_pulsation.resin_block": "Ê÷Ö¬¿é",
       "block.earth_pulsation.topaz_ore": "»Æ±¦Ê¯¿ó",

@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "nokia",
     "customModelName": "Normal",
-    "name": "Nokia",
+    "name": "Nokika",
     "rarity": "EPIC",
     "creativeTab": {
       "value": "CUSTOM:EarthPulsation"
@@ -32,7 +32,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onEntityHitWith": {
-      "name": "NokiaKill"
+      "name": "NokikaKill"
     },
     "hasDispenseBehavior": false
   }

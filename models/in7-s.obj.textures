@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "m_0": "blue_light_lab_block"
+      },
+      "name": "default"
+    }
+  }
+}

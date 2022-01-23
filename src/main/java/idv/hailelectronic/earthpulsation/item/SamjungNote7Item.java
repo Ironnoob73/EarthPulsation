@@ -19,12 +19,12 @@ import net.minecraft.network.chat.Component;
 import java.util.List;
 
 import idv.hailelectronic.earthpulsation.init.EarthPulsationModTabs;
-import idv.hailelectronic.earthpulsation.entity.SamsungNote7Entity;
+import idv.hailelectronic.earthpulsation.entity.SamjungNote7Entity;
 
-public class SamsungNote7Item extends Item {
-	public SamsungNote7Item() {
+public class SamjungNote7Item extends Item {
+	public SamjungNote7Item() {
 		super(new Item.Properties().tab(EarthPulsationModTabs.TAB_EARTH_PULSATION).durability(1));
-		setRegistryName("samsung_note_7");
+		setRegistryName("samjung_note_7");
 	}
 
 	@Override
@@ -59,7 +59,7 @@ public class SamsungNote7Item extends Item {
 			double y = entity.getY();
 			double z = entity.getZ();
 			if (true) {
-				SamsungNote7Entity entityarrow = SamsungNote7Entity.shoot(world, entity, world.getRandom(), 1f, 5, 5);
+				SamjungNote7Entity entityarrow = SamjungNote7Entity.shoot(world, entity, world.getRandom(), 1f, 5, 5);
 				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
 			}

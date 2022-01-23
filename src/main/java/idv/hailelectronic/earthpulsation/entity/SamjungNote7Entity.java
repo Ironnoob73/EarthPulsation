@@ -21,25 +21,27 @@ import net.minecraft.network.protocol.Packet;
 
 import java.util.Random;
 
-import idv.hailelectronic.earthpulsation.procedures.SamsungNote7ExplotionProcedure;
+import idv.hailelectronic.earthpulsation.procedures.SamjungNote7ToPlayerProcedure;
+import idv.hailelectronic.earthpulsation.procedures.SamjungNote7TimmerProcedure;
+import idv.hailelectronic.earthpulsation.procedures.SamjungNote7ExplotionProcedure;
 import idv.hailelectronic.earthpulsation.init.EarthPulsationModItems;
 import idv.hailelectronic.earthpulsation.init.EarthPulsationModEntities;
 
 @OnlyIn(value = Dist.CLIENT, _interface = ItemSupplier.class)
-public class SamsungNote7Entity extends AbstractArrow implements ItemSupplier {
-	public SamsungNote7Entity(FMLPlayMessages.SpawnEntity packet, Level world) {
-		super(EarthPulsationModEntities.SAMSUNG_NOTE_7, world);
+public class SamjungNote7Entity extends AbstractArrow implements ItemSupplier {
+	public SamjungNote7Entity(FMLPlayMessages.SpawnEntity packet, Level world) {
+		super(EarthPulsationModEntities.SAMJUNG_NOTE_7, world);
 	}
 
-	public SamsungNote7Entity(EntityType<? extends SamsungNote7Entity> type, Level world) {
+	public SamjungNote7Entity(EntityType<? extends SamjungNote7Entity> type, Level world) {
 		super(type, world);
 	}
 
-	public SamsungNote7Entity(EntityType<? extends SamsungNote7Entity> type, double x, double y, double z, Level world) {
+	public SamjungNote7Entity(EntityType<? extends SamjungNote7Entity> type, double x, double y, double z, Level world) {
 		super(type, x, y, z, world);
 	}
 
-	public SamsungNote7Entity(EntityType<? extends SamsungNote7Entity> type, LivingEntity entity, Level world) {
+	public SamjungNote7Entity(EntityType<? extends SamjungNote7Entity> type, LivingEntity entity, Level world) {
 		super(type, entity, world);
 	}
 
@@ -51,12 +53,25 @@ public class SamsungNote7Entity extends AbstractArrow implements ItemSupplier {
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public ItemStack getItem() {
-		return new ItemStack(EarthPulsationModItems.SAMSUNG_NOTE_7);
+		return new ItemStack(EarthPulsationModItems.SAMJUNG_NOTE_7);
 	}
 
 	@Override
 	protected ItemStack getPickupItem() {
 		return null;
+	}
+
+	@Override
+	public void playerTouch(Player entity) {
+		super.playerTouch(entity);
+		Entity sourceentity = this.getOwner();
+		double x = this.getX();
+		double y = this.getY();
+		double z = this.getZ();
+		Level world = this.level;
+		Entity imediatesourceentity = this;
+
+		SamjungNote7ToPlayerProcedure.execute(world, x, y, z, entity);
 	}
 
 	@Override
@@ -70,7 +85,7 @@ public class SamsungNote7Entity extends AbstractArrow implements ItemSupplier {
 		Level world = this.level;
 		Entity imediatesourceentity = this;
 
-		SamsungNote7ExplotionProcedure.execute(world, x, y, z);
+		SamjungNote7ExplotionProcedure.execute(world, x, y, z);
 	}
 
 	@Override
@@ -82,15 +97,17 @@ public class SamsungNote7Entity extends AbstractArrow implements ItemSupplier {
 		Level world = this.level;
 		Entity entity = this.getOwner();
 		Entity imediatesourceentity = this;
+
+		SamjungNote7TimmerProcedure.execute(world, x, y, z, entity);
 		if (this.inGround) {
 
-			SamsungNote7ExplotionProcedure.execute(world, x, y, z);
+			SamjungNote7ExplotionProcedure.execute(world, x, y, z);
 			this.discard();
 		}
 	}
 
-	public static SamsungNote7Entity shoot(Level world, LivingEntity entity, Random random, float power, double damage, int knockback) {
-		SamsungNote7Entity entityarrow = new SamsungNote7Entity(EarthPulsationModEntities.SAMSUNG_NOTE_7, entity, world);
+	public static SamjungNote7Entity shoot(Level world, LivingEntity entity, Random random, float power, double damage, int knockback) {
+		SamjungNote7Entity entityarrow = new SamjungNote7Entity(EarthPulsationModEntities.SAMJUNG_NOTE_7, entity, world);
 		entityarrow.shoot(entity.getLookAngle().x, entity.getLookAngle().y, entity.getLookAngle().z, power * 2, 0);
 		entityarrow.setSilent(true);
 		entityarrow.setCritArrow(false);
@@ -103,8 +120,8 @@ public class SamsungNote7Entity extends AbstractArrow implements ItemSupplier {
 		return entityarrow;
 	}
 
-	public static SamsungNote7Entity shoot(LivingEntity entity, LivingEntity target) {
-		SamsungNote7Entity entityarrow = new SamsungNote7Entity(EarthPulsationModEntities.SAMSUNG_NOTE_7, entity, entity.level);
+	public static SamjungNote7Entity shoot(LivingEntity entity, LivingEntity target) {
+		SamjungNote7Entity entityarrow = new SamjungNote7Entity(EarthPulsationModEntities.SAMJUNG_NOTE_7, entity, entity.level);
 		double d0 = target.getY() + (double) target.getEyeHeight() - 1.1;
 		double d1 = target.getX() - entity.getX();
 		double d3 = target.getZ() - entity.getZ();

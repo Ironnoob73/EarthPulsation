@@ -56,7 +56,7 @@ import idv.hailelectronic.earthpulsation.item.ShabbyCircuitBoardItem;
 import idv.hailelectronic.earthpulsation.item.ScreenPartItem;
 import idv.hailelectronic.earthpulsation.item.SawDustItem;
 import idv.hailelectronic.earthpulsation.item.SapphireItem;
-import idv.hailelectronic.earthpulsation.item.SamsungNote7Item;
+import idv.hailelectronic.earthpulsation.item.SamjungNote7Item;
 import idv.hailelectronic.earthpulsation.item.RustyIronSwordItem;
 import idv.hailelectronic.earthpulsation.item.RustyIronShovelItem;
 import idv.hailelectronic.earthpulsation.item.RustyIronPickaxeItem;
@@ -95,7 +95,7 @@ import idv.hailelectronic.earthpulsation.item.ObsidianHoeItem;
 import idv.hailelectronic.earthpulsation.item.ObsidianAxeItem;
 import idv.hailelectronic.earthpulsation.item.NormalGunItem;
 import idv.hailelectronic.earthpulsation.item.NormalBatteryItem;
-import idv.hailelectronic.earthpulsation.item.NokiaItem;
+import idv.hailelectronic.earthpulsation.item.NokikaItem;
 import idv.hailelectronic.earthpulsation.item.NickelIngotItem;
 import idv.hailelectronic.earthpulsation.item.MelonGunItem;
 import idv.hailelectronic.earthpulsation.item.MagnetizedIronIngotItem;
@@ -531,10 +531,10 @@ public class EarthPulsationModItems {
 	public static final Item MELON_GUN = register(new MelonGunItem());
 	public static final Item NORMAL_GUN = register(new NormalGunItem());
 	public static final Item GLASS_SWORD = register(new GlassSwordItem());
+	public static final Item NOKIKA = register(new NokikaItem());
+	public static final Item SAMJUNG_NOTE_7 = register(new SamjungNote7Item());
 	public static final Item OLD_AGE = register(new OldAgeItem());
 	public static final Item DEEP_WELL = register(new DeepWellItem());
-	public static final Item SAMSUNG_NOTE_7 = register(new SamsungNote7Item());
-	public static final Item NOKIA = register(new NokiaItem());
 	public static final Item PLACE_ON_WATER_PLATE = register(EarthPulsationModBlocks.PLACE_ON_WATER_PLATE, EarthPulsationModTabs.TAB_EARTH_PULSATION);
 
 	private static Item register(Item item) {
