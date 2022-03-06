@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "wooden_planks",
+        "2": "wooden_block",
+        "3": "wooden_door_top"
+      },
+      "name": "default"
+    }
+  }
+}

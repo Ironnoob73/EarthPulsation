@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "earth_pulsation:items/melon_gun"
+    "layer0": "earth_pulsation:items/normal_gun"
   },
   "display": {
     "thirdperson_righthand": {

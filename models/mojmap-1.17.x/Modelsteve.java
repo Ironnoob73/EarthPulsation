@@ -79,11 +79,11 @@ public class Modelsteve<T extends Entity> extends EntityModel<T> {
 
 	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw,
 			float headPitch) {
-		this.RightArm.yRot = Mth.cos(limbSwing * 0.6662F + (float) Math.PI) * limbSwingAmount;
-		this.LeftLeg.yRot = ageInTicks / 20.f;
-		this.Head.yRot = Mth.cos(limbSwing * 0.6662F + (float) Math.PI) * limbSwingAmount;
-		this.LeftArm.zRot = Mth.cos(limbSwing * 0.6662F) * limbSwingAmount;
-		this.RightLeg.yRot = ageInTicks / 20.f;
-		this.Body.xRot = headPitch / (180F / (float) Math.PI);
+		this.RightArm.xRot = Mth.cos(limbSwing * 0.6662F + (float) Math.PI) * limbSwingAmount;
+		this.LeftLeg.xRot = Mth.cos(limbSwing * 1.0F) * -1.0F * limbSwingAmount;
+		this.Head.yRot = netHeadYaw / (180F / (float) Math.PI);
+		this.Head.xRot = headPitch / (180F / (float) Math.PI);
+		this.LeftArm.xRot = Mth.cos(limbSwing * 0.6662F) * limbSwingAmount;
+		this.RightLeg.xRot = Mth.cos(limbSwing * 1.0F) * 1.0F * limbSwingAmount;
 	}
 }

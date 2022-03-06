@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "earth_pulsation:cast_stone_brick"
+    }
+  ],
+  "result": {
+    "item": "earth_pulsation:cast_stone_ingot",
+    "count": 4
+  }
+}

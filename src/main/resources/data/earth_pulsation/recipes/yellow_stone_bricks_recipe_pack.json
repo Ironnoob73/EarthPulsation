@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "earth_pulsation:yellow_stone_ingot"
+    },
+    {
+      "item": "earth_pulsation:yellow_stone_ingot"
+    },
+    {
+      "item": "earth_pulsation:yellow_stone_ingot"
+    },
+    {
+      "item": "earth_pulsation:yellow_stone_ingot"
+    }
+  ],
+  "result": {
+    "item": "earth_pulsation:yellow_stone_bricks",
+    "count": 1
+  }
+}

@@ -13,6 +13,7 @@ import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
 import idv.hailelectronic.earthpulsation.client.renderer.WanderedMinnerRenderer;
 import idv.hailelectronic.earthpulsation.client.renderer.PureSlimeRenderer;
+import idv.hailelectronic.earthpulsation.client.renderer.ChairRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class EarthPulsationModEntityRenderers {
@@ -24,5 +25,6 @@ public class EarthPulsationModEntityRenderers {
 		event.registerEntityRenderer(EarthPulsationModEntities.MELON_GUN, ThrownItemRenderer::new);
 		event.registerEntityRenderer(EarthPulsationModEntities.NORMAL_GUN, ThrownItemRenderer::new);
 		event.registerEntityRenderer(EarthPulsationModEntities.SAMJUNG_NOTE_7, ThrownItemRenderer::new);
+		event.registerEntityRenderer(EarthPulsationModEntities.CHAIR, ChairRenderer::new);
 	}
 }

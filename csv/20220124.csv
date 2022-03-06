@@ -1,0 +1,333 @@
+SEP=,
+Translation key (DON'T EDIT),TRANSLATION IN zh_cn - EDIT THIS COLUMN,English text (DON'T EDIT - reference only)
+block.earth_pulsation.resin_glass_pane,��֬������,Resin Glass Pane
+block.earth_pulsation.steel_block,�ֿ�,Steel Block
+item.earth_pulsation.aluminum_ingot,����,Aluminum
+item.earth_pulsation.pure_slime_spawn_egg,���� ����ʷ��ķ,Pure Slime Spawn Egg
+block.earth_pulsation.cobalt_block,�ܿ�,Cobalt Block
+block.earth_pulsation.ice_birch_slab,����ľ̨��,IceBirch Slab
+block.earth_pulsation.maple_pressure_plate,��ľѹ����,Maple Pressure Plate
+block.earth_pulsation.alchemical_silver_block,��e������,��eAlchemical Silver Block
+item.earth_pulsation.empty_yellow_stone_rune,�հ׻�ʯ����,Empty Yellow Stone Rune
+item.earth_pulsation.copper_armor_helmet,ͭͷ��,Copper Helmet
+itemGroup.tabearth_pulsation,����,Earth Pulsation
+block.earth_pulsation.reinforced_sieve,�ӹ�ɸ��,Reinforced Sieve
+item.earth_pulsation.raw_black_gold,�ֺڽ�,Raw Black Gold
+item.earth_pulsation.raw_lead,��Ǧ,Raw Lead
+item.earth_pulsation.copper_armor_chestplate,ͭ�ؼ�,Copper Chestplate
+block.earth_pulsation.battery_block,��ؿ�,Battery Block
+block.earth_pulsation.raw_tin_block,������,Raw Tin Block
+block.earth_pulsation.ice_birch_log,����ľԭľ,IceBirch Log
+item.earth_pulsation.ruggedized_aluminum_hoe,�ӹ�����,RuggedizedAluminum Hoe
+item.earth_pulsation.pattern_gold_ingot,�ƽ�,Pattern Gold Ingot
+item.earth_pulsation.wooden_trough_filled_with_dough,�������ŵ�ľ��,Wooden Trough Filled With Dough
+block.earth_pulsation.frozen_bush,��ס�Ĺ�ľ,Frozen Bush
+item.earth_pulsation.topaz,�Ʊ�ʯ,Topaz
+item.earth_pulsation.raw_tin,����,Raw Tin
+tooltip.earth_pulsation.sn71,�ױ�,plosive
+tooltip.earth_pulsation.sn72,����ʹ��,use with caution
+block.earth_pulsation.aluminum_block,����,Aluminum Block
+block.earth_pulsation.deepslate_tin_ore,�������ʯ,Deepslate Tin Ore
+item.earth_pulsation.super_battery,�������,Super Battery
+block.earth_pulsation.cyan_resin_glass,��ɫ��֬����,Cyan Resin Glass
+block.earth_pulsation.container_column,��װ����,Container Column
+item.earth_pulsation.old_age,��d�����ʹ���������,��dOld Age Portal Igniter
+item.earth_pulsation.ruggedized_aluminum_shovel,�ӹ�����,RuggedizedAluminum Shovel
+item.earth_pulsation.aluminum_armor_chestplate,���ؼ�,Aluminum Chestplate
+block.earth_pulsation.copper_door,ͭ��,Copper Door
+block.earth_pulsation.chiseled_white_light_lab_block_slab,���ư�ɫ����ʵ����̨��,Chiseled White Light Lab Block Slab
+block.earth_pulsation.maple_wood,��ľľͷ,Maple Wood
+item.earth_pulsation.rusty_iron_shovel,���������,Rusty Iron Shovel
+item.earth_pulsation.tin_ingot,����,Tin Ingot
+block.earth_pulsation.container_door,��װ����,Container Door
+block.earth_pulsation.brown_resin_glass,��ɫ��֬����,Brown Resin Glass
+block.earth_pulsation.raw_lead_block,��Ǧ��,Raw Lead Block
+block.earth_pulsation.blue_container_wall,��ɫ��װ���,Blue Container Wall
+item.earth_pulsation.magnetized_iron_ingot,�Ż�����,Magnetized Iron Ingot
+item.earth_pulsation.aluminum_sword,����,Aluminum Sword
+block.earth_pulsation.smooth_icesandstone,ƽ����ɳʯ,Smooth Icesandstone
+item.earth_pulsation.concise_battery,�����,Concise Battery
+item.earth_pulsation.copper_powder,ͭ��,Copper Powder
+item.earth_pulsation.aluminum_shovel,����,Aluminum Shovel
+item.earth_pulsation.carbon_powder,̼��,Carbon Powder
+item.earth_pulsation.high_level_battery,�߼����,High Level Battery
+item.earth_pulsation.cinnabar,��ɰ,Cinnabar
+block.earth_pulsation.long_wooden_table,��ľ��,Long Wooden Table
+block.earth_pulsation.pattern_gold_block,��e�ƽ��,��ePattern Gold Block
+item.earth_pulsation.copper_pickaxe_head,ͭ��ͷ����,Copper Pickaxe Head
+block.earth_pulsation.light_gray_resin_glass,����ɫ��֬����,Light Gray Resin Glass
+item.earth_pulsation.warped_wart_slurries_bottle,ƿװŤ����Һ,Warped Wart Slurries Bottle
+item.earth_pulsation.saw_dust,��ĩ,Saw Dust
+block.earth_pulsation.blue_resin_glass,��ɫ��֬����,Blue Resin Glass
+item.earth_pulsation.aluminum_hoe,����,Aluminum Hoe
+block.earth_pulsation.sapphire_ore,����ʯ��,Sapphire Ore
+item.earth_pulsation.turbid_obsidian_ingot,���ǵĺ���ʯ��,Turbid Obsidian Ingot
+block.earth_pulsation.tin_block,����,Block of Tin
+block.earth_pulsation.magenta_resin_glass_pane,����ɫ��֬������,Magenta Resin Glass Pane
+block.earth_pulsation.green_resin_glass_pane,��ɫ��֬������,Green Resin Glass Pane
+block.earth_pulsation.yellow_cobblestone_stair,��ʯ¥��,Yellow Cobblestone Stairs
+block.earth_pulsation.blue_container_door,��ɫ��װ����,Blue Container Door
+block.earth_pulsation.tin_ore,����,Tin Ore
+block.earth_pulsation.lime_resin_glass,����ɫ��֬����,Lime Resin Glass
+item.earth_pulsation.steel_axe,�ָ�,Steel Axe
+item.earth_pulsation.aluminum_cube,������,Aluminum Cube
+block.earth_pulsation.larvikite,������,Larvikite
+item.earth_pulsation.jade_ingot,��,Jade Ingot
+item.earth_pulsation.rusty_iron_axe,���������,Rusty Iron Axe
+block.earth_pulsation.icesandstone,��ɳʯ,Icesandstone
+block.earth_pulsation.aluminum_ore,����,Aluminum Ore
+block.earth_pulsation.ice_birch_button,����ľ��ť,IceBirch Button
+block.earth_pulsation.ice_birch_stairs,����ľ¥��,IceBirch Stairs
+block.earth_pulsation.plastic_wood_planks,��ľ���,Plastic Wood Planks
+block.earth_pulsation.stick_planks,ľ�����,Stick Planks
+block.earth_pulsation.chiseled_blue_light_lab_block,������ɫ����ʵ���ҿ�,Chiseled Blue Light Lab Block
+block.earth_pulsation.basin,��,Basin
+item.earth_pulsation.rust,����,Rust
+item.earth_pulsation.steel_ingot,�ֶ�,Steel Ingot
+block.earth_pulsation.pink_resin_glass,��ɫ��֬����,Pink Resin Glass
+item.earth_pulsation.steel_pickaxe,�ָ�,Steel Pickaxe
+block.earth_pulsation.black_resin_glass,��ɫ��֬����,Black Resin Glass
+block.earth_pulsation.wooden_block,ľ��,Wooden Block
+item.earth_pulsation.wooden_trough_filled_with_chocolate,�����ɿ�����ľ��,Wooden Trough Filled With Chocolate
+item.earth_pulsation.obsidian_hoe,����ʯ��,Obsidian Hoe
+item.earth_pulsation.lead_powder,Ǧ��,Lead Powder
+block.earth_pulsation.ice_birch_pressure_plate,����ľ̤��,IceBirch Pressure Plate
+item.earth_pulsation.raw_steel_ingot,δ���Ƶĸֶ�,Raw Steel Ingot
+item.earth_pulsation.aluminum_plate,����,Aluminum Plate
+block.earth_pulsation.purple_resin_glass_pane,��ɫ��֬������,Purple Resin Glass Pane
+block.earth_pulsation.purple_resin_glass,��ɫ��֬����,Purple Resin Glass
+item.earth_pulsation.ruby,�챦ʯ,Ruby
+item.earth_pulsation.ruggedized_aluminum_sword,�ӹ�����,RuggedizedAluminum Sword
+block.earth_pulsation.refiner_lit,������,Refiner
+item.earth_pulsation.iron_stick,����,Iron Stick
+item.earth_pulsation.blank_circuti_board,�հ׵�·��,Blank Circuti Board
+item.earth_pulsation.zinc_ingot,п��,Zinc Ingot
+block.earth_pulsation.white_resin_glass,��ɫ��֬����,White Resin Glass
+block.earth_pulsation.wooden_planks,ľ���,Wooden Planks
+block.earth_pulsation.stripped_ice_birch_wood,ȥƤ����ľľͷ,Stripped IceBirch Wood
+item.earth_pulsation.only_iron_hoe,������,OnlyIron Hoe
+item.earth_pulsation.aluminum_armor_boots,��ѥ��,Aluminum Boots
+block.earth_pulsation.raw_aluminum_block,������,Raw Aluminum Block
+block.earth_pulsation.stripped_ice_birch_log,ȥƤ����ľԭľ,Stripped IceBirch Log
+item.earth_pulsation.wandered_minner_spawn_egg,���� ʧ���,Wandered Minner Spawn Egg
+item.earth_pulsation.copper_sword,ͭ��,Copper Sword
+item.earth_pulsation.carbon_cube,̼����,Carbon Cube
+item.earth_pulsation.gold_powder,���,Gold Powder
+block.earth_pulsation.maple_slab,��ľ̨��,Maple Slab
+item.earth_pulsation.steel_sword,�ֽ�,Steel Sword
+block.earth_pulsation.cobalt_ore,�ܿ�,Cobalt Ore
+block.earth_pulsation.pure_obsidian_block,�γ��ĺ���ʯ��,Pure Obsidian Block
+block.earth_pulsation.nickel_ore,����,Nickel Ore
+item.earth_pulsation.copper_pickaxe,ͭ��,Copper Pickaxe
+item.earth_pulsation.gold_cube,������,Gold Cube
+item.earth_pulsation.silver_plate,����,Silver Plate
+block.earth_pulsation.forging_table_l_1,����̨��һ����,Forging Table L1
+block.earth_pulsation.light_blue_resin_glass,����ɫ��֬����,Light Blue Resin Glass
+block.earth_pulsation.chiseled_blue_light_lab_block_slab,������ɫ����ʵ����̨��,Chiseled Blue Light Lab Block Slab
+item.earth_pulsation.carbon_fibre,̼��ά,Carbon Fibre
+item.earth_pulsation.rust_iron_ingot,��������,Rust Iron Ingot
+item.earth_pulsation.aluminum_armor_helmet,��ͷ��,Aluminum Helmet
+block.earth_pulsation.big_apple_block,����ƻ��,Big Apple Block
+block.earth_pulsation.wooden_holder,ľ��ռλ��,Wooden Holder
+block.earth_pulsation.stripped_maple_log,ȥƤ��ľԭľ,Stripped Maple Log
+block.earth_pulsation.black_gold_ore,�ڽ��,Black Gold Ore
+item.earth_pulsation.resin,��֬,Resin
+item.earth_pulsation.wooden_board,ľ��,Wooden Board
+block.earth_pulsation.raw_black_gold_block,��e�ֺڽ��,Raw Black Gold Block
+item.earth_pulsation.raw_aluminum,����,Raw Aluminum
+item.earth_pulsation.lead_ingot,Ǧ��,Lead Ingot
+item.earth_pulsation.stone_brick_armmor_boots,שʯѥ,Stone Brick Armmor Boots
+block.earth_pulsation.chiseled_mixed_light_lab_block_b_stair,���ƻ������ʵ����¥����,Chiseled Mixed Light Lab Block B Stair
+item.earth_pulsation.copper_sword_head,ͭ��ͷ����,Copper Sword Head
+block.earth_pulsation.icesand,��ɳ,Icesand
+block.earth_pulsation.resin_glass,��֬����,Resin Glass
+item.earth_pulsation.screen_part,��Ļ����,Screen Part
+block.earth_pulsation.nickel_block,����,Nickel Block
+block.earth_pulsation.chiseled_mixed_light_lab_block_a_slab,���ƻ������ʵ����̨�׼�,Chiseled Mixed Light Lab Block A Slab
+block.earth_pulsation.yellow_stone_bricks,��ʯש,Yellow Stone Bricks
+item.earth_pulsation.turbid_obsidian_nugget,���ǵĺ���ʯ��,Turbid Obsidian Nugget
+block.earth_pulsation.blue_light_lab_block,��ɫ����ʵ���ҿ�,Blue Light Lab Block
+item.earth_pulsation.lead_plate,Ǧ��,Lead Plate
+block.earth_pulsation.magenta_resin_glass,����ɫ��֬����,Magenta Resin Glass
+item.earth_pulsation.blue_shadow_ingot,��Ӱ�ֶ�,Blue Shadow Ingot
+block.earth_pulsation.turbid_obsidian_block,���ǵĺ���ʯ��,Turbid Obsidian Block
+item.earth_pulsation.wooden_rune,ľ����,Wooden Rune
+block.earth_pulsation.cast_iron_block,��e������,��eCast Iron Block
+item.earth_pulsation.obsidian_shovel,����ʯ��,Obsidian Shovel
+block.earth_pulsation.stripped_maple_wood,ȥƤ��ľľͷ,Stripped Maple Wood
+item.earth_pulsation.normal_gun,Normal Gun,Normal Gun
+fluid.earth_pulsation.warped_wart_slurries,Ť����Һ,Warped Wart Slurries
+block.earth_pulsation.chiseled_mixed_light_lab_block_a_stair,���ƻ������ʵ����¥�ݼ�,Chiseled Mixed Light Lab Block A Stair
+item.earth_pulsation.warped_wart_slurries_bucket,Ť����ҺͰ,Warped Wart Slurries Bucket
+block.earth_pulsation.ice_birch_planks,����ľľ��,IceBirch Planks
+item.earth_pulsation.rusty_iron_sword,���������,Rusty Iron Sword
+block.earth_pulsation.ice_birch_sapling,����ľ����,Ice Birch
+block.earth_pulsation.blazing_dirt,������,Blazing Dirt
+block.earth_pulsation.wooden_table,ľ��,Wooden Table
+block.earth_pulsation.coal_generator,ú̿�����,Coal Generator
+block.earth_pulsation.aluminum_door,����,Aluminum Door
+block.earth_pulsation.deepslate_silver_ore,�������ʯ,Deepslate Silver Ore
+item.earth_pulsation.stone_brick_hoe,שʯ��,Stone Brick Hoe
+item.earth_pulsation.tiny_tnt,С��TNT,Tiny TNT
+item.earth_pulsation.stone_brick_shovel,שʯ��,Stone Brick Shovel
+item.earth_pulsation.copper_axe,ͭ��,Copper Axe
+item.earth_pulsation.empty_blue_print,�հ���ͼ,Empty Blue Print
+block.earth_pulsation.hard_aluminum_block,��eӲ����,��eHard Aluminum Block
+block.earth_pulsation.ice_birch_fence,����ľդ��,IceBirch Fence
+item.earth_pulsation.shabby_circuit_board,�¾ɵĵ�·��,Shabby Circuit Board
+item.earth_pulsation.deep_well,��d�����������,��dDeep Well Portal Igniter
+item.earth_pulsation.empty_jade_rune,�հ������,Empty Jade Rune
+block.earth_pulsation.warped_wart_slurries,Ť����Һ,Warped Wart Slurries
+block.earth_pulsation.light_gray_resin_glass_pane,����ɫ��֬������,Light Gray Resin Glass Pane
+item.earth_pulsation.melon_gun,����ǹ,Melon Gun
+item.earth_pulsation.iron_powder,����,Iron Powder
+item.earth_pulsation.stone_brick_axe,שʯ��,Stone Brick Axe
+item.earth_pulsation.empty_stone_rune,�հ�ʯ����,Empty Stone Rune
+item.earth_pulsation.copper_shovel,ͭ��,Copper Shovel
+block.earth_pulsation.black_gold_block,��e�ڽ��,��eBlack Gold Block
+item.earth_pulsation.aluminum_armor_leggings,������,Aluminum Leggings
+block.earth_pulsation.yellow_stone_bricks_wall,��ʯשǽ,Yellow Stone Bricks Wall
+item.earth_pulsation.tin_powder,����,Tin Powder
+item.earth_pulsation.iron_cube,������,Iron Cube
+item.earth_pulsation.stone_brick_armmor_chestplate,שʯ�ؼ�,Stone Brick Armmor Chestplate
+item.earth_pulsation.copper_hoe_head,ͭ��ͷ����,Copper Hoe Head
+block.earth_pulsation.tough_copper_block,��e��ͭ��,��eTough Copper Block
+item.earth_pulsation.stone_brick_sword,שʯ��,Stone Brick Sword
+item.earth_pulsation.silver_ingot,����,Silver Ingot
+item.earth_pulsation.tough_copper_ingot,��ͭ��,Tough Copper Ingot
+block.earth_pulsation.maple_fence,��ľդ��,Maple Fence
+block.earth_pulsation.deepslate_lead_ore,���Ǧ��ʯ,Deepslate Lead Ore
+item.earth_pulsation.pure_obsidian_ingot,�γ��ĺ���ʯ��,Pure Obsidian Ingot
+item.earth_pulsation.plastic_wood_board,��ľ��,Plastic Wood Board
+item.earth_pulsation.copper_hoe,ͭ��,Copper Hoe
+item.earth_pulsation.nickel_ingot,����,Nickel Ingot
+item.earth_pulsation.ruggedized_aluminum_axe,�ӹ�����,RuggedizedAluminum Axe
+block.earth_pulsation.maple_leaves,��ľ��Ҷ,Maple Leaves
+item.earth_pulsation.copper_armor_boots,ͭѥ��,Copper Boots
+item.earth_pulsation.copper_wrench,ͭ����,Copper Wrench
+block.earth_pulsation.forgotten_iron_ore,������������,Forgotten Iron Ore
+block.earth_pulsation.chiseled_ice_stone,���Ʊ�ɳʯ,Chiseled Icesandstone
+item.earth_pulsation.alchemical_silver_ingot,������,Alchemical Silver Ingot
+item.earth_pulsation.glass_sword,������,Glass Sword
+block.earth_pulsation.lumen_crystal_stem,��������,Lumen Crystal Stem
+block.earth_pulsation.chiseled_white_light_lab_block,���ư�ɫ����ʵ���ҿ�,Chiseled White Light Lab Block
+item.earth_pulsation.copper_cube,ͭ����,Copper Cube
+block.earth_pulsation.topaz_block,�Ʊ�ʯ��,Topaz Block
+item.earth_pulsation.copper_shovel_head,ͭ��ͷ����,Copper Shovel Head
+item.earth_pulsation.only_iron_shovel,������,OnlyIron Shovel
+block.earth_pulsation.green_resin_glass,��ɫ��֬����,Green Resin Glass
+block.earth_pulsation.chiseled_blue_light_lab_block_stair,������ɫ����ʵ����¥��,Chiseled Blue Light Lab Block Stair
+item.earth_pulsation.cobalt_ingot,�ܶ�,Cobalt Ingot
+item.earth_pulsation.black_gold_ingot,�ڽ�,Black Gold Ingot
+block.earth_pulsation.red_resin_glass,��ɫ��֬����,Red Resin Glass
+block.earth_pulsation.light_blue_resin_glass_pane,����ɫ��֬������,Light Blue Resin Glass Pane
+block.earth_pulsation.chiseled_mixed_light_lab_block_b_slab,���ƻ������ʵ����̨����,Chiseled Mixed Light Lab Block B Slab
+item.earth_pulsation.blue_print,��ͼ,Blue Print
+item.earth_pulsation.normal_battery,��ͨ���,Normal Battery
+item.earth_pulsation.only_iron_pickaxe,������,OnlyIron Pickaxe
+item.earth_pulsation.tin_plate,����,Tin Plate
+item.earth_pulsation.copper_armor_leggings,ͭ����,Copper Leggings
+block.earth_pulsation.orange_resin_glass_pane,��ɫ��֬������,Orange Resin Glass Pane
+item.earth_pulsation.samjung_note_7,����Note 7,Samjung Note 7
+block.earth_pulsation.research_station,�о�վ,Research Station
+block.earth_pulsation.chiseled_mixed_light_lab_block_b,���ƻ�ɫ����ʵ���ҿ���,Chiseled Mixed Light Lab Block B
+item.earth_pulsation.aluminum_axe,����,Aluminum Axe
+item.earth_pulsation.obsidian_pickaxe,����ʯ��,Obsidian Pickaxe
+block.earth_pulsation.chiseled_mixed_light_lab_block_a,���ƻ�ɫ����ʵ���ҿ��,Chiseled Mixed Light Lab Block A
+block.earth_pulsation.blue_container_column,��ɫ��װ����,Blue Container Column
+block.earth_pulsation.maple_planks,��ľľ��,Maple Planks
+block.earth_pulsation.black_resin_glass_pane,��ɫ��֬������,Black Resin Glass Pane
+block.earth_pulsation.red_container_wall,��ɫ��װ���,Red Container Wall
+item.earth_pulsation.steel_hoe,�ֳ�,Steel Hoe
+item.earth_pulsation.obsidian_axe,����ʯ��,Obsidian Axe
+item.earth_pulsation.nokika,ŵ����,Nokika
+block.earth_pulsation.brown_resin_glass_pane,��ɫ��֬������,Brown Resin Glass Pane
+block.earth_pulsation.red_resin_glass_pane,��ɫ��֬������,Red Resin Glass Pane
+block.earth_pulsation.pink_resin_glass_pane,��ɫ��֬������,Pink Resin Glass Pane
+item.earth_pulsation.obsidian_sword,����ʯ��,Obsidian Sword
+item.earth_pulsation.base_circuti_board,������·��,Base Circuti Board
+block.earth_pulsation.smooth_prismarine_brick,ƽ������ʯש,Smooth Prismarine Brick
+block.earth_pulsation.ruby_block,�챦ʯ��,Ruby Block
+block.earth_pulsation.ice_birch_fence_gate,����ľդ����,IceBirch Fence Gate
+item.earth_pulsation.refined_bread,�������,Refined Bread
+item.earth_pulsation.rusty_iron_pickaxe,���������,Rusty Iron Pickaxe
+block.earth_pulsation.red_container_door,��ɫ��װ����,Red Container Door
+item.earth_pulsation.pure_obsidian_nugget,�γ��ĺ���ʯ��,Pure Obsidian Nugget
+block.earth_pulsation.silver_ore,����,Silver Ore
+item.earth_pulsation.stone_brick_armmor_helmet,שʯͷ��,Stone Brick Armmor Helmet
+item.earth_pulsation.iron_plate,����,Iron Plate
+item.earth_pulsation.carbon_plate,̼��,Carbon Plate
+tooltip.earth_pulsation.pda,�ǳ���Ҫ����Ʒ,The most important item
+block.earth_pulsation.place_on_water_plate,Place On Water Plate,Place On Water Plate
+item.earth_pulsation.tin_cube,������,Tin Cube
+block.earth_pulsation.ruby_ore,�챦ʯ��,Ruby Ore
+block.earth_pulsation.gray_resin_glass,��ɫ��֬����,Gray Resin Glass
+block.earth_pulsation.ice_birch_wood,����ľ,IceBirch Wood
+item.earth_pulsation.plastic_wood_stick,��ľ��,Plastic Wood Stick
+block.earth_pulsation.maple_button,��ľ��ť,Maple Button
+block.earth_pulsation.grinder,ĥ�ۻ�,Grinder
+block.earth_pulsation.chiseled_iron_block,��������,Chiseled Iron Block
+block.earth_pulsation.lead_ore,Ǧ��,Lead Ore
+block.earth_pulsation.lime_resin_glass_pane,����ɫ��֬����,Lime Resin Glass Pane
+item.earth_pulsation.cast_iron_ingot,������,Cast Iron Ingot
+block.earth_pulsation.white_light_lab_block,��ɫ����ʵ���ҿ�,White Light Lab Block
+item.earth_pulsation.stone_brick_pickaxe,שʯ��,Stone Brick Pickaxe
+block.earth_pulsation.chiseled_yellow_stone_bricks_stair,���ƻ�ʯש¥��,Chiseled Yellow Stone Bricks Stairs
+block.earth_pulsation.resin_block,��֬��,Resin Block
+block.earth_pulsation.topaz_ore,�Ʊ�ʯ��,Topaz Ore
+item.earth_pulsation.copper_plate,ͭ��,Copper Plate
+block.earth_pulsation.wood_planks_door,ľ����,Wooden Planks Door
+item.earth_pulsation.pda,�ն�,PDA
+block.earth_pulsation.sapphire_block,����ʯ��,Sapphire Block
+block.earth_pulsation.lead_block,Ǧ��,Block of Lead
+block.earth_pulsation.obelisk,����,Obelisk
+item.earth_pulsation.basic_battery,�������,Basic Battery
+item.earth_pulsation.copper_axe_head,ͭ��ͷ����,Copper Axe Head
+block.earth_pulsation.iceland_spar,����ʯ,Iceland Spar
+item.earth_pulsation.stone_brick_armmor_leggings,שʯ����,Stone Brick Armmor Leggings
+block.earth_pulsation.deepslate_aluminum_ore,�������ʯ,Deepslate Aluminum Ore
+block.earth_pulsation.maple_stairs,��ľ¥��,Maple Stairs
+item.earth_pulsation.big_apple_piece,����ƻ��Ƭ,Big Apple Piece
+item.earth_pulsation.carbon_stick,̼��,Carbon Stick
+block.earth_pulsation.orange_resin_glass,��ɫ��֬����,Orange Resin Glass
+block.earth_pulsation.white_resin_glass_pane,��ɫ��֬������,White Resin Glass Pane
+item.earth_pulsation.only_iron_sword,������,OnlyIron Sword
+block.earth_pulsation.chiseled_yellow_stone_bricks,���ƻ�ʯש,Chiseled Yellow Stone Bricks
+block.earth_pulsation.red_container_column,��ɫ��װ����,Red Container Column
+item.earth_pulsation.only_iron_axe,������,OnlyIron Axe
+biome.earth_pulsation.ice_desert,��ɳĮ,Ice Desert
+block.earth_pulsation.yellow_cobblestone_slab,��ʯ̨��,Yellow Cobblestone Slab
+item.earth_pulsation.stone_ingot,שʯ,Stone Ingot
+block.earth_pulsation.silver_block,����,Block of Silver
+item.earth_pulsation.sapphire,����ʯ,Sapphire
+item.earth_pulsation.aluminum_pickaxe,����,Aluminum Pickaxe
+block.earth_pulsation.gray_resin_glass_pane,��ɫ��֬������,Gray Resin Glass Pane
+item.earth_pulsation.classic_battery,������,Classic Battery
+block.earth_pulsation.yellow_cobblestone,��ʯԲʯ,Yellow Cobblestone
+block.earth_pulsation.maple_fence_gate,��ľդ����,Maple Fence Gate
+item.earth_pulsation.magnet_ingot,������,Magnet Ingot
+block.earth_pulsation.yellow_resin_glass,��ɫ��֬����,Yellow Resin Glass
+item.earth_pulsation.ruggedized_aluminum_pickaxe,�ӹ�����,RuggedizedAluminum Pickaxe
+block.earth_pulsation.container_wall,��װ���,Container Wall
+block.earth_pulsation.maple_log,��ľԭľ,Maple Log
+item.earth_pulsation.ep_book,����ָ���ֲ�,Earth Pulsation Instruction
+block.earth_pulsation.pulverizer,�����,Pulverizer
+block.earth_pulsation.cyan_resin_glass_pane,��ɫ��֬������,Cyan Resin Glass Pane
+item.earth_pulsation.wooden_trough,ľ��,Wooden Trough
+item.earth_pulsation.hard_aluminum_ingot,Ӳ����,Hard Aluminum Ingot
+item.earth_pulsation.silver_cube,������,Silver Cube
+item.earth_pulsation.iron_saw,����,Iron Saw
+item.earth_pulsation.aluminum_powder,����,Aluminum Powder
+biome.earth_pulsation.blazing_wasteland,���ͻ�ԭ,Blazing Wasteland
+block.earth_pulsation.blue_resin_glass_pane,��ɫ��֬������,Blue Resin Glass Pane
+block.earth_pulsation.yellow_resin_glass_pane,��ɫ��֬������,Yellow Resin Glass Pane
+item.earth_pulsation.steel_shovel,����,Steel Shovel
+entity.earth_pulsation.pure_slime,����ʷ��ķ,Pure Slime
+block.earth_pulsation.chiseled_white_light_lab_block_stair,���ư�ɫ����ʵ����¥��,Chiseled White Light Lab Block Stair
+block.earth_pulsation.ice_birch_leaves,����ľ��Ҷ,IceBirch Leaves
+item.earth_pulsation.lead_cube,Ǧ����,Lead Cube
+item.earth_pulsation.silver_powder,����,Silver Powder
+item.earth_pulsation.chocolate,�ɿ���,Chocolate
+entity.earth_pulsation.wandered_minner,ʧ���,Wandered Minner
+block.earth_pulsation.chiseled_yellow_stone_bricks_slab,���ƻ�ʯש̨��,Chiseled Yellow Stone Bricks Slab
+block.earth_pulsation.yellow_stone,��ʯ,Yellow Stone

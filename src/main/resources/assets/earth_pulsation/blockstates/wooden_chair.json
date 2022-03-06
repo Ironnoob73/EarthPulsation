@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "earth_pulsation:block/wooden_chair"
+    },
+    "facing=east": {
+      "model": "earth_pulsation:block/wooden_chair",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "earth_pulsation:block/wooden_chair",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "earth_pulsation:block/wooden_chair",
+      "y": 270
+    }
+  }
+}

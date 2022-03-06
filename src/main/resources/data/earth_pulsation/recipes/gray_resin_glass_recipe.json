@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "earth_pulsation:resin_glass"
+    },
+    {
+      "item": "earth_pulsation:resin_glass"
+    },
+    {
+      "item": "earth_pulsation:resin_glass"
+    },
+    {
+      "item": "earth_pulsation:resin_glass"
+    },
+    {
+      "tag": "forge:dyes/gray"
+    },
+    {
+      "item": "earth_pulsation:resin_glass"
+    },
+    {
+      "item": "earth_pulsation:resin_glass"
+    },
+    {
+      "item": "earth_pulsation:resin_glass"
+    },
+    {
+      "item": "earth_pulsation:resin_glass"
+    }
+  ],
+  "result": {
+    "item": "earth_pulsation:gray_resin_glass",
+    "count": 8
+  }
+}

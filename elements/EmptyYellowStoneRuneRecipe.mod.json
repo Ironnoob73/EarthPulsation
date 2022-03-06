@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "rune",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:YellowStoneIngot"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:EmptyYellowStoneRune"
+    },
+    "name": "empty_yellow_stone_rune_recipe",
+    "namespace": "mod"
+  }
+}

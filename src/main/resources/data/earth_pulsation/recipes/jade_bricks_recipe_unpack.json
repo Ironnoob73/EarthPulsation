@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "earth_pulsation:jade_bricks"
+  },
+  "result": "earth_pulsation:jade_ingot"
+}

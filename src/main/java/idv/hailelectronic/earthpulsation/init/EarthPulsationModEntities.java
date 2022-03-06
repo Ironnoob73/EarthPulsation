@@ -23,6 +23,7 @@ import idv.hailelectronic.earthpulsation.entity.SamjungNote7Entity;
 import idv.hailelectronic.earthpulsation.entity.PureSlimeEntity;
 import idv.hailelectronic.earthpulsation.entity.NormalGunEntity;
 import idv.hailelectronic.earthpulsation.entity.MelonGunEntity;
+import idv.hailelectronic.earthpulsation.entity.ChairEntity;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class EarthPulsationModEntities {
@@ -45,6 +46,9 @@ public class EarthPulsationModEntities {
 	public static final EntityType<SamjungNote7Entity> SAMJUNG_NOTE_7 = register("entitybulletsamjung_note_7",
 			EntityType.Builder.<SamjungNote7Entity>of(SamjungNote7Entity::new, MobCategory.MISC).setCustomClientFactory(SamjungNote7Entity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final EntityType<ChairEntity> CHAIR = register("chair",
+			EntityType.Builder.<ChairEntity>of(ChairEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(3).setCustomClientFactory(ChairEntity::new).fireImmune().sized(0.5f, 0.5f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		EntityType<T> entityType = (EntityType<T>) entityTypeBuilder.build(registryname).setRegistryName(registryname);
@@ -62,6 +66,7 @@ public class EarthPulsationModEntities {
 		event.enqueueWork(() -> {
 			PureSlimeEntity.init();
 			WanderedMinnerEntity.init();
+			ChairEntity.init();
 		});
 	}
 
@@ -69,5 +74,6 @@ public class EarthPulsationModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(PURE_SLIME, PureSlimeEntity.createAttributes().build());
 		event.put(WANDERED_MINNER, WanderedMinnerEntity.createAttributes().build());
+		event.put(CHAIR, ChairEntity.createAttributes().build());
 	}
 }
