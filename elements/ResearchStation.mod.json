@@ -10,7 +10,7 @@
     "textureBack": "research_station_side",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 0,
+    "rotationMode": 1,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",

@@ -3,37 +3,32 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "nokika",
+    "texture": "dark_circuit_board",
     "customModelName": "Normal",
-    "name": "Nokika",
-    "rarity": "EPIC",
+    "name": "Dark Circuit Board",
+    "rarity": "UNCOMMON",
     "creativeTab": {
       "value": "CUSTOM:EarthPulsation"
     },
-    "stackSize": 1,
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
-    "toolType": 256.0,
+    "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
       "value": ""
     },
-    "destroyAnyBlock": true,
+    "destroyAnyBlock": false,
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "enableMeleeDamage": true,
-    "damageVsEntity": 256.0,
-    "specialInfo": [
-      "Debug"
-    ],
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onEntityHitWith": {
-      "name": "NokikaKill"
-    },
     "hasDispenseBehavior": false
   }
 }

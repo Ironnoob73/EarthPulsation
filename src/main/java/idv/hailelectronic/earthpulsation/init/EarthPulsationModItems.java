@@ -123,6 +123,7 @@ import idv.hailelectronic.earthpulsation.item.EmptyBluePrintItem;
 import idv.hailelectronic.earthpulsation.item.EPBookItem;
 import idv.hailelectronic.earthpulsation.item.DeepslateIngotItem;
 import idv.hailelectronic.earthpulsation.item.DeepWellItem;
+import idv.hailelectronic.earthpulsation.item.DarkCircuitBoardItem;
 import idv.hailelectronic.earthpulsation.item.CopperWrenchItem;
 import idv.hailelectronic.earthpulsation.item.CopperSwordItem;
 import idv.hailelectronic.earthpulsation.item.CopperSwordHeadItem;
@@ -421,6 +422,7 @@ public class EarthPulsationModItems {
 	public static final Item SHABBY_CIRCUIT_BOARD = register(new ShabbyCircuitBoardItem());
 	public static final Item BLANK_CIRCUTI_BOARD = register(new BlankCircutiBoardItem());
 	public static final Item BASE_CIRCUTI_BOARD = register(new BaseCircutiBoardItem());
+	public static final Item DARK_CIRCUIT_BOARD = register(new DarkCircuitBoardItem());
 	public static final Item SCREEN_PART = register(new ScreenPartItem());
 	public static final Item BASIC_BATTERY = register(new BasicBatteryItem());
 	public static final Item CLASSIC_BATTERY = register(new ClassicBatteryItem());
