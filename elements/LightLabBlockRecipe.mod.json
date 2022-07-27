@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 32,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DYE#12"
+      },
+      {
+        "value": "CUSTOM:AluminumPlate"
+      },
+      {
+        "value": "Items.DYE#12"
+      },
+      {
+        "value": "CUSTOM:AluminumPlate"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AluminumPlate"
+      },
+      {
+        "value": "Items.DYE#12"
+      },
+      {
+        "value": "CUSTOM:AluminumPlate"
+      },
+      {
+        "value": "Items.DYE#12"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlueLightLabBlock"
+    },
+    "name": "light_lab_block_recipe",
+    "namespace": "mod"
+  }
+}

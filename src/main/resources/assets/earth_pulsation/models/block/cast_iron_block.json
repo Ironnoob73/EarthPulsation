@@ -1,9 +1,0 @@
-{
-  "parent": "earth_pulsation:custom/cast_iron_block",
-  "textures": {
-    "all": "earth_pulsation:blocks/cast_iron_block",
-    "particle": "earth_pulsation:blocks/cast_iron_block",
-    "1": "earth_pulsation:blocks/cast_iron_block",
-    "inner": "earth_pulsation:blocks/cast_iron_block_inner"
-  }
-}

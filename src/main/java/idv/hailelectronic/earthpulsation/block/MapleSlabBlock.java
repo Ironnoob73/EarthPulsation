@@ -19,7 +19,6 @@ import java.util.Collections;
 public class MapleSlabBlock extends SlabBlock {
 	public MapleSlabBlock() {
 		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2f, 3f));
-		setRegistryName("maple_slab");
 	}
 
 	@Override

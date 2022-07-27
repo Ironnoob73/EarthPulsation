@@ -5,7 +5,5 @@
   "ingredient": {
     "item": "earth_pulsation:raw_tin"
   },
-  "result": {
-    "item": "earth_pulsation:tin_ingot"
-  }
+  "result": "earth_pulsation:tin_ingot"
 }

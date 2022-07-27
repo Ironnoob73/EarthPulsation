@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "earth_pulsation:items/samsungnote7"
+    "layer0": "earth_pulsation:items/samjungnote7"
   },
   "display": {
     "thirdperson_righthand": {

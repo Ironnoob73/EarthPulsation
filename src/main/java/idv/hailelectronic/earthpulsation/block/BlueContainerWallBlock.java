@@ -49,7 +49,6 @@ public class BlueContainerWallBlock extends Block implements SimpleWaterloggedBl
 		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(7f, 10f).requiresCorrectToolForDrops().noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(WATERLOGGED, false));
-		setRegistryName("blue_container_wall");
 	}
 
 	@Override
@@ -115,14 +114,14 @@ public class BlueContainerWallBlock extends Block implements SimpleWaterloggedBl
 	public BlockState updateShape(BlockState state, Direction facing, BlockState facingState, LevelAccessor world, BlockPos currentPos,
 			BlockPos facingPos) {
 		if (state.getValue(WATERLOGGED)) {
-			world.getLiquidTicks().scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickDelay(world));
+			world.scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickDelay(world));
 		}
 		return super.updateShape(state, facing, facingState, world, currentPos, facingPos);
 	}
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 2;
 		return false;
 	}
@@ -137,6 +136,6 @@ public class BlueContainerWallBlock extends Block implements SimpleWaterloggedBl
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(EarthPulsationModBlocks.BLUE_CONTAINER_WALL, renderType -> renderType == RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(EarthPulsationModBlocks.BLUE_CONTAINER_WALL.get(), renderType -> renderType == RenderType.cutout());
 	}
 }

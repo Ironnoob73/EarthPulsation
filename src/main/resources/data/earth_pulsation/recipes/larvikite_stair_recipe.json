@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "earth_pulsation:larvikite"
+    },
+    "3": {
+      "item": "earth_pulsation:larvikite"
+    },
+    "4": {
+      "item": "earth_pulsation:larvikite"
+    },
+    "6": {
+      "item": "earth_pulsation:larvikite"
+    },
+    "7": {
+      "item": "earth_pulsation:larvikite"
+    },
+    "8": {
+      "item": "earth_pulsation:larvikite"
+    }
+  },
+  "result": {
+    "item": "earth_pulsation:larvikite_stair",
+    "count": 6
+  }
+}

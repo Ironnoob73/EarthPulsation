@@ -19,7 +19,7 @@ import net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
-import net.minecraft.network.Connection;
+import net.minecraft.nbt.IntTag;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.NonNullList;
 import net.minecraft.core.Direction;
@@ -39,7 +39,7 @@ public class BatteryBlockBlockEntity extends RandomizableContainerBlockEntity im
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public BatteryBlockBlockEntity(BlockPos position, BlockState state) {
-		super(EarthPulsationModBlockEntities.BATTERY_BLOCK, position, state);
+		super(EarthPulsationModBlockEntities.BATTERY_BLOCK.get(), position, state);
 	}
 
 	@Override
@@ -48,33 +48,27 @@ public class BatteryBlockBlockEntity extends RandomizableContainerBlockEntity im
 		if (!this.tryLoadLootTable(compound))
 			this.stacks = NonNullList.withSize(this.getContainerSize(), ItemStack.EMPTY);
 		ContainerHelper.loadAllItems(compound, this.stacks);
-		if (compound.get("energyStorage")instanceof CompoundTag compoundTag)
-			energyStorage.deserializeNBT(compoundTag);
+		if (compound.get("energyStorage") instanceof IntTag intTag)
+			energyStorage.deserializeNBT(intTag);
 	}
 
 	@Override
-	public CompoundTag save(CompoundTag compound) {
-		super.save(compound);
+	public void saveAdditional(CompoundTag compound) {
+		super.saveAdditional(compound);
 		if (!this.trySaveLootTable(compound)) {
 			ContainerHelper.saveAllItems(compound, this.stacks);
 		}
 		compound.put("energyStorage", energyStorage.serializeNBT());
-		return compound;
 	}
 
 	@Override
 	public ClientboundBlockEntityDataPacket getUpdatePacket() {
-		return new ClientboundBlockEntityDataPacket(this.worldPosition, 0, this.getUpdateTag());
+		return ClientboundBlockEntityDataPacket.create(this);
 	}
 
 	@Override
 	public CompoundTag getUpdateTag() {
-		return this.save(new CompoundTag());
-	}
-
-	@Override
-	public void onDataPacket(Connection net, ClientboundBlockEntityDataPacket pkt) {
-		this.load(pkt.getTag());
+		return this.saveWithFullMetadata();
 	}
 
 	@Override

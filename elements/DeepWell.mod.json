@@ -1,5 +1,5 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
@@ -35,7 +35,7 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "igniterName": "¡ìdDeep Well Portal Igniter",
+    "igniterName": "ï¿½ï¿½dDeep Well Portal Igniter",
     "igniterTab": {
       "value": "CUSTOM:EarthPulsation"
     },

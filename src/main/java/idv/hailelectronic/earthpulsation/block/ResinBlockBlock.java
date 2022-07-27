@@ -29,7 +29,6 @@ public class ResinBlockBlock extends Block {
 	public ResinBlockBlock() {
 		super(BlockBehaviour.Properties.of(Material.DIRT).sound(SoundType.HONEY_BLOCK).strength(3f).requiresCorrectToolForDrops().friction(0.5f)
 				.speedFactor(0.7f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
-		setRegistryName("resin_block");
 	}
 
 	@Override
@@ -44,7 +43,7 @@ public class ResinBlockBlock extends Block {
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 1;
 		return false;
 	}
@@ -54,12 +53,12 @@ public class ResinBlockBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(EarthPulsationModItems.RESIN, (int) (4)));
+		return Collections.singletonList(new ItemStack(EarthPulsationModItems.RESIN.get(), 4));
 	}
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(EarthPulsationModBlocks.RESIN_BLOCK, renderType -> renderType == RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer(EarthPulsationModBlocks.RESIN_BLOCK.get(), renderType -> renderType == RenderType.translucent());
 	}
 
 }

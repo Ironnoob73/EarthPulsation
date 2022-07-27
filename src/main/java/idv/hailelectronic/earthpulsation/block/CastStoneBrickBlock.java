@@ -17,18 +17,12 @@ import java.util.Collections;
 
 public class CastStoneBrickBlock extends Block {
 	public CastStoneBrickBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.DEEPSLATE_BRICKS).strength(5f, 9f));
-		setRegistryName("cast_stone_brick");
+		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_GRAY).sound(SoundType.DEEPSLATE_BRICKS).strength(5f, 9f));
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
-	}
-
-	@Override
-	public MaterialColor defaultMaterialColor() {
-		return MaterialColor.COLOR_GRAY;
 	}
 
 	@Override

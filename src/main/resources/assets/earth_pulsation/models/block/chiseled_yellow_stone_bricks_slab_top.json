@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "bottom": "earth_pulsation:blocks/chiseled_yellow_stonebrick",
-    "top": "earth_pulsation:blocks/chiseled_yellow_stonebrick",
-    "side": "earth_pulsation:blocks/chiseled_yellow_stonebrick"
-  }
-}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "earth_pulsation:block/polished_larvikite_slab"
+    },
+    "type=top": {
+      "model": "earth_pulsation:block/polished_larvikite_slab_top"
+    },
+    "type=double": {
+      "model": "earth_pulsation:block/polished_larvikite_slab_full"
+    }
+  }
+}

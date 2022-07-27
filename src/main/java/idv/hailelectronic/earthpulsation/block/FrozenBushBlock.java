@@ -27,7 +27,6 @@ import idv.hailelectronic.earthpulsation.init.EarthPulsationModBlocks;
 public class FrozenBushBlock extends FlowerBlock {
 	public FrozenBushBlock() {
 		super(MobEffects.MOVEMENT_SLOWDOWN, 5, BlockBehaviour.Properties.of(Material.PLANT).noCollission().sound(SoundType.GRASS).instabreak());
-		setRegistryName("frozen_bush");
 	}
 
 	@Override
@@ -55,6 +54,6 @@ public class FrozenBushBlock extends FlowerBlock {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(EarthPulsationModBlocks.FROZEN_BUSH, renderType -> renderType == RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(EarthPulsationModBlocks.FROZEN_BUSH.get(), renderType -> renderType == RenderType.cutout());
 	}
 }

@@ -1,9 +1,0 @@
-{
-  "group": "yellow_stone",
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "earth_pulsation:yellow_stone_bricks"
-  },
-  "result": "earth_pulsation:yellow_stone_bricks_wall"
-}

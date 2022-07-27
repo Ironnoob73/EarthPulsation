@@ -18,7 +18,6 @@ import java.util.Collections;
 public class MapleFenceGateBlock extends FenceGateBlock {
 	public MapleFenceGateBlock() {
 		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2f, 3f));
-		setRegistryName("maple_fence_gate");
 	}
 
 	@Override

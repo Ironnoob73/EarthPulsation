@@ -1,7 +1,0 @@
-{
-  "parent": "block/door_bottom",
-  "textures": {
-    "bottom": "earth_pulsation:blocks/wooden_door_bottom",
-    "top": "earth_pulsation:blocks/wooden_door_top"
-  }
-}

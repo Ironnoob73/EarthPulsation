@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "earth_pulsation:deepslate_ingot"
+    },
+    {
+      "item": "earth_pulsation:deepslate_ingot"
+    },
+    {
+      "item": "earth_pulsation:deepslate_ingot"
+    },
+    {
+      "item": "earth_pulsation:deepslate_ingot"
+    }
+  ],
+  "result": {
+    "item": "minecraft:deepslate_bricks",
+    "count": 1
+  }
+}

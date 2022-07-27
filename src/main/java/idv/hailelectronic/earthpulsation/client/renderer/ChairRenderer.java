@@ -1,3 +1,4 @@
+
 package idv.hailelectronic.earthpulsation.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;

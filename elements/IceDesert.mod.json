@@ -1,5 +1,5 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "biome",
   "definition": {
     "name": "Ice Desert",
@@ -48,15 +48,13 @@
     },
     "particlesProbability": 0.5,
     "biomeCategory": "ICY",
-    "parent": {
-      "value": "mutated_ice_flats"
-    },
     "rainingPossibility": 0.5,
     "temperature": 0.5,
     "baseHeight": 0.1,
     "heightVariation": 0.2,
-    "biomeType": "ICY",
     "spawnBiome": false,
+    "spawnBiomeNether": false,
+    "spawnInCaves": false,
     "biomeWeight": 10,
     "biomeDictionaryTypes": [
       "SNOWY"

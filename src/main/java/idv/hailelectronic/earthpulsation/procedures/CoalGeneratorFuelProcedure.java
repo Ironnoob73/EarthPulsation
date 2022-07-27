@@ -34,7 +34,7 @@ public class CoalGeneratorFuelProcedure {
 					return blockEntity.getTileData().getDouble(tag);
 				return -1;
 			}
-		}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel") > 0) {
+		}.getValue(world, new BlockPos(x, y, z), "fuel") > 0) {
 			if (new Object() {
 				public boolean canReceiveEnergy(LevelAccessor level, BlockPos pos) {
 					AtomicBoolean _retval = new AtomicBoolean(false);
@@ -43,7 +43,7 @@ public class CoalGeneratorFuelProcedure {
 						_ent.getCapability(CapabilityEnergy.ENERGY, Direction.UP).ifPresent(capability -> _retval.set(capability.canReceive()));
 					return _retval.get();
 				}
-			}.canReceiveEnergy(world, new BlockPos((int) x, (int) (y - 1), (int) z))) {
+			}.canReceiveEnergy(world, new BlockPos(x, y - 1, z))) {
 				if (new Object() {
 					public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 						BlockEntity blockEntity = world.getBlockEntity(pos);
@@ -51,7 +51,7 @@ public class CoalGeneratorFuelProcedure {
 							return blockEntity.getTileData().getDouble(tag);
 						return -1;
 					}
-				}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel") >= 20) {
+				}.getValue(world, new BlockPos(x, y, z), "fuel") >= 20) {
 					down = new Object() {
 						public int receiveEnergySimulate(LevelAccessor level, BlockPos pos, int _amount) {
 							AtomicInteger _retval = new AtomicInteger(0);
@@ -61,16 +61,16 @@ public class CoalGeneratorFuelProcedure {
 										.ifPresent(capability -> _retval.set(capability.receiveEnergy(_amount, true)));
 							return _retval.get();
 						}
-					}.receiveEnergySimulate(world, new BlockPos((int) x, (int) (y - 1), (int) z), 20);
+					}.receiveEnergySimulate(world, new BlockPos(x, y - 1, z), 20);
 					{
-						BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) (y - 1), (int) z));
+						BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y - 1, z));
 						int _amount = (int) down;
 						if (_ent != null)
 							_ent.getCapability(CapabilityEnergy.ENERGY, Direction.UP)
 									.ifPresent(capability -> capability.receiveEnergy(_amount, false));
 					}
 					if (!world.isClientSide()) {
-						BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+						BlockPos _bp = new BlockPos(x, y, z);
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_blockEntity != null)
@@ -81,7 +81,7 @@ public class CoalGeneratorFuelProcedure {
 										return blockEntity.getTileData().getDouble(tag);
 									return -1;
 								}
-							}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel")) - down));
+							}.getValue(world, new BlockPos(x, y, z), "fuel")) - down));
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
@@ -93,7 +93,7 @@ public class CoalGeneratorFuelProcedure {
 								return blockEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel");
+					}.getValue(world, new BlockPos(x, y, z), "fuel");
 					down = new Object() {
 						public int receiveEnergySimulate(LevelAccessor level, BlockPos pos, int _amount) {
 							AtomicInteger _retval = new AtomicInteger(0);
@@ -103,16 +103,16 @@ public class CoalGeneratorFuelProcedure {
 										.ifPresent(capability -> _retval.set(capability.receiveEnergy(_amount, true)));
 							return _retval.get();
 						}
-					}.receiveEnergySimulate(world, new BlockPos((int) x, (int) (y - 1), (int) z), (int) down);
+					}.receiveEnergySimulate(world, new BlockPos(x, y - 1, z), (int) down);
 					{
-						BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) (y - 1), (int) z));
+						BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y - 1, z));
 						int _amount = (int) down;
 						if (_ent != null)
 							_ent.getCapability(CapabilityEnergy.ENERGY, Direction.UP)
 									.ifPresent(capability -> capability.receiveEnergy(_amount, false));
 					}
 					if (!world.isClientSide()) {
-						BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+						BlockPos _bp = new BlockPos(x, y, z);
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_blockEntity != null)
@@ -123,7 +123,7 @@ public class CoalGeneratorFuelProcedure {
 										return blockEntity.getTileData().getDouble(tag);
 									return -1;
 								}
-							}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel")) - down));
+							}.getValue(world, new BlockPos(x, y, z), "fuel")) - down));
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
@@ -137,7 +137,7 @@ public class CoalGeneratorFuelProcedure {
 						_ent.getCapability(CapabilityEnergy.ENERGY, Direction.DOWN).ifPresent(capability -> _retval.set(capability.canReceive()));
 					return _retval.get();
 				}
-			}.canReceiveEnergy(world, new BlockPos((int) x, (int) (y + 1), (int) z))) {
+			}.canReceiveEnergy(world, new BlockPos(x, y + 1, z))) {
 				if (new Object() {
 					public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 						BlockEntity blockEntity = world.getBlockEntity(pos);
@@ -145,7 +145,7 @@ public class CoalGeneratorFuelProcedure {
 							return blockEntity.getTileData().getDouble(tag);
 						return -1;
 					}
-				}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel") >= 20) {
+				}.getValue(world, new BlockPos(x, y, z), "fuel") >= 20) {
 					up = new Object() {
 						public int receiveEnergySimulate(LevelAccessor level, BlockPos pos, int _amount) {
 							AtomicInteger _retval = new AtomicInteger(0);
@@ -155,16 +155,16 @@ public class CoalGeneratorFuelProcedure {
 										.ifPresent(capability -> _retval.set(capability.receiveEnergy(_amount, true)));
 							return _retval.get();
 						}
-					}.receiveEnergySimulate(world, new BlockPos((int) x, (int) (y + 1), (int) z), 20);
+					}.receiveEnergySimulate(world, new BlockPos(x, y + 1, z), 20);
 					{
-						BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) (y + 1), (int) z));
+						BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y + 1, z));
 						int _amount = (int) up;
 						if (_ent != null)
 							_ent.getCapability(CapabilityEnergy.ENERGY, Direction.DOWN)
 									.ifPresent(capability -> capability.receiveEnergy(_amount, false));
 					}
 					if (!world.isClientSide()) {
-						BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+						BlockPos _bp = new BlockPos(x, y, z);
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_blockEntity != null)
@@ -175,7 +175,7 @@ public class CoalGeneratorFuelProcedure {
 										return blockEntity.getTileData().getDouble(tag);
 									return -1;
 								}
-							}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel")) - up));
+							}.getValue(world, new BlockPos(x, y, z), "fuel")) - up));
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
@@ -187,7 +187,7 @@ public class CoalGeneratorFuelProcedure {
 								return blockEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel");
+					}.getValue(world, new BlockPos(x, y, z), "fuel");
 					up = new Object() {
 						public int receiveEnergySimulate(LevelAccessor level, BlockPos pos, int _amount) {
 							AtomicInteger _retval = new AtomicInteger(0);
@@ -197,16 +197,16 @@ public class CoalGeneratorFuelProcedure {
 										.ifPresent(capability -> _retval.set(capability.receiveEnergy(_amount, true)));
 							return _retval.get();
 						}
-					}.receiveEnergySimulate(world, new BlockPos((int) x, (int) (y + 1), (int) z), (int) up);
+					}.receiveEnergySimulate(world, new BlockPos(x, y + 1, z), (int) up);
 					{
-						BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) (y + 1), (int) z));
+						BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y + 1, z));
 						int _amount = (int) up;
 						if (_ent != null)
 							_ent.getCapability(CapabilityEnergy.ENERGY, Direction.DOWN)
 									.ifPresent(capability -> capability.receiveEnergy(_amount, false));
 					}
 					if (!world.isClientSide()) {
-						BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+						BlockPos _bp = new BlockPos(x, y, z);
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_blockEntity != null)
@@ -217,7 +217,7 @@ public class CoalGeneratorFuelProcedure {
 										return blockEntity.getTileData().getDouble(tag);
 									return -1;
 								}
-							}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel")) - up));
+							}.getValue(world, new BlockPos(x, y, z), "fuel")) - up));
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
@@ -231,18 +231,18 @@ public class CoalGeneratorFuelProcedure {
 						_ent.getCapability(CapabilityEnergy.ENERGY, Direction.EAST).ifPresent(capability -> _retval.set(capability.canReceive()));
 					return _retval.get();
 				}
-			}.canReceiveEnergy(world, new BlockPos((int) (x - 1), (int) y, (int) z)) && !((new Object() {
+			}.canReceiveEnergy(world, new BlockPos(x - 1, y, z)) && !((new Object() {
 				public Direction getDirection(BlockPos pos) {
 					BlockState _bs = world.getBlockState(pos);
 					Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
-					if (property != null && _bs.getValue(property)instanceof Direction _dir)
+					if (property != null && _bs.getValue(property) instanceof Direction _dir)
 						return _dir;
 					property = _bs.getBlock().getStateDefinition().getProperty("axis");
-					if (property != null && _bs.getValue(property)instanceof Direction.Axis _axis)
+					if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
 						return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
 					return Direction.NORTH;
 				}
-			}.getDirection(new BlockPos((int) x, (int) y, (int) z))) == Direction.WEST)) {
+			}.getDirection(new BlockPos(x, y, z))) == Direction.WEST)) {
 				if (new Object() {
 					public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 						BlockEntity blockEntity = world.getBlockEntity(pos);
@@ -250,7 +250,7 @@ public class CoalGeneratorFuelProcedure {
 							return blockEntity.getTileData().getDouble(tag);
 						return -1;
 					}
-				}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel") >= 20) {
+				}.getValue(world, new BlockPos(x, y, z), "fuel") >= 20) {
 					west = new Object() {
 						public int receiveEnergySimulate(LevelAccessor level, BlockPos pos, int _amount) {
 							AtomicInteger _retval = new AtomicInteger(0);
@@ -260,16 +260,16 @@ public class CoalGeneratorFuelProcedure {
 										.ifPresent(capability -> _retval.set(capability.receiveEnergy(_amount, true)));
 							return _retval.get();
 						}
-					}.receiveEnergySimulate(world, new BlockPos((int) (x - 1), (int) y, (int) z), 20);
+					}.receiveEnergySimulate(world, new BlockPos(x - 1, y, z), 20);
 					{
-						BlockEntity _ent = world.getBlockEntity(new BlockPos((int) (x - 1), (int) y, (int) z));
+						BlockEntity _ent = world.getBlockEntity(new BlockPos(x - 1, y, z));
 						int _amount = (int) west;
 						if (_ent != null)
 							_ent.getCapability(CapabilityEnergy.ENERGY, Direction.EAST)
 									.ifPresent(capability -> capability.receiveEnergy(_amount, false));
 					}
 					if (!world.isClientSide()) {
-						BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+						BlockPos _bp = new BlockPos(x, y, z);
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_blockEntity != null)
@@ -280,7 +280,7 @@ public class CoalGeneratorFuelProcedure {
 										return blockEntity.getTileData().getDouble(tag);
 									return -1;
 								}
-							}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel")) - west));
+							}.getValue(world, new BlockPos(x, y, z), "fuel")) - west));
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
@@ -292,7 +292,7 @@ public class CoalGeneratorFuelProcedure {
 								return blockEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel");
+					}.getValue(world, new BlockPos(x, y, z), "fuel");
 					west = new Object() {
 						public int receiveEnergySimulate(LevelAccessor level, BlockPos pos, int _amount) {
 							AtomicInteger _retval = new AtomicInteger(0);
@@ -302,16 +302,16 @@ public class CoalGeneratorFuelProcedure {
 										.ifPresent(capability -> _retval.set(capability.receiveEnergy(_amount, true)));
 							return _retval.get();
 						}
-					}.receiveEnergySimulate(world, new BlockPos((int) (x - 1), (int) y, (int) z), (int) west);
+					}.receiveEnergySimulate(world, new BlockPos(x - 1, y, z), (int) west);
 					{
-						BlockEntity _ent = world.getBlockEntity(new BlockPos((int) (x - 1), (int) y, (int) z));
+						BlockEntity _ent = world.getBlockEntity(new BlockPos(x - 1, y, z));
 						int _amount = (int) west;
 						if (_ent != null)
 							_ent.getCapability(CapabilityEnergy.ENERGY, Direction.EAST)
 									.ifPresent(capability -> capability.receiveEnergy(_amount, false));
 					}
 					if (!world.isClientSide()) {
-						BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+						BlockPos _bp = new BlockPos(x, y, z);
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_blockEntity != null)
@@ -322,7 +322,7 @@ public class CoalGeneratorFuelProcedure {
 										return blockEntity.getTileData().getDouble(tag);
 									return -1;
 								}
-							}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel")) - west));
+							}.getValue(world, new BlockPos(x, y, z), "fuel")) - west));
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
@@ -336,18 +336,18 @@ public class CoalGeneratorFuelProcedure {
 						_ent.getCapability(CapabilityEnergy.ENERGY, Direction.WEST).ifPresent(capability -> _retval.set(capability.canReceive()));
 					return _retval.get();
 				}
-			}.canReceiveEnergy(world, new BlockPos((int) (x + 1), (int) y, (int) z)) && !((new Object() {
+			}.canReceiveEnergy(world, new BlockPos(x + 1, y, z)) && !((new Object() {
 				public Direction getDirection(BlockPos pos) {
 					BlockState _bs = world.getBlockState(pos);
 					Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
-					if (property != null && _bs.getValue(property)instanceof Direction _dir)
+					if (property != null && _bs.getValue(property) instanceof Direction _dir)
 						return _dir;
 					property = _bs.getBlock().getStateDefinition().getProperty("axis");
-					if (property != null && _bs.getValue(property)instanceof Direction.Axis _axis)
+					if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
 						return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
 					return Direction.NORTH;
 				}
-			}.getDirection(new BlockPos((int) x, (int) y, (int) z))) == Direction.EAST)) {
+			}.getDirection(new BlockPos(x, y, z))) == Direction.EAST)) {
 				if (new Object() {
 					public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 						BlockEntity blockEntity = world.getBlockEntity(pos);
@@ -355,7 +355,7 @@ public class CoalGeneratorFuelProcedure {
 							return blockEntity.getTileData().getDouble(tag);
 						return -1;
 					}
-				}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel") >= 20) {
+				}.getValue(world, new BlockPos(x, y, z), "fuel") >= 20) {
 					east = new Object() {
 						public int receiveEnergySimulate(LevelAccessor level, BlockPos pos, int _amount) {
 							AtomicInteger _retval = new AtomicInteger(0);
@@ -365,16 +365,16 @@ public class CoalGeneratorFuelProcedure {
 										.ifPresent(capability -> _retval.set(capability.receiveEnergy(_amount, true)));
 							return _retval.get();
 						}
-					}.receiveEnergySimulate(world, new BlockPos((int) (x + 1), (int) y, (int) z), 20);
+					}.receiveEnergySimulate(world, new BlockPos(x + 1, y, z), 20);
 					{
-						BlockEntity _ent = world.getBlockEntity(new BlockPos((int) (x + 1), (int) y, (int) z));
+						BlockEntity _ent = world.getBlockEntity(new BlockPos(x + 1, y, z));
 						int _amount = (int) east;
 						if (_ent != null)
 							_ent.getCapability(CapabilityEnergy.ENERGY, Direction.WEST)
 									.ifPresent(capability -> capability.receiveEnergy(_amount, false));
 					}
 					if (!world.isClientSide()) {
-						BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+						BlockPos _bp = new BlockPos(x, y, z);
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_blockEntity != null)
@@ -385,7 +385,7 @@ public class CoalGeneratorFuelProcedure {
 										return blockEntity.getTileData().getDouble(tag);
 									return -1;
 								}
-							}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel")) - east));
+							}.getValue(world, new BlockPos(x, y, z), "fuel")) - east));
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
@@ -397,7 +397,7 @@ public class CoalGeneratorFuelProcedure {
 								return blockEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel");
+					}.getValue(world, new BlockPos(x, y, z), "fuel");
 					east = new Object() {
 						public int receiveEnergySimulate(LevelAccessor level, BlockPos pos, int _amount) {
 							AtomicInteger _retval = new AtomicInteger(0);
@@ -407,16 +407,16 @@ public class CoalGeneratorFuelProcedure {
 										.ifPresent(capability -> _retval.set(capability.receiveEnergy(_amount, true)));
 							return _retval.get();
 						}
-					}.receiveEnergySimulate(world, new BlockPos((int) (x + 1), (int) y, (int) z), (int) east);
+					}.receiveEnergySimulate(world, new BlockPos(x + 1, y, z), (int) east);
 					{
-						BlockEntity _ent = world.getBlockEntity(new BlockPos((int) (x + 1), (int) y, (int) z));
+						BlockEntity _ent = world.getBlockEntity(new BlockPos(x + 1, y, z));
 						int _amount = (int) east;
 						if (_ent != null)
 							_ent.getCapability(CapabilityEnergy.ENERGY, Direction.WEST)
 									.ifPresent(capability -> capability.receiveEnergy(_amount, false));
 					}
 					if (!world.isClientSide()) {
-						BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+						BlockPos _bp = new BlockPos(x, y, z);
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_blockEntity != null)
@@ -427,7 +427,7 @@ public class CoalGeneratorFuelProcedure {
 										return blockEntity.getTileData().getDouble(tag);
 									return -1;
 								}
-							}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel")) - east));
+							}.getValue(world, new BlockPos(x, y, z), "fuel")) - east));
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
@@ -441,18 +441,18 @@ public class CoalGeneratorFuelProcedure {
 						_ent.getCapability(CapabilityEnergy.ENERGY, Direction.SOUTH).ifPresent(capability -> _retval.set(capability.canReceive()));
 					return _retval.get();
 				}
-			}.canReceiveEnergy(world, new BlockPos((int) x, (int) y, (int) (z - 1))) && !((new Object() {
+			}.canReceiveEnergy(world, new BlockPos(x, y, z - 1)) && !((new Object() {
 				public Direction getDirection(BlockPos pos) {
 					BlockState _bs = world.getBlockState(pos);
 					Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
-					if (property != null && _bs.getValue(property)instanceof Direction _dir)
+					if (property != null && _bs.getValue(property) instanceof Direction _dir)
 						return _dir;
 					property = _bs.getBlock().getStateDefinition().getProperty("axis");
-					if (property != null && _bs.getValue(property)instanceof Direction.Axis _axis)
+					if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
 						return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
 					return Direction.NORTH;
 				}
-			}.getDirection(new BlockPos((int) x, (int) y, (int) z))) == Direction.NORTH)) {
+			}.getDirection(new BlockPos(x, y, z))) == Direction.NORTH)) {
 				if (new Object() {
 					public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 						BlockEntity blockEntity = world.getBlockEntity(pos);
@@ -460,7 +460,7 @@ public class CoalGeneratorFuelProcedure {
 							return blockEntity.getTileData().getDouble(tag);
 						return -1;
 					}
-				}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel") >= 20) {
+				}.getValue(world, new BlockPos(x, y, z), "fuel") >= 20) {
 					north = new Object() {
 						public int receiveEnergySimulate(LevelAccessor level, BlockPos pos, int _amount) {
 							AtomicInteger _retval = new AtomicInteger(0);
@@ -470,16 +470,16 @@ public class CoalGeneratorFuelProcedure {
 										.ifPresent(capability -> _retval.set(capability.receiveEnergy(_amount, true)));
 							return _retval.get();
 						}
-					}.receiveEnergySimulate(world, new BlockPos((int) x, (int) y, (int) (z - 1)), 20);
+					}.receiveEnergySimulate(world, new BlockPos(x, y, z - 1), 20);
 					{
-						BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) (z - 1)));
+						BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z - 1));
 						int _amount = (int) north;
 						if (_ent != null)
 							_ent.getCapability(CapabilityEnergy.ENERGY, Direction.SOUTH)
 									.ifPresent(capability -> capability.receiveEnergy(_amount, false));
 					}
 					if (!world.isClientSide()) {
-						BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+						BlockPos _bp = new BlockPos(x, y, z);
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_blockEntity != null)
@@ -490,7 +490,7 @@ public class CoalGeneratorFuelProcedure {
 										return blockEntity.getTileData().getDouble(tag);
 									return -1;
 								}
-							}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel")) - north));
+							}.getValue(world, new BlockPos(x, y, z), "fuel")) - north));
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
@@ -502,7 +502,7 @@ public class CoalGeneratorFuelProcedure {
 								return blockEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel");
+					}.getValue(world, new BlockPos(x, y, z), "fuel");
 					north = new Object() {
 						public int receiveEnergySimulate(LevelAccessor level, BlockPos pos, int _amount) {
 							AtomicInteger _retval = new AtomicInteger(0);
@@ -512,16 +512,16 @@ public class CoalGeneratorFuelProcedure {
 										.ifPresent(capability -> _retval.set(capability.receiveEnergy(_amount, true)));
 							return _retval.get();
 						}
-					}.receiveEnergySimulate(world, new BlockPos((int) x, (int) y, (int) (z - 1)), (int) north);
+					}.receiveEnergySimulate(world, new BlockPos(x, y, z - 1), (int) north);
 					{
-						BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) (z - 1)));
+						BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z - 1));
 						int _amount = (int) north;
 						if (_ent != null)
 							_ent.getCapability(CapabilityEnergy.ENERGY, Direction.SOUTH)
 									.ifPresent(capability -> capability.receiveEnergy(_amount, false));
 					}
 					if (!world.isClientSide()) {
-						BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+						BlockPos _bp = new BlockPos(x, y, z);
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_blockEntity != null)
@@ -532,7 +532,7 @@ public class CoalGeneratorFuelProcedure {
 										return blockEntity.getTileData().getDouble(tag);
 									return -1;
 								}
-							}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel")) - north));
+							}.getValue(world, new BlockPos(x, y, z), "fuel")) - north));
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
@@ -546,18 +546,18 @@ public class CoalGeneratorFuelProcedure {
 						_ent.getCapability(CapabilityEnergy.ENERGY, Direction.NORTH).ifPresent(capability -> _retval.set(capability.canReceive()));
 					return _retval.get();
 				}
-			}.canReceiveEnergy(world, new BlockPos((int) x, (int) y, (int) (z + 1))) && !((new Object() {
+			}.canReceiveEnergy(world, new BlockPos(x, y, z + 1)) && !((new Object() {
 				public Direction getDirection(BlockPos pos) {
 					BlockState _bs = world.getBlockState(pos);
 					Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
-					if (property != null && _bs.getValue(property)instanceof Direction _dir)
+					if (property != null && _bs.getValue(property) instanceof Direction _dir)
 						return _dir;
 					property = _bs.getBlock().getStateDefinition().getProperty("axis");
-					if (property != null && _bs.getValue(property)instanceof Direction.Axis _axis)
+					if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
 						return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
 					return Direction.NORTH;
 				}
-			}.getDirection(new BlockPos((int) x, (int) y, (int) z))) == Direction.SOUTH)) {
+			}.getDirection(new BlockPos(x, y, z))) == Direction.SOUTH)) {
 				if (new Object() {
 					public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 						BlockEntity blockEntity = world.getBlockEntity(pos);
@@ -565,7 +565,7 @@ public class CoalGeneratorFuelProcedure {
 							return blockEntity.getTileData().getDouble(tag);
 						return -1;
 					}
-				}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel") >= 20) {
+				}.getValue(world, new BlockPos(x, y, z), "fuel") >= 20) {
 					south = new Object() {
 						public int receiveEnergySimulate(LevelAccessor level, BlockPos pos, int _amount) {
 							AtomicInteger _retval = new AtomicInteger(0);
@@ -575,16 +575,16 @@ public class CoalGeneratorFuelProcedure {
 										.ifPresent(capability -> _retval.set(capability.receiveEnergy(_amount, true)));
 							return _retval.get();
 						}
-					}.receiveEnergySimulate(world, new BlockPos((int) x, (int) y, (int) (z + 1)), 20);
+					}.receiveEnergySimulate(world, new BlockPos(x, y, z + 1), 20);
 					{
-						BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) (z + 1)));
+						BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z + 1));
 						int _amount = (int) south;
 						if (_ent != null)
 							_ent.getCapability(CapabilityEnergy.ENERGY, Direction.NORTH)
 									.ifPresent(capability -> capability.receiveEnergy(_amount, false));
 					}
 					if (!world.isClientSide()) {
-						BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+						BlockPos _bp = new BlockPos(x, y, z);
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_blockEntity != null)
@@ -595,7 +595,7 @@ public class CoalGeneratorFuelProcedure {
 										return blockEntity.getTileData().getDouble(tag);
 									return -1;
 								}
-							}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel")) - south));
+							}.getValue(world, new BlockPos(x, y, z), "fuel")) - south));
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
@@ -607,7 +607,7 @@ public class CoalGeneratorFuelProcedure {
 								return blockEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel");
+					}.getValue(world, new BlockPos(x, y, z), "fuel");
 					south = new Object() {
 						public int receiveEnergySimulate(LevelAccessor level, BlockPos pos, int _amount) {
 							AtomicInteger _retval = new AtomicInteger(0);
@@ -617,16 +617,16 @@ public class CoalGeneratorFuelProcedure {
 										.ifPresent(capability -> _retval.set(capability.receiveEnergy(_amount, true)));
 							return _retval.get();
 						}
-					}.receiveEnergySimulate(world, new BlockPos((int) x, (int) y, (int) (z + 1)), (int) south);
+					}.receiveEnergySimulate(world, new BlockPos(x, y, z + 1), (int) south);
 					{
-						BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) (z + 1)));
+						BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z + 1));
 						int _amount = (int) south;
 						if (_ent != null)
 							_ent.getCapability(CapabilityEnergy.ENERGY, Direction.NORTH)
 									.ifPresent(capability -> capability.receiveEnergy(_amount, false));
 					}
 					if (!world.isClientSide()) {
-						BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+						BlockPos _bp = new BlockPos(x, y, z);
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_blockEntity != null)
@@ -637,27 +637,25 @@ public class CoalGeneratorFuelProcedure {
 										return blockEntity.getTileData().getDouble(tag);
 									return -1;
 								}
-							}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "fuel")) - south));
+							}.getValue(world, new BlockPos(x, y, z), "fuel")) - south));
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
 				}
 			}
 		} else {
-			if (ItemTags.getAllTags().getTagOrEmpty(new ResourceLocation("earth_pulsation:as_coal_tag")).contains((new Object() {
-				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int sltid) {
+			if ((new Object() {
+				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
-					if (_ent != null) {
-						_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-							_retval.set(capability.getStackInSlot(sltid).copy());
-						});
-					}
+					if (_ent != null)
+						_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+								.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 0)).getItem())) {
+			}.getItemStack(world, new BlockPos(x, y, z), 0)).is(ItemTags.create(new ResourceLocation("earth_pulsation:as_coal_tag")))) {
 				if (!world.isClientSide()) {
-					BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+					BlockPos _bp = new BlockPos(x, y, z);
 					BlockEntity _blockEntity = world.getBlockEntity(_bp);
 					BlockState _bs = world.getBlockState(_bp);
 					if (_blockEntity != null)
@@ -666,33 +664,31 @@ public class CoalGeneratorFuelProcedure {
 						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 				}
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
+					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
 					if (_ent != null) {
-						final int _sltid = 0;
+						final int _slotid = 0;
 						final int _amount = 1;
 						_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 							if (capability instanceof IItemHandlerModifiable) {
-								ItemStack _stk = capability.getStackInSlot(_sltid).copy();
+								ItemStack _stk = capability.getStackInSlot(_slotid).copy();
 								_stk.shrink(_amount);
-								((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _stk);
+								((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
 							}
 						});
 					}
 				}
-			} else if (ItemTags.getAllTags().getTagOrEmpty(new ResourceLocation("earth_pulsation:as_coal_block_tag")).contains((new Object() {
-				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int sltid) {
+			} else if ((new Object() {
+				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
-					if (_ent != null) {
-						_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-							_retval.set(capability.getStackInSlot(sltid).copy());
-						});
-					}
+					if (_ent != null)
+						_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+								.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 0)).getItem())) {
+			}.getItemStack(world, new BlockPos(x, y, z), 0)).is(ItemTags.create(new ResourceLocation("earth_pulsation:as_coal_block_tag")))) {
 				if (!world.isClientSide()) {
-					BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+					BlockPos _bp = new BlockPos(x, y, z);
 					BlockEntity _blockEntity = world.getBlockEntity(_bp);
 					BlockState _bs = world.getBlockState(_bp);
 					if (_blockEntity != null)
@@ -701,15 +697,15 @@ public class CoalGeneratorFuelProcedure {
 						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 				}
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos((int) x, (int) y, (int) z));
+					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
 					if (_ent != null) {
-						final int _sltid = 0;
+						final int _slotid = 0;
 						final int _amount = 1;
 						_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 							if (capability instanceof IItemHandlerModifiable) {
-								ItemStack _stk = capability.getStackInSlot(_sltid).copy();
+								ItemStack _stk = capability.getStackInSlot(_slotid).copy();
 								_stk.shrink(_amount);
-								((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _stk);
+								((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
 							}
 						});
 					}

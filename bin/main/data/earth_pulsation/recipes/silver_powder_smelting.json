@@ -5,7 +5,5 @@
   "ingredient": {
     "item": "earth_pulsation:silver_powder"
   },
-  "result": {
-    "item": "earth_pulsation:silver_ingot"
-  }
+  "result": "earth_pulsation:silver_ingot"
 }

@@ -1,0 +1,10 @@
+{
+  "parent": "earth_pulsation:custom/wooden_chair",
+  "textures": {
+    "all": "earth_pulsation:blocks/wooden_box",
+    "particle": "earth_pulsation:blocks/wooden_box",
+    "0": "earth_pulsation:blocks/wooden_planks",
+    "2": "earth_pulsation:blocks/wooden_block",
+    "3": "earth_pulsation:blocks/wooden_door_top"
+  }
+}

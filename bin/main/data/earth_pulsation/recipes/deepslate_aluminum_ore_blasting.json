@@ -5,7 +5,5 @@
   "ingredient": {
     "item": "earth_pulsation:deepslate_aluminum_ore"
   },
-  "result": {
-    "item": "earth_pulsation:aluminum_ingot"
-  }
+  "result": "earth_pulsation:aluminum_ingot"
 }

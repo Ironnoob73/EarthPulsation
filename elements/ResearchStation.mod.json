@@ -1,5 +1,5 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "block",
   "definition": {
     "texture": "forging_table_l1_bottom",
@@ -82,17 +82,17 @@
     "breakSound": {
       "value": "block.metal.break"
     },
-    "stepSound": {
-      "value": "block.wood.step"
-    },
-    "placeSound": {
-      "value": "block.metal.place"
+    "fallSound": {
+      "value": "block.wood.fall"
     },
     "hitSound": {
       "value": "block.metal.hit"
     },
-    "fallSound": {
-      "value": "block.wood.fall"
+    "placeSound": {
+      "value": "block.metal.place"
+    },
+    "stepSound": {
+      "value": "block.wood.step"
     },
     "luminance": 0,
     "unbreakable": false,
@@ -130,6 +130,7 @@
         "value": "Blocks.STONE"
       }
     ],
+    "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,

@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "earth_pulsation:chiseled_white_light_lab_block",
+    "earth_pulsation:white_light_lab_block",
+    "earth_pulsation:chiseled_mixed_light_lab_block_a_stair",
+    "earth_pulsation:chiseled_white_light_lab_block_stair",
+    "earth_pulsation:blue_light_lab_block",
+    "earth_pulsation:chiseled_blue_light_lab_block",
+    "earth_pulsation:chiseled_blue_light_lab_block_stair",
+    "earth_pulsation:chiseled_mixed_light_lab_block_b_stair",
+    "earth_pulsation:chiseled_mixed_light_lab_block_a",
+    "earth_pulsation:chiseled_mixed_light_lab_block_b"
+  ]
+}

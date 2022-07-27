@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "minecraft:deepslate_bricks"
+  },
+  "result": "earth_pulsation:deepslate_ingot"
+}

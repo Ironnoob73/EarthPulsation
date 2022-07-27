@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "earth_pulsation:stone_ingot"
+    },
+    {
+      "item": "earth_pulsation:stone_ingot"
+    },
+    {
+      "item": "earth_pulsation:stone_ingot"
+    },
+    {
+      "item": "earth_pulsation:stone_ingot"
+    }
+  ],
+  "result": {
+    "item": "minecraft:stone_bricks",
+    "count": 1
+  }
+}

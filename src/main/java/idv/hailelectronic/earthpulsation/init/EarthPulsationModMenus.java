@@ -4,7 +4,7 @@
  */
 package idv.hailelectronic.earthpulsation.init;
 
-import net.minecraftforge.fmllegacy.network.IContainerFactory;
+import net.minecraftforge.network.IContainerFactory;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
@@ -15,17 +15,9 @@ import net.minecraft.world.inventory.AbstractContainerMenu;
 import java.util.List;
 import java.util.ArrayList;
 
-import idv.hailelectronic.earthpulsation.world.inventory.ResearchStationGUIMenu;
-import idv.hailelectronic.earthpulsation.world.inventory.RefinerGuiMenu;
 import idv.hailelectronic.earthpulsation.world.inventory.PDARegisterMenu;
-import idv.hailelectronic.earthpulsation.world.inventory.PDAGuiTestMenu;
-import idv.hailelectronic.earthpulsation.world.inventory.PDAGuiHomeMenu;
-import idv.hailelectronic.earthpulsation.world.inventory.PDAGUITMenu;
-import idv.hailelectronic.earthpulsation.world.inventory.GrinderGuiMenu;
-import idv.hailelectronic.earthpulsation.world.inventory.ForgingTableL1GMenu;
 import idv.hailelectronic.earthpulsation.world.inventory.CoalGeneratorGUIMenu;
 import idv.hailelectronic.earthpulsation.world.inventory.BatteryGuiMenu;
-import idv.hailelectronic.earthpulsation.world.inventory.BasinGuiMenu;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class EarthPulsationModMenus {

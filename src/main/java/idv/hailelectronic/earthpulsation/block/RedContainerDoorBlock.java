@@ -29,7 +29,6 @@ public class RedContainerDoorBlock extends DoorBlock {
 	public RedContainerDoorBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(7f, 10f).requiresCorrectToolForDrops().noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
-		setRegistryName("red_container_door");
 	}
 
 	@Override
@@ -39,7 +38,7 @@ public class RedContainerDoorBlock extends DoorBlock {
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 2;
 		return false;
 	}
@@ -56,6 +55,6 @@ public class RedContainerDoorBlock extends DoorBlock {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(EarthPulsationModBlocks.RED_CONTAINER_DOOR, renderType -> renderType == RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(EarthPulsationModBlocks.RED_CONTAINER_DOOR.get(), renderType -> renderType == RenderType.cutout());
 	}
 }

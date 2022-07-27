@@ -19,8 +19,8 @@ import java.util.Collections;
 
 public class NickelOreBlock extends Block {
 	public NickelOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(10f, 20f).requiresCorrectToolForDrops().speedFactor(0.9f));
-		setRegistryName("nickel_ore");
+		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_YELLOW).sound(SoundType.METAL).strength(10f, 20f)
+				.requiresCorrectToolForDrops().speedFactor(0.9f));
 	}
 
 	@Override
@@ -29,13 +29,8 @@ public class NickelOreBlock extends Block {
 	}
 
 	@Override
-	public MaterialColor defaultMaterialColor() {
-		return MaterialColor.COLOR_YELLOW;
-	}
-
-	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 2;
 		return false;
 	}

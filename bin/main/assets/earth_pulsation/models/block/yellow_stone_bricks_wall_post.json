@@ -1,7 +1,0 @@
-{
-  "parent": "block/template_wall_post",
-  "textures": {
-    "wall": "earth_pulsation:blocks/yellow_stonebrick",
-    "particle": "earth_pulsation:blocks/yellow_stonebrick"
-  }
-}

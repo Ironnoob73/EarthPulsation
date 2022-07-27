@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "1": {
+      "item": "earth_pulsation:aluminum_plate"
+    },
+    "2": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "3": {
+      "item": "earth_pulsation:aluminum_plate"
+    },
+    "5": {
+      "item": "earth_pulsation:aluminum_plate"
+    },
+    "6": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "7": {
+      "item": "earth_pulsation:aluminum_plate"
+    },
+    "8": {
+      "item": "minecraft:light_blue_dye"
+    }
+  },
+  "result": {
+    "item": "earth_pulsation:blue_light_lab_block",
+    "count": 32
+  }
+}

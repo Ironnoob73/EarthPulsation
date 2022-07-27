@@ -22,18 +22,12 @@ import java.util.Collections;
 
 public class BlazingDirtBlock extends Block {
 	public BlazingDirtBlock() {
-		super(BlockBehaviour.Properties.of(Material.DIRT).sound(SoundType.GRAVEL).strength(1f).requiresCorrectToolForDrops());
-		setRegistryName("blazing_dirt");
+		super(BlockBehaviour.Properties.of(Material.DIRT, MaterialColor.DIRT).sound(SoundType.GRAVEL).strength(1f).requiresCorrectToolForDrops());
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
-	}
-
-	@Override
-	public MaterialColor defaultMaterialColor() {
-		return MaterialColor.DIRT;
 	}
 
 	@Override
@@ -43,7 +37,7 @@ public class BlazingDirtBlock extends Block {
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 0;
 		return false;
 	}

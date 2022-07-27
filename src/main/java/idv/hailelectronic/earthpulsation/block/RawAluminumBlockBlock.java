@@ -19,7 +19,6 @@ import java.util.Collections;
 public class RawAluminumBlockBlock extends Block {
 	public RawAluminumBlockBlock() {
 		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(5f, 6f).requiresCorrectToolForDrops());
-		setRegistryName("raw_aluminum_block");
 	}
 
 	@Override
@@ -29,7 +28,7 @@ public class RawAluminumBlockBlock extends Block {
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 1;
 		return false;
 	}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "earth_pulsation:chiseled_mixed_light_lab_block_a_slab",
+    "earth_pulsation:chiseled_mixed_light_lab_block_b_slab",
+    "earth_pulsation:chiseled_blue_light_lab_block_slab",
+    "earth_pulsation:chiseled_white_light_lab_block_slab"
+  ]
+}

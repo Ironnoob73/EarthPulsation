@@ -24,7 +24,6 @@ import idv.hailelectronic.earthpulsation.entity.SamjungNote7Entity;
 public class SamjungNote7Item extends Item {
 	public SamjungNote7Item() {
 		super(new Item.Properties().tab(EarthPulsationModTabs.TAB_EARTH_PULSATION).durability(1));
-		setRegistryName("samjung_note_7");
 	}
 
 	@Override
@@ -38,8 +37,8 @@ public class SamjungNote7Item extends Item {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(new TextComponent("Explosive"));
 		list.add(new TextComponent("use with caution"));
-		list.add(new TextComponent("\u6613\u7206"));
-		list.add(new TextComponent("\u8C28\u614E\u4F7F\u7528"));
+		list.add(new TextComponent("\uFFFD\u05F1\uFFFD"));
+		list.add(new TextComponent("\uFFFD\uFFFD\uFFFD\uFFFD\u02B9\uFFFD\uFFFD"));
 	}
 
 	@Override

@@ -1,5 +1,5 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "rangeditem",
   "definition": {
     "renderType": 0,
@@ -9,8 +9,8 @@
     "specialInfo": [
       "Explosive",
       "use with caution",
-      "Ò×±¬",
-      "½÷É÷Ê¹ÓÃ"
+      "ï¿½×±ï¿½",
+      "ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½"
     ],
     "creativeTab": {
       "value": "CUSTOM:EarthPulsation"

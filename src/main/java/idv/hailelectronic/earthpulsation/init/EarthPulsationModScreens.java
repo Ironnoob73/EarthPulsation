@@ -11,17 +11,9 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
-import idv.hailelectronic.earthpulsation.client.gui.ResearchStationGUIScreen;
-import idv.hailelectronic.earthpulsation.client.gui.RefinerGuiScreen;
 import idv.hailelectronic.earthpulsation.client.gui.PDARegisterScreen;
-import idv.hailelectronic.earthpulsation.client.gui.PDAGuiTestScreen;
-import idv.hailelectronic.earthpulsation.client.gui.PDAGuiHomeScreen;
-import idv.hailelectronic.earthpulsation.client.gui.PDAGUITScreen;
-import idv.hailelectronic.earthpulsation.client.gui.GrinderGuiScreen;
-import idv.hailelectronic.earthpulsation.client.gui.ForgingTableL1GScreen;
 import idv.hailelectronic.earthpulsation.client.gui.CoalGeneratorGUIScreen;
 import idv.hailelectronic.earthpulsation.client.gui.BatteryGuiScreen;
-import idv.hailelectronic.earthpulsation.client.gui.BasinGuiScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class EarthPulsationModScreens {

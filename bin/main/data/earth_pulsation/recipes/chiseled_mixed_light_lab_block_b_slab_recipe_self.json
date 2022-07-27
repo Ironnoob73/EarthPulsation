@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "earth_pulsation:light_lab_block_slab"
+  },
+  "result": "earth_pulsation:chiseled_mixed_light_lab_block_b_slab"
+}

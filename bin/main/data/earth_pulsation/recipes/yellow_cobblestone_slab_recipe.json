@@ -1,9 +1,0 @@
-{
-  "group": "yellow_stone",
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "earth_pulsation:yellow_cobblestone"
-  },
-  "result": "earth_pulsation:yellow_cobblestone_slab"
-}

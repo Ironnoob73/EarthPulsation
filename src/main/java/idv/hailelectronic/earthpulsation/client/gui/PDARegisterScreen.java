@@ -12,6 +12,8 @@ import net.minecraft.client.gui.components.Checkbox;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
+import java.util.HashMap;
+
 import idv.hailelectronic.earthpulsation.world.inventory.PDARegisterMenu;
 import idv.hailelectronic.earthpulsation.network.PDARegisterButtonMessage;
 import idv.hailelectronic.earthpulsation.EarthPulsationMod;
@@ -20,6 +22,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
 public class PDARegisterScreen extends AbstractContainerScreen<PDARegisterMenu> {
+	private final static HashMap<String, Object> guistate = PDARegisterMenu.guistate;
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
@@ -92,7 +95,7 @@ public class PDARegisterScreen extends AbstractContainerScreen<PDARegisterMenu> 
 		this.addRenderableWidget(new Button(this.leftPos + -40, this.topPos + 200, 30, 20, new TextComponent("Back"), e -> {
 		}));
 		H = new Checkbox(this.leftPos + 69, this.topPos + 202, 150, 20, new TextComponent(""), false);
-		PDARegisterMenu.guistate.put("checkbox:H", H);
+		guistate.put("checkbox:H", H);
 		this.addRenderableWidget(H);
 		this.addRenderableWidget(new Button(this.leftPos + 15, this.topPos + 32, 70, 20, new TextComponent("Test page"), e -> {
 			if (true) {

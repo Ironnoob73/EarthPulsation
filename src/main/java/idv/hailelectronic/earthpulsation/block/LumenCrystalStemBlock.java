@@ -1,6 +1,8 @@
 
 package idv.hailelectronic.earthpulsation.block;
 
+import org.checkerframework.checker.units.qual.s;
+
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -47,11 +49,10 @@ public class LumenCrystalStemBlock extends Block implements SimpleWaterloggedBlo
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 	public LumenCrystalStemBlock() {
-		super(BlockBehaviour.Properties.of(Material.GLASS).sound(SoundType.GLASS).strength(2f).lightLevel(s -> 10).requiresCorrectToolForDrops()
-				.noOcclusion().randomTicks().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)
-				.isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.COLOR_YELLOW).sound(SoundType.GLASS).strength(2f).lightLevel(s -> 10)
+				.requiresCorrectToolForDrops().noOcclusion().randomTicks().hasPostProcess((bs, br, bp) -> true)
+				.emissiveRendering((bs, br, bp) -> true).isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(WATERLOGGED, false));
-		setRegistryName("lumen_crystal_stem");
 	}
 
 	@Override
@@ -95,14 +96,9 @@ public class LumenCrystalStemBlock extends Block implements SimpleWaterloggedBlo
 	public BlockState updateShape(BlockState state, Direction facing, BlockState facingState, LevelAccessor world, BlockPos currentPos,
 			BlockPos facingPos) {
 		if (state.getValue(WATERLOGGED)) {
-			world.getLiquidTicks().scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickDelay(world));
+			world.scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickDelay(world));
 		}
 		return super.updateShape(state, facing, facingState, world, currentPos, facingPos);
-	}
-
-	@Override
-	public MaterialColor defaultMaterialColor() {
-		return MaterialColor.COLOR_YELLOW;
 	}
 
 	@Override
@@ -112,7 +108,7 @@ public class LumenCrystalStemBlock extends Block implements SimpleWaterloggedBlo
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 1;
 		return false;
 	}
@@ -143,6 +139,6 @@ public class LumenCrystalStemBlock extends Block implements SimpleWaterloggedBlo
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(EarthPulsationModBlocks.LUMEN_CRYSTAL_STEM, renderType -> renderType == RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(EarthPulsationModBlocks.LUMEN_CRYSTAL_STEM.get(), renderType -> renderType == RenderType.cutout());
 	}
 }

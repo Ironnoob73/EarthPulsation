@@ -26,7 +26,6 @@ import idv.hailelectronic.earthpulsation.init.EarthPulsationModBlocks;
 public class BrownResinGlassPaneBlock extends IronBarsBlock {
 	public BrownResinGlassPaneBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1.5f, 6f).requiresCorrectToolForDrops());
-		setRegistryName("brown_resin_glass_pane");
 	}
 
 	@Override
@@ -36,7 +35,7 @@ public class BrownResinGlassPaneBlock extends IronBarsBlock {
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 1;
 		return false;
 	}
@@ -51,7 +50,8 @@ public class BrownResinGlassPaneBlock extends IronBarsBlock {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(EarthPulsationModBlocks.BROWN_RESIN_GLASS_PANE, renderType -> renderType == RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer(EarthPulsationModBlocks.BROWN_RESIN_GLASS_PANE.get(),
+				renderType -> renderType == RenderType.translucent());
 	}
 
 }

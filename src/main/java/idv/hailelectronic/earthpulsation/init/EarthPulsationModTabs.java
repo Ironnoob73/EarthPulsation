@@ -17,7 +17,7 @@ public class EarthPulsationModTabs {
 		TAB_EARTH_PULSATION = new CreativeModeTab("tabearth_pulsation") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(EarthPulsationModItems.EMPTY_YELLOW_STONE_RUNE);
+				return new ItemStack(EarthPulsationModItems.EMPTY_YELLOW_STONE_RUNE.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)

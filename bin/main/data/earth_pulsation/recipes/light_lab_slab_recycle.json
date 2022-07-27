@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "earth_pulsation:light_lab_block_slab"
+    },
+    {
+      "tag": "earth_pulsation:light_lab_block_slab"
+    }
+  ],
+  "result": {
+    "item": "earth_pulsation:chiseled_mixed_light_lab_block_a",
+    "count": 1
+  }
+}

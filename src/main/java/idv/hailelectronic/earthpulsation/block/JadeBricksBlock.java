@@ -17,7 +17,6 @@ import java.util.Collections;
 public class JadeBricksBlock extends Block {
 	public JadeBricksBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(2f, 6f));
-		setRegistryName("jade_bricks");
 	}
 
 	@Override

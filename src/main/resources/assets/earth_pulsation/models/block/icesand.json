@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "earth_pulsation:blocks/ice_sand",
-    "particle": "earth_pulsation:blocks/ice_sand"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "group": "yellow_stone",
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "earth_pulsation:chiseled_yellow_stone_bricks"
-  },
-  "result": "earth_pulsation:chiseled_yellow_stone_bricks_slab"
-}

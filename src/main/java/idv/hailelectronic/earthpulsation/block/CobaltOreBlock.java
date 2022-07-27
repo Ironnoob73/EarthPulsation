@@ -20,18 +20,13 @@ import java.util.Collections;
 
 public class CobaltOreBlock extends Block {
 	public CobaltOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(10f, 20f).requiresCorrectToolForDrops().speedFactor(0.9f));
-		setRegistryName("cobalt_ore");
+		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_PINK).sound(SoundType.STONE).strength(10f, 20f)
+				.requiresCorrectToolForDrops().speedFactor(0.9f));
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
-	}
-
-	@Override
-	public MaterialColor defaultMaterialColor() {
-		return MaterialColor.COLOR_PINK;
 	}
 
 	@Override
@@ -41,7 +36,7 @@ public class CobaltOreBlock extends Block {
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 2;
 		return false;
 	}

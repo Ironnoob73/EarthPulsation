@@ -1,7 +1,7 @@
 
 package idv.hailelectronic.earthpulsation.block;
 
-import net.minecraftforge.fmllegacy.network.NetworkHooks;
+import net.minecraftforge.network.NetworkHooks;
 
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootContext;
@@ -42,8 +42,8 @@ public class BatteryBlockBlock extends Block
 
 			EntityBlock {
 	public BatteryBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(4f, 6f).requiresCorrectToolForDrops());
-		setRegistryName("battery_block");
+		super(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.METAL).sound(SoundType.METAL).strength(4f, 6f)
+				.requiresCorrectToolForDrops());
 	}
 
 	@Override
@@ -52,13 +52,8 @@ public class BatteryBlockBlock extends Block
 	}
 
 	@Override
-	public MaterialColor defaultMaterialColor() {
-		return MaterialColor.METAL;
-	}
-
-	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 2;
 		return false;
 	}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "earth_pulsation:blocks/polished_larvikite",
+    "top": "earth_pulsation:blocks/polished_larvikite",
+    "side": "earth_pulsation:blocks/polished_larvikite"
+  }
+}

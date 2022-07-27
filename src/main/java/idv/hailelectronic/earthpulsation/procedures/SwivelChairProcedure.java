@@ -16,14 +16,14 @@ public class SwivelChairProcedure {
 			public Direction getDirection(BlockPos pos) {
 				BlockState _bs = world.getBlockState(pos);
 				Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
-				if (property != null && _bs.getValue(property)instanceof Direction _dir)
+				if (property != null && _bs.getValue(property) instanceof Direction _dir)
 					return _dir;
 				property = _bs.getBlock().getStateDefinition().getProperty("axis");
-				if (property != null && _bs.getValue(property)instanceof Direction.Axis _axis)
+				if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
 					return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
 				return Direction.NORTH;
 			}
-		}.getDirection(new BlockPos((int) x, (int) y, (int) z))) == Direction.SOUTH) {
+		}.getDirection(new BlockPos(x, y, z))) == Direction.SOUTH) {
 			{
 				Entity _ent = entity;
 				_ent.setYRot(0);
@@ -41,14 +41,14 @@ public class SwivelChairProcedure {
 			public Direction getDirection(BlockPos pos) {
 				BlockState _bs = world.getBlockState(pos);
 				Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
-				if (property != null && _bs.getValue(property)instanceof Direction _dir)
+				if (property != null && _bs.getValue(property) instanceof Direction _dir)
 					return _dir;
 				property = _bs.getBlock().getStateDefinition().getProperty("axis");
-				if (property != null && _bs.getValue(property)instanceof Direction.Axis _axis)
+				if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
 					return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
 				return Direction.NORTH;
 			}
-		}.getDirection(new BlockPos((int) x, (int) y, (int) z))) == Direction.NORTH) {
+		}.getDirection(new BlockPos(x, y, z))) == Direction.NORTH) {
 			{
 				Entity _ent = entity;
 				_ent.setYRot(180);
@@ -66,14 +66,14 @@ public class SwivelChairProcedure {
 			public Direction getDirection(BlockPos pos) {
 				BlockState _bs = world.getBlockState(pos);
 				Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
-				if (property != null && _bs.getValue(property)instanceof Direction _dir)
+				if (property != null && _bs.getValue(property) instanceof Direction _dir)
 					return _dir;
 				property = _bs.getBlock().getStateDefinition().getProperty("axis");
-				if (property != null && _bs.getValue(property)instanceof Direction.Axis _axis)
+				if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
 					return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
 				return Direction.NORTH;
 			}
-		}.getDirection(new BlockPos((int) x, (int) y, (int) z))) == Direction.EAST) {
+		}.getDirection(new BlockPos(x, y, z))) == Direction.EAST) {
 			{
 				Entity _ent = entity;
 				_ent.setYRot(-90);
@@ -91,14 +91,14 @@ public class SwivelChairProcedure {
 			public Direction getDirection(BlockPos pos) {
 				BlockState _bs = world.getBlockState(pos);
 				Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
-				if (property != null && _bs.getValue(property)instanceof Direction _dir)
+				if (property != null && _bs.getValue(property) instanceof Direction _dir)
 					return _dir;
 				property = _bs.getBlock().getStateDefinition().getProperty("axis");
-				if (property != null && _bs.getValue(property)instanceof Direction.Axis _axis)
+				if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
 					return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
 				return Direction.NORTH;
 			}
-		}.getDirection(new BlockPos((int) x, (int) y, (int) z))) == Direction.WEST) {
+		}.getDirection(new BlockPos(x, y, z))) == Direction.WEST) {
 			{
 				Entity _ent = entity;
 				_ent.setYRot(90);

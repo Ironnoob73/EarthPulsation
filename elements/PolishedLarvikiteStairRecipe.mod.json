@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 6,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PolishedLarvikite"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PolishedLarvikite"
+      },
+      {
+        "value": "CUSTOM:PolishedLarvikite"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PolishedLarvikite"
+      },
+      {
+        "value": "CUSTOM:PolishedLarvikite"
+      },
+      {
+        "value": "CUSTOM:PolishedLarvikite"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PolishedLarvikiteStair"
+    },
+    "name": "polished_larvikite_stair_recipe",
+    "namespace": "mod"
+  }
+}

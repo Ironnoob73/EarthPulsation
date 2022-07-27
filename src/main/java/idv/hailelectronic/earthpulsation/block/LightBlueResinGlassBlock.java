@@ -28,7 +28,6 @@ public class LightBlueResinGlassBlock extends Block {
 	public LightBlueResinGlassBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1.5f, 6f).requiresCorrectToolForDrops().noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
-		setRegistryName("light_blue_resin_glass");
 	}
 
 	@Override
@@ -43,7 +42,7 @@ public class LightBlueResinGlassBlock extends Block {
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 1;
 		return false;
 	}
@@ -58,7 +57,8 @@ public class LightBlueResinGlassBlock extends Block {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(EarthPulsationModBlocks.LIGHT_BLUE_RESIN_GLASS, renderType -> renderType == RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer(EarthPulsationModBlocks.LIGHT_BLUE_RESIN_GLASS.get(),
+				renderType -> renderType == RenderType.translucent());
 	}
 
 }

@@ -22,18 +22,13 @@ import idv.hailelectronic.earthpulsation.init.EarthPulsationModBlocks;
 
 public class LarvikiteBlock extends Block {
 	public LarvikiteBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 15f).requiresCorrectToolForDrops().speedFactor(0.9f));
-		setRegistryName("larvikite");
+		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_ORANGE).sound(SoundType.STONE).strength(5f, 15f)
+				.requiresCorrectToolForDrops().speedFactor(0.9f));
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
-	}
-
-	@Override
-	public MaterialColor defaultMaterialColor() {
-		return MaterialColor.TERRACOTTA_ORANGE;
 	}
 
 	@Override
@@ -43,7 +38,7 @@ public class LarvikiteBlock extends Block {
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 1;
 		return false;
 	}
@@ -53,6 +48,6 @@ public class LarvikiteBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(EarthPulsationModBlocks.YELLOW_COBBLESTONE));
+		return Collections.singletonList(new ItemStack(EarthPulsationModBlocks.YELLOW_COBBLESTONE.get()));
 	}
 }

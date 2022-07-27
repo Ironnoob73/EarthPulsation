@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "earth_pulsation:light_lab_block"
+    },
+    {
+      "tag": "earth_pulsation:light_lab_block"
+    },
+    {
+      "tag": "earth_pulsation:light_lab_block"
+    },
+    {
+      "tag": "earth_pulsation:light_lab_block"
+    },
+    {
+      "tag": "earth_pulsation:light_lab_block"
+    },
+    {
+      "tag": "earth_pulsation:light_lab_block"
+    },
+    {
+      "tag": "earth_pulsation:light_lab_block"
+    },
+    {
+      "tag": "earth_pulsation:light_lab_block"
+    }
+  ],
+  "result": {
+    "item": "earth_pulsation:aluminum_plate",
+    "count": 1
+  }
+}

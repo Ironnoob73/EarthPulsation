@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "earth_pulsation:polished_larvikite"
+    },
+    "1": {
+      "item": "earth_pulsation:polished_larvikite"
+    },
+    "2": {
+      "item": "earth_pulsation:polished_larvikite"
+    }
+  },
+  "result": {
+    "item": "earth_pulsation:polished_larvikite_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "group": "rune",
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "earth_pulsation:yellow_stone_ingot"
+  },
+  "result": "earth_pulsation:empty_yellow_stone_rune"
+}

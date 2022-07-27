@@ -1,6 +1,8 @@
 
 package idv.hailelectronic.earthpulsation.block;
 
+import org.checkerframework.checker.units.qual.s;
+
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -31,10 +33,9 @@ import idv.hailelectronic.earthpulsation.init.EarthPulsationModBlocks;
 
 public class ToughCopperBlockBlock extends Block {
 	public ToughCopperBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.NETHERITE_BLOCK).strength(20f, 15f).lightLevel(s -> 2)
+		super(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.METAL).sound(SoundType.NETHERITE_BLOCK).strength(20f, 15f).lightLevel(s -> 2)
 				.requiresCorrectToolForDrops().noOcclusion().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)
 				.isRedstoneConductor((bs, br, bp) -> false));
-		setRegistryName("tough_copper_block");
 	}
 
 	@Override
@@ -58,18 +59,13 @@ public class ToughCopperBlockBlock extends Block {
 	}
 
 	@Override
-	public int getSignal(BlockState blockstate, BlockGetter blockAccess, BlockPos pos, Direction side) {
+	public int getSignal(BlockState blockstate, BlockGetter blockAccess, BlockPos pos, Direction direction) {
 		return 5;
 	}
 
 	@Override
-	public MaterialColor defaultMaterialColor() {
-		return MaterialColor.METAL;
-	}
-
-	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 3;
 		return false;
 	}
@@ -103,6 +99,6 @@ public class ToughCopperBlockBlock extends Block {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(EarthPulsationModBlocks.TOUGH_COPPER_BLOCK, renderType -> renderType == RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(EarthPulsationModBlocks.TOUGH_COPPER_BLOCK.get(), renderType -> renderType == RenderType.cutout());
 	}
 }

@@ -5,7 +5,5 @@
   "ingredient": {
     "item": "minecraft:calcite"
   },
-  "result": {
-    "item": "earth_pulsation:iceland_spar"
-  }
+  "result": "earth_pulsation:iceland_spar"
 }

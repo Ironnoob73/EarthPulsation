@@ -19,7 +19,7 @@ public class SitOnChairProcedure {
 			return;
 		if (!entity.isPassenger()) {
 			if (world instanceof ServerLevel _level) {
-				Entity entityToSpawn = new ChairEntity(EarthPulsationModEntities.CHAIR, _level);
+				Entity entityToSpawn = new ChairEntity(EarthPulsationModEntities.CHAIR.get(), _level);
 				entityToSpawn.moveTo((x + 0.5), y, (z + 0.5), world.getRandom().nextFloat() * 360F, 0);
 				if (entityToSpawn instanceof Mob _mobToSpawn)
 					_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null,

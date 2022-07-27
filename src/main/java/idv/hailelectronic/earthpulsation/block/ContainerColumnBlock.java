@@ -36,7 +36,6 @@ public class ContainerColumnBlock extends Block {
 		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(7f, 10f).requiresCorrectToolForDrops().noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y));
-		setRegistryName("container_column");
 	}
 
 	@Override
@@ -79,7 +78,7 @@ public class ContainerColumnBlock extends Block {
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 2;
 		return false;
 	}
@@ -94,6 +93,6 @@ public class ContainerColumnBlock extends Block {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(EarthPulsationModBlocks.CONTAINER_COLUMN, renderType -> renderType == RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(EarthPulsationModBlocks.CONTAINER_COLUMN.get(), renderType -> renderType == RenderType.cutout());
 	}
 }

@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "earth_pulsation:blocks/plastic_wood_planks",
-    "particle": "earth_pulsation:blocks/plastic_wood_planks"
-  }
-}

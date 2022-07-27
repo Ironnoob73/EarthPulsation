@@ -18,7 +18,6 @@ import java.util.Collections;
 public class MapleLeavesBlock extends LeavesBlock {
 	public MapleLeavesBlock() {
 		super(BlockBehaviour.Properties.of(Material.LEAVES).sound(SoundType.GRASS).strength(0.2f).noOcclusion());
-		setRegistryName("maple_leaves");
 	}
 
 	@Override

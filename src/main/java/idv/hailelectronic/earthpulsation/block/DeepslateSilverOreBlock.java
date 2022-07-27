@@ -14,7 +14,6 @@ import net.minecraft.core.BlockPos;
 public class DeepslateSilverOreBlock extends Block {
 	public DeepslateSilverOreBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(4.5f, 3f).requiresCorrectToolForDrops());
-		setRegistryName("deepslate_silver_ore");
 	}
 
 	@Override
@@ -24,7 +23,7 @@ public class DeepslateSilverOreBlock extends Block {
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 2;
 		return false;
 	}

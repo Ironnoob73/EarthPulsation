@@ -16,10 +16,12 @@ package idv.hailelectronic.earthpulsation;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
-import net.minecraftforge.fmllegacy.network.simple.SimpleChannel;
-import net.minecraftforge.fmllegacy.network.NetworkRegistry;
-import net.minecraftforge.fmllegacy.network.NetworkEvent;
+import net.minecraftforge.network.simple.SimpleChannel;
+import net.minecraftforge.network.NetworkRegistry;
+import net.minecraftforge.network.NetworkEvent;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.IEventBus;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
@@ -29,6 +31,14 @@ import java.util.function.Function;
 import java.util.function.BiConsumer;
 
 import idv.hailelectronic.earthpulsation.init.EarthPulsationModTabs;
+import idv.hailelectronic.earthpulsation.init.EarthPulsationModParticleTypes;
+import idv.hailelectronic.earthpulsation.init.EarthPulsationModItems;
+import idv.hailelectronic.earthpulsation.init.EarthPulsationModFluids;
+import idv.hailelectronic.earthpulsation.init.EarthPulsationModFeatures;
+import idv.hailelectronic.earthpulsation.init.EarthPulsationModEntities;
+import idv.hailelectronic.earthpulsation.init.EarthPulsationModBlocks;
+import idv.hailelectronic.earthpulsation.init.EarthPulsationModBlockEntities;
+import idv.hailelectronic.earthpulsation.init.EarthPulsationModBiomes;
 
 @Mod("earth_pulsation")
 public class EarthPulsationMod {
@@ -41,6 +51,16 @@ public class EarthPulsationMod {
 
 	public EarthPulsationMod() {
 		EarthPulsationModTabs.load();
+		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		EarthPulsationModBlocks.REGISTRY.register(bus);
+		EarthPulsationModItems.REGISTRY.register(bus);
+		EarthPulsationModEntities.REGISTRY.register(bus);
+		EarthPulsationModBlockEntities.REGISTRY.register(bus);
+		EarthPulsationModFeatures.REGISTRY.register(bus);
+		EarthPulsationModFluids.REGISTRY.register(bus);
+
+		EarthPulsationModBiomes.REGISTRY.register(bus);
+		EarthPulsationModParticleTypes.REGISTRY.register(bus);
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,

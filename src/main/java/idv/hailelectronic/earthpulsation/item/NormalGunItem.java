@@ -21,7 +21,6 @@ import idv.hailelectronic.earthpulsation.entity.NormalGunEntity;
 public class NormalGunItem extends Item {
 	public NormalGunItem() {
 		super(new Item.Properties().tab(EarthPulsationModTabs.TAB_EARTH_PULSATION).durability(100));
-		setRegistryName("normal_gun");
 	}
 
 	@Override

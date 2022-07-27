@@ -1,0 +1,26 @@
+{
+  "_fv": 28,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:ChiseledBlueLightLabBlockSlab"
+      },
+      {
+        "value": "CUSTOM:ChiseledWhiteLightLabBlockSlab"
+      },
+      {
+        "value": "CUSTOM:ChiseledMixedLightLabBlockASlab"
+      },
+      {
+        "value": "CUSTOM:ChiseledMixedLightLabBlockBSlab"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "light_lab_block_slab",
+    "namespace": "mod"
+  }
+}

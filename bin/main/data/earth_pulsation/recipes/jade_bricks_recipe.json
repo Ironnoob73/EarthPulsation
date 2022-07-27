@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "earth_pulsation:jade_ingot"
+    },
+    {
+      "item": "earth_pulsation:jade_ingot"
+    },
+    {
+      "item": "earth_pulsation:jade_ingot"
+    },
+    {
+      "item": "earth_pulsation:jade_ingot"
+    }
+  ],
+  "result": {
+    "item": "earth_pulsation:jade_bricks",
+    "count": 1
+  }
+}

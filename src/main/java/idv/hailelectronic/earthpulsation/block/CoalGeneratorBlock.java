@@ -1,7 +1,9 @@
 
 package idv.hailelectronic.earthpulsation.block;
 
-import net.minecraftforge.fmllegacy.network.NetworkHooks;
+import org.checkerframework.checker.units.qual.s;
+
+import net.minecraftforge.network.NetworkHooks;
 
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootContext;
@@ -55,9 +57,9 @@ public class CoalGeneratorBlock extends Block
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public CoalGeneratorBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(4f, 6f).lightLevel(s -> 5).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.METAL).sound(SoundType.METAL).strength(4f, 6f).lightLevel(s -> 5)
+				.requiresCorrectToolForDrops());
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
-		setRegistryName("coal_generator");
 	}
 
 	@Override
@@ -85,13 +87,8 @@ public class CoalGeneratorBlock extends Block
 	}
 
 	@Override
-	public MaterialColor defaultMaterialColor() {
-		return MaterialColor.METAL;
-	}
-
-	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 2;
 		return false;
 	}
@@ -107,7 +104,7 @@ public class CoalGeneratorBlock extends Block
 	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
-		world.getBlockTicks().scheduleTick(pos, this, 1);
+		world.scheduleTick(pos, this, 1);
 	}
 
 	@Override
@@ -118,7 +115,7 @@ public class CoalGeneratorBlock extends Block
 		int z = pos.getZ();
 
 		CoalGeneratorFuelProcedure.execute(world, x, y, z);
-		world.getBlockTicks().scheduleTick(pos, this, 1);
+		world.scheduleTick(pos, this, 1);
 	}
 
 	@Override

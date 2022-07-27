@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "earth_pulsation:larvikite"
+  },
+  "result": "earth_pulsation:polished_larvikite"
+}

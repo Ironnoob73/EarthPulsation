@@ -1,0 +1,44 @@
+{
+  "_fv": 28,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:WhiteLightLabBlock"
+      },
+      {
+        "value": "CUSTOM:BlueLightLabBlock"
+      },
+      {
+        "value": "CUSTOM:ChiseledBlueLightLabBlock"
+      },
+      {
+        "value": "CUSTOM:ChiseledWhiteLightLabBlock"
+      },
+      {
+        "value": "CUSTOM:ChiseledMixedLightLabBlockA"
+      },
+      {
+        "value": "CUSTOM:ChiseledMixedLightLabBlockB"
+      },
+      {
+        "value": "CUSTOM:ChiseledBlueLightLabBlockStair"
+      },
+      {
+        "value": "CUSTOM:ChiseledWhiteLightLabBlockStair"
+      },
+      {
+        "value": "CUSTOM:ChiseledMixedLightLabBlockAStair"
+      },
+      {
+        "value": "CUSTOM:ChiseledMixedLightLabBlockBStair"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "light_lab_block",
+    "namespace": "mod"
+  }
+}

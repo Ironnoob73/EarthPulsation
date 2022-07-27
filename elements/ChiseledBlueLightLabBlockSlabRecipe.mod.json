@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "TAG:earth_pulsation:light_lab_block"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:ChiseledBlueLightLabBlockSlab"
+    },
+    "name": "chiseled_blue_light_lab_block_slab_recipe",
+    "namespace": "mod"
+  }
+}

@@ -14,6 +14,7 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.Minecraft;
 
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.HashMap;
 
 import idv.hailelectronic.earthpulsation.world.inventory.BatteryGuiMenu;
 
@@ -21,6 +22,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
 public class BatteryGuiScreen extends AbstractContainerScreen<BatteryGuiMenu> {
+	private final static HashMap<String, Object> guistate = BatteryGuiMenu.guistate;
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;

@@ -2,8 +2,8 @@
 package idv.hailelectronic.earthpulsation.entity;
 
 import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.fmllegacy.network.NetworkHooks;
-import net.minecraftforge.fmllegacy.network.FMLPlayMessages;
+import net.minecraftforge.network.PlayMessages;
+import net.minecraftforge.network.NetworkHooks;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
@@ -31,7 +31,7 @@ import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.AreaEffectCloud;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
@@ -53,11 +53,11 @@ import idv.hailelectronic.earthpulsation.init.EarthPulsationModEntities;
 public class ChairEntity extends PathfinderMob {
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(MobCategory.MONSTER).add(new MobSpawnSettings.SpawnerData(EarthPulsationModEntities.CHAIR, 20, 4, 4));
+		event.getSpawns().getSpawner(MobCategory.MONSTER).add(new MobSpawnSettings.SpawnerData(EarthPulsationModEntities.CHAIR.get(), 20, 4, 4));
 	}
 
-	public ChairEntity(FMLPlayMessages.SpawnEntity packet, Level world) {
-		this(EarthPulsationModEntities.CHAIR, world);
+	public ChairEntity(PlayMessages.SpawnEntity packet, Level world) {
+		this(EarthPulsationModEntities.CHAIR.get(), world);
 	}
 
 	public ChairEntity(EntityType<ChairEntity> type, Level world) {
@@ -109,7 +109,7 @@ public class ChairEntity extends PathfinderMob {
 			return false;
 		if (source.getDirectEntity() instanceof Player)
 			return false;
-		if (source.getDirectEntity() instanceof ThrownPotion)
+		if (source.getDirectEntity() instanceof ThrownPotion || source.getDirectEntity() instanceof AreaEffectCloud)
 			return false;
 		if (source == DamageSource.FALL)
 			return false;
@@ -138,12 +138,7 @@ public class ChairEntity extends PathfinderMob {
 	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason,
 			@Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata, tag);
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		Entity entity = this;
-
-		SwivelChairProcedure.execute(world, x, y, z, entity);
+		SwivelChairProcedure.execute(world, this.getX(), this.getY(), this.getZ(), this);
 		return retval;
 	}
 
@@ -159,13 +154,7 @@ public class ChairEntity extends PathfinderMob {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		Entity entity = this;
-		Level world = this.level;
-
-		KillChairProcedure.execute(entity);
+		KillChairProcedure.execute(this);
 	}
 
 	@Override
@@ -183,7 +172,7 @@ public class ChairEntity extends PathfinderMob {
 	}
 
 	public static void init() {
-		SpawnPlacements.register(EarthPulsationModEntities.CHAIR, SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+		SpawnPlacements.register(EarthPulsationModEntities.CHAIR.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL
 						&& Monster.isDarkEnoughToSpawn(world, pos, random) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random)));
 	}

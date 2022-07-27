@@ -15,7 +15,6 @@ import idv.hailelectronic.earthpulsation.block.DeepWellPortalBlock;
 public class DeepWellItem extends Item {
 	public DeepWellItem() {
 		super(new Item.Properties().tab(EarthPulsationModTabs.TAB_EARTH_PULSATION).durability(64));
-		setRegistryName("deep_well");
 	}
 
 	@Override

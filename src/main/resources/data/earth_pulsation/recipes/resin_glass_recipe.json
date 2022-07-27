@@ -5,7 +5,5 @@
   "ingredient": {
     "item": "earth_pulsation:resin_block"
   },
-  "result": {
-    "item": "earth_pulsation:resin_glass"
-  }
+  "result": "earth_pulsation:resin_glass"
 }

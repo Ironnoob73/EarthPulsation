@@ -1,7 +1,6 @@
 
 package idv.hailelectronic.earthpulsation.world.dimension;
 
-import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -29,11 +28,7 @@ public class DeepWellDimension {
 		@SubscribeEvent
 		public static void registerFillerBlocks(FMLCommonSetupEvent event) {
 			Set<Block> replaceableBlocks = new HashSet<>();
-			replaceableBlocks.add(EarthPulsationModBlocks.LARVIKITE);
-			replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("warped_forest")).getGenerationSettings().getSurfaceBuilder()
-					.get().config().getTopMaterial().getBlock());
-			replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("warped_forest")).getGenerationSettings().getSurfaceBuilder()
-					.get().config().getUnderMaterial().getBlock());
+			replaceableBlocks.add(EarthPulsationModBlocks.LARVIKITE.get());
 			event.enqueueWork(() -> {
 				WorldCarver.CAVE.replaceableBlocks = new ImmutableSet.Builder<Block>().addAll(WorldCarver.CAVE.replaceableBlocks)
 						.addAll(replaceableBlocks).build();

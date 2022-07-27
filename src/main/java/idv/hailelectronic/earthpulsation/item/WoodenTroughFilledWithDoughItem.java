@@ -1,6 +1,7 @@
 
 package idv.hailelectronic.earthpulsation.item;
 
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.Rarity;
@@ -19,7 +20,6 @@ public class WoodenTroughFilledWithDoughItem extends Item {
 				.food((new FoodProperties.Builder()).nutrition(2).saturationMod(0.5f)
 
 						.build()));
-		setRegistryName("wooden_trough_filled_with_dough");
 	}
 
 	@Override
@@ -28,8 +28,18 @@ public class WoodenTroughFilledWithDoughItem extends Item {
 	}
 
 	@Override
+	public int getUseDuration(ItemStack itemstack) {
+		return 32;
+	}
+
+	@Override
+	public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
+		return 0F;
+	}
+
+	@Override
 	public ItemStack finishUsingItem(ItemStack itemstack, Level world, LivingEntity entity) {
-		ItemStack retval = new ItemStack(EarthPulsationModItems.WOODEN_TROUGH);
+		ItemStack retval = new ItemStack(EarthPulsationModItems.WOODEN_TROUGH.get());
 		super.finishUsingItem(itemstack, world, entity);
 		if (itemstack.isEmpty()) {
 			return retval;

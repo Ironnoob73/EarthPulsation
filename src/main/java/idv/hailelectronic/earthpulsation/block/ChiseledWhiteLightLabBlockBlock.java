@@ -19,7 +19,6 @@ import java.util.Collections;
 public class ChiseledWhiteLightLabBlockBlock extends Block {
 	public ChiseledWhiteLightLabBlockBlock() {
 		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.LANTERN).strength(3.5f).requiresCorrectToolForDrops());
-		setRegistryName("chiseled_white_light_lab_block");
 	}
 
 	@Override
@@ -29,7 +28,7 @@ public class ChiseledWhiteLightLabBlockBlock extends Block {
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 1;
 		return false;
 	}
